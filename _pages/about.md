@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Artificial Intelligence and Medical Image Analysis in Diagnostic Center
 
 profile:
   align: right
