@@ -1,16 +1,13 @@
 ---
 layout: page
-title: submenus
+title: About
 nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: publications
+  - title: Purpose and vision
     permalink: /publications/
   - title: divider
-  - title: projects
+  - title: Organization 
     permalink: /projects/
-  - title: divider
-  - title: blog
-    permalink: /blog/
 ---
