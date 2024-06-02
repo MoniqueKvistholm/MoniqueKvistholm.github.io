@@ -31,11 +31,12 @@ The project has the potential to detect deviations and subtle changes in organ u
 </div>
 
 <div class="contact-box">
-    <h2>Kontakter</h2>
+    <h2>Contact Information</h2>
     <ul>
-        <li><strong>Navn:</strong> John Doe</li>
-        <li><strong>Email:</strong> john@example.com</li>
-        <li><strong>Telefon:</strong> 123-456-7890</li>
+        <li><strong>Name:</strong> Christian Hinge</li>
+        <li><strong>Email:</strong> christian.hinge@regionh.dk</li>
+        <li><strong>Location:</strong> Department of Clinical Physiology and Nuclear Medicine, 3982</li>
+        <li><strong>Position:</strong> PhD Student</li>
     </ul>
 </div>
 
