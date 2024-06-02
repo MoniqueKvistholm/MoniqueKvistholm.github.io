@@ -24,10 +24,7 @@ The project has the potential to detect deviations and subtle changes in organ u
     </div>
 </div>
 <div class="caption">
-    <strong>Figure 1:</strong>
-    <p class="left-align">
-        Application of healthy PET for lymphoma detection. From left: CT, PET, sbPET: Synthetic healthy PET image, Abnormality: difference between PET and synthetic PET, Segmentation: identified cancerous areas.
-    </p>
+    <p><strong>Figure 1:</strong> Application of healthy PET for lymphoma detection. From left: CT, PET, sbPET: Synthetic healthy PET image, Abnormality: difference between PET and synthetic PET, Segmentation: identified cancerous areas.</p>
 </div>
 
 <div class="contact-box">
