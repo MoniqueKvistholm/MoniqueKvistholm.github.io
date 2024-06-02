@@ -44,3 +44,6 @@ The project has the potential to detect deviations and subtle changes in organ u
         {% include figure.liquid path="assets/img/Foto - Christian.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+
+<link rel="stylesheet" href="css/custom.css">
