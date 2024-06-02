@@ -30,6 +30,14 @@ The project has the potential to detect deviations and subtle changes in organ u
     </p>
 </div>
 
+<div class="contact-box">
+    <h2>Kontakter</h2>
+    <ul>
+        <li><strong>Navn:</strong> John Doe</li>
+        <li><strong>Email:</strong> john@example.com</li>
+        <li><strong>Telefon:</strong> 123-456-7890</li>
+    </ul>
+</div>
 
 
 <div class="row justify-content-sm-center">
