@@ -27,26 +27,16 @@ The project has the potential to detect deviations and subtle changes in organ u
     <p><strong>Figure 1:</strong> Application of healthy PET for lymphoma detection. From left: CT, PET, sbPET: Synthetic healthy PET image, Abnormality: difference between PET and synthetic PET, Segmentation: identified cancerous areas.</p>
 </div>
 
-<div class="contact-box">
-    <h4>Contact Information</h4>
-    <ul>
-        <strong>Name:</strong> Christian Hinge
-        <strong>Email:</strong> christian.hinge@regionh.dk
-        <strong>Location:</strong> Department of Clinical Physiology and Nuclear Medicine, 3982
-        <strong>Position:</strong> PhD Student
-    </ul>
-</div>
-
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         <div class="contact-box">
             <h4>Contact Information</h4>
             <ul>
-                <strong>Name:</strong> Christian Hinge
-                <strong>Email:</strong> christian.hinge@regionh.dk
-                <strong>Location:</strong> Department of Clinical Physiology and Nuclear Medicine, 3982
-                <strong>Position:</strong> PhD Student
+                <strong>Name:</strong> Christian Hinge<br>
+                <strong>Email:</strong> christian.hinge@regionh.dk<br>
+                <strong>Location:</strong> Department of Clinical Physiology and Nuclear Medicine, 3982<br>
+                <strong>Position:</strong> PhD Student<br>
             </ul>
         </div>
     </div>
@@ -54,22 +44,3 @@ The project has the potential to detect deviations and subtle changes in organ u
         {% include figure.liquid path="assets/img/Foto - Christian.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Foto - Christian.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
