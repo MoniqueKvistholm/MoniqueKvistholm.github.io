@@ -31,14 +31,37 @@ The project has the potential to detect deviations and subtle changes in organ u
 </div>
 
 <div class="contact-box">
-    <h2>Contact Information</h2>
+    <h4>Contact Information</h4>
     <ul>
-        <li><strong>Name:</strong> Christian Hinge</li>
-        <li><strong>Email:</strong> christian.hinge@regionh.dk</li>
-        <li><strong>Location:</strong> Department of Clinical Physiology and Nuclear Medicine, 3982</li>
-        <li><strong>Position:</strong> PhD Student</li>
+        <strong>Name:</strong> Christian Hinge
+        <strong>Email:</strong> christian.hinge@regionh.dk
+        <strong>Location:</strong> Department of Clinical Physiology and Nuclear Medicine, 3982
+        <strong>Position:</strong> PhD Student
     </ul>
 </div>
+
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <div class="contact-box">
+            <h4>Contact Information</h4>
+            <ul>
+                <strong>Name:</strong> Christian Hinge
+                <strong>Email:</strong> christian.hinge@regionh.dk
+                <strong>Location:</strong> Department of Clinical Physiology and Nuclear Medicine, 3982
+                <strong>Position:</strong> PhD Student
+            </ul>
+        </div>
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Foto - Christian.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    You can also have artistically styled 2/3 + 1/3 images, like these.
+</div>
+
+
 
 
 <div class="row justify-content-sm-center">
