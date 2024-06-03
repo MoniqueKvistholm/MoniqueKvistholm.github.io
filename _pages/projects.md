@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: <strong>DEPICT</strong> consists of several projects based on artificial intelligence and medical image analysis. The projects work with imaging and automatic analysis, ensuring better and faster examinations and descriptions. Below, you can see examples of current projects.
+description:
 nav: true
 nav_order: 2
 display_categories: [2024, 2023]
