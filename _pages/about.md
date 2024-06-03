@@ -12,3 +12,9 @@ DEPICT brings together a multidisciplinary team of physicists, engineers, techni
 
 DEPICT consists of several projects based on artificial intelligence and medical image analysis. These projects focus on imaging and automated analysis, ensuring better and faster examinations and descriptions. Interested in learning more about our projects? Explore our [projects section](/al-folio/projects/) for further details.
 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Billede_ projekt 1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
