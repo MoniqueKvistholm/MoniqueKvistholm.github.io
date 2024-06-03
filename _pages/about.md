@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: forside
 title: DEPICT
 permalink: /
 description: Center for AI in Medical Imaging
