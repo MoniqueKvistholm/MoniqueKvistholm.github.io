@@ -9,6 +9,9 @@ display_categories: [2024, 2023]
 horizontal: false
 ---
 
+<strong style="font-size: 1.5em;">DEPICT</strong> <span style="font-size: 1.2em;">consists of several projects based on artificial intelligence and medical image analysis. The projects work with imaging and automatic analysis, ensuring better and faster examinations and descriptions. Below, you can see examples of current projects.</span>
+
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
