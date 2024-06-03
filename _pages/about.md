@@ -3,7 +3,10 @@ layout: forside
 permalink: /
 ---
 
-![example image](/assets/img/Forsidebillede.jpg.jpg)
+<img src="/assets/img/Forsidebillede.jpg.jpg" alt="example image">
+<div class="content">
+  <p>Dette er en beskrivende tekst, der vises nedenunder billedet.</p>
+</div>
 
 
 Artificial Intelligence and Medical Image Analysis in Diagnostic Center (DEPICT) is a collaborative effort between the Department of Clinical Physiology and Nuclear Medicine and the Department of Radiology and Scanning. Through our collaborative initiative, we employ advanced scanning technologies and artificial intelligence to shape the future of medical imaging. This involves developing, validating, and implementing state-of-the-art AI methods to deliver customized solutions for each individual patient.
