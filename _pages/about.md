@@ -2,26 +2,6 @@
 layout: forside
 title: DEPICT
 permalink: /
-description: Center for AI in Medical Imaging
-related_publications: true
 ---
 
-<div class="container-fluid p-0">
-    <img src="assets/img/Forsidebillede.jpg.jpg" alt="example image" class="img-fluid w-100">
-</div>
-
-
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Forsidebillede.jpg.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-Artificial Intelligence and Medical Image Analysis in Diagnostic Center (DEPICT) is a collaborative effort between the Department of Clinical Physiology and Nuclear Medicine and the Department of Radiology and Scanning. Through our collaborative initiative, we employ advanced scanning technologies and artificial intelligence to shape the future of medical imaging. This involves developing, validating, and implementing state-of-the-art AI methods to deliver customized solutions for each individual patient.<br>
-
-DEPICT brings together a multidisciplinary team of physicists, engineers, technicians, data scientists, mathematicians, radiographers, bioanalysts, and physicians. Together, we collaborate to develop and implement AI solutions in diagnostic imaging. This diverse range of expertise ensures that DEPICT can leverage various skill sets to achieve the best possible outcomes for both the clinic and patients. Located strategically at Rigshospitalet, we aim to enhance collaboration and synergy with clinical practices.<br>
-
-DEPICT consists of several projects based on artificial intelligence and medical image analysis. These projects focus on imaging and automated analysis, ensuring better and faster examinations and descriptions. Interested in learning more about our projects? Explore our [projects section](/al-folio/projects/) for further details.
-
-
+<img src="assets/img/Forsidebillede.jpg.jpg" alt="example image" class="img-fluid w-100">
