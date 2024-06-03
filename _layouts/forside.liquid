@@ -7,16 +7,34 @@ layout: default
     padding: 0;
     width: 100%;
     height: 100%;
-    overflow: hidden; /* for at sikre, at intet indhold vises uden for skærmen */
+    overflow: hidden;
   }
-  .fullwidth img {
-    width: 100vw; /* 100% af viewport-bredde */
-    height: 100vh; /* 100% af viewport-højde */
-    object-fit: cover; /* skalere billedet til at dække hele området */
-    object-position: center; /* centrerer billedet i forhold til viewport */
+  .fullwidth-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+  }
+  .fullwidth-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent baggrund */
+    color: white;
+    text-align: center;
   }
 </style>
 
-<div class="fullwidth">
+<div class="fullwidth-container">
   {{ content }}
 </div>
