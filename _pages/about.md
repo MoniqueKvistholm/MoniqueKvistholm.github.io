@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Main
+title: DEPICT
 permalink: /
 subtitle: Center for AI in Medical Imaging
 related_publications: true
