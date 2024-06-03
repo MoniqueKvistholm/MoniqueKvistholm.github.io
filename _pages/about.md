@@ -2,7 +2,7 @@
 layout: about
 title: Main
 permalink: /
-subtitle: 
+subtitle: Center for AI in Medical Imaging
 
 profile:
   align: right
