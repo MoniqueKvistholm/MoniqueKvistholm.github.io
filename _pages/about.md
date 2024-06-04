@@ -1,15 +1,12 @@
 ---
 layout: forside
-permalink: /
 title: Forside
+permalink: /
 ---
 
-<img src="/assets/img/Forsidebillede.jpg.jpg" alt="example image" class="full-width-image">
 <div class="content">
   <p>This is a descriptive text that appears below the image.</p>
-</div>
 
-<div class="ai-medical">
   <h2>Artificial Intelligence and Medical Image Analysis in Diagnostic Center (DEPICT)</h2>
   <p>DEPICT is a collaborative effort between the Department of Clinical Physiology and Nuclear Medicine and the Department of Radiology and Scanning. Through our collaborative initiative, we employ advanced scanning technologies and artificial intelligence to shape the future of medical imaging. This involves developing, validating, and implementing state-of-the-art AI methods to deliver customized solutions for each individual patient.</p>
   
