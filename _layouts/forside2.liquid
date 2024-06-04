@@ -11,11 +11,17 @@ layout: default
   <link rel="stylesheet" href="/assets/css/main.css">
   <style>
     .full-width-image {
-      width: 100%;
-      height: auto;
+      width: 100vw; /* Fyld hele vinduets bredde */
+      height: 100vh; /* Fyld hele vinduets højde */
+      object-fit: cover; /* Gør billedet til at fylde hele containeren uden at miste proportioner */
+      object-position: center; /* Centrer billedet i forhold til containeren */
       display: block;
       margin: 0;
       padding: 0;
+      position: fixed; /* Fastgør billedet, så det ikke påvirker layoutet */
+      top: 0; /* Placer billedet øverst */
+      left: 0; /* Placer billedet helt til venstre */
+      z-index: -1; /* Sørg for, at billedet er bag andre elementer */
     }
   </style>
 </head>
