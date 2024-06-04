@@ -4,7 +4,7 @@ permalink: /
 title: Forside
 ---
 
-<img src="/assets/img/Forsidebillede.jpg.jpg" alt="example image" class="full-width-image">
+<img src="/assets/img/Forsidebillede.jpg" alt="example image" class="full-width-image">
 <div class="content">
   <p>This is a descriptive text that appears below the image.</p>
 </div>
