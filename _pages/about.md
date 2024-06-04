@@ -1,5 +1,5 @@
 ---
-layout: forside
+layout: forside2
 title: Forside
 permalink: /
 ---
