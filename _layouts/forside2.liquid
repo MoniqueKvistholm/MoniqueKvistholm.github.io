@@ -2,62 +2,63 @@
 layout: default
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/assets/css/main.css">
-  <style>
-    .full-width-image {
-      width: 100vw; /* Fyld hele vinduets bredde */
-      height: 100vh; /* Fyld hele vinduets højde */
-      object-fit: cover; /* Gør billedet til at fylde hele containeren uden at miste proportioner */
-      object-position: center; /* Centrer billedet i forhold til containeren */
-      display: block;
-      margin: 0;
-      padding: 0;
-    }
-    .content {
-      margin: 0;
-      padding: 20px;
-      background-color: white; /* Baggrundsfarve for tekstsektionen */
-    }
-    body, html {
-      margin: 0;
-      padding: 0;
-    }
-    nav {
-      background-color: #343a40; /* Baggrundsfarve for hovedmenuen */
-      color: white;
-      text-align: center;
-      padding: 10px 0;
-      position: relative; /* Positioner hovedmenuen relativt til dokumentet */
-      width: 100%; /* Gør hovedmenuen 100% bred */
-      z-index: 2; /* Sørg for, at hovedmenuen er foran billedet */
-    }
-    nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    nav ul li {
-      display: inline;
-      margin: 0 15px;
-    }
-    nav ul li a {
-      color: white;
-      text-decoration: none;
-    }
-  </style>
-</head>
-<body>
-  <main>
-    <img src="{{ page.image_path }}" alt="example image" class="full-width-image">
-    <div class="content">
-      {{ content }}
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <!-- Head -->
+  <head>
+    {% include head.liquid %}
+  </head>
+
+  <!-- Body -->
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    <!-- Header -->
+    {% include header.liquid %}
+
+    <!-- Content -->
+    <div class="container-fluid mt-5 p-0" role="main">
+      <!-- Forsidebillede -->
+      <div class="hero-image">
+        <img src="{{ site.baseurl }}/path/to/your/forsidebillede.jpg" alt="Forsidebillede" class="img-fluid w-100">
+      </div>
+
+      <!-- Yderligere billeder og tekst -->
+      <div class="additional-content">
+        {{ content }}
+      </div>
     </div>
-  </main>
-</body>
+
+    <!-- Footer -->
+    {% include footer.liquid %}
+
+    <!-- JavaScripts -->
+    {% include scripts/jquery.liquid %}
+    {% include scripts/bootstrap.liquid %}
+    {% include scripts/masonry.liquid %}
+    {% include scripts/mermaid.liquid %}
+    {% include scripts/diff2html.liquid %}
+    {% include scripts/leaflet.liquid %}
+    {% include scripts/chartjs.liquid %}
+    {% include scripts/echarts.liquid %}
+    {% include scripts/vega.liquid %}
+    {% include scripts/tikzjax.liquid %}
+    {% include scripts/typograms.liquid %}
+    {% include scripts/misc.liquid %}
+    {% include scripts/badges.liquid %}
+    {% include scripts/mathjax.liquid %}
+    {% include scripts/pseudocode.liquid %}
+    {% include scripts/analytics.liquid %}
+    {% include scripts/progressBar.liquid %}
+    {% include scripts/wechatModal.liquid %}
+    {% include scripts/imageLayouts.liquid %}
+    {% include scripts/jekyll_tabs.liquid %}
+    {% include scripts/back_to_top.liquid %}
+    {% include scripts/search.liquid %}
+  </body>
 </html>
+
+<style>
+.hero-image {
+  margin-top: -50px; /* Juster denne værdi for at fjerne mellemrummet mellem menuen og billedet */
+}
+</style>
+
