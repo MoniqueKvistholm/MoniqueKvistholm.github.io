@@ -1,34 +1,17 @@
 ---
 layout: default
 ---
+
 <div class="post">
-  <!-- Header -->
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
-
-  <!-- Forsidebillede -->
-  <div class="hero-image">
-    <img src="{{ site.baseurl }}/path/to/your/forsidebillede.jpg" alt="Forsidebillede" class="img-fluid w-100">
-  </div>
-
-  <!-- Article Content -->
   <article>
-    <div class="clearfix">{{ content }}</div>
+    <!-- Placeholder til billede -->
+    <div class="image-placeholder">
+      <img src="{{ site.baseurl }}/path/to/your/placeholder-image.jpg" alt="Placeholder Image">
+    </div>
+
+    <!-- Tekst efter billede -->
+    <div class="text-after-image">
+      <p>Din tekst her...</p>
+    </div>
   </article>
 </div>
-
-<!-- Additional Styles -->
-<style>
-.hero-image {
-  margin-top: -50px; /* Juster denne værdi for at fjerne mellemrummet mellem menuen og billedet */
-}
-</style>
