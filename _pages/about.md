@@ -1,18 +1,16 @@
 ---
-layout: layout2
+layout: forside
 title: About
-image_path: /assets/img/Forsidebillede.jpg.jpg
 permalink: /
 ---
 
-Din tekst her under billedet.
+<!-- Yderligere billeder og tekst kan tilføjes her -->
 
-Artificial Intelligence and Medical Image Analysis in Diagnostic Center (DEPICT)
+<div class="container-fluid mt-5 p-0">
+  <img src="{{ site.baseurl }}/path/to/your/additional-image1.jpg" alt="Additional Image 1" class="img-fluid w-100 mb-3">
+  <img src="{{ site.baseurl }}/path/to/your/additional-image2.jpg" alt="Additional Image 2" class="img-fluid w-100 mb-3">
+  <p>Her kan du tilføje tekst om billedet eller andre relevante oplysninger.</p>
+</div>
 
-DEPICT is a collaborative effort between the Department of Clinical Physiology and Nuclear Medicine and the Department of Radiology and Scanning. Through our collaborative initiative, we employ advanced scanning technologies and artificial intelligence to shape the future of medical imaging. This involves developing, validating, and implementing state-of-the-art AI methods to deliver customized solutions for each individual patient.
-
-DEPICT brings together a multidisciplinary team of physicists, engineers, technicians, data scientists, mathematicians, radiographers, bioanalysts, and physicians. Together, we collaborate to develop and implement AI solutions in diagnostic imaging. This diverse range of expertise ensures that DEPICT can leverage various skill sets to achieve the best possible outcomes for both the clinic and patients. Located strategically at Rigshospitalet, we aim to enhance collaboration and synergy with clinical practices.
-
-DEPICT consists of several projects based on artificial intelligence and medical image analysis. These projects focus on imaging and automated analysis, ensuring better and faster examinations and descriptions. Interested in learning more about our projects? Explore our projects section for further details.
 
 
