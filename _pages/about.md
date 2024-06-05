@@ -1,10 +1,11 @@
 ---
 layout: layout2
-title: Main
+title: About
 image_path: /assets/img/Forsidebillede.jpg.jpg
+permalink: /about/
 ---
 
-This is a descriptive text that appears below the image.
+Din tekst her under billedet.
 
 Artificial Intelligence and Medical Image Analysis in Diagnostic Center (DEPICT)
 
