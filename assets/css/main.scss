@@ -27,48 +27,7 @@ $max-content-width: {{ site.max_width }};
 // Custom styling
 .full-width-image {
   width: 100%;
-  height: auto;
-  display: block;
-  margin: 0;
-  padding: 0;
+  max-width: 100%;
 }
 
-.content, .ai-medical {
-  margin: 20px;
-}
 
-body, html {
-  margin: 0;
-  padding: 0;
-}
-
-nav {
-  background-color: transparent; /* Gør baggrunden for hovedmenuen gennemsigtig */
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-  position: absolute; /* Positioner hovedmenuen relativt til dokumentet */
-  top: 0; /* Placer hovedmenuen øverst */
-  width: 100%; /* Gør hovedmenuen 100% bred */
-  z-index: 1; /* Sørg for, at hovedmenuen er foran billedet */
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-footer {
-  /* Tilpas footerens stil efter behov */
-}
