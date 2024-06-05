@@ -36,4 +36,8 @@ $max-content-width: {{ site.max_width }};
   margin-top: -50px; /* Juster dette tal efter behov for at mindske mellemrummet */
 }
 
+.image-placeholder:first-child {
+  margin-bottom: 20px; /* Juster dette tal efter behov for at tilføje plads mellem billede 1 og billede 2 */
+}
+
 
