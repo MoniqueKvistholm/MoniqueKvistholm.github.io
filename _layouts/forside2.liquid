@@ -18,10 +18,37 @@ layout: default
       display: block;
       margin: 0;
       padding: 0;
-      position: fixed; /* Fastgør billedet, så det ikke påvirker layoutet */
-      top: 0; /* Placer billedet øverst */
-      left: 0; /* Placer billedet helt til venstre */
-      z-index: -1; /* Sørg for, at billedet er bag andre elementer */
+    }
+    .content {
+      margin: 0;
+      padding: 20px;
+      background-color: white; /* Baggrundsfarve for tekstsektionen */
+    }
+    body, html {
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      background-color: #343a40; /* Baggrundsfarve for hovedmenuen */
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: relative; /* Positioner hovedmenuen relativt til dokumentet */
+      width: 100%; /* Gør hovedmenuen 100% bred */
+      z-index: 2; /* Sørg for, at hovedmenuen er foran billedet */
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
     }
   </style>
 </head>
