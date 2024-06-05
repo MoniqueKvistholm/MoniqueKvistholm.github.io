@@ -11,7 +11,7 @@ permalink: /
   </div>
 
   <div class="image-placeholder">
-    <img src="{{ site.baseurl }}/assets/img/Forsidebillede.jpg" alt="" class="full-width-image">
+    <img src="{{ site.baseurl }}/assets/img/paceholder baggrund.jpg" alt="" class="full-width-image">
   </div>
 
   <div class="clearfix">
