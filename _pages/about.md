@@ -1,7 +1,7 @@
 ---
-layout: forside2
-title: Forside
-permalink: /
+layout: layout2
+title: Main
+image_path: /assets/img/Forsidebillede.jpg.jpg
 ---
 
 This is a descriptive text that appears below the image.
