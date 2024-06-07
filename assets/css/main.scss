@@ -44,3 +44,12 @@ $max-content-width: {{ site.max_width }};
   width: 100%;
   max-width: 100%;
 }
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
