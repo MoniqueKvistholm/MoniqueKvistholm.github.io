@@ -1,20 +1,8 @@
 ---
-layout: default
-title: Main
+layout: home
+title: forside3
 permalink: /
 ---
-
-<head>
-  <style>
-    /* CSS-regler til styling af denne side */
-    .image-placeholder {
-      /* Tilpas dine styling-regler her */
-    }
-
-    /* Tilføj flere regler efter behov */
-
-  </style>
-</head>
 
 <article>
   <!-- Placeholder til billede -->
