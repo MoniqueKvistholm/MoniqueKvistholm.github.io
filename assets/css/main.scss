@@ -80,3 +80,12 @@ img {
     padding: 10px; /* Add padding to text content on small screens */
   }
 }
+
+
+.contact-box {
+    border: 1px solid #ccc; /* Tilføj en tynd streg rundt om indholdet */
+    border-radius: 5px; /* Tilføj afrundede hjørner for et mere stilfuldt udseende */
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto; /* Centerindholdet */
+}
