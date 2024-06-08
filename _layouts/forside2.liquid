@@ -1,11 +1,17 @@
----
-layout: default
----
-
 <!doctype html>
 <html lang="{{ site.lang }}">
   <!-- Head -->
   <head>
+    {% if page.redirect %}
+      {% if page.redirect == true %}
+        {% assign redirect = site.baseurl | append: '/' %}
+      {% elsif page.redirect contains '://' %}
+        {% assign redirect = page.redirect %}
+      {% else %}
+        {% assign redirect = page.redirect | relative_url %}
+      {% endif %}
+      <meta http-equiv="refresh" content="3; url={{ redirect }}">
+    {% endif %}
     {% include head.liquid %}
   </head>
 
@@ -15,16 +21,34 @@ layout: default
     {% include header.liquid %}
 
     <!-- Content -->
-    <div class="container-fluid mt-5 p-0" role="main">
-      <!-- Forsidebillede -->
-      <div class="hero-image">
-        <img src="{{ site.baseurl }}/path/to/your/forsidebillede.jpg" alt="Forsidebillede" class="img-fluid w-100">
-      </div>
-
-      <!-- Yderligere billeder og tekst -->
-      <div class="additional-content">
+    {% if page.title == "Main" %}
+      <div class="full-width-container" role="main">
+    {% else %}
+      <div class="container mt-5" role="main">
+    {% endif %}
+      {% if page.toc and page.toc.sidebar %}
+        {% if page.toc.sidebar == 'right' %}
+          <div class="row">
+            <!-- main content area -->
+            <div class="col-sm-9">{{ content }}</div>
+            <!-- sidebar, which will move to the top on a small screen -->
+            <div class="col-sm-3">
+              <nav id="toc-sidebar" class="sticky-top"></nav>
+            </div>
+          </div>
+        {% else %}
+          <div class="row">
+            <!-- sidebar, which will move to the top on a small screen -->
+            <div class="col-sm-3">
+              <nav id="toc-sidebar" class="sticky-top"></nav>
+            </div>
+            <!-- main content area -->
+            <div class="col-sm-9">{{ content }}</div>
+          </div>
+        {% endif %}
+      {% else %}
         {{ content }}
-      </div>
+      {% endif %}
     </div>
 
     <!-- Footer -->
@@ -55,10 +79,3 @@ layout: default
     {% include scripts/search.liquid %}
   </body>
 </html>
-
-<style>
-.hero-image {
-  margin-top: -50px; /* Juster denne værdi for at fjerne mellemrummet mellem menuen og billedet */
-}
-</style>
-
