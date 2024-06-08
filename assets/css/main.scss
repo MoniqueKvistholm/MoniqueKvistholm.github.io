@@ -86,9 +86,10 @@ img {
     border: 1px solid #ccc; /* Tilføj en tynd streg rundt om indholdet */
     border-radius: 5px; /* Tilføj afrundede hjørner for et mere stilfuldt udseende */
     padding: 20px;
-    width: 300px;
-    height: 800px; /* Juster dette tal efter behov for at ændre højden */
+    width: 800px;
+    height: 400px; /* Juster dette tal efter behov for at ændre højden */
     margin: 0 auto; /* Centerindholdet */
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); /* Tilføj en subtil skygge */
 }
 
 
