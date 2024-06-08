@@ -21,7 +21,11 @@
     {% include header.liquid %}
 
     <!-- Content -->
-    <div role="main">
+    {% if page.title == "Main" %}
+      <div class="full-width-container" role="main">
+    {% else %}
+      <div class="container mt-5" role="main">
+    {% endif %}
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
           <div class="row">
