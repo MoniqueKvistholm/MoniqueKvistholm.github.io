@@ -19,7 +19,7 @@ The project has the potential to detect deviations and subtle changes in organ u
 
     
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-5 mt-md-0"> <!-- Tilføjet mere mellemrum her -->
         {% include figure.liquid loading="eager" path="assets/img/Billede_ projekt 1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -28,7 +28,7 @@ The project has the potential to detect deviations and subtle changes in organ u
 </div>
 
 
-<div class="row justify-content-sm-center">
+<div class="row justify-content-sm-center mt-5"> <!-- Tilføjet mere mellemrum her -->
     <div class="col-sm-8 mt-3 mt-md-0">
         <div class="contact-box">
             <h4>Contact Information</h4>
@@ -40,10 +40,9 @@ The project has the potential to detect deviations and subtle changes in organ u
             </ul>
         </div>
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0"> <!-- Tilføjet mere mellemrum her -->
         {% include figure.liquid path="assets/img/Foto - Christian.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
 
 <link rel="stylesheet" href="css/custom.css">
