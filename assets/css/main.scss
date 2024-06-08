@@ -59,3 +59,24 @@ img {
   margin: 0;
 }
 
+/* Ensure images are responsive */
+.full-width-container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 767px) {
+  .full-width-container {
+    padding: 0 15px; /* Add some padding on small screens */
+  }
+  
+  .full-width-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .clearfix {
+    padding: 10px; /* Add padding to text content on small screens */
+  }
+}
