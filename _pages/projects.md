@@ -12,7 +12,7 @@ horizontal: false
 <style>
   /* Tilpas baggrundsfarven her */
   body {
-    background-color: #ADD8E6; /* Eksempel på en lys grå baggrundsfarve */
+    background-color: #9fbfdf; /* Eksempel på en lys grå baggrundsfarve */
   }
 </style>
 
