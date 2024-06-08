@@ -33,10 +33,10 @@ The project has the potential to detect deviations and subtle changes in organ u
         <div class="contact-box">
             <h4>Contact Information</h4>
             <ul>
-                <strong>Name:</strong> Christian Hinge<br>
-                <strong>Email:</strong> christian.hinge@regionh.dk<br>
-                <strong>Location:</strong> Department of Clinical Physiology and Nuclear Medicine, 3982<br>
-                <strong>Position:</strong> PhD Student<br>
+                <li><strong>Name:</strong> Christian Hinge<br></li>
+                <li><strong>Email:</strong> christian.hinge@regionh.dk<br></li>
+                <li><strong>Location:</strong> Department of Clinical Physiology and Nuclear Medicine, 3982<br></li>
+                <li><strong>Position:</strong> PhD Student<br></li>
             </ul>
         </div>
     </div>
