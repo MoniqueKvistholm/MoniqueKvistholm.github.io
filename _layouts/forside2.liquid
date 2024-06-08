@@ -13,6 +13,18 @@
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
     {% include head.liquid %}
+    <style>
+      /* CSS for increasing the navbar height */
+      .navbar {
+        height: 80px; /* Change this value to your desired height */
+      }
+
+      /* Optional: Vertically center the navbar content */
+      .navbar .navbar-brand,
+      .navbar .navbar-nav .nav-link {
+        line-height: 80px; /* Should match the height of the navbar */
+      }
+    </style>
   </head>
 
   <!-- Body -->
@@ -21,11 +33,7 @@
     {% include header.liquid %}
 
     <!-- Content -->
-    {% if page.title == "Main" %}
-      <div class="full-width-container" role="main">
-    {% else %}
-      <div class="container mt-5" role="main">
-    {% endif %}
+    <div role="main">
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
           <div class="row">
