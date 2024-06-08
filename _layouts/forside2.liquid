@@ -14,15 +14,21 @@
     {% endif %}
     {% include head.liquid %}
     <style>
-      /* CSS for increasing the navbar height */
+      /* CSS for non-transparent navbar */
       .navbar {
-        height: 80px; /* Change this value to your desired height */
+        background-color: #fff; /* Change to your desired background color */
       }
 
-      /* Optional: Vertically center the navbar content */
-      .navbar .navbar-brand,
-      .navbar .navbar-nav .nav-link {
-        line-height: 80px; /* Should match the height of the navbar */
+      /* Ensure the top margin of the main content is below the navbar */
+      .header-spacing {
+        margin-top: 80px; /* Adjust this to match the navbar height */
+      }
+
+      /* Styling to ensure the image is right below the navbar */
+      .full-width-image {
+        width: 100%;
+        height: auto;
+        display: block;
       }
     </style>
   </head>
@@ -31,6 +37,9 @@
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
     <!-- Header -->
     {% include header.liquid %}
+
+    <!-- Spacer to ensure the content is below the navbar -->
+    <div class="header-spacing"></div>
 
     <!-- Content -->
     <div role="main">
