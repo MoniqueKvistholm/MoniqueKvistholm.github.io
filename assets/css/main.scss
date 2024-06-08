@@ -33,7 +33,7 @@ $max-content-width: {{ site.max_width }};
 
 /* Tilpasning af mellemrum mellem menu og forsidebilledet */
 .image-placeholder {
-  margin-top: -10px; /* Juster dette tal efter behov for at mindske mellemrummet */
+  margin-top: -20px; /* Juster dette tal efter behov for at mindske mellemrummet */
 }
 
 .image-placeholder:first-child {
