@@ -33,7 +33,7 @@ $max-content-width: {{ site.max_width }};
 
 /* Tilpasning af mellemrum mellem menu og forsidebilledet */
 .image-placeholder {
-  margin-top: -20px; /* Juster dette tal efter behov for at mindske mellemrummet */
+  margin-top: -30px; /* Juster dette tal efter behov for at mindske mellemrummet */
 }
 
 .image-placeholder:first-child {
@@ -95,5 +95,10 @@ img {
     background-color: #F5F5F5; /* Skift farven til den ønskede farve */
     opacity: 1; /* Sørg for at opaciteten er 1, så den ikke er gennemsigtig */
     /* Andre styling-regler efter behov */
+}
+
+
+.navbar .search-icon {
+    margin-top: 5px; /* Juster dette tal efter behov for at flytte søgeikonet ned */
 }
 
