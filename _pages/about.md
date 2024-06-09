@@ -14,7 +14,7 @@ permalink: /
     /* Tilføj flere regler efter behov */
     .column {
       float: left;
-      width: 50%; /* Juster bredden efter dine behov */
+      width: calc(50% - 20px); /* Juster bredden efter dine behov */
       margin: 0 10px; /* Tilføj margin til venstre og højre for at skabe et mellemrum */
     }
     .clearfix::after {
