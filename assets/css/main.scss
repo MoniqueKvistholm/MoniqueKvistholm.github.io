@@ -112,23 +112,29 @@ img {
 
 
 
+
+
+
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.container {
+  flex: 1;
+}
+
 footer {
-  background-color: #343a40; /* Ændr farven efter behov */
-  color: white;
-  padding: 20px 0; /* Juster padding efter behov */
+  margin-top: auto;
+  background-color: #09243F;
+  color: #f0f0f0;
+  height: 200px;
+  text-align: left;
 }
-
-footer p {
-  margin-bottom: 5px; /* Juster margenen efter behov */
-}
-
-footer a {
-  color: white;
-  text-decoration: none;
-}
-
-footer a:hover {
-  color: #999;
-}
-
-
