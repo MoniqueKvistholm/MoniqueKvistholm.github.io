@@ -6,7 +6,7 @@ nav_order: 1
 dropdown: true
 children:
   - title: Purpose and vision
-    permalink: /publications/
+    permalink: /whoisDEPICT/
   - title: divider
   - title: Organization 
     permalink: /projects/
