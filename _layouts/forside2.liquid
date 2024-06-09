@@ -1,108 +1,90 @@
 <!doctype html>
 <html lang="{{ site.lang }}">
-<head>
-  {% if page.redirect %}
-    {% if page.redirect == true %}
-      {% assign redirect = site.baseurl | append: '/' %}
-    {% elsif page.redirect contains '://' %}
-      {% assign redirect = page.redirect %}
-    {% else %}
-      {% assign redirect = page.redirect | relative_url %}
-    {% endif %}
-    <meta http-equiv="refresh" content="3; url={{ redirect }}">
-  {% endif %}
-  {% include head.liquid %}
-  <style>
-    html, body {
-      height: 100%;
-    }
-
-    body {
-      display: flex;
-      flex-direction: column;
-      margin: 0;
-    }
-
-    .container {
-      flex: 1;
-    }
-
-    footer {
-      margin-top: auto;
-      background-color: #09243F;
-      color: #f0f0f0;
-      height: 200px;
-      text-align: left;
-    }
-  </style>
-</head>
-<body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-  <!-- Header -->
-  {% include header.liquid %}
-
-  <!-- Content -->
-  <div class="container mt-5" role="main">
-    {% if page.toc and page.toc.sidebar %}
-      {% if page.toc.sidebar == 'right' %}
-        <div class="row">
-          <!-- main content area -->
-          <div class="col-sm-9">{{ content }}</div>
-          <!-- sidebar, which will move to the top on a small screen -->
-          <div class="col-sm-3">
-            <nav id="toc-sidebar" class="sticky-top"></nav>
-          </div>
-        </div>
+  <!-- Head -->
+  <head>
+    {% if page.redirect %}
+      {% if page.redirect == true %}
+        {% assign redirect = site.baseurl | append: '/' %}
+      {% elsif page.redirect contains '://' %}
+        {% assign redirect = page.redirect %}
       {% else %}
-        <div class="row">
-          <!-- sidebar, which will move to the top on a small screen -->
-          <div class="col-sm-3">
-            <nav id="toc-sidebar" class="sticky-top"></nav>
-          </div>
-          <!-- main content area -->
-          <div class="col-sm-9">{{ content }}</div>
-        </div>
+        {% assign redirect = page.redirect | relative_url %}
       {% endif %}
-    {% else %}
-      {{ content }}
+      <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
-  </div>
+    {% include head.liquid %}
+    {% include header.liquid %} <!-- Her inkluderes headeren -->
+    <style>
+      /* CSS for increasing the navbar height */
+      .navbar {
+        height: 80px; /* Change this value to your desired height */
+      }
 
-  <!-- Footer -->
-  <footer role="contentinfo">
-    <div class="container mt-3">
-      <div style="margin-bottom: 10px;">
-        <strong>DEPICT - Center for AI in Medical Imaging​</strong><br>
-        Rigshospitalet<br>
-        Department of Clinical Physiology and Nuclear Medicine<br>
-        Department of Radiology and Scanning<br>
-        Borgmester Ib Juuls Vej 17, 2730 Herlev<br>
-        Nielsine Nielsens Vej 41A, Indgang 7A, 2400 København NV<br>
-      </div>
+      /* Optional: Vertically center the navbar content */
+      .navbar .navbar-brand,
+      .navbar .navbar-nav .nav-link {
+        line-height: 80px; /* Should match the height of the navbar */
+      }
+    </style>
+  </head>
+
+  <!-- Body -->
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    <!-- Header -->
+    {% include header.liquid %}
+
+    <!-- Content -->
+    <div role="main">
+      {% if page.toc and page.toc.sidebar %}
+        {% if page.toc.sidebar == 'right' %}
+          <div class="row">
+            <!-- main content area -->
+            <div class="col-sm-9">{{ content }}</div>
+            <!-- sidebar, which will move to the top on a small screen -->
+            <div class="col-sm-3">
+              <nav id="toc-sidebar" class="sticky-top"></nav>
+            </div>
+          </div>
+        {% else %}
+          <div class="row">
+            <!-- sidebar, which will move to the top on a small screen -->
+            <div class="col-sm-3">
+              <nav id="toc-sidebar" class="sticky-top"></nav>
+            </div>
+            <!-- main content area -->
+            <div class="col-sm-9">{{ content }}</div>
+          </div>
+        {% endif %}
+      {% else %}
+        {{ content }}
+      {% endif %}
     </div>
-  </footer>
 
-  <!-- JavaScripts -->
-  {% include scripts/jquery.liquid %}
-  {% include scripts/bootstrap.liquid %}
-  {% include scripts/masonry.liquid %}
-  {% include scripts/mermaid.liquid %}
-  {% include scripts/diff2html.liquid %}
-  {% include scripts/leaflet.liquid %}
-  {% include scripts/chartjs.liquid %}
-  {% include scripts/echarts.liquid %}
-  {% include scripts/vega.liquid %}
-  {% include scripts/tikzjax.liquid %}
-  {% include scripts/typograms.liquid %}
-  {% include scripts/misc.liquid %}
-  {% include scripts/badges.liquid %}
-  {% include scripts/mathjax.liquid %}
-  {% include scripts/pseudocode.liquid %}
-  {% include scripts/analytics.liquid %}
-  {% include scripts/progressBar.liquid %}
-  {% include scripts/wechatModal.liquid %}
-  {% include scripts/imageLayouts.liquid %}
-  {% include scripts/jekyll_tabs.liquid %}
-  {% include scripts/back_to_top.liquid %}
-  {% include scripts/search.liquid %}
-</body>
+    <!-- Footer -->
+    {% include footer.liquid %}
+
+    <!-- JavaScripts -->
+    {% include scripts/jquery.liquid %}
+    {% include scripts/bootstrap.liquid %}
+    {% include scripts/masonry.liquid %}
+    {% include scripts/mermaid.liquid %}
+    {% include scripts/diff2html.liquid %}
+    {% include scripts/leaflet.liquid %}
+    {% include scripts/chartjs.liquid %}
+    {% include scripts/echarts.liquid %}
+    {% include scripts/vega.liquid %}
+    {% include scripts/tikzjax.liquid %}
+    {% include scripts/typograms.liquid %}
+    {% include scripts/misc.liquid %}
+    {% include scripts/badges.liquid %}
+    {% include scripts/mathjax.liquid %}
+    {% include scripts/pseudocode.liquid %}
+    {% include scripts/analytics.liquid %}
+    {% include scripts/progressBar.liquid %}
+    {% include scripts/wechatModal.liquid %}
+    {% include scripts/imageLayouts.liquid %}
+    {% include scripts/jekyll_tabs.liquid %}
+    {% include scripts/back_to_top.liquid %}
+    {% include scripts/search.liquid %}
+  </body>
 </html>
