@@ -35,8 +35,8 @@ img {
   width: 100%;
   height: auto;
   display: block;
-  margin-left: 0; /* Changed to 0 to ensure images touch the sides */
-  margin-right: 0; /* Changed to 0 to ensure images touch the sides */
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .image-placeholder {
@@ -59,7 +59,6 @@ img {
   margin: 0;
 }
 
-/* Ensure images in full-width container are responsive */
 .full-width-container img {
   width: 100%;
   height: auto;
@@ -70,7 +69,7 @@ img {
   .full-width-container {
     padding: 0 15px; /* Add some padding on small screens */
   }
-  
+
   .full-width-container img {
     width: 100%;
     height: auto;
@@ -81,31 +80,49 @@ img {
   }
 }
 
+/* Contact box styling */
 .contact-box {
-    border: 1px solid #ccc; /* Add a thin border around the content */
-    border-radius: 5px; /* Add rounded corners for a more stylish look */
-    padding: 20px;
-    width: 350px;
-    height: 200px; /* Adjust this value as needed to change the height */
-    margin: 0 auto; /* Center content */
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+  border: 1px solid #ccc; /* Add a thin border around the content */
+  border-radius: 5px; /* Add rounded corners for a more stylish look */
+  padding: 20px;
+  width: 350px;
+  height: 200px; /* Adjust this value as needed to change the height */
+  margin: 0 auto; /* Center content */
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+  display: flex;
+  flex-direction: column;
 }
 
-/* CSS rules for styling the menu */
+.contact-item {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 10px; /* Adjust spacing between lines as needed */
+}
+
+.contact-item strong {
+  min-width: 100px; /* Fixed width for labels */
+  margin-right: 10px; /* Space between label and value */
+}
+
+.small-header {
+  font-size: 1.25rem; /* Adjust size as needed */
+}
+
+/* Navbar styling */
 .navbar {
-    background-color: #F5F5F5; /* Change the color to the desired one */
-    opacity: 1; /* Ensure opacity is 1 so it's not transparent */
-    /* Other styling rules as needed */
+  background-color: #F5F5F5; /* Change to desired color */
+  opacity: 1; /* Ensure opacity is 1 so it's not transparent */
 }
 
 .navbar .search-icon {
-    margin-top: 10px; /* Adjust this value to move the search icon down */
+  margin-top: 10px; /* Adjust to move search icon down */
 }
 
 #search-toggle {
-  margin-top: 10px; /* Adjust this value to position the search icon */
+  margin-top: 10px; /* Adjust to position search icon */
 }
 
+/* Full height for html and body */
 html, body {
   height: 100%;
 }
@@ -120,12 +137,14 @@ body {
   flex: 1;
 }
 
+/* Footer styling */
 footer {
   margin-top: auto;
   background-color: #09243F;
   color: #ffffff !important; /* White with !important */
   height: 200px;
   text-align: left;
+  padding-left: 20px; /* Add padding to shift text slightly right */
 }
 
 /* Split into two columns */
@@ -140,25 +159,4 @@ footer {
   content: "";
   clear: both;
   display: table;
-}
-
-
-.contact-box {
-    display: flex;
-    flex-direction: column;
-}
-
-.contact-item {
-    display: flex;
-    align-items: baseline;
-    margin-bottom: 10px; /* Juster mellemrummet mellem linjerne efter behov */
-}
-
-.contact-item strong {
-    min-width: 100px; /* Fast bredde for etiketterne */
-    margin-right: 10px; /* Mellemrummet mellem etiketten og værdien */
-}
-
-.small-header {
-    font-size: 1.25rem; /* Juster størrelse efter behov */
 }
