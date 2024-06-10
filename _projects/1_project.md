@@ -28,19 +28,32 @@ The project has the potential to detect deviations and subtle changes in organ u
 </div>
 
 
-<div class="row justify-content-sm-center mt-5"> <!-- Tilføjet mere mellemrum her -->
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <div class="contact-box">
-            <h5>Contact Information</h5>
-            <div><strong>Name:</strong> Christian Hinge</div>
-            <div><strong>Email:</strong> <a href="mailto:christian.hinge@regionh.dk">christian.hinge@regionh.dk</a></div>
-            <div><strong>Location:</strong> Department of Clinical Physiology and Nuclear Medicine, 3982</div>
-            <div><strong>Position:</strong> PhD Student</div>
+<div class="row justify-content-center mt-5">
+    <div class="col-md-6 mt-3">
+        <div class="contact-box p-3 border rounded shadow-sm">
+            <h4 class="small-header">Contact Information</h4>
+            <div class="contact-item">
+                <strong>Name:</strong>
+                <span>Christian Hinge</span>
+            </div>
+            <div class="contact-item">
+                <strong>Email:</strong>
+                <span><a href="mailto:christian.hinge@regionh.dk">christian.hinge@regionh.dk</a></span>
+            </div>
+            <div class="contact-item">
+                <strong>Location:</strong>
+                <span>Department of Clinical Physiology and Nuclear Medicine, 3982</span>
+            </div>
+            <div class="contact-item">
+                <strong>Position:</strong>
+                <span>PhD Student</span>
+            </div>
         </div>
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0"> <!-- Tilføjet mere mellemrum her -->
-        {% include figure.liquid path="assets/img/Foto - Christian.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-md-4 mt-3 d-flex justify-content-center">
+        <img src="assets/img/Foto - Christian.jpg" alt="Christian Hinge" title="example image" class="img-fluid rounded shadow-sm">
     </div>
 </div>
+
 
 <link rel="stylesheet" href="css/custom.css">
