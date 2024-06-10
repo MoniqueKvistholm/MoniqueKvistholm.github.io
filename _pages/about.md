@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: forside2
 title: Main
 permalink: /
 ---
