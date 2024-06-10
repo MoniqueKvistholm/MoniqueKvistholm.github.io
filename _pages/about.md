@@ -1,37 +1,26 @@
 ---
-layout: forside2
-title: Main
+layout: about
+title: Om mig
 permalink: /
+subtitle: Det er godt vejr
+
+profile:
+  align: right
+  image: Sim.jpg
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>Nr.: 22706564</p>
+    <p>Mail: mk@biscom.dk</p>
+
+news: true # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
 ---
 
-<head>
-  <style>
-    /* CSS-regler til styling af denne side */
-    .image-placeholder {
-      /* Tilpas dine styling-regler her */
-    }
+Hej Simon. Hvad laver du? Se jeg har fået min hjemmeside op og køre!! SÅÅÅ fedt! Har også bare taget mig hele dagen og ugen faktiske også. Håber du hygger med læsning. Glæder mig til at ses senere. Kys ahhahahhhaha
 
-    /* Tilføj flere regler efter behov */
+Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-  </style>
-</head>
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-<article>
-  <!-- Placeholder til billede -->
-  <div class="image-placeholder">
-    <img src="{{ site.baseurl }}/assets/img/Forsidebillede.jpg.jpg" alt="" class="full-width-image">
-  </div>
-
-  <div class="image-placeholder">
-    <img src="{{ site.baseurl }}/assets/img/paceholder baggrund.jpg" alt="" class="full-width-image">
-  </div>
-  <div class="image-placeholder">
-    <img src="{{ site.baseurl }}/assets/img/paceholder baggrund.jpg" alt="" class="full-width-image">
-  </div>
-
-  <div class="clearfix">
-    <!-- Dit indhold her -->
-    <h2>DEPICT</h2>
-    <p>Her kan du skrive noget om dig selv...</p>
-  </div>
-</article>
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
