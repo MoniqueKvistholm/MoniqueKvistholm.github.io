@@ -141,3 +141,24 @@ footer {
   clear: both;
   display: table;
 }
+
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-item {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px; /* Juster mellemrummet mellem linjerne efter behov */
+}
+
+.contact-item strong {
+    min-width: 100px; /* Fast bredde for etiketterne */
+    margin-right: 10px; /* Mellemrummet mellem etiketten og værdien */
+}
+
+.small-header {
+    font-size: 1.25rem; /* Juster størrelse efter behov */
+}
