@@ -30,14 +30,21 @@ $max-content-width: {{ site.max_width }};
   max-width: 100%;
 }
 
+/* Ensure images are responsive and stretch to the edges */
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: 0; /* Changed to 0 to ensure images touch the sides */
+  margin-right: 0; /* Changed to 0 to ensure images touch the sides */
+}
 
-/* Tilpasning af mellemrum mellem menu og forsidebilledet */
 .image-placeholder {
-  margin-top: -30px; /* Juster dette tal efter behov for at mindske mellemrummet */
+  margin-top: -30px; /* Adjust this value to reduce the gap between the menu and the first image */
 }
 
 .image-placeholder:first-child {
-  margin-bottom: 20px; /* Juster dette tal efter behov for at tilføje plads mellem billede 1 og billede 2 */
+  margin-bottom: 20px; /* Adjust this value to add space between the first and second images */
 }
 
 .image-placeholder img {
@@ -45,21 +52,14 @@ $max-content-width: {{ site.max_width }};
   max-width: 100%;
 }
 
-img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
+/* Full-width container with no padding or margin */
 .full-width-container {
   width: 100%;
   padding: 0;
   margin: 0;
 }
 
-/* Ensure images are responsive */
+/* Ensure images in full-width container are responsive */
 .full-width-container img {
   width: 100%;
   height: auto;
@@ -81,36 +81,30 @@ img {
   }
 }
 
-
 .contact-box {
-    border: 1px solid #ccc; /* Tilføj en tynd streg rundt om indholdet */
-    border-radius: 5px; /* Tilføj afrundede hjørner for et mere stilfuldt udseende */
+    border: 1px solid #ccc; /* Add a thin border around the content */
+    border-radius: 5px; /* Add rounded corners for a more stylish look */
     padding: 20px;
     width: 500px;
-    height: 200px; /* Juster dette tal efter behov for at ændre højden */
-    margin: 0 auto; /* Centerindholdet */
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); /* Tilføj en subtil skygge */
+    height: 200px; /* Adjust this value as needed to change the height */
+    margin: 0 auto; /* Center content */
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
 }
 
-
-/* CSS-regler til styling af menuen */
+/* CSS rules for styling the menu */
 .navbar {
-    background-color: #F5F5F5; /* Skift farven til den ønskede farve */
-    opacity: 1; /* Sørg for at opaciteten er 1, så den ikke er gennemsigtig */
-    /* Andre styling-regler efter behov */
+    background-color: #F5F5F5; /* Change the color to the desired one */
+    opacity: 1; /* Ensure opacity is 1 so it's not transparent */
+    /* Other styling rules as needed */
 }
-
 
 .navbar .search-icon {
-    margin-top: 10px; /* Juster dette tal efter behov for at flytte søgeikonet ned */
+    margin-top: 10px; /* Adjust this value to move the search icon down */
 }
 
 #search-toggle {
-  margin-top: 10px; /* Juster dette tal efter behov for at justere søgeikonets placering */
+  margin-top: 10px; /* Adjust this value to position the search icon */
 }
-
-
-
 
 html, body {
   height: 100%;
@@ -129,21 +123,19 @@ body {
 footer {
   margin-top: auto;
   background-color: #09243F;
-  color: #ffffff !important; /* hvid med !important */
+  color: #ffffff !important; /* White with !important */
   height: 200px;
   text-align: left;
 }
 
-
-
-/* Opdel to kolonner */
+/* Split into two columns */
 .column {
   float: left;
   width: 50%;
   padding: 10px;
 }
 
-/* Ryd float */
+/* Clear float */
 .clearfix::after {
   content: "";
   clear: both;
