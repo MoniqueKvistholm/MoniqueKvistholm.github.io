@@ -16,12 +16,12 @@ permalink: /
     .clearfix {
       display: flex;
       justify-content: space-between; /* Justerer pladsen mellem kolonnerne */
-      padding: 20px;
+      padding: 40px;
     }
     
     .column {
       flex: 1; /* Fordeler lige meget plads til hver kolonne */
-      margin: 30px; /* Tilføjer lidt margin omkring kolonnerne */
+      margin: 80px; /* Tilføjer lidt margin omkring kolonnerne */
     }
 
     .column p {
