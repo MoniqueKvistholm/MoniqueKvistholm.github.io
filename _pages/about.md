@@ -8,20 +8,27 @@ permalink: /
   <style>
     /* CSS-regler til styling af denne side */
     .image-placeholder {
-      /* Tilpas dine styling-regler her */
+      overflow: hidden; /* Sikrer, at billedet ikke overskrider sin container */
+      margin-bottom: -10px; /* Juster denne værdi efter behov for at reducere mellemrummet */
     }
 
-    /* Tilføj flere regler efter behov */
+    .full-width-image {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
 
     .clearfix {
       display: flex;
       justify-content: space-between; /* Justerer pladsen mellem kolonnerne */
       padding: 40px;
     }
-    
+
     .column {
       flex: 1; /* Fordeler lige meget plads til hver kolonne */
-      margin: 80px; /* Tilføjer lidt margin omkring kolonnerne */
+      margin: 0 10px; /* Tilføjer lidt margin omkring kolonnerne */
+      padding: 10px; /* Tilføjer padding for at øge afstanden fra kanten af billedet */
+      box-sizing: border-box; /* Sørger for at padding ikke øger elementets bredde */
     }
 
     .column p {
@@ -33,11 +40,11 @@ permalink: /
 <article>
   <!-- Placeholder til billede -->
   <div class="image-placeholder">
-    <img src="{{ site.baseurl }}/assets/img/Forsidebillede.jpg.jpg" alt="" class="full-width-image">
+    <img src="{{ site.baseurl }}/assets/img/Forsidebillede.jpg" alt="" class="full-width-image">
   </div>
 
   <div class="image-placeholder">
-    <img src="{{ site.baseurl }}/assets/img/side2.jpg" alt="" class="full-width-image">
+    <img src="{{ site.baseurl }}/assets/img/side22.jpg" alt="" class="full-width-image">
   </div>
 
   <div class="clearfix">
