@@ -21,7 +21,7 @@ permalink: /
     
     .column {
       flex: 1; /* Fordeler lige meget plads til hver kolonne */
-      margin: 10px; /* Tilføjer lidt margin omkring kolonnerne */
+      margin: 30px; /* Tilføjer lidt margin omkring kolonnerne */
     }
 
     .column p {
