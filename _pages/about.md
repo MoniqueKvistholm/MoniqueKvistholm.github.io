@@ -32,8 +32,6 @@ permalink: /
       margin: 0 20px; /* Øger margenen omkring kolonnerne */
       padding: 20px; /* Tilføjer padding for at øge afstanden fra kanten af billedet */
       box-sizing: border-box; /* Sørger for at padding ikke øger elementets bredde */
-      background-color: #f0f0f0; /* Eksempel på baggrundsfarve */
-      border: 1px solid #ddd; /* Eksempel på kant omkring kolonner */
     }
 
     .column p {
@@ -45,7 +43,7 @@ permalink: /
 <article>
   <!-- Placeholder til billede -->
   <div class="image-placeholder">
-    <img src="{{ site.baseurl }}/assets/img/Forsidebillede.jpg.jpg" alt="" class="full-width-image">
+    <img src="{{ site.baseurl }}/assets/img/Forsidebillede.jpg" alt="" class="full-width-image">
   </div>
 
   <div class="image-placeholder">
