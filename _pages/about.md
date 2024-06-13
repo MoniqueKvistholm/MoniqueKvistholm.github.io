@@ -1,3 +1,10 @@
+---
+layout: forside2
+title: Main
+permalink: /
+---
+
+
 <head>
   <style>
     /* CSS-regler til styling af denne side */
