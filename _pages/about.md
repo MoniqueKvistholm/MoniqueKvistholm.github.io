@@ -10,19 +10,17 @@ permalink: /
     /* CSS-regler til styling af denne side */
     .image-placeholder {
       overflow: hidden; /* Sikrer, at billedet ikke overskrider sin container */
-      margin-bottom: -10px; /* Juster denne værdi efter behov for at reducere mellemrummet */
     }
 
     .full-width-image {
       width: 100%;
-      height: auto;
+      height: 100%; /* Fylder højden af containeren */
       display: block;
     }
 
     .clearfix {
       display: flex;
       justify-content: space-between; /* Justerer pladsen mellem kolonnerne */
-      padding: 40px; /* Generel padding omkring indhold */
       margin: 0 auto; /* Centrerer indholdet horisontalt */
       max-width: 1200px; /* Sætter en maksimal bredde for indholdet */
     }
@@ -43,7 +41,7 @@ permalink: /
 <article>
   <!-- Placeholder til billede -->
   <div class="image-placeholder">
-    <img src="{{ site.baseurl }}/assets/img/Forsidebillede.jpg.jpg" alt="" class="full-width-image">
+    <img src="{{ site.baseurl }}/assets/img/Forsidebillede.jpg" alt="" class="full-width-image">
   </div>
 
   <div class="image-placeholder">
