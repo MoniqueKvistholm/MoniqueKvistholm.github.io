@@ -137,13 +137,13 @@ body {
   flex: 1;
 }
 
-/* Footer styling */
-footer {
-  margin-top: auto;
-  background-color: #09243F;
-  color: #ffffff !important; /* White with !important */
-  height: 200px;
-  text-align: left;
-  padding-left: 20px; /* Add padding to shift text slightly right */
+.footer-custom {
+    background-color: #09243F;
+    color: #ffffff; /* Hvid skrift */
+    height: 200px;
+    text-align: left;
+    padding: 20px;
+    padding-left: 40px; /* Juster denne værdi for at flytte teksten mere til højre */
 }
+
 
