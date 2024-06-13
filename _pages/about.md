@@ -1,9 +1,3 @@
----
-layout: forside2
-title: Main
-permalink: /
----
-
 <head>
   <style>
     /* CSS-regler til styling af denne side */
@@ -21,18 +15,22 @@ permalink: /
     .clearfix {
       display: flex;
       justify-content: space-between; /* Justerer pladsen mellem kolonnerne */
-      padding: 40px;
+      padding: 40px; /* Generel padding omkring indhold */
+      margin: 0 auto; /* Centrerer indholdet horisontalt */
+      max-width: 1200px; /* Sætter en maksimal bredde for indholdet */
     }
 
     .column {
       flex: 1; /* Fordeler lige meget plads til hver kolonne */
-      margin: 0 10px; /* Tilføjer lidt margin omkring kolonnerne */
-      padding: 10px; /* Tilføjer padding for at øge afstanden fra kanten af billedet */
+      margin: 0 20px; /* Øger margenen omkring kolonnerne */
+      padding: 20px; /* Tilføjer padding for at øge afstanden fra kanten af billedet */
       box-sizing: border-box; /* Sørger for at padding ikke øger elementets bredde */
+      background-color: #f0f0f0; /* Eksempel på baggrundsfarve */
+      border: 1px solid #ddd; /* Eksempel på kant omkring kolonner */
     }
 
     .column p {
-      margin: 0 0 10px; /* Tilføjer margin nedenunder afsnit */
+      margin: 0 0 15px; /* Tilføjer margin nedenunder afsnit */
     }
   </style>
 </head>
@@ -40,7 +38,7 @@ permalink: /
 <article>
   <!-- Placeholder til billede -->
   <div class="image-placeholder">
-    <img src="{{ site.baseurl }}/assets/img/Forsidebillede.jpg" alt="" class="full-width-image">
+    <img src="{{ site.baseurl }}/assets/img/Forsidebillede.jpg.jpg" alt="" class="full-width-image">
   </div>
 
   <div class="image-placeholder">
