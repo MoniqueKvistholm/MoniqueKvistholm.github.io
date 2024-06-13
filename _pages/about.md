@@ -1,27 +1,28 @@
----
-layout: forside2
-title: Main
-permalink: /
----
-
 <head>
   <style>
     /* CSS-regler til styling af denne side */
     .image-placeholder {
-      /* Tilpas dine styling-regler her */
+      margin-bottom: 20px; /* Tilføj lidt plads under hvert billede */
     }
 
-    /* Tilføj flere regler efter behov */
+    .full-width-image {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
 
     .clearfix {
       display: flex;
+      flex-wrap: wrap; /* Tillader elementer at wrappe til næste linje */
       justify-content: space-between; /* Justerer pladsen mellem kolonnerne */
-      padding: 40px;
+      padding: 20px; /* Juster denne værdi efter behov */
     }
-    
+
     .column {
       flex: 1; /* Fordeler lige meget plads til hver kolonne */
-      margin: 80px; /* Tilføjer lidt margin omkring kolonnerne */
+      margin-bottom: 20px; /* Tilføj lidt plads under hver kolonne */
+      padding: 10px; /* Tilpas padding for at øge afstanden mellem indhold og billedet */
+      box-sizing: border-box; /* Sørger for at padding ikke øger elementets bredde */
     }
 
     .column p {
@@ -33,7 +34,7 @@ permalink: /
 <article>
   <!-- Placeholder til billede -->
   <div class="image-placeholder">
-    <img src="{{ site.baseurl }}/assets/img/Forsidebillede.jpg.jpg" alt="" class="full-width-image">
+    <img src="{{ site.baseurl }}/assets/img/Forsidebillede.jpg" alt="" class="full-width-image">
   </div>
 
   <div class="image-placeholder">
