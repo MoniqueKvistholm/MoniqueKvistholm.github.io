@@ -1,7 +1,7 @@
 ---
 layout: default2
-permalink: /repositories/
-title: Who is DEPICT
+permalink: /organization/
+title: Organization
 nav: false
 nav_order: 
 ---
