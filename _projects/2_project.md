@@ -2,7 +2,7 @@
 layout: page
 title: Automatic Lesion Segmentation on MRI Scans of Patients with Multiple Sclerosis
 description: PhD Project by Amalie Hindsholm
-img: assets/img/Billede_projekt_1.jpg
+img: assets/img/Billede_ projekt_2.jpg
 importance: 1
 category: 2024
 related_publications: false
@@ -19,14 +19,16 @@ While there are existing models for automatic lesion segmentation, only a few ar
 **Project Potential**<br>
 The project enables the practical use of MS lesion segmentation in clinics, enabling the model to handle the variation found in clinical practice. This has the potential to reduce the time spent reviewing routine MS MRI scans for radiologists in the clinic and enable quantification of lesion volume as a biomarker.<br>
 
+    
 <div class="row">
-    <div class="col-sm mt-5 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Billede_projekt_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-5 mt-md-0"> <!-- Tilføjet mere mellemrum her -->
+        {% include figure.liquid loading="eager" path="assets/img/Billede_ projekt 1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     <p><strong>Figure 1:</strong> MRI images from seven patients, - from seven different scanners. Two delineations: lesions marked by segmentation model (blue), and a reference delineation marked by a radiologist (pink).</p>
 </div>
+
 
 <div class="row justify-content-center mt-5">
     <div class="col-md-6 mt-3">
@@ -50,9 +52,10 @@ The project enables the practical use of MS lesion segmentation in clinics, enab
             </div>
         </div>
     </div>
-    <div class="col-md-6 mt-3 d-flex justify-content-center">
-        <img src="assets/img/Foto_Christian.jpg" alt="Christian Hinge" title="example image" class="img-fluid rounded shadow-sm">
+    <div class="col-md-4 mt-3 d-flex justify-content-center">
+        <img src="assets/img/Foto - Christian.jpg" alt="Christian Hinge" title="example image" class="img-fluid rounded shadow-sm">
     </div>
 </div>
+
 
 <link rel="stylesheet" href="css/custom.css">
