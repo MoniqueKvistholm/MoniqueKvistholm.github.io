@@ -23,6 +23,7 @@ nav_order: 3
 
   main {
     flex: 1; /* Sørger for at main indholdet vokser for at fylde pladsen */
+    padding: 20px; /* Tilføjet padding for at skabe plads omkring indholdet */
   }
 
   .links-container {
@@ -49,5 +50,9 @@ nav_order: 3
 
   footer {
     margin-top: auto; /* Sørger for at footeren kommer ned i bunden */
+    background-color: #f8f9fa; /* Tilføjet baggrundsfarve til footer */
+    padding: 20px 0; /* Tilføjet padding for at skabe plads omkring footeren */
+    width: 100%; /* Sikrer, at footeren strækker sig over hele bredden */
+    text-align: center; /* Centrer indholdet i footeren */
   }
 </style>
