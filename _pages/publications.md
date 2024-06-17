@@ -44,4 +44,17 @@ nav_order: 3
     background-color: #0056b3;
   }
 
+  .bottom-image {
+    margin-top: auto; /* Sørger for at billedet kommer ned i bunden */
+    display: block; /* Sikrer, at billedet er en blok og kan centreres */
+    margin-left: auto; /* Centrerer billedet horisontalt */
+    margin-right: auto; /* Centrerer billedet horisontalt */
+    max-width: 100%; /* Tilpas billedets maksimale bredde til containeren */
+    height: auto; /* Behold billedets højde i forhold til bredden */
+  }
+
 </style>
+
+<div class="bottom-image">
+  <img src="/assets/img/Hvid.jpg" alt="Bottom Image" class="img-fluid">
+</div>
