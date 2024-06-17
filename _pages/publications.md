@@ -22,7 +22,7 @@ nav_order: 3
     display: block;
     padding: 15px 30px; /* Juster padding for at gøre kasserne bredere */
     margin: 10px 0;
-    background-color: #007bff;
+    background-color: #005778;
     color: white;
     text-align: center;
     text-decoration: none;
