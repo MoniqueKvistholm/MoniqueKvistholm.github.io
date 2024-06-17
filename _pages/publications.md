@@ -15,12 +15,12 @@ nav_order: 3
 
 <style>
   .links-container {
-    margin-top: 20px;
+    margin-top: 40px; /* Mere mellemrum her */
   }
 
   .styled-link {
     display: block;
-    padding: 10px 20px;
+    padding: 15px 30px; /* Juster padding for at gøre kasserne bredere */
     margin: 10px 0;
     background-color: #007bff;
     color: white;
@@ -28,6 +28,9 @@ nav_order: 3
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    width: 60%; /* Tilføjet for at gøre kasserne bredere */
+    margin-left: auto; /* Centrer kasserne horisontalt */
+    margin-right: auto; /* Centrer kasserne horisontalt */
   }
 
   .styled-link:hover {
