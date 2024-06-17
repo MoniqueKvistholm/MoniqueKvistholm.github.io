@@ -9,8 +9,8 @@ nav_order: 3
 <span style="font-size: 1.2em;">Publications from DEPICT can be found in the departments' research registration system, PURE.</span>
 
 <div class="links-container">
-  <a href="https://research.regionh.dk/da/organisations/afdeling-for-r%c3%b8ntgen-og-skanning/publications/" class="styled-link">Forskning fra Afdeling for Røntgen og Skanning</a>
-  <a href="https://research.regionh.dk/da/organisations/afdeling-for-klinisk-fysiologi-og-nuklearmedicin" class="styled-link">Forskning fra Afdeling for Klinisk Fysiologi og Nuklearmedicin​​</a>
+  <a href="https://research.regionh.dk/da/organisations/afdeling-for-r%c3%b8ntgen-og-skanning/publications/" class="styled-link">Research from the Department of Radiology and Imaging</a>
+  <a href="https://research.regionh.dk/da/organisations/afdeling-for-klinisk-fysiologi-og-nuklearmedicin" class="styled-link">Research from the Department of Clinical Physiology and Nuclear Medicine​​</a>
 </div>
 
 <style>
