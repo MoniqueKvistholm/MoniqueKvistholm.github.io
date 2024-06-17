@@ -2,7 +2,7 @@
 layout: page
 title: Clinical significance of combined density and texture analysis for stratifying the risk breast cancer in screening
 description: PhD Project by Bolette Mikela Vilmun
-img: assets/img/Billede_projekt 4.jpg
+img: assets/img/Billede_projekt_4.2.jpg
 importance: 1
 category: 2024
 related_publications: false
