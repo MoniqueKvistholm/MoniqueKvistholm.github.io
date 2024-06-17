@@ -18,17 +18,22 @@ nav_order: 3
     min-height: 100vh; /* Sikrer, at body fylder hele siden */
     display: flex;
     flex-direction: column;
+    margin: 0; /* Fjern default margin */
+  }
+
+  main {
+    flex: 1; /* Sørger for at main indholdet vokser for at fylde pladsen */
   }
 
   .links-container {
     margin-top: 40px; /* Mere mellemrum her */
-    flex-grow: 1; /* Sørger for at containeren vokser for at fylde pladsen */
+    text-align: center;
   }
 
   .styled-link {
     display: block;
     padding: 15px 30px; /* Juster padding for at gøre kasserne bredere */
-    margin: 10px 0;
+    margin: 10px auto; /* Centrer kasserne horisontalt og lodret */
     background-color: #007bff;
     color: white;
     text-align: center;
@@ -36,15 +41,13 @@ nav_order: 3
     border-radius: 5px;
     transition: background-color 0.3s ease;
     width: 60%; /* Tilføjet for at gøre kasserne bredere */
-    margin-left: auto; /* Centrer kasserne horisontalt */
-    margin-right: auto; /* Centrer kasserne horisontalt */
   }
 
   .styled-link:hover {
     background-color: #0056b3;
   }
-  
-  .footer {
+
+  footer {
     margin-top: auto; /* Sørger for at footeren kommer ned i bunden */
   }
 </style>
