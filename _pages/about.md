@@ -4,36 +4,40 @@ title: Main
 permalink: /
 ---
 
-
 <head>
   <style>
     /* CSS-regler til styling af denne side */
     .image-placeholder {
-      overflow: hidden; /* Sikrer, at billedet ikke overskrider sin container */
+      width: 100%;
+      position: relative;
+      margin: 0;
+      padding: 0;
     }
 
     .full-width-image {
       width: 100%;
-      height: 100%; /* Fylder højden af containeren */
+      height: auto;
       display: block;
     }
 
     .clearfix {
       display: flex;
-      justify-content: space-between; /* Justerer pladsen mellem kolonnerne */
-      margin: 0 auto; /* Centrerer indholdet horisontalt */
-      max-width: 1200px; /* Sætter en maksimal bredde for indholdet */
+      justify-content: space-between;
+      margin: 20px auto; /* Giver lidt margin over og under sektionen */
+      max-width: 1200px;
+      padding: 0 20px;
+      box-sizing: border-box;
     }
 
     .column {
-      flex: 1; /* Fordeler lige meget plads til hver kolonne */
-      margin: 0 20px; /* Øger margenen omkring kolonnerne */
-      padding: 20px; /* Tilføjer padding for at øge afstanden fra kanten af billedet */
-      box-sizing: border-box; /* Sørger for at padding ikke øger elementets bredde */
+      flex: 1;
+      margin: 0 20px;
+      padding: 20px;
+      box-sizing: border-box;
     }
 
     .column p {
-      margin: 0 0 15px; /* Tilføjer margin nedenunder afsnit */
+      margin: 0 0 15px;
     }
   </style>
 </head>
@@ -41,11 +45,7 @@ permalink: /
 <article>
   <!-- Placeholder til billede -->
   <div class="image-placeholder">
-    <img src="{{ site.baseurl }}/assets/img/Forsidebillede.jpg.jpg" alt="" class="full-width-image">
-  </div>
-
-  <div class="image-placeholder">
-    <img src="{{ site.baseurl }}/assets/img/side22.jpg" alt="" class="full-width-image">
+    <img src="{{ site.baseurl }}/assets/img/Forsidebillede.jpg" alt="Forsidebillede" class="full-width-image">
   </div>
 
   <div class="clearfix">
@@ -63,5 +63,9 @@ permalink: /
       <p>Detaljer om forskning og udvikling.</p>
       <p>Kontaktinformation og yderligere ressourcer.</p>
     </div>
+  </div>
+
+  <div class="image-placeholder">
+    <img src="{{ site.baseurl }}/assets/img/side22.jpg" alt="Sidebillede" class="full-width-image">
   </div>
 </article>
