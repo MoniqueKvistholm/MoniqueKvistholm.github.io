@@ -48,7 +48,11 @@ permalink: /
     <img src="{{ site.baseurl }}/assets/img/Forsidebillede.jpg.jpg" alt="Forsidebillede" class="full-width-image">
   </div>
 
-  <div class="clearfix">
+  <div class="image-placeholder">
+    <img src="{{ site.baseurl }}/assets/img/side22.jpg" alt="Sidebillede" class="full-width-image">
+  </div>
+
+<div class="clearfix">
     <div class="column">
       <h2>DEPICT</h2>
       <p>Information om DEPICT - Center for AI in Medical Imaging.</p>
@@ -64,8 +68,7 @@ permalink: /
       <p>Kontaktinformation og yderligere ressourcer.</p>
     </div>
   </div>
-
-  <div class="image-placeholder">
-    <img src="{{ site.baseurl }}/assets/img/side22.jpg" alt="Sidebillede" class="full-width-image">
-  </div>
+  
 </article>
+
+
