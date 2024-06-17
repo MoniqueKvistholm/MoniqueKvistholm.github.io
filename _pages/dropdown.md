@@ -6,7 +6,7 @@ nav_order: 1
 dropdown: true
 children:
   - title: Who is DEPICT
-    permalink: /repositories/
+    permalink: /whoisDEPICT/
   - title: divider
   - title: Organization 
     permalink: /organization/
