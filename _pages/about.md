@@ -45,12 +45,11 @@ permalink: /
 <article>
   <!-- Placeholder til billede -->
   <div class="image-placeholder">
-    <img src="{{ site.baseurl }}/assets/img/Forsidebillede2.jpg" alt="Forsidebillede" class="full-width-image">
-  </div>
+  <img src="{{ site.baseurl }}/assets/img/Forsidebillede2.jpg" alt="Forsidebillede" class="full-width-image">
+</div><div class="image-placeholder">
+  <img src="{{ site.baseurl }}/assets/img/side22.jpg" alt="Sidebillede" class="full-width-image">
+</div>
 
-  <div class="image-placeholder">
-    <img src="{{ site.baseurl }}/assets/img/side22.jpg" alt="Sidebillede" class="full-width-image">
-  </div>
 
 <div class="clearfix">
     <div class="column">
