@@ -4,40 +4,36 @@ title: Main
 permalink: /
 ---
 
+
 <head>
   <style>
     /* CSS-regler til styling af denne side */
     .image-placeholder {
-      width: 100%;
-      position: relative;
-      margin: 0;
-      padding: 0;
+      overflow: hidden; /* Sikrer, at billedet ikke overskrider sin container */
     }
 
     .full-width-image {
       width: 100%;
-      height: auto;
+      height: 100%; /* Fylder højden af containeren */
       display: block;
     }
 
     .clearfix {
       display: flex;
-      justify-content: space-between;
-      margin: 20px auto; /* Giver lidt margin over og under sektionen */
-      max-width: 1200px;
-      padding: 0 20px;
-      box-sizing: border-box;
+      justify-content: space-between; /* Justerer pladsen mellem kolonnerne */
+      margin: 0 auto; /* Centrerer indholdet horisontalt */
+      max-width: 1200px; /* Sætter en maksimal bredde for indholdet */
     }
 
     .column {
-      flex: 1;
-      margin: 0 20px;
-      padding: 20px;
-      box-sizing: border-box;
+      flex: 1; /* Fordeler lige meget plads til hver kolonne */
+      margin: 0 20px; /* Øger margenen omkring kolonnerne */
+      padding: 20px; /* Tilføjer padding for at øge afstanden fra kanten af billedet */
+      box-sizing: border-box; /* Sørger for at padding ikke øger elementets bredde */
     }
 
     .column p {
-      margin: 0 0 15px;
+      margin: 0 0 15px; /* Tilføjer margin nedenunder afsnit */
     }
   </style>
 </head>
@@ -45,14 +41,14 @@ permalink: /
 <article>
   <!-- Placeholder til billede -->
   <div class="image-placeholder">
-    <img src="{{ site.baseurl }}/assets/img/Forsidebillede2.jpg" alt="Forsidebillede" class="full-width-image">
+    <img src="{{ site.baseurl }}/assets/img/ Forsidebillede2.jpg" alt="" class="full-width-image">
   </div>
 
   <div class="image-placeholder">
-    <img src="{{ site.baseurl }}/assets/img/side22.jpg" alt="Sidebillede" class="full-width-image">
+    <img src="{{ site.baseurl }}/assets/img/side22.jpg" alt="" class="full-width-image">
   </div>
 
-<div class="clearfix">
+  <div class="clearfix">
     <div class="column">
       <h2>DEPICT</h2>
       <p>Information om DEPICT - Center for AI in Medical Imaging.</p>
@@ -68,7 +64,4 @@ permalink: /
       <p>Kontaktinformation og yderligere ressourcer.</p>
     </div>
   </div>
-  
 </article>
-
-
