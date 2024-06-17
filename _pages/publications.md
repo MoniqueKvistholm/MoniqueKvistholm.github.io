@@ -14,15 +14,22 @@ nav_order: 3
 </div>
 
 <style>
+  body {
+    min-height: 100vh; /* Sikrer, at body fylder hele siden */
+    display: flex;
+    flex-direction: column;
+  }
+
   .links-container {
     margin-top: 40px; /* Mere mellemrum her */
+    flex-grow: 1; /* Sørger for at containeren vokser for at fylde pladsen */
   }
 
   .styled-link {
     display: block;
     padding: 15px 30px; /* Juster padding for at gøre kasserne bredere */
     margin: 10px 0;
-    background-color: #005778;
+    background-color: #007bff;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -35,5 +42,9 @@ nav_order: 3
 
   .styled-link:hover {
     background-color: #0056b3;
+  }
+  
+  .footer {
+    margin-top: auto; /* Sørger for at footeren kommer ned i bunden */
   }
 </style>
