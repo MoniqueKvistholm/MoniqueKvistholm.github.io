@@ -1,80 +1,63 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Clinical significance of combined density and texture analysis for stratifying the risk breast cancer in screening
+description: PhD Project by Bolette Mikela Vilmun
+img: assets/img/Billede_projekt 4.jpg
+importance: 1
+category: 2024
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**Introduction**<br>
+The project focuses on the importance of incorporating mammographic density and tissue patterns in the development of personalized breast cancer screening programs. Mammographic dense breast tissue, which describes the proportions of connective and fatty tissue in the breast, increases the risk of developing breast cancer. Additionally, dense breast tissue can hide malignant changes. Furthermore, research indicates that other factors, such as patterns in breast tissue, may be associated with an increased risk of developing breast cancer.<br>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Project Background**<br>
+In Denmark, free mammography screening is offered to women aged 50-69 with the aim of detecting breast cancer early and improving treatment outcomes. However, mammography screening is far less effective for women with dense breast tissue, increasing the risk of being diagnosed with cancer between screenings and resulting in worse prognosis. There is a need for tailored screening programs that account for the varying risk.<br>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Therefore, it is crucial to have accurate risk stratification of women in screening. By combining information on tissue density, assessed with the Breast Imaging Reporting and Data System (BI-RADS) density score, with Deep Learning-based texture analysis, a more nuanced and precise risk assessment is achieved. This approach has the potential to identify woman at high-risk future breast cancer, who may benefit from more frequent and intensive screening examinations, while woman at lower risk may extend their screening intervals.
+<br>
 
+**Project Potential**<br>
+The project aims to enhance the understanding of how these two measurements can be utilized to identify women with different risk profiles for future breast cancer. The results have the potential to contribute to more effective screening strategies and better breast cancer prevention.<br>
+
+    
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-5 mt-md-0"> <!-- Tilføjet mere mellemrum her -->
+        {% include figure.liquid loading="eager" path="assets/img/Billede_projekt 3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    <p><strong>Figure 1:</strong> Four mammography screenings: Illustrates the variation in texture and density of breast tissue.</p>
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+<div class="row justify-content-center mt-5">
+    <div class="col-md-6 mt-3">
+        <div class="contact-box p-3 border rounded shadow-sm">
+            <h4 class="small-header">Contact Information</h4>    
+            <div class="contact-item">
+                <strong>Name:</strong>
+                <span>Bolette Mikela Vilmun</span>
+            </div>
+            <div class="contact-item">
+                <strong>Email:</strong>
+                <span><a href="mailto:bolette.mikela.vilmun@regionh.dk">bolette.mikela.vilmun@regionh.dk</a></span>
+            </div>
+            <div class="contact-item">
+                <strong>Location:</strong>
+                <span>Department of Breast Imaging, Gentofte Hospital<br>
+Department of Radiology and Scanning, Rigshospitalet
+</span>
+            </div>
+            <div class="contact-item">
+                <strong>Position:</strong>
+                <span>PhD Student</span>
+            </div>
+            <div class="contact-item">
+                <strong>Supervisors</strong>
+                <span>Michael Bachmann (Rigshospitalet), Ilse Vejborg (Gentofte Hospital)</span>
+        </div>
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+<link rel="stylesheet" href="css/custom.css">
