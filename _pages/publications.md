@@ -23,7 +23,7 @@ nav_order: 3
 
   main {
     flex: 1; /* Sørger for at main indholdet vokser for at fylde pladsen */
-    padding: 20px; /* Tilføjet padding for at skabe plads omkring indholdet */
+    padding: 20px 0; /* Tilføjet padding for at skabe plads omkring indholdet */
   }
 
   .links-container {
