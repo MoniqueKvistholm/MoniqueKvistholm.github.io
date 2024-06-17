@@ -30,8 +30,9 @@ By implementing Deep Learning to standardize tumor delineation on HNC PET/CT ima
     <p><strong>Figure 1:</strong> Image in the axial plane of a 50-year-old man with head and neck cancer (HNC) of the rhinopharynx. Clinical scan delineated by an expert (blue) and by AI (green) with AI-to-expert agreement displayed in red.</p>
 </div>
 
-**<h2>References</h2>**<br>
-Kovacs, David G et al. “Clinical Evaluation of Deep Learning for Tumor Delineation on 18F-FDG PET/CT of Head and Neck Cancer.” Journal of nuclear medicine: official publication, Society of Nuclear Medicine, vol. 65,4 623–629. 22 Feb. 2024, doi:10.2967/jnumed.123.266574
+<h2>References</h2><br>
+<p style="font-size: 0.9em;">Kovacs, David G et al. “Clinical Evaluation of Deep Learning for Tumor Delineation on 18F-FDG PET/CT of Head and Neck Cancer.” Journal of nuclear medicine: official publication, Society of Nuclear Medicine, vol. 65,4 623–629. 22 Feb. 2024, doi:10.2967/jnumed.123.266574</p>
+
 
 <div class="row justify-content-center mt-5">
     <div class="col-md-6 mt-3">
