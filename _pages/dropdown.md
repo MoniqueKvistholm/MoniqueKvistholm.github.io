@@ -9,5 +9,5 @@ children:
     permalink: /repositories/
   - title: divider
   - title: Organization 
-    permalink: /cv/
+    permalink: /organization/
 ---
