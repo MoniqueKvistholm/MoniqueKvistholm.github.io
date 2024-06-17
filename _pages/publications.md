@@ -44,17 +44,14 @@ nav_order: 3
     background-color: #0056b3;
   }
 
-  .bottom-image {
-    margin-top: auto; /* Sørger for at billedet kommer ned i bunden */
-    display: block; /* Sikrer, at billedet er en blok og kan centreres */
-    margin-left: auto; /* Centrerer billedet horisontalt */
-    margin-right: auto; /* Centrerer billedet horisontalt */
-    max-width: 100%; /* Tilpas billedets maksimale bredde til containeren */
-    height: auto; /* Behold billedets højde i forhold til bredden */
+  .bottom-text {
+    margin-top: auto; /* Sørger for at teksten kommer ned i bunden */
+    text-align: center; /* Centrerer teksten */
+    padding: 20px; /* Tilføjet padding for at skabe plads omkring teksten */
   }
 
 </style>
 
-<div class="bottom-image">
-  <img src="/assets/img/Hvid.png" alt="Bottom Image" class="img-fluid">
+<div class="bottom-text">
+  <p>This is where you can add your white text content. You can format it as needed.</p>
 </div>
