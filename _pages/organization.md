@@ -13,15 +13,59 @@ nav_order:
 
 ## Centerledere
 
-### Flemming Andersen
-- **E-mail:** flemming.andersen@regionh.dk
-- **Tlf:** 35458143
-- **Placering:** 3982, Klinisk Fysiologi og Nuklearmedicin
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="leader-box p-3 border rounded shadow-sm">
+        <div class="row">
+          <div class="col-4">
+            <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Andersen" class="img-fluid rounded-circle">
+          </div>
+          <div class="col-8">
+            <h4 class="mb-3">Flemming Andersen</h4>
+            <div class="contact-item">
+              <strong>E-mail:</strong>
+              <span><a href="mailto:flemming.andersen@regionh.dk">flemming.andersen@regionh.dk</a></span>
+            </div>
+            <div class="contact-item">
+              <strong>Tlf:</strong>
+              <span>35458143</span>
+            </div>
+            <div class="contact-item">
+              <strong>Placering:</strong>
+              <span>3982, Klinisk Fysiologi og Nuklearmedicin</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-### Adam Espe Hansen
-- **E-mail:** adam.espe.hansen@regionh.dk
-- **Tlf:** 35458460
-- **Placering:** 3023, Røntgen og Skanning
+    <div class="col-md-6">
+      <div class="leader-box p-3 border rounded shadow-sm">
+        <div class="row">
+          <div class="col-4">
+            <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen" class="img-fluid rounded-circle">
+          </div>
+          <div class="col-8">
+            <h4 class="mb-3">Adam Espe Hansen</h4>
+            <div class="contact-item">
+              <strong>E-mail:</strong>
+              <span><a href="mailto:adam.espe.hansen@regionh.dk">adam.espe.hansen@regionh.dk</a></span>
+            </div>
+            <div class="contact-item">
+              <strong>Tlf:</strong>
+              <span>35458460</span>
+            </div>
+            <div class="contact-item">
+              <strong>Placering:</strong>
+              <span>3023, Røntgen og Skanning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 ## Styregruppe
 
