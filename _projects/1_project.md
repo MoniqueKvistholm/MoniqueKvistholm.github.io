@@ -50,9 +50,6 @@ The project has the potential to detect deviations and subtle changes in organ u
             </div>
         </div>
     </div>
-    <div class="col-md-4 mt-3 d-flex justify-content-center">
-        <img src="assets/img/Foto - Christian.jpg" alt="Christian Hinge" title="example image" class="img-fluid rounded shadow-sm">
-    </div>
 </div>
 
 
