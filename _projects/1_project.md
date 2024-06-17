@@ -31,8 +31,7 @@ The project has the potential to detect deviations and subtle changes in organ u
 <div class="row justify-content-center mt-5">
     <div class="col-md-6 mt-3">
         <div class="contact-box p-3 border rounded shadow-sm">
-            <h4 class="small-header">Contact Informatio</h4>    
-            </h5>For questions about the project: </h5>
+            <h4 class="small-header">Contact Information</h4>    
             <div class="contact-item">
                 <strong>Name:</strong>
                 <span>Christian Hinge</span>
