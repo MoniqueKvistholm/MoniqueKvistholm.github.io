@@ -10,7 +10,7 @@ related_publications: false
 
 <div class="container mt-5">
   <div class="row">
-    <div class="col-md-6 order-1 order-md-0">
+    <div class="col-md-6 order-1 order-md-0 pr-md-5">
       <strong>Introduction</strong>
       <p>The aim of this project is to enhance the diagnostic potential of whole-body Positron Emission Tomography/Computed Tomography (PET/CT) imaging by creating personalized synthetic healthy PET baselines using advanced Deep Learning techniques.</p>
       
@@ -21,7 +21,7 @@ related_publications: false
       <p>The project has the potential to detect deviations and subtle changes in organ uptake patterns by comparing the patient's digital twin with the actual PET scan. For example, in diabetes, a personalized healthy PET image can assess the disease by comparing it to the actual observed uptake. This project represents an innovative approach to improving diagnostic analysis methods, enhancing the accuracy of diagnoses, and increasing the effectiveness of treatment for individual patients.</p>
     </div>
     
-    <div class="col-md-6 order-0 order-md-1">
+    <div class="col-md-6 order-0 order-md-1 pl-md-5">
       {% include figure.liquid loading="eager" path="assets/img/Billede_ projekt 1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
       
       <div class="caption mt-3">
