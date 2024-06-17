@@ -56,5 +56,5 @@ nav_order: 3
 </style>
 
 <div class="bottom-image">
-  <img src="/assets/img/Hvid.jpg" alt="Bottom Image" class="img-fluid">
+  <img src="/assets/img/Hvid.png" alt="Bottom Image" class="img-fluid">
 </div>
