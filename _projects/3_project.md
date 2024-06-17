@@ -1,81 +1,61 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+title: Deep Learning for Tumor Delineation on PET/CT of Head and Neck Cancer
+description: PhD Project by David Kovacs
+img: assets/img/Billede_projekt_2.jpg
+importance: 1
+category: 2024
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**Introduction**<br>
+The project employs artificial intelligence to standardize tumor delineation on [18F]FDG-PET/CT images in patients with head and neck cancer (HNC). The aim is to reduce variability in this process to achieve more dependable results, potentially enhancing diagnosis and treatment.<br>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Project Background**<br>
+PET/CT with 18F-FDG is integral to the oncologic evaluation of nodal involvement, identification of distant metastases, radiotherapy planning, response assessment, and patient follow-up. Overall, PET/CT plays a crucial role in the assessment of various cancer types, including HNC.<br>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The project explores the application of Deep Learning for tumor delineation and automation of deriving biomarkers on HNC PET/CT images. These image biomarkers include a range of quantitative measurements or characteristics associated with tumor size, shape, and intensity. Through Deep Learning, these biomarkers can be generated with precision and efficiency.
+<br>
 
+**Project Potential**<br>
+By implementing Deep Learning to standardize tumor delineation on HNC PET/CT images, this project has potential in the field of radiation therapy and automating biomarker analysis. In radiation therapy, the implementation of Deep Learning will reduce clinical variability and lead to more uniform assessments within radiation therapy. Automating biomarker analysis simplifies a resource-intensive task, particularly when assessing tumor size and intensity in clinical or research settings.<br>
+
+    
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-5 mt-md-0"> <!-- Tilføjet mere mellemrum her -->
+        {% include figure.liquid loading="eager" path="assets/img/Billede_projekt_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    <p><strong>Figure 1:</strong> Image in the axial plane of a 50-year-old man with head and neck cancer (HNC) of the rhinopharynx. Clinical scan delineated by an expert (blue) and by AI (green) with AI-to-expert agreement displayed in red.</p>
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+**<h2>References</h2>**<br>
+Kovacs, David G et al. “Clinical Evaluation of Deep Learning for Tumor Delineation on 18F-FDG PET/CT of Head and Neck Cancer.” Journal of nuclear medicine: official publication, Society of Nuclear Medicine, vol. 65,4 623–629. 22 Feb. 2024, doi:10.2967/jnumed.123.266574
+
+<div class="row justify-content-center mt-5">
+    <div class="col-md-6 mt-3">
+        <div class="contact-box p-3 border rounded shadow-sm">
+            <h4 class="small-header">Contact Information</h4>    
+            <div class="contact-item">
+                <strong>Name:</strong>
+                <span>David Gergely Kovacs Petersen</span>
+            </div>
+            <div class="contact-item">
+                <strong>Email:</strong>
+                <span><a href="mailto:david.gergely.kovacs.petersen@regionh.dk">david.gergely.kovacs.petersen@regionh.dk</a></span>
+            </div>
+            <div class="contact-item">
+                <strong>Location:</strong>
+                <span>Diagnostic Center, Center Management</span>
+            </div>
+            <div class="contact-item">
+                <strong>Position:</strong>
+                <span>PhD Student</span>
+            </div>
+        </div>
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+<link rel="stylesheet" href="css/custom.css">
