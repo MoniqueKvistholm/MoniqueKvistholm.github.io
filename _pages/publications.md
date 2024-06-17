@@ -43,8 +43,5 @@ nav_order: 3
   .styled-link:hover {
     background-color: #0056b3;
   }
-  
-  .footer {
-    margin-top: auto; /* Sørger for at footeren kommer ned i bunden */
-  }
+
 </style>
