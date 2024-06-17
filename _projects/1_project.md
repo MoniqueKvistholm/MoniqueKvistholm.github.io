@@ -11,7 +11,7 @@ related_publications: false
 <div class="container mt-5">
   <div class="row">
     <div class="col-md-6 order-1 order-md-0">
-      <h2>Introduction</h2>
+      <strong>Introduction</strong>
       <p>The aim of this project is to enhance the diagnostic potential of whole-body Positron Emission Tomography/Computed Tomography (PET/CT) imaging by creating personalized synthetic healthy PET baselines using advanced Deep Learning techniques.</p>
       
       <h2>Project Background</h2>
