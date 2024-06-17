@@ -17,19 +17,6 @@ Whole-body PET/CT imaging with FDG tracers is an invaluable diagnostic tool wide
 **Project Potential**<br>
 The project has the potential to detect deviations and subtle changes in organ uptake patterns by comparing the patient's digital twin with the actual PET scan. For example, in diabetes, a personalized healthy PET image can assess the disease by comparing it to the actual observed uptake. This project represents an innovative approach to improving diagnostic analysis methods, enhancing the accuracy of diagnoses, and increasing the effectiveness of treatment for individual patients.<br>
 
-    
-<div class="row">
-    <div class="col-sm mt-5 mt-md-0"> <!-- Tilføjet mere mellemrum her -->
-        {% include figure.liquid loading="eager" path="assets/img/Billede_ projekt 1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    <p><strong>Figure 1:</strong> Application of healthy PET for lymphoma detection. From left: CT, PET, sbPET: Synthetic healthy PET image, Abnormality: difference between PET and synthetic PET, Segmentation: identified cancerous areas.</p>
-</div>
-
-
-
-
 <style>
   /* Tilpasning af placeringen af kontaktboksen */
   .contact-box {
