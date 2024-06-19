@@ -7,7 +7,7 @@ nav_order:
 ---
 
 <!-- Baggrundsfarve for Organization sektion -->
-<div style="background-color: #f0f0f0; padding: 20px; width: 100vw; margin-left: calc(50% - 50vw);">
+<div style="background-color: #EBF8FF; padding: 20px; width: 100vw; margin-left: calc(50% - 50vw);">
   <h2>Organization</h2>
   <img src="/assets/img/Organisationsdiagram.png" alt="Organizational Diagram">
   <p>*Her indsættes et organisationsdiagram*</p>
