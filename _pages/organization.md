@@ -29,7 +29,7 @@ nav_order:
             </div>
             <div class="contact-item">
               <strong>Tlf:</strong>
-              <span>35458143</span>
+              <span>+45 35-45 81-43</span>
             </div>
             <div class="contact-item">
               <strong>Placering:</strong>
@@ -54,7 +54,7 @@ nav_order:
             </div>
             <div class="contact-item">
               <strong>Tlf:</strong>
-              <span>35458460</span>
+              <span>+45 35-45 84-60</span>
             </div>
             <div class="contact-item">
               <strong>Placering:</strong>
