@@ -14,7 +14,7 @@ nav_order:
 </style>
 
 <!-- Baggrundsfarve for Organization sektion -->
-<div style="background-color: #EBF8FF; width: 100vw; margin-left: calc(50% - 50vw); margin-top: 0; padding-top: 0;">
+<div style="background-color: #EBF8FF; width: 100vw; margin-left: calc(50% - 45vw);">
   <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
     <h2>Organization</h2>
     <strong style="font-size: 1.5em;">Organizationdiagram</strong>
@@ -24,9 +24,9 @@ nav_order:
 </div>
 
 <!-- Ny Baggrundsfarve for Centerledere sektion -->
-<div style="background-color: #004062; width: 100vw; margin-left: calc(50% - 50vw);">
+<div style="background-color: #f2f2f2; width: 100vw; margin-left: calc(50% - 50vw); padding-top: 0;">
   <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
-    <h3 style="color: #ffffff;">Centerledere</h3>
+    <h3 style="color: #004062;">Centerledere</h3>
     <div class="container mt-5">
       <div class="row">
         <div class="col-md-6">
