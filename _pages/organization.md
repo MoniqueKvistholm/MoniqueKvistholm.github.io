@@ -10,6 +10,7 @@ nav_order:
 <div style="background-color: #EBF8FF; padding: 20px 0; width: 100vw; margin-left: calc(50% - 50vw);">
   <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
     <h2>Organization</h2>
+    <strong style="font-size: 1.5em;">Organizationdiagram</strong>
     <img src="/assets/img/Organisationsdiagram.png" alt="Organizational Diagram">
     <p>*Her indsættes et organisationsdiagram*</p>
   </div>
