@@ -1,5 +1,5 @@
 ---
-layout: default2
+layout: page2
 title: Main
 permalink: /
 ---
