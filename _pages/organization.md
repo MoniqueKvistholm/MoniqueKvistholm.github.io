@@ -11,7 +11,7 @@ nav_order:
 ![Organizational Diagram](/assets/img/Organisationsdiagram.png)
 *Her indsættes et organisationsdiagram*
 
-## Centerledere
+<h3>Centerledere</h3>
 
 <div class="container mt-5">
   <div class="row">
