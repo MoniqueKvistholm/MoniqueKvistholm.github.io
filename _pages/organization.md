@@ -6,59 +6,63 @@ nav: false
 nav_order: 
 ---
 
-## Organization
+<!-- Baggrundsfarve for Organization sektion -->
+<div style="background-color: #f0f0f0; padding: 20px;">
+  <h2>Organization</h2>
+  <img src="/assets/img/Organisationsdiagram.png" alt="Organizational Diagram">
+  <p>*Her indsættes et organisationsdiagram*</p>
+</div>
 
-![Organizational Diagram](/assets/img/Organisationsdiagram.png)
-*Her indsættes et organisationsdiagram*
-
-<h3>Centerledere</h3>
-
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-md-6">
-      <div class="leader-box p-3 border rounded shadow-sm">
-        <div class="row">
-          <div class="col-4">
-            <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Andersen" class="img-fluid rounded-circle">
-          </div>
-          <div class="col-8">
-            <h4 class="mb-3">Flemming Andersen</h4>
-            <div class="contact-item">
-              <strong>E-mail:</strong>
-              <span><a href="mailto:flemming.andersen@regionh.dk">flemming.andersen@regionh.dk</a></span>
+<!-- Ny Baggrundsfarve for Centerledere sektion -->
+<div style="background-color: #e0e0e0; padding: 20px;">
+  <h3>Centerledere</h3>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="leader-box p-3 border rounded shadow-sm">
+          <div class="row">
+            <div class="col-4">
+              <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Andersen" class="img-fluid rounded-circle">
             </div>
-            <div class="contact-item">
-              <strong>Tlf:</strong>
-              <span>+45 35-45 81-43</span>
-            </div>
-            <div class="contact-item">
-              <strong>Placering:</strong>
-              <span>3982, Klinisk Fysiologi og Nuklearmedicin</span>
+            <div class="col-8">
+              <h4 class="mb-3">Flemming Andersen</h4>
+              <div class="contact-item">
+                <strong>Email:</strong>
+                <span><a href="mailto:flemming.andersen@regionh.dk">flemming.andersen@regionh.dk</a></span>
+              </div>
+              <div class="contact-item">
+                <strong>Tlf:</strong>
+                <span>+45 35-45 81-43</span>
+              </div>
+              <div class="contact-item">
+                <strong>Placering:</strong>
+                <span>3982, Klinisk Fysiologi og Nuklearmedicin</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="col-md-6">
-      <div class="leader-box p-3 border rounded shadow-sm">
-        <div class="row">
-          <div class="col-4">
-            <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen" class="img-fluid rounded-circle">
-          </div>
-          <div class="col-8">
-            <h4 class="mb-3">Adam Espe Hansen</h4>
-            <div class="contact-item">
-              <strong>E-mail:</strong>
-              <span><a href="mailto:adam.espe.hansen@regionh.dk">adam.espe.hansen@regionh.dk</a></span>
+      <div class="col-md-6">
+        <div class="leader-box p-3 border rounded shadow-sm">
+          <div class="row">
+            <div class="col-4">
+              <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen" class="img-fluid rounded-circle">
             </div>
-            <div class="contact-item">
-              <strong>Tlf:</strong>
-              <span>+45 35-45 84-60</span>
-            </div>
-            <div class="contact-item">
-              <strong>Placering:</strong>
-              <span>3023, Røntgen og Skanning</span>
+            <div class="col-8">
+              <h4 class="mb-3">Adam Espe Hansen</h4>
+              <div class="contact-item">
+                <strong>Email:</strong>
+                <span><a href="mailto:adam.espe.hansen@regionh.dk">adam.espe.hansen@regionh.dk</a></span>
+              </div>
+              <div class="contact-item">
+                <strong>Tlf:</strong>
+                <span>+45 35-45 84-60</span>
+              </div>
+              <div class="contact-item">
+                <strong>Placering:</strong>
+                <span>3023, Røntgen og Skanning</span>
+              </div>
             </div>
           </div>
         </div>
@@ -67,25 +71,37 @@ nav_order:
   </div>
 </div>
 
-## Styregruppe
+<!-- Ny Baggrundsfarve for Styregruppe sektion -->
+<div style="background-color: #d0d0d0; padding: 20px;">
+  <h3>Styregruppe</h3>
+  <ul>
+    <li>Malene Fischer</li>
+    <li>Flemming Littrup Andersen</li>
+    <li>Claes Ladefoged</li>
+    <li>Adam Espe Hansen</li>
+    <li>Michael Bachmann Nielsen</li>
+    <li>Jonathan Carlsen</li>
+    <li>Martin Lundsgaard</li>
+    <li>Jann Mortensen</li>
+    <li>Ida Robsøe</li>
+    <li>Johnny Madelung</li>
+  </ul>
+</div>
 
-- Malene Fischer
-- Flemming Littrup Andersen
-- Claes Ladefoged
-- Adam Espe Hansen
-- Michael Bachmann Nielsen
-- Jonathan Carlsen
-- Martin Lundsgaard
-- Jann Mortensen
-- Ida Robsøe
-- Johnny Madelung
+<!-- Ny Baggrundsfarve for AI Forskningsledere sektion -->
+<div style="background-color: #c0c0c0; padding: 20px;">
+  <h3>AI Forskningsledere</h3>
+  <ul>
+    <li>Claes Ladefoged</li>
+    <li>Michael Bachman</li>
+  </ul>
+</div>
 
-## AI Forskningsledere
-
-- Claes Ladefoged
-- Michael Bachman
-
-## Bestyrelse
-
-- Malene Fischer
-- Martin Lundsgaard
+<!-- Ny Baggrundsfarve for Bestyrelse sektion -->
+<div style="background-color: #b0b0b0; padding: 20px;">
+  <h3>Bestyrelse</h3>
+  <ul>
+    <li>Malene Fischer</li>
+    <li>Martin Lundsgaard</li>
+  </ul>
+</div>
