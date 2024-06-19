@@ -17,7 +17,7 @@ nav_order:
 </div>
 
 <!-- Ny Baggrundsfarve for Centerledere sektion -->
-<div style="background-color: #e0e0e0; padding: 20px 0; width: 100vw; margin-left: calc(50% - 50vw);">
+<div style="background-color: #004062; padding: 20px 0; width: 100vw; margin-left: calc(50% - 50vw);">
   <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
     <h3>Centerledere</h3>
     <div class="container mt-5">
