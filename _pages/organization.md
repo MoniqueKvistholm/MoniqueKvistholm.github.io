@@ -6,8 +6,15 @@ nav: false
 nav_order: 
 ---
 
+<style>
+  /* Tilføjet styling for at justere størrelsen af .leader-box */
+  .leader-box {
+    max-width: 400px; /* Juster bredden efter behov */
+  }
+</style>
+
 <!-- Baggrundsfarve for Organization sektion -->
-<div style="background-color: #EBF8FF; padding: 20px 0; width: 100vw; margin-left: calc(50% - 47.5vw);">
+<div style="background-color: #EBF8FF; width: 100vw; margin-left: calc(50% - 50vw); margin-top: 0; padding-top: 0;">
   <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
     <h2>Organization</h2>
     <strong style="font-size: 1.5em;">Organizationdiagram</strong>
@@ -17,9 +24,9 @@ nav_order:
 </div>
 
 <!-- Ny Baggrundsfarve for Centerledere sektion -->
-<div style="background-color: #004062; padding: 20px 0; width: 100vw; margin-left: calc(50% - 50vw);">
+<div style="background-color: #004062; width: 100vw; margin-left: calc(50% - 50vw);">
   <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
-    <h3>Centerledere</h3>
+    <h3 style="color: #ffffff;">Centerledere</h3>
     <div class="container mt-5">
       <div class="row">
         <div class="col-md-6">
@@ -77,7 +84,7 @@ nav_order:
 </div>
 
 <!-- Ny Baggrundsfarve for Styregruppe sektion -->
-<div style="background-color: #d0d0d0; padding: 20px 0; width: 100vw; margin-left: calc(50% - 50vw);">
+<div style="background-color: #d0d0d0; width: 100vw; margin-left: calc(50% - 50vw);">
   <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
     <h3>Styregruppe</h3>
     <ul>
@@ -96,7 +103,7 @@ nav_order:
 </div>
 
 <!-- Ny Baggrundsfarve for AI Forskningsledere sektion -->
-<div style="background-color: #c0c0c0; padding: 20px 0; width: 100vw; margin-left: calc(50% - 50vw);">
+<div style="background-color: #c0c0c0; width: 100vw; margin-left: calc(50% - 50vw);">
   <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
     <h3>AI Forskningsledere</h3>
     <ul>
@@ -107,7 +114,7 @@ nav_order:
 </div>
 
 <!-- Ny Baggrundsfarve for Bestyrelse sektion -->
-<div style="background-color: #b0b0b0; padding: 20px 0; width: 100vw; margin-left: calc(50% - 50vw);">
+<div style="background-color: #b0b0b0; width: 100vw; margin-left: calc(50% - 50vw);">
   <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
     <h3>Bestyrelse</h3>
     <ul>
