@@ -14,18 +14,10 @@
     {% endif %}
     {% include head.liquid %}
     <style>
-      .container {
-        width: 100%;
-        max-width: 100%;
-        padding: 0; /* Fjern sidemargin */
-        margin: 0;  /* Fjern margin */
-      }
-      body {
-        margin: 0;  /* Fjern margin fra body */
-      }
-      .row, .col-sm-9, .col-sm-3 {
-        margin: 0; /* Fjern margin fra row og columns */
-        padding: 0; /* Fjern padding fra row og columns */
+      /* Fjern margin og padding fra alle relevante elementer */
+      body, .container, .row, .col-sm-9, .col-sm-3 {
+        margin: 0;
+        padding: 0;
       }
     </style>
   </head>
@@ -36,7 +28,7 @@
     {% include header.liquid %} <!-- Her inkluderes headeren -->
 
     <!-- Content -->
-    <div class="container mt-5" role="main">
+    <div class="container mt-0" role="main">
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
           <div class="row">
