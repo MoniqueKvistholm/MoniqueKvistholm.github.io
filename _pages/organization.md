@@ -7,14 +7,14 @@ nav_order:
 ---
 
 <!-- Baggrundsfarve for Organization sektion -->
-<div style="background-color: #f0f0f0; padding: 20px;">
+<div style="background-color: #f0f0f0; padding: 20px; width: 100vw; margin-left: calc(50% - 50vw);">
   <h2>Organization</h2>
   <img src="/assets/img/Organisationsdiagram.png" alt="Organizational Diagram">
   <p>*Her indsættes et organisationsdiagram*</p>
 </div>
 
 <!-- Ny Baggrundsfarve for Centerledere sektion -->
-<div style="background-color: #e0e0e0; padding: 20px;">
+<div style="background-color: #e0e0e0; padding: 20px; width: 100vw; margin-left: calc(50% - 50vw);">
   <h3>Centerledere</h3>
   <div class="container mt-5">
     <div class="row">
@@ -72,7 +72,7 @@ nav_order:
 </div>
 
 <!-- Ny Baggrundsfarve for Styregruppe sektion -->
-<div style="background-color: #d0d0d0; padding: 20px;">
+<div style="background-color: #d0d0d0; padding: 20px; width: 100vw; margin-left: calc(50% - 50vw);">
   <h3>Styregruppe</h3>
   <ul>
     <li>Malene Fischer</li>
@@ -89,7 +89,7 @@ nav_order:
 </div>
 
 <!-- Ny Baggrundsfarve for AI Forskningsledere sektion -->
-<div style="background-color: #c0c0c0; padding: 20px;">
+<div style="background-color: #c0c0c0; padding: 20px; width: 100vw; margin-left: calc(50% - 50vw);">
   <h3>AI Forskningsledere</h3>
   <ul>
     <li>Claes Ladefoged</li>
@@ -98,7 +98,7 @@ nav_order:
 </div>
 
 <!-- Ny Baggrundsfarve for Bestyrelse sektion -->
-<div style="background-color: #b0b0b0; padding: 20px;">
+<div style="background-color: #b0b0b0; padding: 20px; width: 100vw; margin-left: calc(50% - 50vw);">
   <h3>Bestyrelse</h3>
   <ul>
     <li>Malene Fischer</li>
