@@ -11,11 +11,50 @@ nav_order:
   .leader-box {
     max-width: 400px; /* Juster bredden efter behov */
   }
+
+  /* Ny styling for at fjerne den hvide sektion mellem menu og første sektion */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .section {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+  }
+
+  .organization-section {
+    background-color: #EBF8FF;
+    padding-top: 0;
+  }
+
+  .centerledere-section {
+    background-color: #f2f2f2;
+    padding-top: 0;
+  }
+
+  .styregruppe-section {
+    background-color: #d0d0d0;
+  }
+
+  .ai-forskningsledere-section {
+    background-color: #c0c0c0;
+  }
+
+  .bestyrelse-section {
+    background-color: #b0b0b0;
+  }
+
+  .section-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
 </style>
 
 <!-- Ny Baggrundsfarve for Organization sektion -->
-<div style="background-color: #EBF8FF; width: 100vw; margin-left: calc(50% - 50vw); padding-top: 0;">
-  <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+<div class="section organization-section">
+  <div class="section-content">
     <h2>Organization</h2>
     <strong style="font-size: 1.5em;">Organizationdiagram</strong>
     <img src="/assets/img/Organisationsdiagram.png" alt="Organizational Diagram">
@@ -24,8 +63,8 @@ nav_order:
 </div>
 
 <!-- Ny Baggrundsfarve for Centerledere sektion -->
-<div style="background-color: #f2f2f2; width: 100vw; margin-left: calc(50% - 50vw); padding-top: 0;">
-  <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+<div class="section centerledere-section">
+  <div class="section-content">
     <h3 style="color: #004062;">Centerledere</h3>
     <div class="container mt-5">
       <div class="row">
@@ -84,8 +123,8 @@ nav_order:
 </div>
 
 <!-- Ny Baggrundsfarve for Styregruppe sektion -->
-<div style="background-color: #d0d0d0; width: 100vw; margin-left: calc(50% - 50vw);">
-  <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+<div class="section styregruppe-section">
+  <div class="section-content">
     <h3>Styregruppe</h3>
     <ul>
       <li>Malene Fischer</li>
@@ -103,8 +142,8 @@ nav_order:
 </div>
 
 <!-- Ny Baggrundsfarve for AI Forskningsledere sektion -->
-<div style="background-color: #c0c0c0; width: 100vw; margin-left: calc(50% - 50vw);">
-  <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+<div class="section ai-forskningsledere-section">
+  <div class="section-content">
     <h3>AI Forskningsledere</h3>
     <ul>
       <li>Claes Ladefoged</li>
@@ -114,8 +153,8 @@ nav_order:
 </div>
 
 <!-- Ny Baggrundsfarve for Bestyrelse sektion -->
-<div style="background-color: #b0b0b0; width: 100vw; margin-left: calc(50% - 50vw);">
-  <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+<div class="section bestyrelse-section">
+  <div class="section-content">
     <h3>Bestyrelse</h3>
     <ul>
       <li>Malene Fischer</li>
