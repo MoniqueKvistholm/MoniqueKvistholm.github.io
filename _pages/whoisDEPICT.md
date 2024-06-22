@@ -16,9 +16,9 @@ nav_order:
   }
   .hero-image {
     flex: 1;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+    width: auto;
+    height: 100%;
+    object-fit: contain; /* Ændret fra cover til contain */
   }
   .hero-content {
     flex: 1;
@@ -31,8 +31,8 @@ nav_order:
     margin-bottom: 20px;
   }
   .hero-content p {
-    font-size: 1.5em;
-    line-height: 1.6;
+    font-size: 1.2em; /* Mindre tekststørrelse */
+    line-height: 1.5; /* Mindre linjeafstand */
   }
   .section {
     width: 100vw;
@@ -66,7 +66,9 @@ nav_order:
   <img src="/assets/img/Design1.jpg" alt="Illustrationsbillede" class="hero-image">
   <div class="hero-content">
     <h1>Om DEPICT</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam ac erat ante.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam ac erat ante. Ut quis quam vel arcu lacinia feugiat id et nisl.</p>
+    <p>Nullam tincidunt arcu non eros eleifend, sit amet fermentum felis facilisis. Integer hendrerit vel risus vel eleifend. Mauris venenatis, odio id accumsan tincidunt, eros ligula hendrerit urna, non ultricies nisi ex id ipsum.</p>
+    <p>Curabitur sollicitudin fermentum justo nec vestibulum. Suspendisse potenti. Nullam nec sapien nec ipsum malesuada consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
   </div>
 </div>
 
