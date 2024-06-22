@@ -60,12 +60,13 @@ nav_order:
 
   .centerledere-section .leader-box {
     margin-bottom: 30px; /* Tilføj margin mellem hver leader box */
+    padding: 20px; /* Tilføj padding inden i leader box */
   }
 
   .centerledere-section img {
-    width: 200px; /* Juster størrelsen på lederbillederne efter behov */
-    height: 200px;
-    border-radius: 0%; /* Rundede hjørner til billederne */
+    width: 100%; /* Juster størrelsen på lederbillederne efter behov */
+    height: auto;
+    border-radius: 0; /* Fjern afrundede hjørner */
   }
 </style>
 
@@ -86,10 +87,10 @@ nav_order:
     <div class="container mt-5">
       <div class="row">
         <div class="col-md-6">
-          <div class="leader-box p-3 border rounded shadow-sm">
+          <div class="leader-box p-3">
             <div class="row">
               <div class="col-4">
-                <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Andersen" class="img-fluid rounded-circle">
+                <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Andersen" class="img-fluid rounded-0">
               </div>
               <div class="col-8">
                 <h4 class="mb-3">Flemming Andersen</h4>
@@ -111,10 +112,10 @@ nav_order:
         </div>
 
         <div class="col-md-6">
-          <div class="leader-box p-3 border rounded shadow-sm">
+          <div class="leader-box p-3">
             <div class="row">
               <div class="col-4">
-                <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen" class="img-fluid rounded-circle">
+                <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen" class="img-fluid rounded-0">
               </div>
               <div class="col-8">
                 <h4 class="mb-3">Adam Espe Hansen</h4>
