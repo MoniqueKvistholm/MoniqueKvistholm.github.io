@@ -13,8 +13,8 @@ nav_order:
   }
 </style>
 
-<!-- Baggrundsfarve for Organization sektion -->
-<div style="background-color: #EBF8FF; width: 100vw; margin-left: calc(50% - 45vw);">
+<!-- Ny Baggrundsfarve for Organization sektion -->
+<div style="background-color: #EBF8FF; width: 100vw; margin-left: calc(50% - 50vw); padding-top: 0;">
   <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
     <h2>Organization</h2>
     <strong style="font-size: 1.5em;">Organizationdiagram</strong>
