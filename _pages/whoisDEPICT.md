@@ -1,103 +1,192 @@
 ---
 layout: page2
-permalink: /whoisDEPICT/
-title: Who is DEPICT
+permalink: /organization/
+title: Organization
 nav: false
 nav_order: 
 ---
 
 <style>
-  .hero-section {
-    display: flex;
-    align-items: center;
-    height: 600px; /* Juster højden efter behov */
-    background-color: #9DC0D1;
-    overflow: hidden;
+  /* Tilføjet styling for at justere størrelsen af .leader-box */
+  .leader-box {
+    max-width: 550px; /* Juster bredden efter behov */
+    margin-bottom: 30px; /* Tilføj margin mellem hver leader box */
+    padding: 20px; /* Tilføj padding inden i leader box */
+    display: flex; /* Flexbox for at justere layout */
+    align-items: center; /* Centrer indhold vertikalt */
   }
-  .hero-image {
-    flex: 1;
-    width: auto;
-    height: 100%;
-    object-fit: contain; /* Ændret fra cover til contain */
+
+  /* Fjern margin og padding fra body */
+  body {
+    margin: 0;
+    padding: 0;
   }
-  .hero-content {
-    flex: 1;
-    padding: 0 20px;
-    text-align: center;
-    color: #004062;
-  }
-  .hero-content h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-  }
-  .hero-content p {
-    font-size: 1.2em; /* Mindre tekststørrelse */
-    line-height: 1.5; /* Mindre linjeafstand */
-  }
+
+  /* Stil for hver sektion */
   .section {
     width: 100vw;
     margin-left: calc(50% - 50vw);
-    padding: 40px 0;
+    padding-top: 0; /* Fjern top padding for at sikre ingen ekstra plads øverst */
   }
-  .content {
+
+  /* Stil for hver sektion med specifik baggrundsfarve */
+  .organization-section {
+    background-color: #EBF8FF; /* Ændre baggrundsfarven efter behov */
+  }
+
+  .centerledere-section {
+    background-color: #f2f2f2;
+    text-align: center; /* Centrer overskriften */
+    padding-top: 50px; /* Juster afstanden til overskriften "Centerledere" */
+  }
+
+  .styregruppe-section {
+    background-color: #d0d0d0;
+  }
+
+  .ai-forskningsledere-section {
+    background-color: #c0c0c0;
+  }
+
+  .bestyrelse-section {
+    background-color: #b0b0b0;
+  }
+
+  /* Stil for indhold i hver sektion */
+  .section-content {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
   }
-  .section-title {
-    color: #004062;
-    font-size: 2em;
-    margin-bottom: 20px;
+
+  /* Tilpasning til centerledere-sektion */
+  .centerledere-section .container {
+    padding: 20px 0; /* Tilføj lidt padding over og under containeren */
   }
-  .vision-list {
-    list-style-type: none;
-    padding: 0;
+
+  .centerledere-section .leader-box {
+    margin-bottom: 50px; /* Øget margin mellem hver leader box */
+    text-align: left; /* Venstrestil tekst */
   }
-  .vision-item {
-    background-color: #f2f2f2;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    padding: 20px;
+
+  .centerledere-section img {
+    width: 200px; /* Juster størrelsen på lederbillederne */
+    height: 200px;
+    margin-right: 20px; /* Margin til højre for at adskille billedet fra teksten */
+    border-radius: 0; /* Fjern afrundede hjørner */
+  }
+
+  /* Juster overskriftsstørrelse for Centerledere */
+  .centerledere-section h3 {
+    font-size: 2em; /* Større overskriftsstørrelse */
+    margin-bottom: 20px; /* Mindre margin nederst i overskriften */
+  }
+
+  /* Juster tekstens placering i .leader-box */
+  .leader-box .ml-3 {
+    flex: 1; /* Få tekstindholdet til at fylde resten af pladsen i .leader-box */
   }
 </style>
 
-<!-- Hero Section with Large Image and Text Overlay -->
-<div class="hero-section">
-  <img src="/assets/img/Design1.jpg" alt="Illustrationsbillede" class="hero-image">
-  <div class="hero-content">
-    <h1>Om DEPICT</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam ac erat ante. Ut quis quam vel arcu lacinia feugiat id et nisl.</p>
-    <p>Nullam tincidunt arcu non eros eleifend, sit amet fermentum felis facilisis. Integer hendrerit vel risus vel eleifend. Mauris venenatis, odio id accumsan tincidunt, eros ligula hendrerit urna, non ultricies nisi ex id ipsum.</p>
-    <p>Curabitur sollicitudin fermentum justo nec vestibulum. Suspendisse potenti. Nullam nec sapien nec ipsum malesuada consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+<!-- Ny Baggrundsfarve for Organization sektion -->
+<div class="section organization-section">
+  <div class="section-content">
+    <h2>Organization</h2>
+    <strong style="font-size: 1.5em;">Organizationdiagram</strong>
+    <img src="/assets/img/Organisationsdiagram.png" alt="Organizational Diagram">
+    <p>*Her indsættes et organisationsdiagram*</p>
   </div>
 </div>
 
-<!-- About Us Section -->
-<div class="section" style="background-color: #f9f9f9;">
-  <div class="content">
-    <h2 class="section-title">Who We Are</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam ac erat ante.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam ac erat ante.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam ac erat ante.</p>
+<!-- Ny Baggrundsfarve for Centerledere sektion -->
+<div class="section centerledere-section">
+  <div class="section-content">
+    <h3 style="color: #004062;">Centerledere</h3>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="leader-box">
+            <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Andersen" class="img-fluid rounded-0">
+            <div class="ml-3">
+              <h4 class="mb-3">Flemming Andersen</h4>
+              <div class="contact-item">
+                <strong>Email:</strong>
+                <span><a href="mailto:flemming.andersen@regionh.dk">flemming.andersen@regionh.dk</a></span>
+              </div>
+              <div class="contact-item">
+                <strong>Tlf:</strong>
+                <span>+45 35-45 81-43</span>
+              </div>
+              <div class="contact-item">
+                <strong>Placering:</strong>
+                <span>3982, Klinisk Fysiologi og Nuklearmedicin</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="leader-box">
+            <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen" class="img-fluid rounded-0">
+            <div class="ml-3">
+              <h4 class="mb-3">Adam Espe Hansen</h4>
+              <div class="contact-item">
+                <strong>Email:</strong>
+                <span><a href="mailto:adam.espe.hansen@regionh.dk">adam.espe.hansen@regionh.dk</a></span>
+              </div>
+              <div class="contact-item">
+                <strong>Tlf:</strong>
+                <span>+45 35-45 84-60</span>
+              </div>
+              <div class="contact-item">
+                <strong>Placering:</strong>
+                <span>3023, Røntgen og Skanning</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
-<!-- Vision Section -->
-<div class="section" style="background-color: #d0d0d0;">
-  <div class="content">
-    <h2 class="section-title">Our Vision</h2>
-    <ul class="vision-list">
-      <li class="vision-item">Vision 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-      <li class="vision-item">Vision 2: Vivamus lacinia odio vitae vestibulum vestibulum.</li>
-      <li class="vision-item">Vision 3: Cras venenatis euismod malesuada.</li>
+<!-- Ny Baggrundsfarve for Styregruppe sektion -->
+<div class="section styregruppe-section">
+  <div class="section-content">
+    <h3>Styregruppe</h3>
+    <ul>
+      <li>Malene Fischer</li>
+      <li>Flemming Littrup Andersen</li>
+      <li>Claes Ladefoged</li>
+      <li>Adam Espe Hansen</li>
+      <li>Michael Bachmann Nielsen</li>
+      <li>Jonathan Carlsen</li>
+      <li>Martin Lundsgaard</li>
+      <li>Jann Mortensen</li>
+      <li>Ida Robsøe</li>
+      <li>Johnny Madelung</li>
     </ul>
   </div>
 </div>
 
-<!-- Additional Sections -->
-<div class="section" style="background-color: #c0c0c0;">
-  <div class="content">
-    <h2 class="section-title">Additional Information</h2>
-    <p>Additional content can be added here, such as more information about your organization, testimonials, case studies, etc.</p>
+<!-- Ny Baggrundsfarve for AI Forskningsledere sektion -->
+<div class="section ai-forskningsledere-section">
+  <div class="section-content">
+    <h3>AI Forskningsledere</h3>
+    <ul>
+      <li>Claes Ladefoged</li>
+      <li>Michael Bachman</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Ny Baggrundsfarve for Bestyrelse sektion -->
+<div class="section bestyrelse-section">
+  <div class="section-content">
+    <h3>Bestyrelse</h3>
+    <ul>
+      <li>Malene Fischer</li>
+      <li>Martin Lundsgaard</li>
+    </ul>
   </div>
 </div>
