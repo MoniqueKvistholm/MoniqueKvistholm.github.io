@@ -9,9 +9,7 @@ nav_order:
 <style>
   /* Tilføjet styling for at justere størrelsen af .leader-box */
   .leader-box {
-    max-width: 400px; /* Juster bredden efter behov */
-    border: none; /* Fjern kassen omkring leader-box */
-    padding: 10px; /* Tilføj lidt indre padding */
+    max-width: 550px; /* Juster bredden efter behov */
   }
 
   /* Fjern margin og padding fra body */
@@ -61,13 +59,13 @@ nav_order:
   }
 
   .centerledere-section .leader-box {
-    margin-bottom: 20px; /* Tilføj margin mellem hver leader box */
+    margin-bottom: 30px; /* Tilføj margin mellem hver leader box */
   }
 
   .centerledere-section img {
-    width: 100px; /* Juster størrelsen på lederbillederne efter behov */
-    height: 100px;
-    border-radius: 0; /* Fjern runde hjørner fra billederne */
+    width: 200px; /* Juster størrelsen på lederbillederne efter behov */
+    height: 200px;
+    border-radius: 0%; /* Rundede hjørner til billederne */
   }
 </style>
 
@@ -88,10 +86,10 @@ nav_order:
     <div class="container mt-5">
       <div class="row">
         <div class="col-md-6">
-          <div class="leader-box p-3 rounded shadow-sm">
+          <div class="leader-box p-3 border rounded shadow-sm">
             <div class="row">
               <div class="col-4">
-                <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Andersen" class="img-fluid">
+                <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Andersen" class="img-fluid rounded-circle">
               </div>
               <div class="col-8">
                 <h4 class="mb-3">Flemming Andersen</h4>
@@ -113,10 +111,10 @@ nav_order:
         </div>
 
         <div class="col-md-6">
-          <div class="leader-box p-3 rounded shadow-sm">
+          <div class="leader-box p-3 border rounded shadow-sm">
             <div class="row">
               <div class="col-4">
-                <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen" class="img-fluid">
+                <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen" class="img-fluid rounded-circle">
               </div>
               <div class="col-8">
                 <h4 class="mb-3">Adam Espe Hansen</h4>
