@@ -7,18 +7,20 @@ nav_order:
 ---
 
 <style>
+  body {
+    margin: 0; /* Fjern standard margener */
+  }
   .hero-section {
     display: flex;
     align-items: center;
-    height: 600px; /* Juster højden efter behov */
+    height: 100vh; /* Fyld hele viewportens højde */
     background-color: #9DC0D1;
-    overflow: hidden;
   }
   .hero-image {
     flex: 1;
     width: auto;
     height: 100%;
-    object-fit: contain; /* Ændret fra cover til contain */
+    object-fit: cover; /* Billede fylder hele højden */
   }
   .hero-content {
     flex: 1;
@@ -31,13 +33,12 @@ nav_order:
     margin-bottom: 20px;
   }
   .hero-content p {
-    font-size: 1.2em; /* Mindre tekststørrelse */
-    line-height: 1.5; /* Mindre linjeafstand */
+    font-size: 1.2em;
+    line-height: 1.5;
   }
   .section {
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
-    padding: 40px 0;
+    width: 100vw; /* Fyld viewportens bredde */
+    padding: 40px 20px; /* Juster padding efter behov */
   }
   .content {
     max-width: 1200px;
