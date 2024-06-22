@@ -10,37 +10,29 @@ nav_order:
   .hero-section {
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 600px; /* Øget højden af hero-sektionen */
+    height: 600px; /* Juster højden efter behov */
     background-color: #9DC0D1;
     overflow: hidden;
-    position: relative;
   }
   .hero-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+    flex: 1;
+    width: auto;
     height: 100%;
-    object-fit: cover;
-    z-index: -1;
+    object-fit: contain; /* Ændret fra cover til contain */
   }
   .hero-content {
-    max-width: 50%;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9); /* Transparent hvid baggrund */
+    flex: 1;
+    padding: 0 20px;
     text-align: center;
     color: #004062;
-    font-size: 1.2em; /* Mindre tekststørrelse */
-    line-height: 1.5; /* Mindre linjeafstand */
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Skyggeeffekt */
-    position: relative;
-    z-index: 1;
   }
   .hero-content h1 {
     font-size: 3em;
     margin-bottom: 20px;
+  }
+  .hero-content p {
+    font-size: 1.2em; /* Mindre tekststørrelse */
+    line-height: 1.5; /* Mindre linjeafstand */
   }
   .section {
     width: 100vw;
