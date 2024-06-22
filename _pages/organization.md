@@ -9,9 +9,9 @@ nav_order:
 <style>
   /* Tilføjet styling for at justere størrelsen af .leader-box */
   .leader-box {
-    max-width: 400px; /* Juster bredden efter behov */
-    margin-bottom: 50px; /* Øget margin mellem hver leader box */
-    padding: 100px; /* Tilføj padding inden i leader box */
+    max-width: 200px; /* Juster bredden efter behov */
+    margin-bottom: 20px; /* Øget margin mellem hver leader box */
+    padding: 10px; /* Tilføj padding inden i leader box */
     display: flex; /* Flexbox for at justere layout */
     align-items: center; /* Centrer indhold vertikalt */
   }
