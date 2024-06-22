@@ -1,5 +1,5 @@
 ---
-layout: default2
+layout: page2
 permalink: /organization/
 title: Organization
 nav: false
