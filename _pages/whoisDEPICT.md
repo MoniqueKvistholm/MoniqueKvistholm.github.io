@@ -13,7 +13,7 @@ nav_order:
     margin-bottom: 30px; /* Tilføj margin mellem hver leader box */
     padding: 20px; /* Tilføj padding inden i leader box */
     display: flex; /* Flexbox for at justere layout */
-    align-items: center; /* Centrer indhold vertikalt */
+    align-items: center; /* Centrer indhold vertikalt */ 
   }
 
   /* Fjern margin og padding fra body */
