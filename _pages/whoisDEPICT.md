@@ -1,5 +1,5 @@
 ---
-layout: default2
+layout: page2
 permalink: /whoisDEPICT/
 title: Who is DEPICT
 nav: false
