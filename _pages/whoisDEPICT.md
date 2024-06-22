@@ -1,8 +1,8 @@
 ---
 layout: default2
-permalink: /who-is-depict/
-title: Who is Depict?
-nav: true
+permalink: /whoisDEPICT/
+title: Who is DEPICT
+nav: false
 nav_order: 
 ---
 
