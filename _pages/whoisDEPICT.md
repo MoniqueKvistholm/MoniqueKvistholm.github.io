@@ -24,16 +24,17 @@ nav_order:
   }
   .hero-content {
     flex: 1;
-    padding: 40px 20px; /* Juster padding for at øge højden på boksen */
-    text-align: center;
+    padding: 80px 40px; /* Juster padding for at øge højden på boksen */
+    text-align: left; /* Venstrestil tekst */
     color: #004062;
-    background-color: #B5D3E7; /* Lysere blå baggrundsfarve */
+    background-color: #F0F0F0; /* Knækket hvid baggrundsfarve */
     border-radius: 10px; /* Afrundede kanter */
   }
   .hero-content h1 {
     font-size: 2.5em; /* Mindre font-størrelse */
     font-weight: bold; /* Federe tekst */
     margin-bottom: 20px;
+    color: #1F4A60; /* Overskriftens farve */
   }
   .hero-content p {
     font-size: 1.2em;
@@ -49,7 +50,7 @@ nav_order:
     padding: 20px;
   }
   .section-title {
-    color: #004062;
+    color: #1F4A60; /* Overskriftens farve */
     font-size: 1.8em; /* Mindre font-størrelse */
     font-weight: bold; /* Federe tekst */
     margin-bottom: 20px;
@@ -103,4 +104,6 @@ nav_order:
 <div class="section" style="background-color: #c0c0c0;">
   <div class="content">
     <h2 class="section-title">Additional Information</h2>
-    <p>Additional content can be added here, such as more information about your organization, testimonials, case studies, e
+    <p>Additional content can be added here, such as more information about your organization, testimonials, case studies, etc.</p>
+  </div>
+</div>
