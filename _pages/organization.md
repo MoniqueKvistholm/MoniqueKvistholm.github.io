@@ -12,6 +12,8 @@ nav_order:
     max-width: 550px; /* Juster bredden efter behov */
     margin-bottom: 30px; /* Tilføj margin mellem hver leader box */
     padding: 20px; /* Tilføj padding inden i leader box */
+    display: flex; /* Flexbox for at justere layout */
+    align-items: center; /* Centrer indhold vertikalt */
   }
 
   /* Fjern margin og padding fra body */
@@ -34,6 +36,8 @@ nav_order:
 
   .centerledere-section {
     background-color: #f2f2f2;
+    text-align: center; /* Centrer overskriften */
+    padding-top: 50px; /* Juster afstanden til overskriften "Centerledere" */
   }
 
   .styregruppe-section {
@@ -62,28 +66,20 @@ nav_order:
 
   .centerledere-section .leader-box {
     margin-bottom: 50px; /* Øget margin mellem hver leader box */
+    text-align: left; /* Venstrestil tekst */
   }
 
   .centerledere-section img {
-    width: auto; /* Automatisk bredde tilpasset størrelsen af billedet */
-    height: 200px; /* Fast højde for at holde størrelsen ensartet */
+    width: 200px; /* Juster størrelsen på lederbillederne */
+    height: 200px;
     margin-right: 20px; /* Margin til højre for at adskille billedet fra teksten */
+    border-radius: 0; /* Fjern afrundede hjørner */
   }
 
   /* Juster overskriftsstørrelse for Centerledere */
   .centerledere-section h3 {
     font-size: 2em; /* Større overskriftsstørrelse */
     margin-bottom: 20px; /* Mindre margin nederst i overskriften */
-    text-align: center; /* Centrer overskriften */
-  }
-
-  /* Stil for teksten ved siden af billedet */
-  .centerledere-section .leader-details {
-    flex: 1;
-  }
-
-  .centerledere-section .leader-details h4 {
-    margin-top: 0; /* Fjern topmargin for at få teksten til at starte ved billedet */
   }
 </style>
 
@@ -100,15 +96,13 @@ nav_order:
 <!-- Ny Baggrundsfarve for Centerledere sektion -->
 <div class="section centerledere-section">
   <div class="section-content">
-    <h3 style="color: #004062; text-align: center;">Centerledere</h3>
+    <h3 style="color: #004062;">Centerledere</h3>
     <div class="container mt-5">
       <div class="row">
         <div class="col-md-6">
-          <div class="leader-box d-flex">
-            <div class="col-4">
-              <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Andersen" class="img-fluid rounded-0">
-            </div>
-            <div class="col-8 leader-details">
+          <div class="leader-box">
+            <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Andersen" class="img-fluid rounded-0">
+            <div class="ml-3">
               <h4 class="mb-3">Flemming Andersen</h4>
               <div class="contact-item">
                 <strong>Email:</strong>
@@ -127,11 +121,9 @@ nav_order:
         </div>
 
         <div class="col-md-6">
-          <div class="leader-box d-flex">
-            <div class="col-4">
-              <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen" class="img-fluid rounded-0">
-            </div>
-            <div class="col-8 leader-details">
+          <div class="leader-box">
+            <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen" class="img-fluid rounded-0">
+            <div class="ml-3">
               <h4 class="mb-3">Adam Espe Hansen</h4>
               <div class="contact-item">
                 <strong>Email:</strong>
