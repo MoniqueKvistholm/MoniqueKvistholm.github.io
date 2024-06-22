@@ -11,7 +11,7 @@ nav_order:
     display: flex;
     align-items: center;
     height: 600px; /* Juster højden efter behov */
-    background-color: #EBF8FF;
+    background-color: #9DC0D1;
     overflow: hidden;
   }
   .hero-image {
