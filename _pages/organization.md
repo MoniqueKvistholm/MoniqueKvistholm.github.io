@@ -52,6 +52,21 @@ nav_order:
     margin: 0 auto;
     padding: 20px;
   }
+
+  /* Tilpasning til centerledere-sektion */
+  .centerledere-section .container {
+    padding: 20px 0; /* Tilføj lidt padding over og under containeren */
+  }
+
+  .centerledere-section .leader-box {
+    margin-bottom: 20px; /* Tilføj margin mellem hver leader box */
+  }
+
+  .centerledere-section img {
+    width: 100px; /* Juster størrelsen på lederbillederne efter behov */
+    height: 100px;
+    border-radius: 50%; /* Rundede hjørner til billederne */
+  }
 </style>
 
 <!-- Ny Baggrundsfarve for Organization sektion -->
@@ -68,7 +83,59 @@ nav_order:
 <div class="section centerledere-section">
   <div class="section-content">
     <h3 style="color: #004062;">Centerledere</h3>
-    <!-- Indsæt indhold for centerledere her -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="leader-box p-3 border rounded shadow-sm">
+            <div class="row">
+              <div class="col-4">
+                <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Andersen" class="img-fluid rounded-circle">
+              </div>
+              <div class="col-8">
+                <h4 class="mb-3">Flemming Andersen</h4>
+                <div class="contact-item">
+                  <strong>Email:</strong>
+                  <span><a href="mailto:flemming.andersen@regionh.dk">flemming.andersen@regionh.dk</a></span>
+                </div>
+                <div class="contact-item">
+                  <strong>Tlf:</strong>
+                  <span>+45 35-45 81-43</span>
+                </div>
+                <div class="contact-item">
+                  <strong>Placering:</strong>
+                  <span>3982, Klinisk Fysiologi og Nuklearmedicin</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="leader-box p-3 border rounded shadow-sm">
+            <div class="row">
+              <div class="col-4">
+                <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen" class="img-fluid rounded-circle">
+              </div>
+              <div class="col-8">
+                <h4 class="mb-3">Adam Espe Hansen</h4>
+                <div class="contact-item">
+                  <strong>Email:</strong>
+                  <span><a href="mailto:adam.espe.hansen@regionh.dk">adam.espe.hansen@regionh.dk</a></span>
+                </div>
+                <div class="contact-item">
+                  <strong>Tlf:</strong>
+                  <span>+45 35-45 84-60</span>
+                </div>
+                <div class="contact-item">
+                  <strong>Placering:</strong>
+                  <span>3023, Røntgen og Skanning</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
