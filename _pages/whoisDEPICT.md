@@ -8,25 +8,21 @@ nav_order:
 
 <style>
   .hero-section {
-    position: relative;
+    display: flex;
+    align-items: center;
     height: 600px; /* Juster højden efter behov */
     background-color: #EBF8FF;
     overflow: hidden;
   }
   .hero-image {
-    position: absolute;
-    top: 0;
-    left: 0;
+    flex: 1;
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
-    z-index: -1;
   }
   .hero-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    flex: 1;
+    padding: 0 20px;
     text-align: center;
     color: #004062;
   }
@@ -67,9 +63,9 @@ nav_order:
 
 <!-- Hero Section with Large Image and Text Overlay -->
 <div class="hero-section">
-  <img src="/assets/img/7.jpg" alt="Who is Depict?" class="hero-image">
+  <img src="/assets/img/Design1.jpg" alt="Illustrationsbillede" class="hero-image">
   <div class="hero-content">
-    <h1>Who is Depict?</h1>
+    <h1>Om DEPICT</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam ac erat ante.</p>
   </div>
 </div>
