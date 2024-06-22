@@ -10,6 +10,8 @@ nav_order:
   /* Tilføjet styling for at justere størrelsen af .leader-box */
   .leader-box {
     max-width: 550px; /* Juster bredden efter behov */
+    margin-bottom: 30px; /* Tilføj margin mellem hver leader box */
+    padding: 20px; /* Tilføj padding inden i leader box */
   }
 
   /* Fjern margin og padding fra body */
@@ -32,6 +34,7 @@ nav_order:
 
   .centerledere-section {
     background-color: #f2f2f2;
+    padding-top: 50px; /* Juster afstanden til overskriften "Centerledere" */
   }
 
   .styregruppe-section {
@@ -59,14 +62,20 @@ nav_order:
   }
 
   .centerledere-section .leader-box {
-    margin-bottom: 30px; /* Tilføj margin mellem hver leader box */
-    padding: 20px; /* Tilføj padding inden i leader box */
+    margin-bottom: 50px; /* Øget margin mellem hver leader box */
   }
 
   .centerledere-section img {
     width: 100%; /* Juster størrelsen på lederbillederne efter behov */
     height: auto;
     border-radius: 0; /* Fjern afrundede hjørner */
+  }
+
+  /* Juster overskriftsstørrelse for Centerledere */
+  .centerledere-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
   }
 </style>
 
@@ -87,12 +96,12 @@ nav_order:
     <div class="container mt-5">
       <div class="row">
         <div class="col-md-6">
-          <div class="leader-box p-3">
+          <div class="leader-box">
             <div class="row">
-              <div class="col-4">
+              <div class="col-12">
                 <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Andersen" class="img-fluid rounded-0">
               </div>
-              <div class="col-8">
+              <div class="col-12 mt-3">
                 <h4 class="mb-3">Flemming Andersen</h4>
                 <div class="contact-item">
                   <strong>Email:</strong>
@@ -112,12 +121,12 @@ nav_order:
         </div>
 
         <div class="col-md-6">
-          <div class="leader-box p-3">
+          <div class="leader-box">
             <div class="row">
-              <div class="col-4">
+              <div class="col-12">
                 <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen" class="img-fluid rounded-0">
               </div>
-              <div class="col-8">
+              <div class="col-12 mt-3">
                 <h4 class="mb-3">Adam Espe Hansen</h4>
                 <div class="contact-item">
                   <strong>Email:</strong>
