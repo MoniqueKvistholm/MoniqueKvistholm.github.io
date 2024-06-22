@@ -7,6 +7,37 @@ nav_order:
 ---
 
 <style>
+  .hero-section {
+    position: relative;
+    height: 600px; /* Juster højden efter behov */
+    background-color: #EBF8FF;
+    overflow: hidden;
+  }
+  .hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #004062;
+  }
+  .hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  .hero-content p {
+    font-size: 1.5em;
+    line-height: 1.6;
+  }
   .section {
     width: 100vw;
     margin-left: calc(50% - 50vw);
@@ -16,10 +47,6 @@ nav_order:
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-  }
-  .header-image {
-    width: 100%;
-    height: auto;
   }
   .section-title {
     color: #004062;
@@ -38,10 +65,12 @@ nav_order:
   }
 </style>
 
-<!-- Header Image Section -->
-<div class="section" style="background-color: #EBF8FF;">
-  <div class="content">
-    <img src="/assets/img/7.jpg" alt="Who is Depict?" class="header-image">
+<!-- Hero Section with Large Image and Text Overlay -->
+<div class="hero-section">
+  <img src="/assets/img/7.jpg" alt="Who is Depict?" class="hero-image">
+  <div class="hero-content">
+    <h1>Who is Depict?</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam ac erat ante.</p>
   </div>
 </div>
 
