@@ -34,7 +34,6 @@ nav_order:
 
   .centerledere-section {
     background-color: #f2f2f2;
-    padding-top: 50px; /* Juster afstanden til overskriften "Centerledere" */
   }
 
   .styregruppe-section {
@@ -66,16 +65,25 @@ nav_order:
   }
 
   .centerledere-section img {
-    width: 100%; /* Juster størrelsen på lederbillederne efter behov */
-    height: auto;
-    border-radius: 0; /* Fjern afrundede hjørner */
+    width: auto; /* Automatisk bredde tilpasset størrelsen af billedet */
+    height: 200px; /* Fast højde for at holde størrelsen ensartet */
+    margin-right: 20px; /* Margin til højre for at adskille billedet fra teksten */
   }
 
   /* Juster overskriftsstørrelse for Centerledere */
   .centerledere-section h3 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    text-align: center;
+    font-size: 2em; /* Større overskriftsstørrelse */
+    margin-bottom: 20px; /* Mindre margin nederst i overskriften */
+    text-align: center; /* Centrer overskriften */
+  }
+
+  /* Stil for teksten ved siden af billedet */
+  .centerledere-section .leader-details {
+    flex: 1;
+  }
+
+  .centerledere-section .leader-details h4 {
+    margin-top: 0; /* Fjern topmargin for at få teksten til at starte ved billedet */
   }
 </style>
 
@@ -92,54 +100,50 @@ nav_order:
 <!-- Ny Baggrundsfarve for Centerledere sektion -->
 <div class="section centerledere-section">
   <div class="section-content">
-    <h3 style="color: #004062;">Centerledere</h3>
+    <h3 style="color: #004062; text-align: center;">Centerledere</h3>
     <div class="container mt-5">
       <div class="row">
         <div class="col-md-6">
-          <div class="leader-box">
-            <div class="row">
-              <div class="col-12">
-                <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Andersen" class="img-fluid rounded-0">
+          <div class="leader-box d-flex">
+            <div class="col-4">
+              <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Andersen" class="img-fluid rounded-0">
+            </div>
+            <div class="col-8 leader-details">
+              <h4 class="mb-3">Flemming Andersen</h4>
+              <div class="contact-item">
+                <strong>Email:</strong>
+                <span><a href="mailto:flemming.andersen@regionh.dk">flemming.andersen@regionh.dk</a></span>
               </div>
-              <div class="col-12 mt-3">
-                <h4 class="mb-3">Flemming Andersen</h4>
-                <div class="contact-item">
-                  <strong>Email:</strong>
-                  <span><a href="mailto:flemming.andersen@regionh.dk">flemming.andersen@regionh.dk</a></span>
-                </div>
-                <div class="contact-item">
-                  <strong>Tlf:</strong>
-                  <span>+45 35-45 81-43</span>
-                </div>
-                <div class="contact-item">
-                  <strong>Placering:</strong>
-                  <span>3982, Klinisk Fysiologi og Nuklearmedicin</span>
-                </div>
+              <div class="contact-item">
+                <strong>Tlf:</strong>
+                <span>+45 35-45 81-43</span>
+              </div>
+              <div class="contact-item">
+                <strong>Placering:</strong>
+                <span>3982, Klinisk Fysiologi og Nuklearmedicin</span>
               </div>
             </div>
           </div>
         </div>
 
         <div class="col-md-6">
-          <div class="leader-box">
-            <div class="row">
-              <div class="col-12">
-                <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen" class="img-fluid rounded-0">
+          <div class="leader-box d-flex">
+            <div class="col-4">
+              <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen" class="img-fluid rounded-0">
+            </div>
+            <div class="col-8 leader-details">
+              <h4 class="mb-3">Adam Espe Hansen</h4>
+              <div class="contact-item">
+                <strong>Email:</strong>
+                <span><a href="mailto:adam.espe.hansen@regionh.dk">adam.espe.hansen@regionh.dk</a></span>
               </div>
-              <div class="col-12 mt-3">
-                <h4 class="mb-3">Adam Espe Hansen</h4>
-                <div class="contact-item">
-                  <strong>Email:</strong>
-                  <span><a href="mailto:adam.espe.hansen@regionh.dk">adam.espe.hansen@regionh.dk</a></span>
-                </div>
-                <div class="contact-item">
-                  <strong>Tlf:</strong>
-                  <span>+45 35-45 84-60</span>
-                </div>
-                <div class="contact-item">
-                  <strong>Placering:</strong>
-                  <span>3023, Røntgen og Skanning</span>
-                </div>
+              <div class="contact-item">
+                <strong>Tlf:</strong>
+                <span>+45 35-45 84-60</span>
+              </div>
+              <div class="contact-item">
+                <strong>Placering:</strong>
+                <span>3023, Røntgen og Skanning</span>
               </div>
             </div>
           </div>
