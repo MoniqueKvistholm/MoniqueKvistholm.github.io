@@ -12,25 +12,26 @@ nav_order:
     max-width: 400px; /* Juster bredden efter behov */
   }
 
-  /* Ny styling for at fjerne den hvide sektion mellem menu og første sektion */
+  /* Fjern margin og padding fra body */
   body {
     margin: 0;
     padding: 0;
   }
 
+  /* Stil for hver sektion */
   .section {
     width: 100vw;
     margin-left: calc(50% - 50vw);
+    padding-top: 0; /* Fjern top padding for at sikre ingen ekstra plads øverst */
   }
 
+  /* Stil for hver sektion med specifik baggrundsfarve */
   .organization-section {
-    background-color: #EBF8FF;
-    padding-top: 0;
+    background-color: #EBF8FF; /* Ændre baggrundsfarven efter behov */
   }
 
   .centerledere-section {
     background-color: #f2f2f2;
-    padding-top: 0;
   }
 
   .styregruppe-section {
@@ -45,6 +46,7 @@ nav_order:
     background-color: #b0b0b0;
   }
 
+  /* Stil for indhold i hver sektion */
   .section-content {
     max-width: 1200px;
     margin: 0 auto;
@@ -66,59 +68,7 @@ nav_order:
 <div class="section centerledere-section">
   <div class="section-content">
     <h3 style="color: #004062;">Centerledere</h3>
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="leader-box p-3 border rounded shadow-sm">
-            <div class="row">
-              <div class="col-4">
-                <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Andersen" class="img-fluid rounded-circle">
-              </div>
-              <div class="col-8">
-                <h4 class="mb-3">Flemming Andersen</h4>
-                <div class="contact-item">
-                  <strong>Email:</strong>
-                  <span><a href="mailto:flemming.andersen@regionh.dk">flemming.andersen@regionh.dk</a></span>
-                </div>
-                <div class="contact-item">
-                  <strong>Tlf:</strong>
-                  <span>+45 35-45 81-43</span>
-                </div>
-                <div class="contact-item">
-                  <strong>Placering:</strong>
-                  <span>3982, Klinisk Fysiologi og Nuklearmedicin</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <div class="leader-box p-3 border rounded shadow-sm">
-            <div class="row">
-              <div class="col-4">
-                <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen" class="img-fluid rounded-circle">
-              </div>
-              <div class="col-8">
-                <h4 class="mb-3">Adam Espe Hansen</h4>
-                <div class="contact-item">
-                  <strong>Email:</strong>
-                  <span><a href="mailto:adam.espe.hansen@regionh.dk">adam.espe.hansen@regionh.dk</a></span>
-                </div>
-                <div class="contact-item">
-                  <strong>Tlf:</strong>
-                  <span>+45 35-45 84-60</span>
-                </div>
-                <div class="contact-item">
-                  <strong>Placering:</strong>
-                  <span>3023, Røntgen og Skanning</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- Indsæt indhold for centerledere her -->
   </div>
 </div>
 
