@@ -63,7 +63,7 @@ nav_order:
 
 <!-- Hero Section with Large Image and Text Overlay -->
 <div class="hero-section">
-  <img src="/assets/img/Design1.jpg" alt="Illustrationsbillede" class="hero-image">
+  <img src="/assets/img/Design3.jpg" alt="Illustrationsbillede" class="hero-image">
   <div class="hero-content">
     <h1>Om DEPICT</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam ac erat ante. Ut quis quam vel arcu lacinia feugiat id et nisl.</p>
