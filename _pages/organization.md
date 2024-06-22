@@ -10,7 +10,7 @@ nav_order:
   /* Tilføjet styling for at justere størrelsen af .leader-box */
   .leader-box {
     max-width: 550px; /* Juster bredden efter behov */
-    margin-bottom: 30px; /* Tilføj margin mellem hver leader box */
+    margin-bottom: 50px; /* Øget margin mellem hver leader box */
     padding: 20px; /* Tilføj padding inden i leader box */
     display: flex; /* Flexbox for at justere layout */
     align-items: center; /* Centrer indhold vertikalt */
@@ -36,7 +36,7 @@ nav_order:
 
   .centerledere-section {
     background-color: #f2f2f2;
-    text-align: center; /* Centrer overskriften */
+    text-align: left; /* Venstrejuster overskriften */
     padding-top: 50px; /* Juster afstanden til overskriften "Centerledere" */
   }
 
@@ -65,7 +65,6 @@ nav_order:
   }
 
   .centerledere-section .leader-box {
-    margin-bottom: 50px; /* Øget margin mellem hver leader box */
     text-align: left; /* Venstrestil tekst */
   }
 
