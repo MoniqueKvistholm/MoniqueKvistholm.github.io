@@ -13,7 +13,7 @@ nav_order:
   .hero-section {
     display: flex;
     align-items: center;
-    height: 1080px; /* Fyld hele viewportens højde */
+    height: 960px; /* Fyld hele viewportens højde */
     background-color: #9DC0D1;
   }
   .hero-image {
@@ -24,7 +24,7 @@ nav_order:
   }
   .hero-content {
     flex: 1;
-    padding: 80px 30px; /* Juster padding for at øge højden på boksen */
+    padding: 80px 40px; /* Juster padding for at øge højden på boksen */
     text-align: left; /* Venstrestil tekst */
     color: #004062;
     background-color: #F0F0F0; /* Knækket hvid baggrundsfarve */
