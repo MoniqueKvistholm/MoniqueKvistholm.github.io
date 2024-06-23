@@ -1,3 +1,12 @@
+---
+layout: page2
+permalink: /organization/
+title: Organization
+nav: false
+nav_order: 
+---
+
+
 /* Tilføjet styling for at justere størrelsen af .leader-box */
 .leader-box {
   max-width: 200px; /* Juster bredden efter behov */
