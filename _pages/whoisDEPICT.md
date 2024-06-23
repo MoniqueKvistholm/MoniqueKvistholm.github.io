@@ -13,6 +13,7 @@ nav_order:
   .hero-section {
     display: flex;
     height: 100vh; /* Fyld hele viewportens højde */
+    background-color: #9DC0D1;
   }
   .hero-image-container {
     flex: 1;
@@ -21,12 +22,12 @@ nav_order:
   .hero-image {
     width: 100%;
     height: 100%;
-    object-fit: contain; /* Sørg for, at hele billedet vises uden at blive afskåret */
+    object-fit: cover; /* Dæk hele højden og bredden af sektionen */
   }
   .hero-content {
     flex: 1;
     padding: 80px 40px; /* Juster padding for at øge højden på boksen */
-    text-align: left; /* Venstrestil tekst */
+    text-align: center; /* Centrer tekst */
     color: #004062;
     background-color: #F0F0F0; /* Knækket hvid baggrundsfarve */
     border-radius: 10px; /* Afrundede kanter */
@@ -47,15 +48,22 @@ nav_order:
   .section {
     width: 100vw; /* Fyld viewportens bredde */
     padding: 40px 20px; /* Juster padding efter behov */
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .content {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    text-align: center; /* Centrer teksten */
+    background-color: #F0F0F0; /* Knækket hvid baggrundsfarve */
+    border-radius: 10px; /* Afrundede kanter */
+    color: #004062;
   }
   .section-title {
     color: #1F4A60; /* Overskriftens farve */
-    font-size: 1.8em; /* Mindre font-størrelse */
+    font-size: 2.2em; /* Større font-størrelse */
     font-weight: bold; /* Federe tekst */
     margin-bottom: 20px;
   }
@@ -68,6 +76,9 @@ nav_order:
     border-radius: 5px;
     margin-bottom: 10px;
     padding: 20px;
+    font-size: 1.2em; /* Øg font-størrelsen */
+    font-weight: bold; /* Gør teksten fed */
+    line-height: 1.6;
   }
 </style>
 
@@ -98,9 +109,9 @@ nav_order:
     <h2 class="section-title">Our Vision</h2>
     <p>We aspire to shape the future of medical imaging.</p>
     <ul class="vision-list">
-      <li class="vision-item">The future of medical imaging is the right scan at the right time, tailored to the patient’s needs. </li>
+      <li class="vision-item">The future of medical imaging is the right scan at the right time, tailored to the patient’s needs.</li>
       <li class="vision-item">The future of medical imaging is supported by automatic tools that quickly and efficiently gather all necessary information, seamlessly integrated and applied for diagnostics and within clinical settings.</li>
-      <li class="vision-item">The future of medical imaging is based on interdisciplinary collaboration, the latest scanner technology, medical image analysis and artificial intelligence. </li>
+      <li class="vision-item">The future of medical imaging is based on interdisciplinary collaboration, the latest scanner technology, medical image analysis and artificial intelligence.</li>
     </ul>
   </div>
 </div>
