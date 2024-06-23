@@ -88,7 +88,7 @@ nav_order:
 <!-- Hero Section with Large Image and Text Overlay -->
 <div class="hero-section">
   <div class="hero-image-container">
-    <img src="/assets/img/Design4.jpg" alt="Illustrationsbillede" class="hero-image">
+    <img src="/assets/img/Design3.jpg" alt="Illustrationsbillede" class="hero-image">
   </div>
   <div class="hero-content">
     <h1>About DEPICT</h1>
