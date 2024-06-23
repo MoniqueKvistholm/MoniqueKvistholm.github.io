@@ -71,7 +71,7 @@ nav_order:
 <div class="hero-section">
   <img src="/assets/img/Design3.jpg" alt="Illustrationsbillede" class="hero-image">
   <div class="hero-content">
-    <h1>Om DEPICT</h1>
+    <h1>About DEPICT</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam ac erat ante. Ut quis quam vel arcu lacinia feugiat id et nisl.</p>
     <p>Nullam tincidunt arcu non eros eleifend, sit amet fermentum felis facilisis. Integer hendrerit vel risus vel eleifend. Mauris venenatis, odio id accumsan tincidunt, eros ligula hendrerit urna, non ultricies nisi ex id ipsum.</p>
     <p>Curabitur sollicitudin fermentum justo nec vestibulum. Suspendisse potenti. Nullam nec sapien nec ipsum malesuada consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
@@ -81,10 +81,8 @@ nav_order:
 <!-- About Us Section -->
 <div class="section" style="background-color: #f9f9f9;">
   <div class="content">
-    <h2 class="section-title">Who We Are</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam ac erat ante.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam ac erat ante.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam ac erat ante.</p>
+    <h2 class="section-title">Purpose and vision</h2>
+    <p>DEPICT envisions leading the way in the application of artificial intelligence and medical imaging by developing, validating, and implementing advanced and cutting-edge methods. This enables us to offer tailored solutions that meet the individual needs of each patient. Through collaboration in an interdisciplinary team, we extract image information efficiently and with minimal impact on patients, contributing to better outcomes.</p>
   </div>
 </div>
 
@@ -92,10 +90,11 @@ nav_order:
 <div class="section" style="background-color: #d0d0d0;">
   <div class="content">
     <h2 class="section-title">Our Vision</h2>
+    <p>We aspire to shape the future of medical imaging.</p>
     <ul class="vision-list">
-      <li class="vision-item">Vision 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-      <li class="vision-item">Vision 2: Vivamus lacinia odio vitae vestibulum vestibulum.</li>
-      <li class="vision-item">Vision 3: Cras venenatis euismod malesuada.</li>
+      <li class="vision-item">The future of medical imaging is the right scan at the right time, tailored to the patient’s needs. </li>
+      <li class="vision-item">The future of medical imaging is supported by automatic tools that quickly and efficiently gather all necessary information, seamlessly integrated and applied for diagnostics and within clinical settings.</li>
+      <li class="vision-item">The future of medical imaging is based on interdisciplinary collaboration, the latest scanner technology, medical image analysis and artificial intelligence. </li>
     </ul>
   </div>
 </div>
