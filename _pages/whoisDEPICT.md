@@ -12,20 +12,18 @@ nav_order:
   }
   .hero-section {
     display: flex;
-    min-height: 100vh; /* Brug min-height for at tillade sektionen at vokse */
     background-color: #9DC0D1;
   }
   .hero-image-container {
     flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start; /* Placer billedet øverst i sektionen */
     overflow: hidden; /* Skjuler overskydende indhold */
   }
   .hero-image {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain; /* Vis hele billedet uden at beskære det */
+    width: 100%;
+    height: 100%; /* Fyld hele højden af containeren */
+    object-fit: cover; /* Dæk hele bredden og tilpasser højden af billedet */
   }
   .hero-content {
     flex: 1;
