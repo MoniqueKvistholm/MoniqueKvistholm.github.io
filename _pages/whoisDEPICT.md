@@ -26,10 +26,10 @@ nav_order:
   }
   .hero-content {
     flex: 1;
-    padding: 80px 40px; /* Juster padding for at øge højden på boksen */
+    padding: 40px 20px; /* Juster padding for at øge højden på boksen */
     text-align: center; /* Centrer tekst */
     color: #004062;
-    background-color: #F0F0F0; /* Knækket hvid baggrundsfarve */
+    background-color: #F0F0F; /* Knækket hvid baggrundsfarve */
     border-radius: 10px; /* Afrundede kanter */
     display: flex;
     flex-direction: column;
@@ -85,7 +85,7 @@ nav_order:
 <!-- Hero Section with Large Image and Text Overlay -->
 <div class="hero-section">
   <div class="hero-image-container">
-    <img src="/assets/img/Design3.jpg" alt="Illustrationsbillede" class="hero-image">
+    <img src="/assets/img/Design4.jpg" alt="Illustrationsbillede" class="hero-image">
   </div>
   <div class="hero-content">
     <h1>About DEPICT</h1>
