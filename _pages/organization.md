@@ -80,10 +80,6 @@ nav_order:
     font-size: 2em; /* Større overskriftsstørrelse */
     margin-bottom: 20px; /* Mindre margin nederst i overskriften */
   }
-
-  .col-md-6:first-child {
-    margin-right: 50px; /* Tilføj margin til højre for den første kolonne */
-  }
 </style>
 
 <!-- Ny Baggrundsfarve for Organization sektion -->
