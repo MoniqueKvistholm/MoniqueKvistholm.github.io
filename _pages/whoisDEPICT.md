@@ -12,17 +12,20 @@ nav_order:
   }
   .hero-section {
     display: flex;
-    height: 100vh; /* Fyld hele viewportens højde */
+    min-height: 100vh; /* Brug min-height for at tillade sektionen at vokse */
     background-color: #9DC0D1;
   }
   .hero-image-container {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden; /* Skjuler overskydende indhold */
   }
   .hero-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Dæk hele højden og bredden af sektionen */
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Vis hele billedet uden at beskære det */
   }
   .hero-content {
     flex: 1;
