@@ -12,15 +12,16 @@ nav_order:
   }
   .hero-section {
     display: flex;
-    align-items: center;
-    height: 960px; /* Fyld hele viewportens højde */
-    background-color: #9DC0D1;
+    height: 100vh; /* Fyld hele viewportens højde */
+  }
+  .hero-image-container {
+    flex: 1;
+    overflow: hidden; /* Skjuler overskydende indhold */
   }
   .hero-image {
-    flex: 1;
-    width: auto;
+    width: 100%;
     height: 100%;
-    object-fit: cover; /* Billede fylder hele højden */
+    object-fit: contain; /* Sørg for, at hele billedet vises uden at blive afskåret */
   }
   .hero-content {
     flex: 1;
@@ -29,6 +30,9 @@ nav_order:
     color: #004062;
     background-color: #F0F0F0; /* Knækket hvid baggrundsfarve */
     border-radius: 10px; /* Afrundede kanter */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrer indholdet vertikalt */
   }
   .hero-content h1 {
     font-size: 2.5em; /* Mindre font-størrelse */
@@ -69,7 +73,9 @@ nav_order:
 
 <!-- Hero Section with Large Image and Text Overlay -->
 <div class="hero-section">
-  <img src="/assets/img/Design3.jpg" alt="Illustrationsbillede" class="hero-image">
+  <div class="hero-image-container">
+    <img src="/assets/img/Design3.jpg" alt="Illustrationsbillede" class="hero-image">
+  </div>
   <div class="hero-content">
     <h1>About DEPICT</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam ac erat ante. Ut quis quam vel arcu lacinia feugiat id et nisl.</p>
