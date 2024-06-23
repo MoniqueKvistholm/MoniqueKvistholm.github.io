@@ -1,57 +1,99 @@
 ---
-layout: page
-permalink: /publications/
-title: Publications
-nav: true
-nav_order: 3
+layout: page2
+permalink: /organization/
+title: Organization
+nav: false
+nav_order: 
 ---
 
-<span style="font-size: 1.2em;">Publications from DEPICT can be found in the departments' research registration system, PURE.</span>
-
-<div class="links-container">
-  <a href="https://research.regionh.dk/da/organisations/afdeling-for-r%c3%b8ntgen-og-skanning/publications/" class="styled-link">Research from the Department of Radiology and Imaging</a>
-  <a href="https://research.regionh.dk/da/organisations/afdeling-for-klinisk-fysiologi-og-nuklearmedicin" class="styled-link">Research from the Department of Clinical Physiology and Nuclear Medicine</a>
-</div>
-
 <style>
+  /* Tilføjet styling for at justere størrelsen af .leader-box */
+  .leader-box {
+    max-width: 200px; /* Juster bredden efter behov */
+    margin-bottom: 100px; /* Øget margin mellem hver leader box */
+    padding: 10px; /* Tilføj padding inden i leader box */
+    display: flex; /* Flexbox for at justere layout */
+    align-items: center; /* Centrer indhold vertikalt */
+  }
+
+  /* Fjern margin og padding fra body */
   body {
-    min-height: 100vh; /* Sikrer, at body fylder hele siden */
-    display: flex;
-    flex-direction: column;
+    margin: 0;
+    padding: 0;
   }
 
-  .links-container {
-    margin-top: 40px; /* Mere mellemrum her */
-    flex-grow: 1; /* Sørger for at containeren vokser for at fylde pladsen */
+  /* Stil for hver sektion */
+  .section {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    padding-top: 0; /* Fjern top padding for at sikre ingen ekstra plads øverst */
   }
 
-  .styled-link {
-    display: block;
-    padding: 15px 30px; /* Juster padding for at gøre kasserne bredere */
-    margin: 10px 0;
-    background-color: #007bff;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    width: 60%; /* Tilføjet for at gøre kasserne bredere */
-    margin-left: auto; /* Centrer kasserne horisontalt */
-    margin-right: auto; /* Centrer kasserne horisontalt */
+  /* Stil for hver sektion med specifik baggrundsfarve */
+  .organization-section {
+    background-color: #EBF8FF; /* Ændre baggrundsfarven efter behov */
   }
 
-  .styled-link:hover {
-    background-color: #0056b3;
+  .centerledere-section {
+    background-color: #f2f2f2;
+    text-align: left; /* Venstrejuster overskriften */
+    padding-top: 50px; /* Juster afstanden til overskriften "Centerledere" */
   }
 
-  .bottom-text {
-    margin-top: auto; /* Sørger for at teksten kommer ned i bunden */
-    text-align: center; /* Centrerer teksten */
-    padding: 20px; /* Tilføjet padding for at skabe plads omkring teksten */
+  .styregruppe-section {
+    background-color: #d0d0d0;
   }
 
+  .ai-forskningsledere-section {
+    background-color: #c0c0c0;
+  }
+
+  .bestyrelse-section {
+    background-color: #b0b0b0;
+  }
+
+  /* Stil for indhold i hver sektion */
+  .section-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* Tilpasning til centerledere-sektion */
+  .centerledere-section .container {
+    padding: 20px 0; /* Tilføj lidt padding over og under containeren */
+  }
+
+  .centerledere-section .leader-box {
+    text-align: left; /* Venstrestil tekst */
+  }
+
+  .centerledere-section img {
+    width: 200px; /* Juster størrelsen på lederbillederne */
+    height: 200px;
+    margin-right: 20px; /* Margin til højre for at adskille billedet fra teksten */
+    border-radius: 0; /* Fjern afrundede hjørner */
+  }
+
+  /* Juster overskriftsstørrelse for Centerledere */
+  .centerledere-section h3 {
+    font-size: 2em; /* Større overskriftsstørrelse */
+    margin-bottom: 20px; /* Mindre margin nederst i overskriften */
+  }
+
+  .col-md-6:first-child {
+    margin-right: 50px; /* Tilføj margin til højre for den første kolonne */
+  }
 </style>
 
-<div class="bottom-text">
-  <p>This is where you can add your white text content. You can format it as needed.</p>
+<!-- Ny Baggrundsfarve for Organization sektion -->
+<div class="section organization-section">
+  <div class="section-content">
+    <h2>Organization</h2>
+    <strong style="font-size: 1.5em;">Organizationdiagram</strong>
+    <img src="/assets/img/Organisationsdiagram.png" alt="Organizational Diagram">
+    <p>*Her indsættes et organisationsdiagram*</p>
+  </div>
 </div>
+
+<!-- Ny Baggrundsfarve for Centerledere sektio
