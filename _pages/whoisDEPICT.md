@@ -14,9 +14,10 @@ body {
 .hero-section {
   display: flex;
   background-color: #9DC0D1;
+  flex-wrap: wrap; /* For bedre mobilvisning */
 }
 .hero-image-container {
-  flex: 1;
+  flex: 1 1 100%;
   display: flex;
   justify-content: flex-start;
   overflow: hidden;
@@ -27,19 +28,19 @@ body {
   object-fit: cover;
 }
 .hero-content {
-  flex: 1;
+  flex: 1 1 100%;
   padding: 40px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; /* Centrerer kassen horisontalt */
+  align-items: center;
 }
 .hero-content-box {
-  width: 80%; /* Gør kassen mindre bred */
-  padding: 30px; /* Øger højden ved at tilføje mere padding */
-  background-color: #F0F0F0; /* Baggrundsfarve */
-  border-radius: 10px; /* Afrundede hjørner */
-  text-align: left; /* Tekstjustering */
+  width: 80%;
+  padding: 30px;
+  background-color: #F0F0F0;
+  border-radius: 10px;
+  text-align: left;
 }
 .hero-content h1 {
   font-size: 2.5em;
@@ -53,8 +54,8 @@ body {
 }
 .section {
   width: 100vw;
-  padding: 40px 0; /* Tilføjer padding over og under sektionen */
-  margin: 20px 0;  /* Tilføjer margin over og under sektionen */
+  padding: 40px 0;
+  margin: 20px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,15 +92,14 @@ body {
   line-height: 1.8;
 }
 .purpose-vision {
-  font-size: 1.5em; /* Juster størrelsen efter behov */
+  font-size: 1.5em;
   line-height: 1.5;
-  text-align: center; /* Centrer teksten */
-  color: #113242; /* Ændr farven efter behov */
-  max-width: 950px; /* Juster maksimal bredde efter behov */
-  margin: 0 auto; /* Centrer teksten */
-  font-weight: bold; /* Tilføj fed skrift */
+  text-align: center;
+  color: #113242;
+  max-width: 950px;
+  margin: 0 auto;
+  font-weight: bold;
 }
-/* Definer individuelle baggrundsfarver for hver sektion */
 .about-us {
   background-color: #FFFFFF;
 }
@@ -112,42 +112,41 @@ body {
 .additional-columns {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap; /* For bedre mobilvisning */
 }
 .clearfix {
   display: flex;
   justify-content: space-between;
-  margin: 20px auto; /* Giver lidt margin over og under sektionen */
+  flex-wrap: wrap; /* For bedre mobilvisning */
+  margin: 20px auto;
   max-width: 1200px;
   padding: 0 20px;
   box-sizing: border-box;
 }
 .column {
-  flex: 1;
+  flex: 1 1 100%;
   padding: 20px;
   background-color: #FFFFFF;
   border-radius: 10px;
-  margin-right: 20px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centrerer indhold vertikalt */
-  align-items: center; /* Centrerer indhold horisontalt */
+  justify-content: center;
+  align-items: center;
 }
 .column h2 {
   font-size: 1.8em;
-  font-weight: bold; /* Tilføj fed skrift */
+  font-weight: bold;
   color: #1f4a60;
   margin-bottom: 10px;
-  text-align: center; /* Centrer overskriften */
+  text-align: center;
 }
 .column p {
-  font-size: 1.5em; /* Juster fontstørrelsen efter behov */
-  font-weight: bold; /* Tilføj fed skrift */
+  font-size: 1.5em;
+  font-weight: bold;
   color: #1B4257;
   line-height: 1.6;
-  text-align: center; /* Centrer teksten */
-}
-.column:last-child {
-  margin-right: 0;
+  text-align: center;
 }
 .column img {
   max-width: 100%;
@@ -172,9 +171,28 @@ body {
   background-color: #113242;
 }
 
+/* Media Queries for Responsive Design */
+@media (min-width: 768px) {
+  .hero-image-container, .hero-content {
+    flex: 1 1 50%;
+  }
+  .column {
+    flex: 1 1 48%;
+    margin-right: 2%;
+  }
+  .column:last-child {
+    margin-right: 0;
+  }
+}
 
-
-
+@media (max-width: 767px) {
+  .hero-image-container, .hero-content {
+    flex: 1 1 100%;
+  }
+  .column {
+    flex: 1 1 100%;
+  }
+}
 </style>
 
 <!-- Hero Section with Large Image and Text Overlay -->
@@ -192,8 +210,6 @@ body {
     </div>
   </div>
 </div>
-
-
 
 <!-- About Us Section -->
 <div class="section about-us">
@@ -225,5 +241,3 @@ Read more about our projects</p>
     <img src="/assets/img/Nanna.jpg" alt="Image Description">
   </div>
 </div>
-
-
