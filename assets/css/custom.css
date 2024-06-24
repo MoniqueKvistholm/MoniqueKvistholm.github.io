@@ -25,3 +25,24 @@
     padding-left: 0;
     padding-right: 0;
 }
+
+
+
+@media (max-width: 768px) {
+    .contact-box {
+      margin-top: 3rem;
+    }
+  
+    .contact-item {
+      margin-bottom: 1rem;
+    }
+  
+    .container {
+      padding: 0 1rem;
+    }
+  
+    .caption {
+      text-align: center;
+    }
+  }
+  
