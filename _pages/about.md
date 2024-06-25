@@ -5,16 +5,15 @@ permalink: /
 ---
 
 <style>
-/* Generel stil for body */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
-/* Stil for den første sektion (hero-section) */
+/* Hero-sektionen */
 .hero-section {
-  height: 100vh; /* Fylder hele viewportens højde */
-  background-color: #9DC0D1;
+  position: relative;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,6 +23,43 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* Overlay til hero-sektionen */
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; /* Sikrer lodret layout */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Stil til hero-tekst */
+.hero-title {
+  color: #EBF8FF; /* Hvid farve til tekst */
+  font-weight: bold;
+  font-size: 14em; /* Større tekststørrelse for titlen */
+  margin-bottom: 0px; /* Tilføjer afstand mellem titlen og undertitlen */
+}
+
+.hero-subtitle {
+  color: #EBF8FF; /* Hvid farve til tekst */
+  font-size: 2em; /* Mindre tekststørrelse for undertitlen */
+  margin-bottom: 100px; /* Tilføjer afstand mellem undertitlen og beskrivelsen */
+}
+
+.hero-description {
+  color: #EBF8FF; /* Hvid farve til tekst */
+  font-weight: bold;
+  font-size: 2.7em; /* Større tekststørrelse for beskrivelsen */
+  margin-bottom: 20px; /* Tilføjer afstand under beskrivelsen */
+  max-width: 60%; /* Begrænser bredden for at tvinge linjeskift */
 }
 
 /* Stil for de to nederste sektioner */
@@ -114,38 +150,49 @@ body {
 
 .bold-text {
   font-weight: bold;
-  color: #062A40; /* Specifik farve */
+  color: #062A40; /* Farve til fed tekst */
   font-size: 1.6em; /* Større tekststørrelse */
 }
 
-/* Media queries til at tilpasse layout til mindre skærme */
+/* Responsive Styles */
 @media (max-width: 768px) {
+  .hero-title {
+    font-size: 8em; /* Mindre tekststørrelse for titlen på mindre skærme */
+  }
+
+  .hero-subtitle {
+    font-size: 1.5em; /* Mindre tekststørrelse for undertitlen på mindre skærme */
+    margin-bottom: 20px; /* Reducer afstand mellem undertitlen og beskrivelsen */
+  }
+
+  .hero-description {
+    font-size: 2em; /* Mindre tekststørrelse for beskrivelsen på mindre skærme */
+    max-width: 80%; /* Juster bredden for at tvinge linjeskift */
+  }
+
   .section {
-    flex-direction: column; /* Ændrer layout til at være stakket på mindre skærme */
+    flex-direction: column; /* Stable sektionerne lodret på mindre skærme */
+    padding: 40px 10px; /* Juster padding for mindre skærme */
   }
 
   .column {
-    padding: 10px; /* Reducer padding for at optimere pladsen */
+    padding: 20px 10px; /* Juster padding for kolonner på mindre skærme */
   }
 
-  .column-left,
-  .column-right,
-  .column-left-2,
-  .column-right-2 {
-    text-align: center; /* Centrer tekst på mindre skærme */
-    background-color: inherit; /* Fjerner baggrundsfarve for bedre læsbarhed */
-  }
-
-  .column h3 {
-    font-size: 1.5em; /* Mindre overskriftsstørrelse på mindre skærme */
+  .column img {
+    max-width: 100%; /* Sørg for billeder tilpasser mindre skærme */
   }
 }
-
 </style>
 
 <!-- Hero Section with Large Image -->
 <div class="hero-section">
-    <img src="/assets/img/Forsidebillede10.jpg" alt="Forsidebillede" class="hero-image">
+    <img src="/assets/img/Utekst.jpg" alt="Forsidebillede" class="hero-image">
+    <div class="hero-overlay">
+        <h1 class="hero-title">DEPICT</h1>
+        <p class="hero-subtitle">Center for AI and Medical Imaging</p>
+        <h2 class="hero-description">We shape the future of diagnostic imaging to ensure the highest possible value for each individual patient</h2>
+    </div>
 </div>
 
 <!-- Section 1 -->
@@ -167,7 +214,7 @@ body {
 <div class="section section-2">
     <div class="column column-left-2">
         <div class="column-content left-align">
-            <h3 style="color: #062A40;">Located</h3>
+            <h3>Located</h3>
             <p>Rigshospitalet</p>
             <p>Department of Clinical Physiology and Nuclear Medicine</p>
             <p>Department of Radiology and Scanning</p>
@@ -175,7 +222,7 @@ body {
     </div>
     <div class="column column-right-2">
         <div class="column-content right-align">
-            <h3 style="color: #062A40;">Sektion 2 - Højre Kolonne</h3>
+            <h3>Sektion 2 - Højre Kolonne</h3>
             <p>Dette er højre kolonne i sektion 2. Du kan tilpasse indholdet her.</p>
         </div>
     </div>
