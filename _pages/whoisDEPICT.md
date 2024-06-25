@@ -258,4 +258,6 @@ Read more about our projects</p>
     <a href="/projects" class="btn" target="_blank">Projects</a>
   </div>
   <div class="column">
-    <img src="/assets/img/Nanna.jpg" alt="Image Description
+    <img src="/assets/img/Nanna.jpg" alt="Image Description">
+  </div>
+</div>
