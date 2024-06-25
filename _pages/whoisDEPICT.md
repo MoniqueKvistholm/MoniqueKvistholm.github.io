@@ -36,25 +36,26 @@ body {
   align-items: center;
 }
 .hero-content-box {
-  width: 80%;
+  width: 100%;
+  max-width: 800px;
   padding: 30px;
   background-color: #F0F0F0;
   border-radius: 10px;
   text-align: left;
 }
 .hero-content h1 {
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: bold;
   margin-bottom: 20px;
   color: #1F4A60;
 }
 .hero-content p {
-  font-size: 1.1em;
+  font-size: 1em;
   line-height: 1.5;
 }
 .section {
-  width: 100vw;
-  padding: 40px 0;
+  width: 100%;
+  padding: 40px 20px; /* Juster padding for bedre mobilvisning */
   margin: 20px 0;
   display: flex;
   justify-content: center;
@@ -62,16 +63,15 @@ body {
   border: none;
 }
 .content {
+  width: 100%;
   max-width: 1200px;
   padding: 20px;
   text-align: left;
   color: #000e16;
   border-radius: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 .section-title {
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: bold;
   margin-bottom: 20px;
   text-align: left;
@@ -80,7 +80,6 @@ body {
 .vision-list {
   list-style-type: none;
   padding: 0;
-  text-align: left;
 }
 .vision-item {
   background-color: #EFFAFF;
@@ -92,7 +91,7 @@ body {
   line-height: 1.8;
 }
 .purpose-vision {
-  font-size: 1.5em;
+  font-size: 1.2em;
   line-height: 1.5;
   text-align: center;
   color: #113242;
@@ -135,14 +134,14 @@ body {
   align-items: center;
 }
 .column h2 {
-  font-size: 1.8em;
+  font-size: 1.5em;
   font-weight: bold;
   color: #1f4a60;
   margin-bottom: 10px;
   text-align: center;
 }
 .column p {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bold;
   color: #1B4257;
   line-height: 1.6;
@@ -192,6 +191,27 @@ body {
   .column {
     flex: 1 1 100%;
   }
+  .hero-content-box {
+    width: 100%;
+  }
+  .hero-content h1 {
+    font-size: 1.8em;
+  }
+  .hero-content p {
+    font-size: 0.9em;
+  }
+  .section-title {
+    font-size: 1.8em;
+  }
+  .purpose-vision {
+    font-size: 1em;
+  }
+  .column h2 {
+    font-size: 1.2em;
+  }
+  .column p {
+    font-size: 1em;
+  }
 }
 </style>
 
@@ -238,6 +258,4 @@ Read more about our projects</p>
     <a href="/projects" class="btn" target="_blank">Projects</a>
   </div>
   <div class="column">
-    <img src="/assets/img/Nanna.jpg" alt="Image Description">
-  </div>
-</div>
+    <img src="/assets/img/Nanna.jpg" alt="Image Description
