@@ -10,59 +10,64 @@ related_publications: false
 
 <style>
   body {
-    background-color: #E6DED0; /* Background color for the entire page */
+    background-color: #E6DED0;
     margin: 0;
     padding: 0;
+    font-size: 16px; /* Justerer grundskriftstørrelsen for bedre læsbarhed på mobil */
+    line-height: 1.6;
   }
   .custom-container {
-    background-color: #E6DED0; /* Background color for the content */
-    padding-left: 30px; /* Reduce side margins */
-    padding-right: 30px; /* Reduce side margins */
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 0; /* Remove top margin */
-    margin-bottom: 0; /* Remove bottom margin */
+    background-color: #E6DED0;
+    padding: 20px; /* Forenklet padding for alle sider */
+    margin: 0; /* Fjerner margener */
+    box-sizing: border-box; /* Sikrer at padding er inkluderet i bredde/højde beregninger */
   }
   .post-title {
     font-weight: bold;
-    color: #062A40; /* Color for the title */
-    text-align: left; /* Left-align the title */
-    font-size: 2.5em; /* Increase font size of the title */
-    margin-top: 10px; /* Reduce top margin for the title */
-    margin-bottom: 20px;
+    color: #062A40;
+    font-size: 2em; /* Justerer titelens skriftstørrelse */
+    margin-top: 0; /* Fjerner standard top-margin */
+    margin-bottom: 10px; /* Justerer bundmargin */
   }
   .custom-contact-box {
-    background-color: #F4F0EB; /* Background color for the contact box */
-    border: 1px solid #ddd; /* Border around the contact box */
-    border-radius: 5px; /* Rounded corners */
-    padding: 10px; /* Reduced padding inside the contact box */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow */
+    background-color: #F4F0EB;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Øger top-margin for bedre adskillelse */
   }
   .custom-contact-box h4.small-header {
-    color: #062A40; /* Color for the header in the contact box */
+    color: #062A40;
     font-weight: bold;
-    font-size: 1em; /* Smaller font size for the header */
-    margin-bottom: 10px; /* Reduced bottom margin for the header */
+    font-size: 1.2em; /* Justerer skriftstørrelse for header */
+    margin-bottom: 10px;
   }
   .custom-contact-box .contact-item {
-    margin-bottom: 5px; /* Reduced bottom margin for contact items */
-  }
-  .custom-contact-box .contact-item strong {
-    color: #555; /* Color for strong tags (e.g., 'Name:', 'Email:', etc.) */
-    font-size: 0.9em; /* Smaller font size for strong tags */
-  }
-  .custom-contact-box .contact-item span {
-    color: #333; /* Color for span tags (e.g., 'Christian Hinge', email link, etc.) */
-    font-size: 0.9em; /* Smaller font size for span tags */
+    margin-bottom: 8px; /* Justerer bundmargin for kontakt elementer */
   }
   article {
-    font-size: 1.1em;
-    line-height: 1.6;
+    font-size: 1em; /* Justerer skriftstørrelse for artikeltekst */
   }
   .figure-column {
-    padding-right: 15px; /* Right padding to separate figure from text */
+    padding-right: 0; /* Fjerner højre padding for figurer for at udnytte pladsen bedre */
+    margin-top: 20px; /* Øger top-margin for figurer */
+  }
+
+  /* Medieforespørgsel for mindre skærme (mobiltelefoner) */
+  @media only screen and (max-width: 768px) {
+    .post-title {
+      font-size: 1.5em; /* Justerer titelens skriftstørrelse på mindre skærme */
+    }
+    .custom-contact-box {
+      padding: 15px; /* Justerer padding for kontaktboksen på mindre skærme */
+    }
+    .custom-contact-box h4.small-header {
+      font-size: 1em; /* Justerer skriftstørrelse for header på mindre skærme */
+    }
   }
 </style>
+
 
 <div class="custom-container">
   <div class="post">
