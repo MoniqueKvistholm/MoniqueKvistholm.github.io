@@ -3,97 +3,164 @@ layout: page2
 permalink: /organization/
 title: Organization
 nav: false
-nav_order: 3
+nav_order: 
 ---
 
 <style>
-  /* Tilføjet styling for at justere størrelsen af .leader-box */
-  .leader-box {
-    max-width: 200px; /* Juster bredden efter behov */
-    margin-bottom: 100px; /* Øget margin mellem hver leader box */
-    padding: 10px; /* Tilføj padding inden i leader box */
-    display: flex; /* Flexbox for at justere layout */
-    align-items: center; /* Centrer indhold vertikalt */
-  }
-
-  /* Fjern margin og padding fra body */
+  /* Generel reset af margin og padding */
   body {
     margin: 0;
     padding: 0;
   }
 
-  /* Stil for hver sektion */
-  .section {
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
-    padding-top: 0; /* Fjern top padding for at sikre ingen ekstra plads øverst */
-  }
-
-  /* Stil for hver sektion med specifik baggrundsfarve */
-  .organization-section {
-    background-color: #EBF8FF; /* Ændre baggrundsfarven efter behov */
-  }
-
-  .centerledere-section {
-    background-color: #f2f2f2;
-    text-align: left; /* Venstrejuster overskriften */
-    padding-top: 50px; /* Juster afstanden til overskriften "Centerledere" */
-  }
-
-  .styregruppe-section {
-    background-color: #d0d0d0;
-  }
-
-  .ai-forskningsledere-section {
-    background-color: #c0c0c0;
-  }
-
-  .bestyrelse-section {
-    background-color: #b0b0b0;
-  }
-
-  /* Stil for indhold i hver sektion */
-  .section-content {
+  /* Container til at centrere sektioner */
+  .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
   }
 
-  /* Tilpasning til centerledere-sektion */
-  .centerledere-section .container {
-    padding: 20px 0; /* Tilføj lidt padding over og under containeren */
+  /* Sektioner med forskellige baggrundsfarver */
+  .organization-section {
+    background-color: #EBF8FF;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
-  .centerledere-section .leader-box {
-    text-align: left; /* Venstrestil tekst */
+  .centerledere-section {
+    background-color: #F8F5F5;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
-  .centerledere-section img {
-    width: 200px; /* Juster størrelsen på lederbillederne */
-    height: 200px;
-    margin-right: 20px; /* Margin til højre for at adskille billedet fra teksten */
-    border-radius: 0; /* Fjern afrundede hjørner */
+  .leadership-section {
+    background-color: #d0d0d0;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
-  /* Juster overskriftsstørrelse for Centerledere */
-  .centerledere-section h3 {
-    font-size: 2em; /* Større overskriftsstørrelse */
-    margin-bottom: 20px; /* Mindre margin nederst i overskriften */
+  /* Styling for leader box */
+  .leader-box {
+    display: flex;
+    align-items: left;
+    margin-bottom: 40px;
   }
 
-  .col-md-6:first-child {
-    margin-right: 50px; /* Tilføj margin til højre for den første kolonne */
+  .leader-box img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 0%;
+    margin-right: 20px;
+  }
+
+  .leader-info {
+    flex: 1;
+  }
+
+  /* Styling for overskrifter */
+  h2, h3 {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  /* Styling for kontaktinformation */
+  .contact-item {
+    margin-bottom: 10px;
   }
 </style>
 
-<!-- Ny Baggrundsfarve for Organization sektion -->
-<div class="section organization-section">
-  <div class="section-content">
+<!-- Organization sektion -->
+<div class="organization-section">
+  <div class="container">
     <h2>Organization</h2>
     <strong style="font-size: 1.5em;">Organizationdiagram</strong>
     <img src="/assets/img/Organisationsdiagram.png" alt="Organizational Diagram">
-    <p>*Her indsættes et organisationsdiagram*</p>
   </div>
 </div>
 
-<!-- Ny Baggrundsfarve for Centerledere sektio
+<!-- Centerledere sektion -->
+<div class="centerledere-section">
+  <div class="container">
+    <h3>Centerledere</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="leader-box">
+          <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Andersen">
+          <div class="leader-info">
+            <h4>Flemming Andersen</h4>
+            <div class="contact-item">
+              <strong>Email:</strong>
+              <span><a href="mailto:flemming.andersen@regionh.dk">flemming.andersen@regionh.dk</a></span>
+            </div>
+            <div class="contact-item">
+              <strong>Tlf:</strong>
+              <span>+45 35-45 81-43</span>
+            </div>
+            <div class="contact-item">
+              <strong>Placering:</strong>
+              <span>3982, Klinisk Fysiologi og Nuklearmedicin</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="leader-box">
+          <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen">
+          <div class="leader-info">
+            <h4>Adam Espe Hansen</h4>
+            <div class="contact-item">
+              <strong>Email:</strong>
+              <span><a href="mailto:adam.espe.hansen@regionh.dk">adam.espe.hansen@regionh.dk</a></span>
+            </div>
+            <div class="contact-item">
+              <strong>Tlf:</strong>
+              <span>+45 35-45 84-60</span>
+            </div>
+            <div class="contact-item">
+              <strong>Placering:</strong>
+              <span>3023, Røntgen og Skanning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Leadership sektion -->
+<div class="leadership-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Styregruppe</h3>
+        <ul>
+          <li>Malene Fischer</li>
+          <li>Flemming Littrup Andersen</li>
+          <li>Claes Ladefoged</li>
+          <li>Adam Espe Hansen</li>
+          <li>Michael Bachmann Nielsen</li>
+          <li>Jonathan Carlsen</li>
+          <li>Martin Lundsgaard</li>
+          <li>Jann Mortensen</li>
+          <li>Ida Robsøe</li>
+          <li>Johnny Madelung</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h3>AI Forskningsledere</h3>
+        <ul>
+          <li>Claes Ladefoged</li>
+          <li>Michael Bachman</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h3>Bestyrelse</h3>
+        <ul>
+          <li>Malene Fischer</li>
+          <li>Martin Lundsgaard</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
