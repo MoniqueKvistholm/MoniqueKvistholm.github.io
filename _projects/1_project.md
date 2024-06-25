@@ -1,13 +1,3 @@
----
-layout: default2
-title: Digital Twin for PET Scanning
-description: PhD Project by Christian Hinge
-img: assets/img/P1.jpg
-importance: 4
-category: 2024
-related_publications: false
----
-
 <style>
   body {
     background-color: #E6DED0;
@@ -59,8 +49,9 @@ related_publications: false
     .custom-container {
       padding: 10px; /* Justerer padding for hele containeren på mindre skærme */
     }
-    .figure-column {
-      padding-right: 0; /* Fjerner højre padding for figurer på mindre skærme */
+    .figure-column, .custom-contact-box {
+      margin-left: 0; /* Fjerner venstre margin på figurer og kontaktboks på mindre skærme */
+      margin-right: 0; /* Fjerner højre margin på figurer og kontaktboks på mindre skærme */
     }
     .custom-contact-box {
       padding: 15px; /* Justerer padding for kontaktboksen på mindre skærme */
@@ -109,27 +100,4 @@ related_publications: false
               <span><a href="mailto:christian.hinge@regionh.dk">christian.hinge@regionh.dk</a></span>
             </div>
             <div class="contact-item">
-              <strong>Location:</strong>
-              <span>Department of Clinical Physiology and Nuclear Medicine, 3982</span>
-            </div>
-            <div class="contact-item">
-              <strong>Position:</strong>
-              <span>PhD Student</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </article>
-
-    {% if page.related_publications %}
-      <h2>References</h2>
-      <div class="publications">
-        {% bibliography --cited_in_order %}
-      </div>
-    {% endif %}
-
-    {% if site.giscus and page.giscus_comments %}
-      {% include giscus.liquid %}
-    {% endif %}
-  </div>
-</div>
+              <strong>Location:
