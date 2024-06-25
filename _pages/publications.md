@@ -3,7 +3,7 @@ layout: page2
 permalink: /organization/
 title: Organization
 nav: false
-nav_order: 
+nav_order: 3
 ---
 
 <style>
