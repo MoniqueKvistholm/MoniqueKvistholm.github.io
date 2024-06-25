@@ -56,8 +56,11 @@ related_publications: false
 
   /* Medieforespørgsel for mindre skærme (mobiltelefoner) */
   @media only screen and (max-width: 768px) {
-    .post-title {
-      font-size: 1.5em; /* Justerer titelens skriftstørrelse på mindre skærme */
+    .custom-container {
+      padding: 10px; /* Justerer padding for hele containeren på mindre skærme */
+    }
+    .figure-column {
+      padding-right: 0; /* Fjerner højre padding for figurer på mindre skærme */
     }
     .custom-contact-box {
       padding: 15px; /* Justerer padding for kontaktboksen på mindre skærme */
@@ -67,7 +70,6 @@ related_publications: false
     }
   }
 </style>
-
 
 <div class="custom-container">
   <div class="post">
