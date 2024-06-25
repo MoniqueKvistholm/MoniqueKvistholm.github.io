@@ -1,166 +1,57 @@
 ---
-layout: page2
-permalink: /organization/
-title: Organization
-nav: false
-nav_order: 
+layout: page
+permalink: /publications/
+title: Publications
+nav: true
+nav_order: 3
 ---
 
+<span style="font-size: 1.2em;">Publications from DEPICT can be found in the departments' research registration system, PURE.</span>
+
+<div class="links-container">
+  <a href="https://research.regionh.dk/da/organisations/afdeling-for-r%c3%b8ntgen-og-skanning/publications/" class="styled-link">Research from the Department of Radiology and Imaging</a>
+  <a href="https://research.regionh.dk/da/organisations/afdeling-for-klinisk-fysiologi-og-nuklearmedicin" class="styled-link">Research from the Department of Clinical Physiology and Nuclear Medicine</a>
+</div>
+
 <style>
-  /* Generel reset af margin og padding */
   body {
-    margin: 0;
-    padding: 0;
-  }
-
-  /* Container til at centrere sektioner */
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-
-  /* Sektioner med forskellige baggrundsfarver */
-  .organization-section {
-    background-color: #EBF8FF;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  .centerledere-section {
-    background-color: #F8F5F5;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  .leadership-section {
-    background-color: #d0d0d0;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  /* Styling for leader box */
-  .leader-box {
+    min-height: 100vh; /* Sikrer, at body fylder hele siden */
     display: flex;
-    align-items: left;
-    margin-bottom: 40px;
+    flex-direction: column;
   }
 
-  .leader-box img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 0%;
-    margin-right: 20px;
+  .links-container {
+    margin-top: 40px; /* Mere mellemrum her */
+    flex-grow: 1; /* Sørger for at containeren vokser for at fylde pladsen */
   }
 
-  .leader-info {
-    flex: 1;
+  .styled-link {
+    display: block;
+    padding: 15px 30px; /* Juster padding for at gøre kasserne bredere */
+    margin: 10px 0;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 60%; /* Tilføjet for at gøre kasserne bredere */
+    margin-left: auto; /* Centrer kasserne horisontalt */
+    margin-right: auto; /* Centrer kasserne horisontalt */
   }
 
-  /* Styling for overskrifter */
-  h2, h3 {
-    text-align: left;
-    margin-bottom: 30px;
+  .styled-link:hover {
+    background-color: #0056b3;
   }
 
-  /* Styling for kontaktinformation */
-  .contact-item {
-    margin-bottom: 10px;
+  .bottom-text {
+    margin-top: auto; /* Sørger for at teksten kommer ned i bunden */
+    text-align: center; /* Centrerer teksten */
+    padding: 20px; /* Tilføjet padding for at skabe plads omkring teksten */
   }
+
 </style>
 
-<!-- Organization sektion -->
-<div class="organization-section">
-  <div class="container">
-    <h2>Organization</h2>
-    <strong style="font-size: 1.5em;">Organizationdiagram</strong>
-    <img src="/assets/img/Organisationsdiagram.png" alt="Organizational Diagram">
-  </div>
-</div>
-
-<!-- Centerledere sektion -->
-<div class="centerledere-section">
-  <div class="container">
-    <h3>Centerledere</h3>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="leader-box">
-          <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Andersen">
-          <div class="leader-info">
-            <h4>Flemming Andersen</h4>
-            <div class="contact-item">
-              <strong>Email:</strong>
-              <span><a href="mailto:flemming.andersen@regionh.dk">flemming.andersen@regionh.dk</a></span>
-            </div>
-            <div class="contact-item">
-              <strong>Tlf:</strong>
-              <span>+45 35-45 81-43</span>
-            </div>
-            <div class="contact-item">
-              <strong>Placering:</strong>
-              <span>3982, Klinisk Fysiologi og Nuklearmedicin</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="leader-box">
-          <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen">
-          <div class="leader-info">
-            <h4>Adam Espe Hansen</h4>
-            <div class="contact-item">
-              <strong>Email:</strong>
-              <span><a href="mailto:adam.espe.hansen@regionh.dk">adam.espe.hansen@regionh.dk</a></span>
-            </div>
-            <div class="contact-item">
-              <strong>Tlf:</strong>
-              <span>+45 35-45 84-60</span>
-            </div>
-            <div class="contact-item">
-              <strong>Placering:</strong>
-              <span>3023, Røntgen og Skanning</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Leadership sektion -->
-<div class="leadership-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <h3>Styregruppe</h3>
-        <ul>
-          <li>Malene Fischer</li>
-          <li>Flemming Littrup Andersen</li>
-          <li>Claes Ladefoged</li>
-          <li>Adam Espe Hansen</li>
-          <li>Michael Bachmann Nielsen</li>
-          <li>Jonathan Carlsen</li>
-          <li>Martin Lundsgaard</li>
-          <li>Jann Mortensen</li>
-          <li>Ida Robsøe</li>
-          <li>Johnny Madelung</li>
-        </ul>
-      </div>
-      <div class="col-md-4">
-        <h3>AI Forskningsledere</h3>
-        <ul>
-          <li>Claes Ladefoged</li>
-          <li>Michael Bachman</li>
-        </ul>
-      </div>
-      <div class="col-md-4">
-        <h3>Bestyrelse</h3>
-        <ul>
-          <li>Malene Fischer</li>
-          <li>Martin Lundsgaard</li>
-        </ul>
-      </div>
-    </div>
-  </div>
+<div class="bottom-text">
+  <p>This is where you can add your white text content. You can format it as needed.</p>
 </div>
