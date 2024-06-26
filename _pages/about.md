@@ -4,6 +4,8 @@ title: Main
 permalink: /
 ---
 
+{% include figure.liquid path="/assets/img/example.jpg" alt="Example Image" caption="This is an example caption." %}
+
 <style>
 body {
   margin: 0;
