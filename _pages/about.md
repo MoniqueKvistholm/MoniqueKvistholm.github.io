@@ -7,7 +7,7 @@ permalink: /
 <style>
 body {
   margin: 0;
-  font-family: Arial, sans-serif; 
+  font-family: Arial, sans-serif;
 }
 
 /* Hero-sektionen */
@@ -150,39 +150,10 @@ body {
 
 .bold-text {
   font-weight: bold;
-  color: #062A40; /* Farve til fed tekst */
+  color: #FFFFFF; /* Hvid farve til fed tekst */
   font-size: 1.6em; /* Større tekststørrelse */
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
-  .hero-title {
-    font-size: 8em; /* Mindre tekststørrelse for titlen på mindre skærme */
-  }
-
-  .hero-subtitle {
-    font-size: 1.5em; /* Mindre tekststørrelse for undertitlen på mindre skærme */
-    margin-bottom: 20px; /* Reducer afstand mellem undertitlen og beskrivelsen */
-  }
-
-  .hero-description {
-    font-size: 2em; /* Mindre tekststørrelse for beskrivelsen på mindre skærme */
-    max-width: 80%; /* Juster bredden for at tvinge linjeskift */
-  }
-
-  .section {
-    flex-direction: column; /* Stable sektionerne lodret på mindre skærme */
-    padding: 40px 10px; /* Juster padding for mindre skærme */
-  }
-
-  .column {
-    padding: 20px 10px; /* Juster padding for kolonner på mindre skærme */
-  }
-
-  .column img {
-    max-width: 100%; /* Sørg for billeder tilpasser mindre skærme */
-  }
-}
 </style>
 
 <!-- Hero Section with Large Image -->
