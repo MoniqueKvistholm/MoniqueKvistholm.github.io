@@ -209,21 +209,21 @@ body {
 
   .hero-image {
     position: absolute;
-    top: 50%; /* Midt af billedet på Y-aksen */
+    top: 0; /* Juster billedets top for at flytte det opad */
     left: 50%; /* Midt af billedet på X-aksen */
     width: 100%;
     height: 100%;
     object-fit: cover; /* Beskærer billedet så det fylder hele hero-sektionen */
-    object-position: center; /* Centrerer billedet */
-    transform: translate(-50%, -50%); /* Flytter billedet opad og til venstre for at skære mere af toppen og bunden */
+    object-position: center top; /* Flytter fokus til toppen af billedet */
+    transform: translateX(-50%); /* Flytter billedet til venstre for at centrere det */
   }
 
   .hero-overlay {
     position: absolute;
-    top: 0;
+    top: 20%; /* Flytter overlayet nedad for at gøre plads til tekst i toppen */
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 80%; /* Sørger for at overlayet fylder det meste af hero-sektionen */
     display: flex;
     flex-direction: column; /* Sikrer lodret layout */
     justify-content: center;
@@ -261,6 +261,7 @@ body {
     max-width: 60%; /* Justerer størrelsen på små billeder */
   }
 }
+
 
 
 
