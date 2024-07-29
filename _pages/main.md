@@ -190,7 +190,7 @@ body {
     top: 50%; /* Starter overlayet fra midten af skærmen */
     left: 50%;
     width: 100%;
-    height: 50%; /* Sørger for at overlayet fylder den nederste del af hero-sektionen */
+    height: 50%; /* Overlayet fylder den nederste del af hero-sektionen */
     display: flex;
     flex-direction: column; /* Sikrer lodret layout */
     justify-content: center; /* Centrerer teksten vertikalt i overlayet */
@@ -231,6 +231,7 @@ body {
     max-width: 60%; /* Justerer størrelsen på små billeder */
   }
 }
+
 
 
 
