@@ -172,8 +172,72 @@ body {
   background-color: #113242;
 }
 
-
-
+/* Media queries for responsive design on mobile devices */
+@media (max-width: 767px) {
+  .hero-section {
+    flex-direction: column;
+  }
+  .hero-image-container {
+    order: 2;
+    height: 200px; /* Juster højden på billedet på mobil */
+  }
+  .hero-content {
+    order: 1;
+    padding: 20px;
+  }
+  .hero-content-box {
+    width: 100%;
+    padding: 20px;
+  }
+  .hero-content h1 {
+    font-size: 1.8em;
+  }
+  .hero-content p {
+    font-size: 1em;
+  }
+  .section {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+  .content {
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .section-title {
+    font-size: 2em;
+    text-align: center;
+  }
+  .vision-list {
+    text-align: center;
+  }
+  .vision-item {
+    font-size: 0.9em;
+  }
+  .purpose-vision {
+    font-size: 1.2em;
+    padding: 10px;
+  }
+  .clearfix {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .column {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .column p {
+    font-size: 1.2em;
+  }
+  .column h2 {
+    font-size: 1.5em;
+  }
+  .btn {
+    font-size: 0.8em;
+    padding: 8px 16px;
+  }
+}
 
 </style>
 
@@ -225,5 +289,3 @@ Read more about our projects</p>
     <img src="/assets/img/Nanna.jpg" alt="Image Description">
   </div>
 </div>
-
-

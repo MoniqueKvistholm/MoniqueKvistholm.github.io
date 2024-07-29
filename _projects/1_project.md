@@ -85,7 +85,7 @@ related_publications: false
         </div>
 
         <div class="col-md-5 figure-column">
-          {% include figure.liquid loading="eager" path="assets/img/Billede_ projekt 1.jpg" title="Example image" class="img-fluid rounded z-depth-1" %}
+          {% include figure.liquid loading="eager" path="assets/img/P1.jpg" title="Example image" class="img-fluid rounded z-depth-1" %}
 
           <div class="caption mt-3">
             <p><strong>Figure 1:</strong> Application of healthy PET for lymphoma detection. From left: CT, PET, sbPET: Synthetic healthy PET image, Abnormality: difference between PET and synthetic PET, Segmentation: identified cancerous areas.</p>
