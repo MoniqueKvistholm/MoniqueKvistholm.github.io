@@ -215,10 +215,10 @@ body {
     width: 100%;
     height: 100%;
     background-image: url('/assets/img/Utekst.jpg'); /* Din hero-billede URL */
-    background-size: cover; /* Sørg for, at billedet dækker hele containeren */
+    background-size: 130% 130%; /* Øger størrelsen af billedet for at beskære mere */
     background-position: center; /* Centrer billedet */
     background-repeat: no-repeat; /* Undgå gentagelse af billedet */
-    transform: translateY(-10%); /* Juster billedet opad for at skære noget af bunden */
+    background-attachment: fixed; /* Sørg for, at billedet er fast ved scroll */
   }
 
   .hero-overlay {
@@ -237,15 +237,15 @@ body {
   }
 
   .hero-title {
-    font-size: 5em; /* Større tekststørrelse, men stadig læsbar */
+    font-size: 5em; /* Justeret tekststørrelse */
     color: #EBF8FF; /* Sørg for, at teksten er læsbar */
     margin: 0; /* Fjerner margin */
   }
 
   .hero-subtitle {
-    font-size: 1em; /* Øger størrelsen lidt */
+    font-size: 1.2em; /* Justeret tekststørrelse */
     color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 40; /* Fjerner margin */
+    margin: 0; /* Fjerner margin */
   }
 
   .hero-description {
