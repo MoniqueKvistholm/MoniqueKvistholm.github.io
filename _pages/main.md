@@ -209,24 +209,24 @@ body {
 
   .hero-image {
     position: absolute;
-    top: 0; /* Juster billedets top for at flytte det opad */
+    top: 50%; /* Flytter billedet opad for at skære mere af toppen */
     left: 50%; /* Midt af billedet på X-aksen */
     width: 100%;
     height: 100%;
     object-fit: cover; /* Beskærer billedet så det fylder hele hero-sektionen */
-    object-position: center top; /* Flytter fokus til toppen af billedet */
-    transform: translateX(-50%); /* Flytter billedet til venstre for at centrere det */
+    object-position: center; /* Centrerer billedet */
+    transform: translate(-50%, -50%); /* Flytter billedet opad og til venstre for at skære mere af toppen og bunden */
   }
 
   .hero-overlay {
     position: absolute;
-    top: 20%; /* Flytter overlayet nedad for at gøre plads til tekst i toppen */
+    top: 50%; /* Flytter overlayet nedad for at centrere det */
     left: 0;
     width: 100%;
-    height: 80%; /* Sørger for at overlayet fylder det meste af hero-sektionen */
+    height: 50%; /* Sørger for at overlayet fylder den nederste del af hero-sektionen */
     display: flex;
     flex-direction: column; /* Sikrer lodret layout */
-    justify-content: center;
+    justify-content: center; /* Centrerer teksten vertikalt i overlayet */
     align-items: center;
     text-align: center;
     padding: 10px; /* Mindre padding for mindre skærme */
@@ -234,33 +234,7 @@ body {
     z-index: 1; /* Sikrer, at overlayet vises over billedet */
   }
 
-  .hero-title {
-    font-size: 5em; /* Øger tekststørrelsen, så den fylder mest muligt uden at være for stor */
-    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
-  }
 
-  .hero-subtitle {
-    font-size: 1.5em; /* Øger størrelsen lidt for bedre synlighed */
-    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
-  }
-
-  .hero-description {
-    font-size: 1.5em; /* Øger størrelsen lidt for bedre synlighed */
-    max-width: 90%; /* Øger bredden for at undgå linjeskift */
-    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
-  }
-
-  .section {
-    padding: 30px 5px; /* Mindre padding for meget små skærme */
-  }
-
-  .small-image {
-    max-width: 60%; /* Justerer størrelsen på små billeder */
-  }
-}
 
 
 
