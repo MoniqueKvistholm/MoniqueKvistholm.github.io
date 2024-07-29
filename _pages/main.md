@@ -234,8 +234,38 @@ body {
     padding: 10px; /* Mindre padding for mindre skærme */
     box-sizing: border-box; /* Inkluderer padding i elementets totale bredde og højde */
     z-index: 1; /* Sikrer, at overlayet vises over billedet */
-    transform: tra
+    transform: translateY(-50%); /* Flytter overlayet opad for at centrere det */
+  }
 
+  .hero-title {
+    font-size: 6em; /* Øger tekststørrelsen, så den fylder mest muligt uden at være for stor */
+    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
+    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
+  }
+
+  .hero-subtitle {
+    font-size: 1em; /* Øger størrelsen lidt for bedre synlighed */
+    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
+    margin: 20px 0; /* Mindre margin for at maksimere brugen af pladsen */
+  }
+
+  .hero-description {
+    font-size: 1.5em; /* Øger størrelsen lidt for bedre synlighed */
+    max-width: 90%; /* Øger bredden for at undgå linjeskift */
+    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
+    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
+  }
+
+  .section {
+    padding: 30px 5px; /* Mindre padding for meget små skærme */
+    margin: 0; /* Fjerner margin for at undgå mellemrum mellem hero-sektionen og næste sektion */
+    background-color: #f4f4f4; /* Tilføjer baggrundsfarve for at gøre indholdet synligt, justér efter behov */
+  }
+
+  .small-image {
+    max-width: 60%; /* Justerer størrelsen på små billeder */
+  }
+}
 
 
 
