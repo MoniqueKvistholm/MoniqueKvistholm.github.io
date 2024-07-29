@@ -209,10 +209,10 @@ body {
 
   .hero-image {
     position: absolute;
-    top: -50%; /* Beskær toppen af billedet */
+    top: -100%; /* Test med en stor negativ værdi for at sikre, at ændringen har effekt */
     left: 50%; /* Midt af billedet på X-aksen */
     width: 100%;
-    height: 150%; /* Højere end 100% for at dække hele hero-sektionen */
+    height: 100%; /* Højere end 100% for at dække hele hero-sektionen */
     object-fit: cover; /* Beskærer billedet så det fylder hele hero-sektionen */
     object-position: center; /* Centrerer billedet */
     transform: translateX(-50%); /* Flytter billedet til venstre for at holde det centreret horisontalt */
@@ -232,7 +232,6 @@ body {
     padding: 10px; /* Mindre padding for mindre skærme */
     box-sizing: border-box; /* Inkluderer padding i elementets totale bredde og højde */
     z-index: 1; /* Sikrer, at overlayet vises over billedet */
-    transform: translateY(-10%); /* Rykker overlayet lidt op for at centrere teksten bedre */
   }
 
   .hero-title {
@@ -262,6 +261,7 @@ body {
     max-width: 60%; /* Justerer størrelsen på små billeder */
   }
 }
+
 
 
 
