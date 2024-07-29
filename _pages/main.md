@@ -157,85 +157,62 @@ body {
   font-size: 1.6em; /* Større tekststørrelse */
 }
 
-/* Media queries til meget små skærme */
-@media (max-width: 480px) {
-  body, html {
-    margin: 0; /* Fjern marginer for body og html */
-    padding: 0; /* Fjern padding for body og html */
-    height: 100%; /* Sørg for at body og html dækker hele skærmen */
-    overflow-x: hidden; /* Undgå horisontal rullebar */
-  }
-
-  .hero-section {
-    position: relative;
-    height: 80vh; /* Sørg for, at hero-sektionen dækker 80% af viewport højden */
-    overflow: hidden; /* Skjuler overskydende del af billedet */
-    margin: 0; /* Sørg for at hero-sektionen ikke tilføjer ekstra margin */
-    padding: 0; /* Sørg for at hero-sektionen ikke tilføjer ekstra padding */
-  }
-
-  .hero-image {
-    position: absolute;
-    top: -10%; /* Beskærer toppen af billedet */
-    left: 50%; /* Midt af billedet på X-aksen */
-    width: 100%;
-    height: 120%; /* Billedet fylder højere end 100% af hero-sektionen */
-    object-fit: cover; /* Beskærer billedet så det fylder hele hero-sektionen */
-    object-position: center; /* Centrerer billedet */
-    transform: translateX(-50%); /* Flytter billedet til venstre for at holde det centreret horisontalt */
-  }
-
-  .hero-overlay {
-    position: absolute;
-    top: 50%; /* Starter overlayet fra midten af skærmen */
-    left: 50%;
-    width: 100%;
-    height: 50%; /* Overlayet fylder den nederste del af hero-sektionen */
-    display: flex;
-    flex-direction: column; /* Sikrer lodret layout */
-    justify-content: center; /* Centrerer teksten vertikalt i overlayet */
-    align-items: center;
-    text-align: center;
-    padding: 0; /* Fjern padding for at maksimere pladsen til teksten */
-    box-sizing: border-box; /* Inkluderer padding i elementets totale bredde og højde */
-    z-index: 1; /* Sikrer, at overlayet vises over billedet */
-    transform: translateY(-50%); /* Flytter overlayet opad for at centrere det vertikalt */
-  }
-
+/* Media queries til mobiltilpasning */
+@media (max-width: 768px) {
   .hero-title {
-    font-size: 6em; /* Øger tekststørrelsen, så den fylder mest muligt uden at være for stor */
-    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
+    font-size: 6em; /* Mindre tekststørrelse for mindre skærme */
   }
 
   .hero-subtitle {
-    font-size: 1em; /* Øger størrelsen lidt for bedre synlighed */
-    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 20px 0; /* Mindre margin for at maksimere brugen af pladsen */
+    font-size: 1.5em; /* Mindre tekststørrelse for mindre skærme */
+    margin-bottom: 50px; /* Mindre afstand mellem undertitlen og beskrivelsen */
   }
 
   .hero-description {
-    font-size: 1.5em; /* Øger størrelsen lidt for bedre synlighed */
-    max-width: 90%; /* Øger bredden for at undgå linjeskift */
-    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
+    font-size: 1.5em; /* Mindre tekststørrelse for mindre skærme */
+    max-width: 90%; /* Øg bredden for mobilvisning */
   }
 
   .section {
-    padding: 0; /* Fjern padding for at fjerne mellemrum mellem hero-sektionen og det følgende indhold */
-    margin: 0; /* Fjerner margin for at undgå mellemrum mellem hero-sektionen og næste sektion */
-    background-color: #f4f4f4; /* Tilføjer baggrundsfarve for at gøre indholdet synligt, justér efter behov */
+    padding: 40px 10px; /* Mindre padding for mindre skærme */
+  }
+
+  .section-1, .section-2 {
+    flex-direction: column; /* Ændrer retning til kolonne for små skærme */
+    align-items: center; /* Centrerer indhold vertikalt */
+  }
+
+  .column {
+    flex: 1 1 100%; /* Gør kolonnerne til 100% bredde på små skærme */
+    text-align: center; /* Centrer tekst på små skærme */
   }
 
   .small-image {
-    max-width: 60%; /* Justerer størrelsen på små billeder */
+    max-width: 50%; /* Større billede for mindre skærme */
   }
 }
 
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 4em; /* Yderligere reduktion for meget små skærme */
+  }
 
+  .hero-subtitle {
+    font-size: 1.2em; /* Yderligere reduktion for meget små skærme */
+  }
 
+  .hero-description {
+    font-size: 1.2em; /* Yderligere reduktion for meget små skærme */
+  }
 
+  .section {
+    padding: 30px 5px; /* Mindre padding for meget små skærme */
+  }
 
+  .small-image {
+    max-width: 60%; /* Større billede for meget små skærme */
+  }
+}
 </style>
 
 <!-- Hero Section with Large Image -->
@@ -280,3 +257,4 @@ body {
         </div>
     </div>
 </div>
+
