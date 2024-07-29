@@ -203,7 +203,7 @@ body {
 
   .hero-section {
     position: relative;
-    height: 90vh; /* Sørg for, at hero-sektionen dækker næsten hele viewport højden */
+    height: 80vh; /* Sørg for, at hero-sektionen dækker 80% af viewport højden */
     overflow: hidden; /* Skjuler overskydende del af billedet */
     margin: 0; /* Sørg for at hero-sektionen ikke tilføjer ekstra margin */
     padding: 0; /* Sørg for at hero-sektionen ikke tilføjer ekstra padding */
@@ -214,7 +214,7 @@ body {
     top: -10%; /* Beskærer toppen af billedet */
     left: 50%; /* Midt af billedet på X-aksen */
     width: 100%;
-    height: 80%; /* Billedet fylder 80% af højden af hero-sektionen */
+    height: 120%; /* Billedet fylder højere end 100% af hero-sektionen */
     object-fit: cover; /* Beskærer billedet så det fylder hele hero-sektionen */
     object-position: center; /* Centrerer billedet */
     transform: translateX(-50%); /* Flytter billedet til venstre for at holde det centreret horisontalt */
@@ -234,38 +234,7 @@ body {
     padding: 10px; /* Mindre padding for mindre skærme */
     box-sizing: border-box; /* Inkluderer padding i elementets totale bredde og højde */
     z-index: 1; /* Sikrer, at overlayet vises over billedet */
-    transform: translateY(-50%); /* Flytter overlayet opad for at centrere det */
-  }
-
-  .hero-title {
-    font-size: 6em; /* Øger tekststørrelsen, så den fylder mest muligt uden at være for stor */
-    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
-  }
-
-  .hero-subtitle {
-    font-size: 1em; /* Øger størrelsen lidt for bedre synlighed */
-    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 20px 0; /* Mindre margin for at maksimere brugen af pladsen */
-  }
-
-  .hero-description {
-    font-size: 1.5em; /* Øger størrelsen lidt for bedre synlighed */
-    max-width: 90%; /* Øger bredden for at undgå linjeskift */
-    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
-  }
-
-  .section {
-    padding: 30px 5px; /* Mindre padding for meget små skærme */
-    margin: 0; /* Fjerner margin for at undgå mellemrum mellem hero-sektionen og næste sektion */
-  }
-
-  .small-image {
-    max-width: 60%; /* Justerer størrelsen på små billeder */
-  }
-}
-
+    transform: tra
 
 
 
