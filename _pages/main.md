@@ -204,6 +204,8 @@ body {
   .hero-section {
     position: relative;
     height: 100vh; /* Sørg for, at hero-sektionen dækker hele viewport højden */
+    margin: 0; /* Fjern margin for at sikre, at hero-sektionen fylder hele skærmen */
+    padding: 0; /* Fjern padding for at sikre, at hero-sektionen fylder hele skærmen */
     overflow: hidden; /* Sørg for, at eventuel overskydende del af billedet ikke vises */
   }
 
@@ -229,6 +231,7 @@ body {
     align-items: center;
     text-align: center;
     padding: 10px; /* Mindre padding for mindre skærme */
+    box-sizing: border-box; /* Inkluderer padding i elementets totale bredde og højde */
   }
 
   .hero-title {
@@ -258,6 +261,7 @@ body {
     max-width: 60%; /* Justerer størrelsen på små billeder */
   }
 }
+
 
 
 
