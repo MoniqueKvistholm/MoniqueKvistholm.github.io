@@ -203,16 +203,16 @@ body {
 
   .hero-section {
     position: relative;
-    height: 80vh; /* Sørg for, at hero-sektionen dækker næsten hele viewport højden */
+    height: 90vh; /* Sørg for, at hero-sektionen dækker næsten hele viewport højden */
     overflow: hidden; /* Skjuler overskydende del af billedet */
   }
 
   .hero-image {
     position: absolute;
-    top: -70%; /* Flytter billedet opad for at beskære toppen */
+    top: -50%; /* Beskær toppen af billedet */
     left: 50%; /* Midt af billedet på X-aksen */
     width: 100%;
-    height: 100%; /* Højere end 100% for at dække hele hero-sektionen */
+    height: 150%; /* Højere end 100% for at dække hele hero-sektionen */
     object-fit: cover; /* Beskærer billedet så det fylder hele hero-sektionen */
     object-position: center; /* Centrerer billedet */
     transform: translateX(-50%); /* Flytter billedet til venstre for at holde det centreret horisontalt */
@@ -232,6 +232,7 @@ body {
     padding: 10px; /* Mindre padding for mindre skærme */
     box-sizing: border-box; /* Inkluderer padding i elementets totale bredde og højde */
     z-index: 1; /* Sikrer, at overlayet vises over billedet */
+    transform: translateY(-10%); /* Rykker overlayet lidt op for at centrere teksten bedre */
   }
 
   .hero-title {
