@@ -236,19 +236,19 @@ body {
   }
 
   .hero-title {
-    font-size: 6em; /* Øger tekststørrelsen, så den fylder mest muligt uden at være for stor */
+    font-size: 6.5em; /* Øger tekststørrelsen, så den fylder mest muligt uden at være for stor */
     color: #EBF8FF; /* Sørg for, at teksten er læsbar */
     margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
   }
 
   .hero-subtitle {
-    font-size: 1em; /* Øger størrelsen lidt for bedre synlighed */
+    font-size: 1.5em; /* Øger størrelsen lidt for bedre synlighed */
     color: #EBF8FF; /* Sørg for, at teksten er læsbar */
     margin: 20px 0; /* Mindre margin for at maksimere brugen af pladsen */
   }
 
   .hero-description {
-    font-size: 1.5em; /* Øger størrelsen lidt for bedre synlighed */
+    font-size: 2em; /* Øger størrelsen lidt for bedre synlighed */
     max-width: 90%; /* Øger bredden for at undgå linjeskift */
     color: #EBF8FF; /* Sørg for, at teksten er læsbar */
     margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
