@@ -187,10 +187,10 @@ body {
 
   .hero-overlay {
     position: absolute;
-    top: 50%; /* Starter overlayet fra midten af skærmen */
-    left: 50%;
+    top: 50%; /* Start fra midten af hero-sektionen */
+    left: 50%; /* Centrerer overlayet horisontalt */
     width: 100%;
-    height: 50%; /* Overlayet fylder den nederste del af hero-sektionen */
+    height: 100%; /* Fylder hele hero-sektionen */
     display: flex;
     flex-direction: column; /* Sikrer lodret layout */
     justify-content: center; /* Centrerer teksten vertikalt i overlayet */
@@ -199,7 +199,7 @@ body {
     padding: 0; /* Fjern padding for at maksimere pladsen til teksten */
     box-sizing: border-box; /* Inkluderer padding i elementets totale bredde og højde */
     z-index: 1; /* Sikrer, at overlayet vises over billedet */
-    transform: translateY(-50%); /* Flytter overlayet opad for at centrere det vertikalt */
+    transform: translate(-50%, -50%); /* Flytter overlayet til midten af skærmen */
   }
 
   .hero-title {
