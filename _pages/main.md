@@ -196,7 +196,7 @@ body {
     justify-content: center; /* Centrerer teksten vertikalt i overlayet */
     align-items: center;
     text-align: center;
-    padding: 10px; /* Mindre padding for mindre skærme */
+    padding: 0; /* Fjern padding for at maksimere pladsen til teksten */
     box-sizing: border-box; /* Inkluderer padding i elementets totale bredde og højde */
     z-index: 1; /* Sikrer, at overlayet vises over billedet */
     transform: translateY(-50%); /* Flytter overlayet opad for at centrere det vertikalt */
@@ -222,7 +222,7 @@ body {
   }
 
   .section {
-    padding: 30px 5px; /* Mindre padding for meget små skærme */
+    padding: 0; /* Fjern padding for at fjerne mellemrum mellem hero-sektionen og det følgende indhold */
     margin: 0; /* Fjerner margin for at undgå mellemrum mellem hero-sektionen og næste sektion */
     background-color: #f4f4f4; /* Tilføjer baggrundsfarve for at gøre indholdet synligt, justér efter behov */
   }
@@ -231,6 +231,7 @@ body {
     max-width: 60%; /* Justerer størrelsen på små billeder */
   }
 }
+
 
 
 
