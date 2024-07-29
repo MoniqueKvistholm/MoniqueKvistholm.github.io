@@ -67,6 +67,7 @@ body {
   padding: 80px 20px; /* Tilpas padding efter behov */
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap; /* Tillader brud på linjerne */
 }
 
 .section-1 {
@@ -80,11 +81,13 @@ body {
   background-color: #FFFFFF; /* Baggrundsfarve for anden nederste sektion */
   display: flex;
   padding: 0 20px; /* Sidemargener for sektion 2 */
+  flex-wrap: wrap; /* Tillader brud på linjerne */
 }
 
 .column {
   flex: 1;
   padding: 20px;
+  box-sizing: border-box; /* Forhindrer padding i at påvirke den totale bredde */
 }
 
 .column-left {
@@ -154,62 +157,62 @@ body {
   font-size: 1.6em; /* Større tekststørrelse */
 }
 
-/* Media queries for responsive design on mobile devices */
-@media (max-width: 767px) {
-  .hero-section {
-    height: auto; /* Lad højden tilpasse sig indholdet */
-  }
-  .hero-image {
-    height: 300px; /* Juster højden på hero-billedet på mobil */
-  }
+/* Media queries til mobiltilpasning */
+@media (max-width: 768px) {
   .hero-title {
-    font-size: 4em; /* Juster fontstørrelsen på mobil */
+    font-size: 6em; /* Mindre tekststørrelse for mindre skærme */
   }
+
   .hero-subtitle {
-    font-size: 1.2em; /* Juster fontstørrelsen på mobil */
-    margin-bottom: 50px; /* Juster marginen */
+    font-size: 1.5em; /* Mindre tekststørrelse for mindre skærme */
+    margin-bottom: 50px; /* Mindre afstand mellem undertitlen og beskrivelsen */
   }
+
   .hero-description {
-    font-size: 1.5em; /* Juster fontstørrelsen på mobil */
-    max-width: 90%; /* Gør bredden større for mobil */
+    font-size: 1.5em; /* Mindre tekststørrelse for mindre skærme */
+    max-width: 90%; /* Øg bredden for mobilvisning */
   }
+
   .section {
-    flex-direction: column; /* Skift til lodret layout */
-    padding: 40px 10px; /* Juster padding for mobil */
+    padding: 40px 10px; /* Mindre padding for mindre skærme */
   }
+
   .section-1, .section-2 {
-    flex-direction: column; /* Skift til lodret layout */
+    flex-direction: column; /* Ændrer retning til kolonne for små skærme */
+    align-items: center; /* Centrerer indhold vertikalt */
   }
+
   .column {
-    padding: 10px; /* Juster padding for mobil */
-    width: 100%;
+    flex: 1 1 100%; /* Gør kolonnerne til 100% bredde på små skærme */
+    text-align: center; /* Centrer tekst på små skærme */
   }
-  .column-left, .column-right {
-    text-align: center; /* Centrer tekst på mobil */
-  }
-  .column-left-2, .column-right-2 {
-    text-align: center; /* Centrer tekst på mobil */
-  }
-  .column-content {
-    padding: 10px; /* Juster padding for mobil */
-  }
-  .column h3 {
-    font-size: 1.4em; /* Juster fontstørrelsen på mobil */
-  }
-  .column p {
-    font-size: 0.9em; /* Juster fontstørrelsen på mobil */
-  }
-  .column img {
-    max-width: 80%; /* Juster størrelsen på billeder på mobil */
-  }
+
   .small-image {
-    max-width: 50%; /* Juster størrelsen på lille billede på mobil */
-  }
-  .bold-text {
-    font-size: 1.2em; /* Juster fontstørrelsen på mobil */
+    max-width: 50%; /* Større billede for mindre skærme */
   }
 }
 
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 4em; /* Yderligere reduktion for meget små skærme */
+  }
+
+  .hero-subtitle {
+    font-size: 1.2em; /* Yderligere reduktion for meget små skærme */
+  }
+
+  .hero-description {
+    font-size: 1.2em; /* Yderligere reduktion for meget små skærme */
+  }
+
+  .section {
+    padding: 30px 5px; /* Mindre padding for meget små skærme */
+  }
+
+  .small-image {
+    max-width: 60%; /* Større billede for meget små skærme */
+  }
+}
 </style>
 
 <!-- Hero Section with Large Image -->
