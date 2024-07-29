@@ -205,6 +205,8 @@ body {
     position: relative;
     height: 90vh; /* Sørg for, at hero-sektionen dækker næsten hele viewport højden */
     overflow: hidden; /* Skjuler overskydende del af billedet */
+    margin: 0; /* Sørg for at hero-sektionen ikke tilføjer ekstra margin */
+    padding: 0; /* Sørg for at hero-sektionen ikke tilføjer ekstra padding */
   }
 
   .hero-image {
@@ -256,12 +258,14 @@ body {
 
   .section {
     padding: 30px 5px; /* Mindre padding for meget små skærme */
+    margin: 0; /* Fjerner margin for at undgå mellemrum mellem hero-sektionen og næste sektion */
   }
 
   .small-image {
     max-width: 60%; /* Justerer størrelsen på små billeder */
   }
 }
+
 
 
 
