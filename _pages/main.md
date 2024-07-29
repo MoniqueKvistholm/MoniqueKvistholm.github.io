@@ -163,7 +163,7 @@ body {
     margin: 0; /* Fjern marginer for body og html */
     padding: 0; /* Fjern padding for body og html */
     height: 100%; /* Sørg for at body og html dækker hele skærmen */
-    overflow-x: hidden; /* Undgå horisontal rullebar */
+    overflow: hidden; /* Undgå horisontal rullebar */
   }
 
   .hero-section {
@@ -180,11 +180,10 @@ body {
     width: 100%;
     height: 100%;
     background-image: url('/assets/img/Utekst.jpg'); /* Din hero-billede URL */
-    background-size: 150% 150%; /* Øger størrelsen af billedet for at beskære mere */
+    background-size: 130% 130%; /* Øger størrelsen af billedet for at beskære mere */
     background-position: center; /* Centrer billedet */
     background-repeat: no-repeat; /* Undgå gentagelse af billedet */
     background-attachment: fixed; /* Sørg for, at billedet er fast ved scroll */
-    transform: translateY(-20%); /* Juster billedet opad for at skære noget af toppen */
   }
 
   .hero-overlay {
@@ -200,7 +199,6 @@ body {
     text-align: center;
     padding: 10px; /* Mindre padding for mindre skærme */
     box-sizing: border-box; /* Inkluderer padding i elementets totale bredde og højde */
-    z-index: 1; /* Sikrer, at overlayet vises over billedet */
   }
 
   .hero-title {
