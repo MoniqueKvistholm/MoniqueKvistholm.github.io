@@ -157,48 +157,13 @@ body {
   font-size: 1.6em; /* Større tekststørrelse */
 }
 
-/* Media queries til mobiltilpasning */
-@media (max-width: 768px) {
-  .hero-title {
-    font-size: 6em; /* Mindre tekststørrelse for mindre skærme */
-  }
-
-  .hero-subtitle {
-    font-size: 1.5em; /* Mindre tekststørrelse for mindre skærme */
-    margin-bottom: 50px; /* Mindre afstand mellem undertitlen og beskrivelsen */
-  }
-
-  .hero-description {
-    font-size: 1.5em; /* Mindre tekststørrelse for mindre skærme */
-    max-width: 90%; /* Øg bredden for mobilvisning */
-  }
-
-  .section {
-    padding: 40px 10px; /* Mindre padding for mindre skærme */
-  }
-
-  .section-1, .section-2 {
-    flex-direction: column; /* Ændrer retning til kolonne for små skærme */
-    align-items: center; /* Centrerer indhold vertikalt */
-  }
-
-  .column {
-    flex: 1 1 100%; /* Gør kolonnerne til 100% bredde på små skærme */
-    text-align: center; /* Centrer tekst på små skærme */
-  }
-
-  .small-image {
-    max-width: 50%; /* Større billede for mindre skærme */
-  }
-}
-
 /* Media queries til meget små skærme */
 @media (max-width: 480px) {
   body, html {
     margin: 0; /* Fjern marginer for body og html */
     padding: 0; /* Fjern padding for body og html */
     height: 100%; /* Sørg for at body og html dækker hele skærmen */
-    overflow: hidden; /* Undgå horisontal rullebar */
+    overflow-x: hidden; /* Undgå horisontal rullebar */
   }
 
   .hero-section {
@@ -215,10 +180,11 @@ body {
     width: 100%;
     height: 100%;
     background-image: url('/assets/img/Utekst.jpg'); /* Din hero-billede URL */
-    background-size: 130% 130%; /* Øger størrelsen af billedet for at beskære mere */
+    background-size: 150% 150%; /* Øger størrelsen af billedet for at beskære mere */
     background-position: center; /* Centrer billedet */
     background-repeat: no-repeat; /* Undgå gentagelse af billedet */
     background-attachment: fixed; /* Sørg for, at billedet er fast ved scroll */
+    transform: translateY(-20%); /* Juster billedet opad for at skære noget af toppen */
   }
 
   .hero-overlay {
@@ -234,6 +200,7 @@ body {
     text-align: center;
     padding: 10px; /* Mindre padding for mindre skærme */
     box-sizing: border-box; /* Inkluderer padding i elementets totale bredde og højde */
+    z-index: 1; /* Sikrer, at overlayet vises over billedet */
   }
 
   .hero-title {
