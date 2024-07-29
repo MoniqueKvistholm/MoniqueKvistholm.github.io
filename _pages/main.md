@@ -209,10 +209,10 @@ body {
 
   .hero-image {
     position: absolute;
-    top: -20%; /* Flytter billedet opad for at beskære toppen */
+    top: -50%; /* Flytter billedet opad for at beskære toppen */
     left: 50%; /* Midt af billedet på X-aksen */
     width: 100%;
-    height: 120%; /* Højere end 100% for at dække hele hero-sektionen */
+    height: 100%; /* Højere end 100% for at dække hele hero-sektionen */
     object-fit: cover; /* Beskærer billedet så det fylder hele hero-sektionen */
     object-position: center; /* Centrerer billedet */
     transform: translateX(-50%); /* Flytter billedet til venstre for at holde det centreret horisontalt */
