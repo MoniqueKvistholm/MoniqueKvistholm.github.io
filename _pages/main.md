@@ -203,7 +203,7 @@ body {
 
   .hero-section {
     position: relative;
-    height: 80vh; /* Sørg for, at hero-sektionen dækker hele viewport højden */
+    height: 100vh; /* Sørg for, at hero-sektionen dækker hele viewport højden */
     overflow: hidden; /* Skjuler overskydende del af billedet */
   }
 
@@ -223,7 +223,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 70%;
+    height: 100%;
     display: flex;
     flex-direction: column; /* Sikrer lodret layout */
     justify-content: center;
