@@ -194,27 +194,63 @@ body {
 
 /* Media queries til meget små skærme */
 @media (max-width: 480px) {
+  body, html {
+    margin: 0; /* Fjern marginer for body og html */
+    padding: 0; /* Fjern padding for body og html */
+    height: 100%; /* Sørg for at body og html dækker hele skærmen */
+    overflow-x: hidden; /* Undgå horisontal rullebar */
+  }
+
+  .hero-section {
+    position: relative;
+    height: 100vh; /* Sørg for, at hero-sektionen dækker hele viewport højden */
+    overflow: hidden; /* Skjuler overskydende del af billedet */
+  }
+
   .hero-image {
-    object-fit: cover; /* Beskærer billedet, så det dækker hele skærmen */
-    height: 100vh; /* Sørger for at billedet fylder hele højden af skærmen */
+    position: absolute;
+    top: 50%; /* Midt af billedet på Y-aksen */
+    left: 50%; /* Midt af billedet på X-aksen */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Beskærer billedet så det fylder hele hero-sektionen */
+    object-position: center; /* Centrerer billedet */
+    transform: translate(-50%, -50%); /* Flytter billedet opad og til venstre for at skære mere af toppen og bunden */
   }
 
   .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Sikrer lodret layout */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 10px; /* Mindre padding for mindre skærme */
-    text-align: center; /* Centrerer teksten */
+    box-sizing: border-box; /* Inkluderer padding i elementets totale bredde og højde */
+    z-index: 1; /* Sikrer, at overlayet vises over billedet */
   }
 
   .hero-title {
-    font-size: 4em; /* Yderligere reduktion af tekststørrelse */
+    font-size: 5em; /* Øger tekststørrelsen, så den fylder mest muligt uden at være for stor */
+    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
+    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
   }
 
   .hero-subtitle {
-    font-size: 1.2em; /* Yderligere reduktion af tekststørrelse */
+    font-size: 1.5em; /* Øger størrelsen lidt for bedre synlighed */
+    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
+    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
   }
 
   .hero-description {
-    font-size: 1.2em; /* Yderligere reduktion af tekststørrelse */
+    font-size: 1.5em; /* Øger størrelsen lidt for bedre synlighed */
     max-width: 90%; /* Øger bredden for at undgå linjeskift */
+    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
+    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
   }
 
   .section {
@@ -225,6 +261,8 @@ body {
     max-width: 60%; /* Justerer størrelsen på små billeder */
   }
 }
+
+
 
 </style>
 
