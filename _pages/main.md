@@ -203,13 +203,13 @@ body {
 
   .hero-section {
     position: relative;
-    height: 90vh; /* Sørg for, at hero-sektionen dækker næsten hele viewport højden */
+    height: 80vh; /* Sørg for, at hero-sektionen dækker næsten hele viewport højden */
     overflow: hidden; /* Skjuler overskydende del af billedet */
   }
 
   .hero-image {
     position: absolute;
-    top: -50%; /* Flytter billedet opad for at beskære toppen */
+    top: -70%; /* Flytter billedet opad for at beskære toppen */
     left: 50%; /* Midt af billedet på X-aksen */
     width: 100%;
     height: 100%; /* Højere end 100% for at dække hele hero-sektionen */
