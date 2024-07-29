@@ -192,17 +192,29 @@ body {
   }
 }
 
+/* Media queries til meget små skærme */
 @media (max-width: 480px) {
+  .hero-image {
+    object-fit: cover; /* Beskærer billedet, så det dækker hele skærmen */
+    height: 100vh; /* Sørger for at billedet fylder hele højden af skærmen */
+  }
+
+  .hero-overlay {
+    padding: 10px; /* Mindre padding for mindre skærme */
+    text-align: center; /* Centrerer teksten */
+  }
+
   .hero-title {
-    font-size: 4em; /* Yderligere reduktion for meget små skærme */
+    font-size: 4em; /* Yderligere reduktion af tekststørrelse */
   }
 
   .hero-subtitle {
-    font-size: 1.2em; /* Yderligere reduktion for meget små skærme */
+    font-size: 1.2em; /* Yderligere reduktion af tekststørrelse */
   }
 
   .hero-description {
-    font-size: 1.2em; /* Yderligere reduktion for meget små skærme */
+    font-size: 1.2em; /* Yderligere reduktion af tekststørrelse */
+    max-width: 90%; /* Øger bredden for at undgå linjeskift */
   }
 
   .section {
@@ -210,9 +222,10 @@ body {
   }
 
   .small-image {
-    max-width: 60%; /* Større billede for meget små skærme */
+    max-width: 60%; /* Justerer størrelsen på små billeder */
   }
 }
+
 </style>
 
 <!-- Hero Section with Large Image -->
