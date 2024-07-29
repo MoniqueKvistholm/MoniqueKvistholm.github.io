@@ -20,6 +20,7 @@ nav_order:
     padding: 20px;
   }
 
+
   /* Sektioner med forskellige baggrundsfarver */
   .organization-section {
     background-color: #EBF8FF;
