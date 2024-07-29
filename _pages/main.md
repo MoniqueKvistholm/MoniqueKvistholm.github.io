@@ -215,7 +215,7 @@ body {
     height: 100%;
     object-fit: cover; /* Beskærer billedet så det fylder hele hero-sektionen */
     object-position: center; /* Centrerer billedet */
-    transform: translate(-50%, -50%); /* Flytter billedet opad og til venstre for at skære mere af toppen og bunden */
+    transform: translate(-70%, -50%); /* Flytter billedet opad og til venstre for at skære mere af toppen og bunden */
   }
 
   .hero-overlay {
@@ -223,7 +223,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 80%;
+    height: 70%;
     display: flex;
     flex-direction: column; /* Sikrer lodret layout */
     justify-content: center;
