@@ -209,10 +209,10 @@ body {
 
   .hero-image {
     position: absolute;
-    top: -30%; /* Beskærer toppen af billedet for at få mere af det ønskede område frem */
+    top: -100%; /* Test med en stor negativ værdi for at sikre, at ændringen har effekt */
     left: 50%; /* Midt af billedet på X-aksen */
     width: 100%;
-    height: 160%; /* Højere end 100% for at dække hele hero-sektionen */
+    height: 100%; /* Højere end 100% for at dække hele hero-sektionen */
     object-fit: cover; /* Beskærer billedet så det fylder hele hero-sektionen */
     object-position: center; /* Centrerer billedet */
     transform: translateX(-50%); /* Flytter billedet til venstre for at holde det centreret horisontalt */
@@ -220,8 +220,8 @@ body {
 
   .hero-overlay {
     position: absolute;
-    top: 50%; /* Midter overlayet vertikalt i hero-sektionen */
-    left: 50%;
+    top: 50%; /* Flytter overlayet nedad for at centrere det */
+    left: 0;
     width: 100%;
     height: 50%; /* Sørger for at overlayet fylder den nederste del af hero-sektionen */
     display: flex;
@@ -232,7 +232,6 @@ body {
     padding: 10px; /* Mindre padding for mindre skærme */
     box-sizing: border-box; /* Inkluderer padding i elementets totale bredde og højde */
     z-index: 1; /* Sikrer, at overlayet vises over billedet */
-    transform: translateY(-50%); /* Flytter overlayet opad, så det er centreret vertikalt */
   }
 
   .hero-title {
@@ -244,7 +243,7 @@ body {
   .hero-subtitle {
     font-size: 1em; /* Øger størrelsen lidt for bedre synlighed */
     color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 20px 0; /* Mindre margin for at maksimere brugen af pladsen */
+    margin: 40; /* Fjerner margin for at maksimere brugen af pladsen */
   }
 
   .hero-description {
@@ -262,8 +261,6 @@ body {
     max-width: 60%; /* Justerer størrelsen på små billeder */
   }
 }
-
-
 
 
 
