@@ -198,26 +198,27 @@ body {
     margin: 0; /* Fjern marginer for body og html */
     padding: 0; /* Fjern padding for body og html */
     height: 100%; /* Sørg for at body og html dækker hele skærmen */
-    overflow-x: hidden; /* Undgå horisontal rullebar */
+    overflow: hidden; /* Undgå horisontal rullebar */
   }
 
   .hero-section {
     position: relative;
-    height: 90vh; /* Sætter højden til 90% af viewport højden for at skære lidt af toppen og bunden */
-    margin: 0; /* Fjern margin for at sikre, at hero-sektionen fylder hele skærmen */
-    padding: 0; /* Fjern padding for at sikre, at hero-sektionen fylder hele skærmen */
-    overflow: hidden; /* Sørg for, at eventuel overskydende del af billedet ikke vises */
+    height: 100vh; /* Fuldt højde af viewporten */
+    margin: 0; /* Fjern margin */
+    overflow: hidden; /* Skjuler overskydende del af billedet */
   }
 
-  .hero-image {
+  .hero-image-container {
     position: absolute;
-    top: 50%; /* Flytter billedet ned til midten */
-    left: 50%; /* Flytter billedet til midten */
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 120%; /* Øger højden på billedet for at sikre, at det dækker hele hero-sektionen */
-    object-fit: cover; /* Beskærer billedet så det fylder hele hero-sektionen */
-    object-position: center; /* Centrerer billedet */
-    transform: translate(-50%, -50%); /* Justerer billedet så det er centreret korrekt */
+    height: 100%;
+    background-image: url('/assets/img/Utekst.jpg'); /* Din hero-billede URL */
+    background-size: cover; /* Sørg for, at billedet dækker hele containeren */
+    background-position: center; /* Centrer billedet */
+    background-repeat: no-repeat; /* Undgå gentagelse af billedet */
+    transform: translateY(-10%); /* Juster billedet opad for at skære noget af bunden */
   }
 
   .hero-overlay {
@@ -236,22 +237,22 @@ body {
   }
 
   .hero-title {
-    font-size: 5em; /* Øger tekststørrelsen, så den fylder mest muligt uden at være for stor */
+    font-size: 5em; /* Større tekststørrelse, men stadig læsbar */
     color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
+    margin: 0; /* Fjerner margin */
   }
 
   .hero-subtitle {
-    font-size: 1em; /* Øger størrelsen lidt for bedre synlighed */
+    font-size: 1em; /* Øger størrelsen lidt */
     color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 20; /* Fjerner margin for at maksimere brugen af pladsen */
+    margin: 40; /* Fjerner margin */
   }
 
   .hero-description {
-    font-size: 1.5em; /* Øger størrelsen lidt for bedre synlighed */
-    max-width: 90%; /* Øger bredden for at undgå linjeskift */
+    font-size: 1.5em; /* Øger størrelsen lidt */
+    max-width: 90%; /* Øger bredden for mobilvisning */
     color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
+    margin: 0; /* Fjerner margin */
   }
 
   .section {
@@ -262,6 +263,7 @@ body {
     max-width: 60%; /* Justerer størrelsen på små billeder */
   }
 }
+
 
 
 
