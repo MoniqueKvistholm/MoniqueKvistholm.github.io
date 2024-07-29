@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default2
 title: Digital Twin for PET Scanning
 description: PhD Project by Christian Hinge
 img: assets/img/P1.jpg
@@ -8,47 +8,121 @@ category: 2024
 related_publications: false
 ---
 
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-md-6 order-1 order-md-0 pr-md-5">
-      <strong>Introduction</strong>
-      <p>The aim of this project is to enhance the diagnostic potential of whole-body Positron Emission Tomography/Computed Tomography (PET/CT) imaging by creating personalized synthetic healthy PET baselines using advanced Deep Learning techniques.</p>
-      
-      <strong>Project Background</strong>
-      <p>Whole-body PET/CT imaging with FDG tracers is an invaluable diagnostic tool widely used in hospitals for detecting, diagnosing, and monitoring various diseases. However, standard analysis methods lack personalized healthy control images, reducing their precision and limiting the full diagnostic and prognostic potential of PET/CT imaging. This project addresses this limitation by introducing advanced Deep Learning techniques to synthesize personalized PET images based on the patient's own whole-body CT scans. This approach enables the development of images that reflect the individual patient's anatomical and physiological characteristics, increasing the accuracy of differentiating between normal and diseased states.</p>
-      
-      <strong>Project Potential</strong>
-      <p>The project has the potential to detect deviations and subtle changes in organ uptake patterns by comparing the patient's digital twin with the actual PET scan. For example, in diabetes, a personalized healthy PET image can assess the disease by comparing it to the actual observed uptake. This project represents an innovative approach to improving diagnostic analysis methods, enhancing the accuracy of diagnoses, and increasing the effectiveness of treatment for individual patients.</p>
-    </div>
-    
-    <div class="col-md-6 order-0 order-md-1 pl-md-5">
-      {% include figure.liquid loading="eager" path="assets/img/Billede_ projekt 1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-      
-      <div class="caption mt-3">
-        <p><strong>Figure 1:</strong> Application of healthy PET for lymphoma detection. From left: CT, PET, sbPET: Synthetic healthy PET image, Abnormality: difference between PET and synthetic PET, Segmentation: identified cancerous areas.</p>
+<style>
+  body {
+    background-color: #E6DED0; /* Background color for the entire page */
+    margin: 0;
+    padding: 0;
+  }
+  .custom-container {
+    background-color: #E6DED0; /* Background color for the content */
+    padding-left: 30px; /* Reduce side margins */
+    padding-right: 30px; /* Reduce side margins */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 0; /* Remove bottom margin */
+  }
+  .post-title {
+    font-weight: bold;
+    color: #062A40; /* Color for the title */
+    text-align: left; /* Left-align the title */
+    font-size: 2.5em; /* Increase font size of the title */
+    margin-top: 10px; /* Reduce top margin for the title */
+    margin-bottom: 20px;
+  }
+  .custom-contact-box {
+    background-color: #F4F0EB; /* Background color for the contact box */
+    border: 1px solid #ddd; /* Border around the contact box */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Reduced padding inside the contact box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow */
+  }
+  .custom-contact-box h4.small-header {
+    color: #062A40; /* Color for the header in the contact box */
+    font-weight: bold;
+    font-size: 1em; /* Smaller font size for the header */
+    margin-bottom: 10px; /* Reduced bottom margin for the header */
+  }
+  .custom-contact-box .contact-item {
+    margin-bottom: 5px; /* Reduced bottom margin for contact items */
+  }
+  .custom-contact-box .contact-item strong {
+    color: #555; /* Color for strong tags (e.g., 'Name:', 'Email:', etc.) */
+    font-size: 0.9em; /* Smaller font size for strong tags */
+  }
+  .custom-contact-box .contact-item span {
+    color: #333; /* Color for span tags (e.g., 'Christian Hinge', email link, etc.) */
+    font-size: 0.9em; /* Smaller font size for span tags */
+  }
+  article {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  .figure-column {
+    padding-right: 15px; /* Right padding to separate figure from text */
+  }
+</style>
+
+<div class="custom-container">
+  <div class="post">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <p class="post-description">{{ page.description }}</p>
+    </header>
+
+    <article>
+      <div class="row">
+        <div class="col-md-7">
+          <strong>Introduction</strong>
+          <p>The aim of this project is to enhance the diagnostic potential of whole-body Positron Emission Tomography/Computed Tomography (PET/CT) imaging by creating personalized synthetic healthy PET baselines using advanced Deep Learning techniques.</p>
+
+          <strong>Project Background</strong>
+          <p>Whole-body PET/CT imaging with FDG tracers is an invaluable diagnostic tool widely used in hospitals for detecting, diagnosing, and monitoring various diseases. However, standard analysis methods lack personalized healthy control images, reducing their precision and limiting the full diagnostic and prognostic potential of PET/CT imaging. This project addresses this limitation by introducing advanced Deep Learning techniques to synthesize personalized PET images based on the patient's own whole-body CT scans. This approach enables the development of images that reflect the individual patient's anatomical and physiological characteristics, increasing the accuracy of differentiating between normal and diseased states.</p>
+
+          <strong>Project Potential</strong>
+          <p>The project has the potential to detect deviations and subtle changes in organ uptake patterns by comparing the patient's digital twin with the actual PET scan. For example, in diabetes, a personalized healthy PET image can assess the disease by comparing it to the actual observed uptake. This project represents an innovative approach to improving diagnostic analysis methods, enhancing the accuracy of diagnoses, and increasing the effectiveness of treatment for individual patients.</p>
+        </div>
+
+        <div class="col-md-5 figure-column">
+          {% include figure.liquid loading="eager" path="assets/img/Billede_ projekt 1.jpg" title="Example image" class="img-fluid rounded z-depth-1" %}
+
+          <div class="caption mt-3">
+            <p><strong>Figure 1:</strong> Application of healthy PET for lymphoma detection. From left: CT, PET, sbPET: Synthetic healthy PET image, Abnormality: difference between PET and synthetic PET, Segmentation: identified cancerous areas.</p>
+          </div>
+
+          <div class="custom-contact-box mt-4 border rounded shadow-sm">
+            <h4 class="small-header">Contact Information</h4>
+            <div class="contact-item">
+              <strong>Name:</strong>
+              <span>Christian Hinge</span>
+            </div>
+            <div class="contact-item">
+              <strong>Email:</strong>
+              <span><a href="mailto:christian.hinge@regionh.dk">christian.hinge@regionh.dk</a></span>
+            </div>
+            <div class="contact-item">
+              <strong>Location:</strong>
+              <span>Department of Clinical Physiology and Nuclear Medicine, 3982</span>
+            </div>
+            <div class="contact-item">
+              <strong>Position:</strong>
+              <span>PhD Student</span>
+            </div>
+          </div>
+        </div>
       </div>
-      
-      <div class="contact-box mt-5 p-3 border rounded shadow-sm">
-        <h4 class="small-header">Contact Information</h4>    
-        <div class="contact-item">
-          <strong>Name:</strong>
-          <span>Christian Hinge</span>
-        </div>
-        <div class="contact-item">
-          <strong>Email:</strong>
-          <span><a href="mailto:christian.hinge@regionh.dk">christian.hinge@regionh.dk</a></span>
-        </div>
-        <div class="contact-item">
-          <strong>Location:</strong>
-          <span>Department of Clinical Physiology and Nuclear Medicine, 3982</span>
-        </div>
-        <div class="contact-item">
-          <strong>Position:</strong>
-          <span>PhD Student</span>
-        </div>
+    </article>
+
+    {% if page.related_publications %}
+      <h2>References</h2>
+      <div class="publications">
+        {% bibliography --cited_in_order %}
       </div>
-    </div>
+    {% endif %}
+
+    {% if site.giscus and page.giscus_comments %}
+      {% include giscus.liquid %}
+    {% endif %}
   </div>
 </div>
-
-<link rel="stylesheet" href="css/custom.css">

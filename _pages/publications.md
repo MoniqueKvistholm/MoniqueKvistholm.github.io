@@ -53,5 +53,6 @@ nav_order: 3
 </style>
 
 <div class="bottom-text">
-  <p>This is where you can add your white text content. You can format it as needed.</p>
+  <p></p>
+  <img src="/assets/img/Hvid.jpg" alt="Beskrivelse af billede" style="max-width: 100%; height: auto; margin-top: 20px;">
 </div>

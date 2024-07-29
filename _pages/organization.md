@@ -1,5 +1,5 @@
 ---
-layout: default2
+layout: page2
 permalink: /organization/
 title: Organization
 nav: false
@@ -7,74 +7,119 @@ nav_order:
 ---
 
 <style>
-  /* Tilføjet styling for at justere størrelsen af .leader-box */
+  /* Generel reset af margin og padding */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Container til at centrere sektioner */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* Sektioner med forskellige baggrundsfarver */
+  .organization-section {
+    background-color: #EBF8FF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .centerledere-section {
+    background-color: #F8F5F5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .leadership-section {
+    background-color: #d0d0d0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  /* Styling for leader box */
   .leader-box {
-    max-width: 400px; /* Juster bredden efter behov */
+    display: flex;
+    align-items: left;
+    margin-bottom: 40px;
+  }
+
+  .leader-box img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 0%;
+    margin-right: 20px;
+  }
+
+  .leader-info {
+    flex: 1;
+  }
+
+  /* Styling for overskrifter */
+  h2, h3 {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  /* Styling for kontaktinformation */
+  .contact-item {
+    margin-bottom: 10px;
   }
 </style>
 
-<!-- Baggrundsfarve for Organization sektion -->
-<div style="background-color: #EBF8FF; width: 100vw; margin-left: calc(50% - 45vw);">
-  <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+<!-- Organization sektion -->
+<div class="organization-section">
+  <div class="container">
     <h2>Organization</h2>
     <strong style="font-size: 1.5em;">Organizationdiagram</strong>
     <img src="/assets/img/Organisationsdiagram.png" alt="Organizational Diagram">
-    <p>*Her indsættes et organisationsdiagram*</p>
   </div>
 </div>
 
-<!-- Ny Baggrundsfarve for Centerledere sektion -->
-<div style="background-color: #f2f2f2; width: 100vw; margin-left: calc(50% - 50vw); padding-top: 0;">
-  <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
-    <h3 style="color: #004062;">Centerledere</h3>
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="leader-box p-3 border rounded shadow-sm">
-            <div class="row">
-              <div class="col-4">
-                <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Andersen" class="img-fluid rounded-circle">
-              </div>
-              <div class="col-8">
-                <h4 class="mb-3">Flemming Andersen</h4>
-                <div class="contact-item">
-                  <strong>Email:</strong>
-                  <span><a href="mailto:flemming.andersen@regionh.dk">flemming.andersen@regionh.dk</a></span>
-                </div>
-                <div class="contact-item">
-                  <strong>Tlf:</strong>
-                  <span>+45 35-45 81-43</span>
-                </div>
-                <div class="contact-item">
-                  <strong>Placering:</strong>
-                  <span>3982, Klinisk Fysiologi og Nuklearmedicin</span>
-                </div>
-              </div>
+<!-- Centerledere sektion -->
+<div class="centerledere-section">
+  <div class="container">
+    <h3>Centerledere</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="leader-box">
+          <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Andersen">
+          <div class="leader-info">
+            <h4>Flemming Andersen</h4>
+            <div class="contact-item">
+              <strong>Email:</strong>
+              <span><a href="mailto:flemming.andersen@regionh.dk">flemming.andersen@regionh.dk</a></span>
+            </div>
+            <div class="contact-item">
+              <strong>Tlf:</strong>
+              <span>+45 35-45 81-43</span>
+            </div>
+            <div class="contact-item">
+              <strong>Placering:</strong>
+              <span>3982, Klinisk Fysiologi og Nuklearmedicin</span>
             </div>
           </div>
         </div>
-
-        <div class="col-md-6">
-          <div class="leader-box p-3 border rounded shadow-sm">
-            <div class="row">
-              <div class="col-4">
-                <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen" class="img-fluid rounded-circle">
-              </div>
-              <div class="col-8">
-                <h4 class="mb-3">Adam Espe Hansen</h4>
-                <div class="contact-item">
-                  <strong>Email:</strong>
-                  <span><a href="mailto:adam.espe.hansen@regionh.dk">adam.espe.hansen@regionh.dk</a></span>
-                </div>
-                <div class="contact-item">
-                  <strong>Tlf:</strong>
-                  <span>+45 35-45 84-60</span>
-                </div>
-                <div class="contact-item">
-                  <strong>Placering:</strong>
-                  <span>3023, Røntgen og Skanning</span>
-                </div>
-              </div>
+      </div>
+      <div class="col-md-6">
+        <div class="leader-box">
+          <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen">
+          <div class="leader-info">
+            <h4>Adam Espe Hansen</h4>
+            <div class="contact-item">
+              <strong>Email:</strong>
+              <span><a href="mailto:adam.espe.hansen@regionh.dk">adam.espe.hansen@regionh.dk</a></span>
+            </div>
+            <div class="contact-item">
+              <strong>Tlf:</strong>
+              <span>+45 35-45 84-60</span>
+            </div>
+            <div class="contact-item">
+              <strong>Placering:</strong>
+              <span>3023, Røntgen og Skanning</span>
             </div>
           </div>
         </div>
@@ -83,43 +128,39 @@ nav_order:
   </div>
 </div>
 
-<!-- Ny Baggrundsfarve for Styregruppe sektion -->
-<div style="background-color: #d0d0d0; width: 100vw; margin-left: calc(50% - 50vw);">
-  <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
-    <h3>Styregruppe</h3>
-    <ul>
-      <li>Malene Fischer</li>
-      <li>Flemming Littrup Andersen</li>
-      <li>Claes Ladefoged</li>
-      <li>Adam Espe Hansen</li>
-      <li>Michael Bachmann Nielsen</li>
-      <li>Jonathan Carlsen</li>
-      <li>Martin Lundsgaard</li>
-      <li>Jann Mortensen</li>
-      <li>Ida Robsøe</li>
-      <li>Johnny Madelung</li>
-    </ul>
-  </div>
-</div>
-
-<!-- Ny Baggrundsfarve for AI Forskningsledere sektion -->
-<div style="background-color: #c0c0c0; width: 100vw; margin-left: calc(50% - 50vw);">
-  <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
-    <h3>AI Forskningsledere</h3>
-    <ul>
-      <li>Claes Ladefoged</li>
-      <li>Michael Bachman</li>
-    </ul>
-  </div>
-</div>
-
-<!-- Ny Baggrundsfarve for Bestyrelse sektion -->
-<div style="background-color: #b0b0b0; width: 100vw; margin-left: calc(50% - 50vw);">
-  <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
-    <h3>Bestyrelse</h3>
-    <ul>
-      <li>Malene Fischer</li>
-      <li>Martin Lundsgaard</li>
-    </ul>
+<!-- Leadership sektion -->
+<div class="leadership-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Styregruppe</h3>
+        <ul>
+          <li>Malene Fischer</li>
+          <li>Flemming Littrup Andersen</li>
+          <li>Claes Ladefoged</li>
+          <li>Adam Espe Hansen</li>
+          <li>Michael Bachmann Nielsen</li>
+          <li>Jonathan Carlsen</li>
+          <li>Martin Lundsgaard</li>
+          <li>Jann Mortensen</li>
+          <li>Ida Robsøe</li>
+          <li>Johnny Madelung</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h3>AI Forskningsledere</h3>
+        <ul>
+          <li>Claes Ladefoged</li>
+          <li>Michael Bachman</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h3>Bestyrelse</h3>
+        <ul>
+          <li>Malene Fischer</li>
+          <li>Martin Lundsgaard</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>

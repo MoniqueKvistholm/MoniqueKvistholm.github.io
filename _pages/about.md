@@ -1,8 +1,4 @@
----
-layout: page2
-title: Main
-permalink: /
----
+
 
 <head>
   <style>
