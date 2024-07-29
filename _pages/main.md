@@ -154,6 +154,62 @@ body {
   font-size: 1.6em; /* Større tekststørrelse */
 }
 
+/* Media queries for responsive design on mobile devices */
+@media (max-width: 767px) {
+  .hero-section {
+    height: auto; /* Lad højden tilpasse sig indholdet */
+  }
+  .hero-image {
+    height: 300px; /* Juster højden på hero-billedet på mobil */
+  }
+  .hero-title {
+    font-size: 4em; /* Juster fontstørrelsen på mobil */
+  }
+  .hero-subtitle {
+    font-size: 1.2em; /* Juster fontstørrelsen på mobil */
+    margin-bottom: 50px; /* Juster marginen */
+  }
+  .hero-description {
+    font-size: 1.5em; /* Juster fontstørrelsen på mobil */
+    max-width: 90%; /* Gør bredden større for mobil */
+  }
+  .section {
+    flex-direction: column; /* Skift til lodret layout */
+    padding: 40px 10px; /* Juster padding for mobil */
+  }
+  .section-1, .section-2 {
+    flex-direction: column; /* Skift til lodret layout */
+  }
+  .column {
+    padding: 10px; /* Juster padding for mobil */
+    width: 100%;
+  }
+  .column-left, .column-right {
+    text-align: center; /* Centrer tekst på mobil */
+  }
+  .column-left-2, .column-right-2 {
+    text-align: center; /* Centrer tekst på mobil */
+  }
+  .column-content {
+    padding: 10px; /* Juster padding for mobil */
+  }
+  .column h3 {
+    font-size: 1.4em; /* Juster fontstørrelsen på mobil */
+  }
+  .column p {
+    font-size: 0.9em; /* Juster fontstørrelsen på mobil */
+  }
+  .column img {
+    max-width: 80%; /* Juster størrelsen på billeder på mobil */
+  }
+  .small-image {
+    max-width: 50%; /* Juster størrelsen på lille billede på mobil */
+  }
+  .bold-text {
+    font-size: 1.2em; /* Juster fontstørrelsen på mobil */
+  }
+}
+
 </style>
 
 <!-- Hero Section with Large Image -->
@@ -198,5 +254,3 @@ body {
         </div>
     </div>
 </div>
-
-
