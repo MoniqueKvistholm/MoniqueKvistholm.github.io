@@ -196,7 +196,8 @@ body {
 @media (max-width: 480px) {
   .hero-image {
     object-fit: cover; /* Beskærer billedet, så det dækker hele skærmen */
-    height: 100vh; /* Sørger for at billedet fylder hele højden af skærmen */
+    height: 80vh; /* Justeret højde til at beskære lidt af billedet */
+    object-position: center; /* Centrerer billedet */
   }
 
   .hero-overlay {
@@ -205,15 +206,15 @@ body {
   }
 
   .hero-title {
-    font-size: 4em; /* Yderligere reduktion af tekststørrelse */
+    font-size: 5em; /* Øger tekststørrelsen, så den fylder mest muligt uden at være for stor */
   }
 
   .hero-subtitle {
-    font-size: 1.2em; /* Yderligere reduktion af tekststørrelse */
+    font-size: 1.5em; /* Øger størrelsen lidt for bedre synlighed */
   }
 
   .hero-description {
-    font-size: 1.2em; /* Yderligere reduktion af tekststørrelse */
+    font-size: 1.5em; /* Øger størrelsen lidt for bedre synlighed */
     max-width: 90%; /* Øger bredden for at undgå linjeskift */
   }
 
@@ -225,6 +226,7 @@ body {
     max-width: 60%; /* Justerer størrelsen på små billeder */
   }
 }
+
 
 </style>
 
