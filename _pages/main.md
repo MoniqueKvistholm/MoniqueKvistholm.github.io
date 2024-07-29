@@ -199,7 +199,7 @@ body {
     padding: 0; /* Fjern padding for at maksimere pladsen til teksten */
     box-sizing: border-box; /* Inkluderer padding i elementets totale bredde og højde */
     z-index: 1; /* Sikrer, at overlayet vises over billedet */
-    transform: translateY(-50%); /* Flytter overlayet opad for at centrere det vertikalt */
+    transform: translate(-50%, -50%); /* Flytter overlayet til midten af skærmen */
   }
 
   .hero-title {
@@ -222,9 +222,8 @@ body {
   }
 
   .section {
-    padding: 0; /* Fjern padding for at fjerne mellemrum mellem hero-sektionen og det følgende indhold */
-    margin: 0; /* Fjerner margin for at undgå mellemrum mellem hero-sektionen og næste sektion */
-    background-color: #f4f4f4; /* Tilføjer baggrundsfarve for at gøre indholdet synligt, justér efter behov */
+    padding: 30px 5px; /* Genskaber padding for at give plads til indholdet */
+    margin: 0; /* Sørg for at der ikke er margin mellem sektionerne */
   }
 
   .small-image {
