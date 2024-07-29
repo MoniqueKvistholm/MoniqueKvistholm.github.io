@@ -157,41 +157,6 @@ body {
   font-size: 1.6em; /* Større tekststørrelse */
 }
 
-/* Media queries til mobiltilpasning */
-@media (max-width: 768px) {
-  .hero-title {
-    font-size: 6em; /* Mindre tekststørrelse for mindre skærme */
-  }
-
-  .hero-subtitle {
-    font-size: 1.5em; /* Mindre tekststørrelse for mindre skærme */
-    margin-bottom: 50px; /* Mindre afstand mellem undertitlen og beskrivelsen */
-  }
-
-  .hero-description {
-    font-size: 1.5em; /* Mindre tekststørrelse for mindre skærme */
-    max-width: 90%; /* Øg bredden for mobilvisning */
-  }
-
-  .section {
-    padding: 40px 10px; /* Mindre padding for mindre skærme */
-  }
-
-  .section-1, .section-2 {
-    flex-direction: column; /* Ændrer retning til kolonne for små skærme */
-    align-items: center; /* Centrerer indhold vertikalt */
-  }
-
-  .column {
-    flex: 1 1 100%; /* Gør kolonnerne til 100% bredde på små skærme */
-    text-align: center; /* Centrer tekst på små skærme */
-  }
-
-  .small-image {
-    max-width: 50%; /* Større billede for mindre skærme */
-  }
-}
-
 /* Media queries til meget små skærme */
 @media (max-width: 480px) {
   body, html {
@@ -234,7 +199,7 @@ body {
     padding: 10px; /* Mindre padding for mindre skærme */
     box-sizing: border-box; /* Inkluderer padding i elementets totale bredde og højde */
     z-index: 1; /* Sikrer, at overlayet vises over billedet */
-    transform: translateY(-50%); /* Flytter overlayet opad for at centrere det */
+    transform: translateY(-50%); /* Flytter overlayet opad for at centrere det vertikalt */
   }
 
   .hero-title {
@@ -266,7 +231,6 @@ body {
     max-width: 60%; /* Justerer størrelsen på små billeder */
   }
 }
-
 
 
 
