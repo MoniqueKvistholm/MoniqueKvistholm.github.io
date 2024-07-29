@@ -220,8 +220,8 @@ body {
 
   .hero-overlay {
     position: absolute;
-    top: 50%; /* Flytter overlayet til midten af skærmen */
-    left: 50%;
+    top: 50%; /* Starter overlayet fra midten af hero-sektionen */
+    left: 50%; /* Starter overlayet fra midten af X-aksen */
     width: 100%;
     height: 50%; /* Sørger for at overlayet fylder den nederste del af hero-sektionen */
     display: flex;
@@ -232,7 +232,7 @@ body {
     padding: 10px; /* Mindre padding for mindre skærme */
     box-sizing: border-box; /* Inkluderer padding i elementets totale bredde og højde */
     z-index: 1; /* Sikrer, at overlayet vises over billedet */
-    transform: translateY(-50%); /* Flytter overlayet opad for at centrere det */
+    transform: translate(-50%, -50%); /* Flytter overlayet op og til venstre for at centrere det */
   }
 
   .hero-title {
@@ -262,6 +262,8 @@ body {
     max-width: 60%; /* Justerer størrelsen på små billeder */
   }
 }
+
+
 
 
 </style>
