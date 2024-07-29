@@ -215,7 +215,7 @@ body {
     height: 100%;
     object-fit: cover; /* Beskærer billedet så det fylder hele hero-sektionen */
     object-position: center; /* Centrerer billedet */
-    transform: translate(-70%, -50%); /* Flytter billedet opad og til venstre for at skære mere af toppen og bunden */
+    transform: translate(-70%, -20%); /* Flytter billedet opad og til venstre for at skære mere af toppen og bunden */
   }
 
   .hero-overlay {
@@ -243,7 +243,7 @@ body {
   .hero-subtitle {
     font-size: 1em; /* Øger størrelsen lidt for bedre synlighed */
     color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 40; /* Fjerner margin for at maksimere brugen af pladsen */
+    margin: 70; /* Fjerner margin for at maksimere brugen af pladsen */
   }
 
   .hero-description {
