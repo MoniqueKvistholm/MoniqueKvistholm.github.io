@@ -203,83 +203,65 @@ body {
 
   .hero-section {
     position: relative;
-    height: 80vh; /* Sørg for, at hero-sektionen dækker 80% af viewport højden */
+    height: 100vh; /* Sørg for, at hero-sektionen dækker hele viewport højden */
     overflow: hidden; /* Skjuler overskydende del af billedet */
-    margin: 0; /* Sørg for at hero-sektionen ikke tilføjer ekstra margin */
-    padding: 0; /* Sørg for at hero-sektionen ikke tilføjer ekstra padding */
   }
 
   .hero-image {
     position: absolute;
-    top: -10%; /* Beskærer toppen af billedet */
+    top: 50%; /* Midt af billedet på Y-aksen */
     left: 50%; /* Midt af billedet på X-aksen */
     width: 100%;
-    height: 120%; /* Billedet fylder højere end 100% af hero-sektionen */
+    height: 100%;
     object-fit: cover; /* Beskærer billedet så det fylder hele hero-sektionen */
     object-position: center; /* Centrerer billedet */
-    transform: translateX(-50%); /* Flytter billedet til venstre for at holde det centreret horisontalt */
+    transform: translate(-50%, -50%); /* Flytter billedet opad og til venstre for at skære mere af toppen og bunden */
   }
 
   .hero-overlay {
     position: absolute;
-    top: 50%; /* Starter overlayet fra midten af skærmen */
-    left: 50%;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 50%; /* Overlayet fylder den nederste del af hero-sektionen */
+    height: 100%;
     display: flex;
     flex-direction: column; /* Sikrer lodret layout */
-    justify-content: center; /* Centrerer teksten vertikalt i overlayet */
+    justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0; /* Fjern padding for at maksimere pladsen til teksten */
+    padding: 10px; /* Mindre padding for mindre skærme */
     box-sizing: border-box; /* Inkluderer padding i elementets totale bredde og højde */
     z-index: 1; /* Sikrer, at overlayet vises over billedet */
-    transform: translate(-50%, -50%); /* Flytter overlayet til midten af skærmen */
   }
 
   .hero-title {
-    font-size: 4em; /* Yderligere reduktion for meget små skærme */
+    font-size: 5em; /* Øger tekststørrelsen, så den fylder mest muligt uden at være for stor */
+    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
+    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
   }
 
   .hero-subtitle {
-    font-size: 1.2em; /* Yderligere reduktion for meget små skærme */
+    font-size: 1.5em; /* Øger størrelsen lidt for bedre synlighed */
+    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
+    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
   }
 
   .hero-description {
-    font-size: 1.2em; /* Yderligere reduktion for meget små skærme */
-    max-width: 90%; /* Øger bredden for mobilvisning */
+    font-size: 1.5em; /* Øger størrelsen lidt for bedre synlighed */
+    max-width: 90%; /* Øger bredden for at undgå linjeskift */
+    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
+    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
   }
 
   .section {
     padding: 30px 5px; /* Mindre padding for meget små skærme */
-    margin: 0; /* Fjerner margin for at undgå mellemrum mellem hero-sektionen og næste sektion */
-    background-color: #f4f4f4; /* Baggrundsfarve for indholdet */
-    display: flex;
-    flex-direction: column; /* Ændrer retning til kolonne for små skærme */
-  }
-
-  .section-1, .section-2 {
-    display: flex;
-    flex-direction: column; /* Ændrer retning til kolonne for små skærme */
-    align-items: center; /* Centrerer indhold vertikalt */
-  }
-
-  .column {
-    flex: 1 1 100%; /* Gør kolonnerne til 100% bredde på små skærme */
-    padding: 10px; /* Justerer padding for små skærme */
-    box-sizing: border-box; /* Forhindrer padding i at påvirke den totale bredde */
-    text-align: center; /* Centrerer tekst på små skærme */
-  }
-
-  .column-content {
-    padding: 20px;
-    text-align: center; /* Standard centreret tekst */
   }
 
   .small-image {
-    max-width: 80%; /* Større billede for meget små skærme */
+    max-width: 60%; /* Justerer størrelsen på små billeder */
   }
 }
+
 
 </style>
 
@@ -325,4 +307,5 @@ body {
         </div>
     </div>
 </div>
+
 
