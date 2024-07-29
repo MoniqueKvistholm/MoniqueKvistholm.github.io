@@ -209,10 +209,10 @@ body {
 
   .hero-image {
     position: absolute;
-    top: -10%; /* Beskærer toppen af billedet, mens bunden forbliver beskåret */
+    top: -10%; /* Beskærer toppen af billedet */
     left: 50%; /* Midt af billedet på X-aksen */
     width: 100%;
-    height: 120%; /* Højere end 100% for at dække hele hero-sektionen */
+    height: 80%; /* Billedet fylder 80% af højden af hero-sektionen */
     object-fit: cover; /* Beskærer billedet så det fylder hele hero-sektionen */
     object-position: center; /* Centrerer billedet */
     transform: translateX(-50%); /* Flytter billedet til venstre for at holde det centreret horisontalt */
@@ -220,7 +220,7 @@ body {
 
   .hero-overlay {
     position: absolute;
-    top: 50%; /* Flytter overlayet til midten af skærmen */
+    top: 50%; /* Starter overlayet fra midten af skærmen */
     left: 50%;
     width: 100%;
     height: 50%; /* Sørger for at overlayet fylder den nederste del af hero-sektionen */
