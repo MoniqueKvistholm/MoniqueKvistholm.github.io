@@ -203,7 +203,7 @@ body {
 
   .hero-section {
     position: relative;
-    height: 100vh; /* Sørg for, at hero-sektionen dækker hele viewport højden */
+    height: 80vh; /* Sørg for, at hero-sektionen dækker hele viewport højden */
     overflow: hidden; /* Skjuler overskydende del af billedet */
   }
 
@@ -235,7 +235,7 @@ body {
   }
 
   .hero-title {
-    font-size: 6em; /* Øger tekststørrelsen, så den fylder mest muligt uden at være for stor */
+    font-size: 7em; /* Øger tekststørrelsen, så den fylder mest muligt uden at være for stor */
     color: #EBF8FF; /* Sørg for, at teksten er læsbar */
     margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
   }
@@ -243,11 +243,11 @@ body {
   .hero-subtitle {
     font-size: 1.5em; /* Øger størrelsen lidt for bedre synlighed */
     color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
+    margin: 20; /* Fjerner margin for at maksimere brugen af pladsen */
   }
 
   .hero-description {
-    font-size: 2em; /* Øger størrelsen lidt for bedre synlighed */
+    font-size: 2.5em; /* Øger størrelsen lidt for bedre synlighed */
     max-width: 90%; /* Øger bredden for at undgå linjeskift */
     color: #EBF8FF; /* Sørg for, at teksten er læsbar */
     margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
