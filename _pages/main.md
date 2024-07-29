@@ -157,67 +157,64 @@ body {
   font-size: 1.6em; /* Større tekststørrelse */
 }
 
-/* Media queries til meget små skærme */
-@media (max-width: 480px) {
-  body, html {
-    margin: 0; /* Fjern marginer for body og html */
-    padding: 0; /* Fjern padding for body og html */
-    height: 100%; /* Sørg for at body og html dækker hele skærmen */
-    overflow: hidden; /* Undgå horisontal rullebar */
-  }
-
-  .hero-section {
-    position: relative;
-    height: 100vh; /* Fuldt højde af viewporten */
-    margin: 0; /* Fjern margin */
-    overflow: hidden; /* Skjuler overskydende del af billedet */
-  }
-
-  .hero-image-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/assets/img/Utekst.jpg'); /* Din hero-billede URL */
-    background-size: cover; /* Sørg for, at billedet dækker hele containeren */
-    background-position: center; /* Centrer billedet */
-    background-repeat: no-repeat; /* Undgå gentagelse af billedet */
-    transform: translateY(-10%); /* Juster billedet opad for at skære noget af bunden */
-  }
-
-  .hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column; /* Sikrer lodret layout */
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 10px; /* Mindre padding for mindre skærme */
-    box-sizing: border-box; /* Inkluderer padding i elementets totale bredde og højde */
-  }
-
+/* Media queries til mobiltilpasning */
+@media (max-width: 768px) {
   .hero-title {
-    font-size: 5em; /* Større tekststørrelse, men stadig læsbar */
-    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 0; /* Fjerner margin */
+    font-size: 6em; /* Mindre tekststørrelse for mindre skærme */
   }
 
   .hero-subtitle {
-    font-size: 1.5em; /* Øger størrelsen lidt */
-    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 0; /* Fjerner margin */
+    font-size: 1.5em; /* Mindre tekststørrelse for mindre skærme */
+    margin-bottom: 50px; /* Mindre afstand mellem undertitlen og beskrivelsen */
   }
 
   .hero-description {
-    font-size: 1.5em; /* Øger størrelsen lidt */
-    max-width: 90%; /* Øger bredden for mobilvisning */
-    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 0; /* Fjerner margin */
+    font-size: 1.5em; /* Mindre tekststørrelse for mindre skærme */
+    max-width: 90%; /* Øg bredden for mobilvisning */
+  }
+
+  .section {
+    padding: 40px 10px; /* Mindre padding for mindre skærme */
+  }
+
+  .section-1, .section-2 {
+    flex-direction: column; /* Ændrer retning til kolonne for små skærme */
+    align-items: center; /* Centrerer indhold vertikalt */
+  }
+
+  .column {
+    flex: 1 1 100%; /* Gør kolonnerne til 100% bredde på små skærme */
+    text-align: center; /* Centrer tekst på små skærme */
+  }
+
+  .small-image {
+    max-width: 50%; /* Større billede for mindre skærme */
+  }
+}
+
+/* Media queries til meget små skærme */
+@media (max-width: 480px) {
+  .hero-image {
+    object-fit: cover; /* Beskærer billedet, så det dækker hele skærmen */
+    height: 100vh; /* Sørger for at billedet fylder hele højden af skærmen */
+  }
+
+  .hero-overlay {
+    padding: 10px; /* Mindre padding for mindre skærme */
+    text-align: center; /* Centrerer teksten */
+  }
+
+  .hero-title {
+    font-size: 4em; /* Yderligere reduktion af tekststørrelse */
+  }
+
+  .hero-subtitle {
+    font-size: 1.2em; /* Yderligere reduktion af tekststørrelse */
+  }
+
+  .hero-description {
+    font-size: 1.2em; /* Yderligere reduktion af tekststørrelse */
+    max-width: 90%; /* Øger bredden for at undgå linjeskift */
   }
 
   .section {
@@ -228,12 +225,6 @@ body {
     max-width: 60%; /* Justerer størrelsen på små billeder */
   }
 }
-
-
-
-
-
-
 
 </style>
 
