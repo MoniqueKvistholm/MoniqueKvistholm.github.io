@@ -237,7 +237,7 @@ body {
   .hero-title {
     font-size: 7em; /* Øger tekststørrelsen, så den fylder mest muligt uden at være for stor */
     color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
+    margin: 60; /* Fjerner margin for at maksimere brugen af pladsen */
   }
 
   .hero-subtitle {
@@ -247,7 +247,7 @@ body {
   }
 
   .hero-description {
-    font-size: 3em; /* Øger størrelsen lidt for bedre synlighed */
+    font-size: 2em; /* Øger størrelsen lidt for bedre synlighed */
     max-width: 90%; /* Øger bredden for at undgå linjeskift */
     color: #EBF8FF; /* Sørg for, at teksten er læsbar */
     margin: 40; /* Fjerner margin for at maksimere brugen af pladsen */
