@@ -257,7 +257,6 @@ body {
   }
 }
 
-
 </style>
 
 <!-- Hero Section with Large Image -->
@@ -302,5 +301,3 @@ body {
         </div>
     </div>
 </div>
-
-
