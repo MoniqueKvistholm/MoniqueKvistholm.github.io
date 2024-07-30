@@ -211,8 +211,8 @@ body {
     position: absolute;
     top: 50%; /* Midt af billedet på Y-aksen */
     left: 50%; /* Midt af billedet på X-aksen */
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     object-fit: cover; /* Beskærer billedet så det fylder hele hero-sektionen */
     object-position: center; /* Centrerer billedet */
     transform: translate(-50%, -50%); /* Flytter billedet opad og til venstre for at skære mere af toppen og bunden */
@@ -250,7 +250,7 @@ body {
     font-size: 2em; /* Øger størrelsen lidt for bedre synlighed */
     max-width: 90%; /* Øger bredden for at undgå linjeskift */
     color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 40; /* Fjerner margin for at maksimere brugen af pladsen */
+    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
   }
 
   .section {
