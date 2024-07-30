@@ -192,112 +192,135 @@ body {
   }
 }
 
+/* Media queries til meget små skærme */
 @media (max-width: 480px) {
   body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow-x: hidden;
+    margin: 0; /* Fjern marginer for body og html */
+    padding: 0; /* Fjern padding for body og html */
+    height: 100%; /* Sørg for at body og html dækker hele skærmen */
+    overflow-x: hidden; /* Undgå horisontal rullebar */
   }
 
   .hero-section {
     position: relative;
-    height: 100vh;
-    overflow: hidden;
+    height: 100vh; /* Sørg for, at hero-sektionen dækker hele viewport højden */
+    overflow: hidden; /* Skjuler overskydende del af billedet */
   }
 
   .hero-image {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 120%;
-    height: auto;
-    transform: translate(-50%, -50%);
-    object-fit: cover;
-    object-position: center;
+    top: 0; /* Tilpas billedet til at starte fra toppen */
+    left: 0; /* Tilpas billedet til at starte fra venstre */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Beskærer billedet så det fylder hele hero-sektionen */
+    object-position: center; /* Centrerer billedet */
   }
 
   .hero-overlay {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
     width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    z-index: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Sikrer lodret layout */
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    padding: 10px; /* Mindre padding for mindre skærme */
+    box-sizing: border-box; /* Inkluderer padding i elementets totale bredde og højde */
+    z-index: 1; /* Sikrer, at overlayet vises over billedet */
   }
 
   .hero-title {
-    font-size: 5em;
-    color: #EBF8FF;
-    margin: 0;
+    font-size: 5em; /* Juster tekststørrelsen så den passer til mobil */
+    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
+    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
   }
 
   .hero-subtitle {
-    font-size: 1.5em;
-    color: #EBF8FF;
-    margin: 0;
+    font-size: 1.5em; /* Mindre tekststørrelse for undertitlen */
+    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
+    margin-bottom: 20px; /* Mindre margin mellem undertitlen og beskrivelsen */
   }
 
   .hero-description {
-    font-size: 1.5em;
-    max-width: 90%;
-    color: #EBF8FF;
-    margin: 0;
+    font-size: 1.2em; /* Mindre tekststørrelse for beskrivelsen */
+    max-width: 100%; /* Øger bredden så den fylder mere af skærmen */
+    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
   }
 
   .section {
-    padding: 30px 5px;
+    padding: 20px 10px; /* Juster padding for mindre skærme */
+  }
+
+  .section-1, .section-2 {
+    flex-direction: column; /* Ændrer retning til kolonne for små skærme */
+    align-items: center; /* Centrerer indhold vertikalt */
+  }
+
+  .column {
+    flex: 1 1 100%; /* Gør kolonnerne til 100% bredde på små skærme */
+    text-align: center; /* Centrer tekst på små skærme */
   }
 
   .small-image {
-    max-width: 60%;
+    max-width: 70%; /* Juster størrelsen for meget små skærme */
+  }
+
+  .column img {
+    max-width: 90%; /* Juster størrelsen for billeder i kolonner */
+    margin: 10px 0; /* Tilføjer margin for at undgå overlapning */
+  }
+
+  .bold-text {
+    font-size: 1.2em; /* Mindre tekststørrelse for fed tekst */
+  }
+
+  .column h3 {
+    font-size: 1.4em; /* Juster overskriftstørrelsen */
+  }
+
+  .column p {
+    font-size: 0.9em; /* Juster tekststørrelsen for afsnit */
   }
 }
-
 </style>
 
-<!-- Hero Section with Large Image -->
 <div class="hero-section">
-    <img src="/assets/img/Utekst.jpg" alt="Forsidebillede" class="hero-image">
-    <div class="hero-overlay">
-        <h1 class="hero-title">DEPICT</h1>
-        <p class="hero-subtitle">Center for AI and Medical Imaging</p>
-        <h2 class="hero-description">We shape the future of diagnostic imaging to ensure the highest possible value for each individual patient</h2>
-    </div>
+  <img src="{{site.baseurl}}/assets/images/forsidebillede.jpg" alt="Hero Image" class="hero-image">
+  <div class="hero-overlay">
+    <h1 class="hero-title">DIN NORMA</h1>
+    <h2 class="hero-subtitle">Dit Læringscenter</h2>
+    <p class="hero-description">En beskrivelse af dit læringscenter, dets mission og vision.</p>
+  </div>
 </div>
 
-<!-- Section 1 -->
+<!-- Sektion 1 -->
 <div class="section section-1">
-    <div class="column column-left">
-        <div class="column-content bold-text">
-            <p>Our vision is to lead the way in the application of artificial intelligence and medical imaging by developing, validating, and implementing advanced and cutting-edge methods.</p>
-            <img src="/assets/img/Rund7.jpg" alt="Rund" class="column-image small-image">
-        </div>
+  <div class="column column-left">
+    <div class="column-content left-align">
+      <h3>Om Os</h3>
+      <p class="left-align">Kort tekst om læringscenteret, dens formål og hvem det henvender sig til.</p>
     </div>
-    <div class="column column-right">
-        <div class="column-content">
-            <img src="/assets/img/Amailie.jpg" alt="Amailie" class="column-image">
-        </div>
-    </div>
+  </div>
+  <div class="column column-right">
+    <img src="{{site.baseurl}}/assets/images/ønsker forside.jpg" alt="Om Os Billede" class="small-image">
+  </div>
 </div>
 
-<!-- Section 2 -->
+<!-- Sektion 2 -->
 <div class="section section-2">
-    <div class="column column-left-2">
-        <div class="column-content left-align">
-            <h3>Located</h3>
-            <p>Rigshospitalet</p>
-            <p>Department of Clinical Physiology and Nuclear Medicine</p>
-            <p>Department of Radiology and Scanning</p>
-        </div>
+  <div class="column column-left-2">
+    <div class="column-content right-align">
+      <h3>Vores Ydelser</h3>
+      <p class="left-align">Beskrivelse af de ydelser og tilbud, læringscenteret har.</p>
     </div>
-    <div class="column column-right-2">
-        <div class="column-content right-align">
-            <h3>Sektion 2 - Højre Kolonne</h3>
-            <p>Dette er højre kolonne i sektion 2. Du kan tilpasse indholdet her.</p>
-        </div>
+  </div>
+  <div class="column column-right-2">
+    <div class="column-content">
+      <img src="{{site.baseurl}}/assets/images/ønsker forside.jpg" alt="Vores Ydelser Billede">
     </div>
+  </div>
 </div>
