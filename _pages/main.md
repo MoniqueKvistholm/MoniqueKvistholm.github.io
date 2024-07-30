@@ -192,73 +192,68 @@ body {
   }
 }
 
-/* Media queries til meget små skærme */
 @media (max-width: 480px) {
   body, html {
-    margin: 0; /* Fjern marginer for body og html */
-    padding: 0; /* Fjern padding for body og html */
-    height: 100%; /* Sørg for at body og html dækker hele skærmen */
-    overflow-x: hidden; /* Undgå horisontal rullebar */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
   }
 
   .hero-section {
     position: relative;
-    height: 100vh; /* Sørg for, at hero-sektionen dækker hele viewport højden */
-    overflow: hidden; /* Skjuler overskydende del af billedet */
+    height: 100vh;
+    overflow: hidden;
   }
 
   .hero-image {
     position: absolute;
-    top: 50%; /* Midt af billedet på Y-aksen */
-    left: 50%; /* Midt af billedet på X-aksen */
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Beskærer billedet så det fylder hele hero-sektionen */
-    object-position: center; /* Centrerer billedet */
-    transform: translate(-50%, -50%); /* Flytter billedet opad og til venstre for at skære mere af toppen og bunden */
+    top: 50%;
+    left: 50%;
+    width: 120%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    object-position: center;
   }
 
   .hero-overlay {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column; /* Sikrer lodret layout */
-    justify-content: center;
-    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 1;
     text-align: center;
-    padding: 10px; /* Mindre padding for mindre skærme */
-    box-sizing: border-box; /* Inkluderer padding i elementets totale bredde og højde */
-    z-index: 1; /* Sikrer, at overlayet vises over billedet */
   }
 
   .hero-title {
-    font-size: 5em; /* Øger tekststørrelsen, så den fylder mest muligt uden at være for stor */
-    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
+    font-size: 5em;
+    color: #EBF8FF;
+    margin: 0;
   }
 
   .hero-subtitle {
-    font-size: 1.5em; /* Øger størrelsen lidt for bedre synlighed */
-    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
+    font-size: 1.5em;
+    color: #EBF8FF;
+    margin: 0;
   }
 
   .hero-description {
-    font-size: 1.5em; /* Øger størrelsen lidt for bedre synlighed */
-    max-width: 90%; /* Øger bredden for at undgå linjeskift */
-    color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
+    font-size: 1.5em;
+    max-width: 90%;
+    color: #EBF8FF;
+    margin: 0;
   }
 
   .section {
-    padding: 30px 5px; /* Mindre padding for meget små skærme */
+    padding: 30px 5px;
   }
 
   .small-image {
-    max-width: 60%; /* Justerer størrelsen på små billeder */
+    max-width: 60%;
   }
 }
 
