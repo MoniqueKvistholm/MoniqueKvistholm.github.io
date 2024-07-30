@@ -203,7 +203,7 @@ body {
 
   .hero-section {
     position: relative;
-    height: 100vh; /* Sørg for, at hero-sektionen dækker hele viewport højden */
+    height: 80vh; /* Sørg for, at hero-sektionen dækker hele viewport højden */
     overflow: hidden; /* Skjuler overskydende del af billedet */
   }
 
@@ -250,7 +250,7 @@ body {
     font-size: 3em; /* Øger størrelsen lidt for bedre synlighed */
     max-width: 90%; /* Øger bredden for at undgå linjeskift */
     color: #EBF8FF; /* Sørg for, at teksten er læsbar */
-    margin: 0; /* Fjerner margin for at maksimere brugen af pladsen */
+    margin: 40; /* Fjerner margin for at maksimere brugen af pladsen */
   }
 
   .section {
