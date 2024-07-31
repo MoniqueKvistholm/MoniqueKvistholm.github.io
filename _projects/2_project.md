@@ -19,6 +19,7 @@ related_publications: false
     background-color: #d0e3e6; /* Background color for the content */
     padding: 20px; /* General padding */
     margin: 0; /* Remove margins */
+    margin-bottom: 40px; /* Extra bottom margin for additional space */
   }
 
   .post-title {
@@ -80,6 +81,14 @@ related_publications: false
 
   .small-link {
     font-size: 0.8em; /* Smaller font size for the link */
+  }
+
+  .publication-link::before {
+    content: '•'; /* Bullet point before the link */
+    color: #062A40; /* Color of the bullet point */
+    font-size: 1.2em; /* Size of the bullet point */
+    margin-right: 8px; /* Space between the bullet point and the text */
+    vertical-align: middle; /* Align bullet point with text */
   }
 
   /* Responsive design */
@@ -194,7 +203,7 @@ While there are existing models for automatic lesion segmentation, only a few ar
 
             <h4 class="small-header">Publications</h4>
             <div class="contact-item">
-              <p><a class="small-link" href="https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2023.1177540/full">Scanner agnostic large-scale evaluation of MS lesion delineation tool for clinical MRI</a></p>
+              <p><a class="publication-link" href="https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2023.1177540/full">Scanner agnostic large-scale evaluation of MS lesion delineation tool for clinical MRI</a></p>
             </div>
           </div>
         </div>
@@ -213,5 +222,3 @@ While there are existing models for automatic lesion segmentation, only a few ar
     {% endif %}
   </div>
 </div>
-
-

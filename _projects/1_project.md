@@ -19,6 +19,7 @@ related_publications: false
     background-color: #E6DED0; /* Background color for the content */
     padding: 20px; /* General padding */
     margin: 0; /* Remove margins */
+    margin-bottom: 40px; /* Extra bottom margin for additional space */
   }
 
   .post-title {
@@ -80,6 +81,14 @@ related_publications: false
 
   .small-link {
     font-size: 0.8em; /* Smaller font size for the link */
+  }
+
+  .publication-link::before {
+    content: '•'; /* Bullet point before the link */
+    color: #062A40; /* Color of the bullet point */
+    font-size: 1.2em; /* Size of the bullet point */
+    margin-right: 8px; /* Space between the bullet point and the text */
+    vertical-align: middle; /* Align bullet point with text */
   }
 
   /* Responsive design */
@@ -193,7 +202,7 @@ related_publications: false
 
             <h4 class="small-header">Publications</h4>
             <div class="contact-item">
-              <p><a class="small-link" href="https://jnm.snmjournals.org/content/65/supplement_2/241648">A healthy synthetic FDG PET baseline for abnormality detection in a lymphoma patients using Total Body PET/CT</a></p>
+              <p><a class="publication-link" href="https://jnm.snmjournals.org/content/65/supplement_2/241648">A healthy synthetic FDG PET baseline for abnormality detection in lymphoma patients using Total Body PET/CT</a></p>
             </div>
           </div>
         </div>
