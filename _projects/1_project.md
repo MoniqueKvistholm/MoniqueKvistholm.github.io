@@ -82,6 +82,7 @@ related_publications: false
 
     .custom-container {
       padding: 10px; /* Reduced padding for small screens */
+      margin: 0 10px; /* Add small margins for small screens */
     }
 
     .figure-column {
@@ -113,7 +114,7 @@ related_publications: false
     }
 
     .custom-container {
-      padding: 0; /* Remove padding for extra small screens */
+      padding: 0 10px; /* Add small side margins for extra small screens */
     }
 
     .figure-column {

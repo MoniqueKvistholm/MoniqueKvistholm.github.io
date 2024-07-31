@@ -112,8 +112,13 @@ nav_order:
     .leadership-section .col-md-4 {
       margin-bottom: 20px; /* Tilføjer afstand mellem sektioner */
     }
+
+    .leader-info h4 {
+      font-size: 1.2em; /* Ændrer skriftstørrelsen på små skærme */
+    }
   }
 </style>
+
 
 
 
