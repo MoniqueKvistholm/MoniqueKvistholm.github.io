@@ -130,7 +130,7 @@ nav_order:
 <!-- Centerledere sektion -->
 <div class="centerledere-section">
   <div class="container">
-    <h3>Centerledere</h3>
+    <h3>Center Managers</h3>
     <div class="row">
       <div class="col-md-6">
         <div class="leader-box">
@@ -142,12 +142,12 @@ nav_order:
               <span><a href="mailto:flemming.andersen@regionh.dk">flemming.andersen@regionh.dk</a></span>
             </div>
             <div class="contact-item">
-              <strong>Tlf:</strong>
+              <strong>Phone:</strong>
               <span>+45 35-45 81-43</span>
             </div>
             <div class="contact-item">
-              <strong>Placering:</strong>
-              <span>3982, Klinisk Fysiologi og Nuklearmedicin</span>
+              <strong>Location:</strong>
+              <span>3982, Clinical Physiology and Nuclear Medicine</span>
             </div>
           </div>
         </div>
@@ -162,12 +162,12 @@ nav_order:
               <span><a href="mailto:adam.espe.hansen@regionh.dk">adam.espe.hansen@regionh.dk</a></span>
             </div>
             <div class="contact-item">
-              <strong>Tlf:</strong>
+              <strong>Phone:</strong>
               <span>+45 35-45 84-60</span>
             </div>
             <div class="contact-item">
-              <strong>Placering:</strong>
-              <span>3023, Røntgen og Skanning</span>
+              <strong>Location:</strong>
+              <span>3023, Radiology and Scanning</span>
             </div>
           </div>
         </div>
@@ -181,7 +181,7 @@ nav_order:
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <h3>Styregruppe</h3>
+        <h3>Steering Committee</h3>
         <ul>
           <li>Malene Fischer</li>
           <li>Flemming Littrup Andersen</li>
@@ -196,14 +196,14 @@ nav_order:
         </ul>
       </div>
       <div class="col-md-4">
-        <h3>AI Forskningsledere</h3>
+        <h3>AI Research Directors</h3>
         <ul>
           <li>Claes Ladefoged</li>
           <li>Michael Bachman</li>
         </ul>
       </div>
       <div class="col-md-4">
-        <h3>Bestyrelse</h3>
+        <h3>Board of Directors</h3>
         <ul>
           <li>Malene Fischer</li>
           <li>Martin Lundsgaard</li>
