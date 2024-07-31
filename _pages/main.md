@@ -209,8 +209,8 @@ body {
 
   .hero-image {
     position: absolute;
-    top: 100%; /* Midt af billedet på Y-aksen */
-    left: 100%; /* Midt af billedet på X-aksen */
+    top: 50%; /* Midt af billedet på Y-aksen */
+    left: 50%; /* Midt af billedet på X-aksen */
     width: 100%;
     height: 100%;
     object-fit: cover; /* Beskærer billedet så det fylder hele hero-sektionen */
