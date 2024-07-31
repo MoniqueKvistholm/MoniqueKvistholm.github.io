@@ -71,6 +71,11 @@ nav_order:
     margin-bottom: 10px;
   }
 
+  .contact-item span {
+    display: block;
+    word-wrap: break-word; /* Gør at lang tekst brækker til næste linje */
+  }
+
   /* Responsive design */
   @media (max-width: 768px) {
     .container {
@@ -87,6 +92,11 @@ nav_order:
       margin-bottom: 10px;
     }
 
+    .contact-item span {
+      display: block;
+      word-wrap: break-word; /* Sørger for at kontaktinformation brækker til næste linje */
+    }
+
     /* Styler for mindre skærme i leadership-sektionen */
     .leadership-section .row {
       flex-direction: column; /* Ændrer rækkefølge på kolonner til én kolonne */
@@ -97,6 +107,7 @@ nav_order:
     }
   }
 </style>
+
 
 <!-- Organization sektion -->
 <div class="organization-section">
