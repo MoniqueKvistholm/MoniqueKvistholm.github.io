@@ -179,7 +179,13 @@ body {
   }
   .hero-image-container {
     order: 2;
-    height: 200px; /* Juster højden på billedet på mobil */
+    height: 250px; /* Juster højden på billedet på mobil */
+  }
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 0; /* Sørg for, at billedet går helt op til kanten */
   }
   .hero-content {
     order: 1;
