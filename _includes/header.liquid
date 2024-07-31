@@ -2,10 +2,6 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container-fluid">
-      <!-- Logo -->
-      <a class="navbar-brand" href="{{ site.baseurl }}/">
-        <img src="/assets/images/logo.png" alt="Site Logo" class="site-logo">
-      </a>
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
@@ -129,16 +125,6 @@
     .container-fluid {
       padding-left: 0;
       padding-right: 0;
-    }
-
-    .site-logo {
-      width: 150px; /* Ændr til ønsket størrelse */
-      height: auto; /* Bevarer billedets proportioner */
-    }
-
-    .navbar-brand {
-      display: flex;
-      align-items: center;
     }
   </style>
 

@@ -11,6 +11,7 @@ nav_order:
   body {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif; /* Tilføj en standard skrifttype for bedre læsbarhed */
   }
 
   /* Container til at centrere sektioner */
@@ -20,39 +21,39 @@ nav_order:
     padding: 20px;
   }
 
-
   /* Sektioner med forskellige baggrundsfarver */
-  .organization-section {
-    background-color: #EBF8FF;
+  .organization-section, .centerledere-section, .leadership-section {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+
+  .organization-section {
+    background-color: #EBF8FF;
   }
 
   .centerledere-section {
     background-color: #F8F5F5;
-    padding-top: 50px;
-    padding-bottom: 50px;
   }
 
   .leadership-section {
     background-color: #d0d0d0;
-    padding-top: 50px;
-    padding-bottom: 50px;
   }
 
   /* Styling for leader box */
   .leader-box {
     display: flex;
-    align-items: left;
+    flex-direction: column; /* Ændret til kolonnevisning på mindre skærme */
+    align-items: flex-start;
     margin-bottom: 40px;
   }
 
   .leader-box img {
-    width: 150px;
-    height: 150px;
+    width: 100%; /* Ændret til 100% for at være responsiv */
+    max-width: 150px;
+    height: auto; /* Tilpasser højden automatisk for at bevare billedforholdet */
     object-fit: cover;
     border-radius: 0%;
-    margin-right: 20px;
+    margin-bottom: 20px; /* Ændret fra margin-right til margin-bottom på små skærme */
   }
 
   .leader-info {
@@ -68,6 +69,32 @@ nav_order:
   /* Styling for kontaktinformation */
   .contact-item {
     margin-bottom: 10px;
+  }
+
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px; /* Reducer padding på små skærme */
+    }
+
+    .leader-box {
+      flex-direction: column; /* Ændrer layout til kolonnevisning */
+    }
+
+    .leader-box img {
+      width: 100%; /* Gør billedet responsivt */
+      max-width: 100%;
+      margin-bottom: 10px;
+    }
+
+    /* Styler for mindre skærme i leadership-sektionen */
+    .leadership-section .row {
+      flex-direction: column; /* Ændrer rækkefølge på kolonner til én kolonne */
+    }
+
+    .leadership-section .col-md-4 {
+      margin-bottom: 20px; /* Tilføjer afstand mellem sektioner */
+    }
   }
 </style>
 
