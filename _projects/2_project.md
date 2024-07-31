@@ -194,7 +194,7 @@ While there are existing models for automatic lesion segmentation, only a few ar
 
             <h4 class="small-header">Publications</h4>
             <div class="contact-item">
-              <p><a class="small-link" href="https://jnm.snmjournals.org/content/65/supplement_2/241648">A healthy synthetic FDG PET baseline for abnormality detection in a lymphoma patients using Total Body PET/CT</a></p>
+              <p><a class="small-link" href="https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2023.1177540/full">Scanner agnostic large-scale evaluation of MS lesion delineation tool for clinical MRI</a></p>
             </div>
           </div>
         </div>
