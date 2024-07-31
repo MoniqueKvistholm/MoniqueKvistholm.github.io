@@ -70,6 +70,10 @@ related_publications: false
     padding-right: 15px; /* Right padding to separate figure from text */
   }
 
+  .small-link {
+    font-size: 0.8em; /* Smaller font size for the link */
+  }
+
   /* Responsive design */
   @media (max-width: 768px) {
     .post-title {
@@ -109,13 +113,24 @@ related_publications: false
     }
 
     .custom-container {
-      padding: 5px; /* Further reduced padding for extra small screens */
+      padding: 0; /* Remove padding for extra small screens */
+    }
+
+    .figure-column {
+      padding-right: 0; /* Remove right padding on extra small screens */
+    }
+
+    .row {
+      display: block; /* Stack columns vertically on extra small screens */
+      margin: 0; /* Remove margin */
+    }
+
+    .col-md-7, .col-md-5 {
+      width: 100%; /* Full width for columns on extra small screens */
+      padding: 0; /* Remove padding inside columns on extra small screens */
     }
   }
 </style>
-
-
-
 
 <div class="custom-container">
   <div class="post">
@@ -161,6 +176,10 @@ related_publications: false
             <div class="contact-item">
               <strong>Position:</strong>
               <span>PhD Student</span>
+            </div>
+            <h4 class="small-header">Publications</h4>
+            <div class="contact-item">
+              <p><a class="small-link" href="https://jnm.snmjournals.org/content/65/supplement_2/241648">A healthy synthetic FDG PET baseline for abnormality detection in a lymphoma patients using Total Body PET/CT</a></p>
             </div>
           </div>
         </div>
