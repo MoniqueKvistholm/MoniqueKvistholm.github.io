@@ -25,6 +25,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center; /* Center the image */
 }
 .hero-content {
   flex: 1;
@@ -179,13 +180,15 @@ body {
   }
   .hero-image-container {
     order: 2;
-    height: 250px; /* Juster højden på billedet på mobil */
+    height: auto; /* Tillader højden at justere efter billedet */
+    width: 100%; /* Sørger for at billedet fylder hele bredden */
+    margin: 0; /* Fjerner margin */
   }
   .hero-image {
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
-    margin-top: 0; /* Sørg for, at billedet går helt op til kanten */
+    object-position: center; /* Centerer billedet */
   }
   .hero-content {
     order: 1;
