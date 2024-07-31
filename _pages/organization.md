@@ -42,18 +42,17 @@ nav_order:
   /* Styling for leader box */
   .leader-box {
     display: flex;
-    flex-direction: column; /* Ændret til kolonnevisning på mindre skærme */
+    flex-direction: row; /* Ændret til rækkevisning på store skærme */
     align-items: flex-start;
     margin-bottom: 40px;
   }
 
   .leader-box img {
-    width: 100%; /* Ændret til 100% for at være responsiv */
-    max-width: 150px;
-    height: auto; /* Tilpasser højden automatisk for at bevare billedforholdet */
+    width: 150px; /* Fast bredde til billeder */
+    height: 150px; /* Fast højde til billeder */
     object-fit: cover;
     border-radius: 0%;
-    margin-bottom: 20px; /* Ændret fra margin-right til margin-bottom på små skærme */
+    margin-right: 20px;
   }
 
   .leader-info {
@@ -71,9 +70,13 @@ nav_order:
     margin-bottom: 10px;
   }
 
+  .contact-item strong {
+    display: block;
+  }
+
   .contact-item span {
     display: block;
-    word-wrap: break-word; /* Gør at lang tekst brækker til næste linje */
+    word-break: break-word; /* Gør at lang tekst brækker til næste linje */
   }
 
   /* Responsive design */
@@ -83,21 +86,25 @@ nav_order:
     }
 
     .leader-box {
-      flex-direction: column; /* Ændrer layout til kolonnevisning */
+      flex-direction: column; /* Ændrer layout til kolonnevisning på små skærme */
+      align-items: center; /* Centrerer indholdet horisontalt */
     }
 
     .leader-box img {
       width: 100%; /* Gør billedet responsivt */
-      max-width: 100%;
-      margin-bottom: 10px;
+      max-width: 150px; /* Bevarer maksimal bredde */
+      margin-right: 0; /* Fjerner margin til højre */
+      margin-bottom: 10px; /* Tilføjer afstand mellem billede og kontaktinformation */
     }
 
-    .contact-item span {
-      display: block;
-      word-wrap: break-word; /* Sørger for at kontaktinformation brækker til næste linje */
+    .contact-item {
+      width: 100%; /* Gør kontaktoplysningerne fuldt ud tilgængelige på små skærme */
     }
 
-    /* Styler for mindre skærme i leadership-sektionen */
+    .contact-item strong {
+      margin-bottom: 5px; /* Tilføjer lidt afstand mellem etiketten og værdien */
+    }
+
     .leadership-section .row {
       flex-direction: column; /* Ændrer rækkefølge på kolonner til én kolonne */
     }
@@ -107,6 +114,7 @@ nav_order:
     }
   }
 </style>
+
 
 
 <!-- Organization sektion -->
