@@ -37,18 +37,18 @@ related_publications: false
     padding: 10px; /* Reduced padding inside the contact box */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow */
     margin-top: 20px; /* Add space above the contact box */
-    margin-bottom: 40px; /* Add space below the contact box to separate it from the footer */
+    margin-bottom: 20px; /* Reduced space below the contact box */
   }
 
   .custom-contact-box h4.small-header {
     color: #062A40; /* Color for the header in the contact box */
     font-weight: bold;
     font-size: 1em; /* Smaller font size for the header */
-    margin-bottom: 10px; /* Reduced bottom margin for the header */
+    margin-bottom: 15px; /* Increased bottom margin for the header to space from content */
   }
 
   .custom-contact-box .contact-item {
-    margin-bottom: 5px; /* Reduced bottom margin for contact items */
+    margin-bottom: 8px; /* Increased bottom margin for contact items */
   }
 
   .custom-contact-box .contact-item strong {
@@ -107,6 +107,7 @@ related_publications: false
 
     .custom-contact-box h4.small-header {
       font-size: 0.9em; /* Smaller font size for contact box header */
+      margin-bottom: 12px; /* Adjusted bottom margin for smaller screens */
     }
 
     article {
@@ -132,6 +133,7 @@ related_publications: false
     }
   }
 </style>
+
 
 <div class="custom-container">
   <div class="post">
