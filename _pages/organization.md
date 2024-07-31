@@ -42,7 +42,7 @@ nav_order:
   /* Styling for leader box */
   .leader-box {
     display: flex;
-    flex-direction: row; /* Ændret til rækkevisning på store skærme */
+    flex-direction: row; /* Standard layout på store skærme */
     align-items: flex-start;
     margin-bottom: 40px;
   }
@@ -52,7 +52,7 @@ nav_order:
     height: 150px; /* Fast højde til billeder */
     object-fit: cover;
     border-radius: 0%;
-    margin-right: 20px;
+    margin-right: 20px; /* Margin til højre for afstand til teksten */
   }
 
   .leader-info {
@@ -114,6 +114,7 @@ nav_order:
     }
   }
 </style>
+
 
 
 
