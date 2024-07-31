@@ -10,13 +10,13 @@ related_publications: false
 
 <style>
   body {
-    background-color: #E6DED0; /* Background color for the entire page */
+    background-color: #d0e3e6; /* Background color for the entire page */
     margin: 0;
     padding: 0;
   }
 
   .custom-container {
-    background-color: #E6DED0; /* Background color for the content */
+    background-color: #d0e3e6; /* Background color for the content */
     padding: 20px; /* General padding */
     margin: 0; /* Remove margins */
   }
