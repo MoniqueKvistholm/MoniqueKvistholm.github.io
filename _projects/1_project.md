@@ -33,6 +33,7 @@ related_publications: false
     border-radius: 5px; /* Rounded corners */
     padding: 10px; /* Reduced padding inside the contact box */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow */
+    margin-top: 20px; /* Add space above the contact box */
   }
   .custom-contact-box h4.small-header {
     color: #062A40; /* Color for the header in the contact box */
@@ -65,14 +66,14 @@ related_publications: false
       font-size: 1.8em; /* Smaller font size for the title on small screens */
     }
     .custom-container {
-      padding-left: 10px; /* Reduced side padding for small screens */
-      padding-right: 10px; /* Reduced side padding for small screens */
+      padding: 10px; /* Reduced padding for small screens */
     }
     .figure-column {
       padding-right: 0; /* Remove right padding on small screens */
     }
     .row {
       display: block; /* Stack columns vertically on small screens */
+      margin: 0; /* Remove margin */
     }
     .col-md-7, .col-md-5 {
       width: 100%; /* Full width for columns on small screens */
@@ -90,8 +91,12 @@ related_publications: false
     article {
       font-size: 1em; /* Slightly smaller font size for article text */
     }
+    .custom-container {
+      padding: 5px; /* Further reduced padding for extra small screens */
+    }
   }
 </style>
+
 
 
 <div class="custom-container">
