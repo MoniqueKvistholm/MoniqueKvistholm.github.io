@@ -301,8 +301,10 @@ body {
     </div>
     <div class="column column-right-2">
         <div class="column-content right-align">
-            <h3>Sektion 2 - Højre Kolonne</h3>
-            <p>Dette er højre kolonne i sektion 2. Du kan tilpasse indholdet her.</p>
+            <h3>Feel free to reach out!</h3>
+            <p>Email: info@depict.ai</p>
+            <p>Phone: +45 1234 5678 </p>
+            <p>Address: Rigshospitalet, Blegdamsvej 9, 2100 Copenhagen Ø</p>
         </div>
     </div>
 </div>
