@@ -37,7 +37,7 @@ related_publications: false
     padding: 10px; /* Reduced padding inside the contact box */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow */
     margin-top: 20px; /* Add space above the contact box */
-    margin-bottom: 20px; /* Reduced space below the contact box */
+    margin-bottom: 10px; /* Reduced space below the contact box */
   }
 
   .custom-contact-box h4.small-header {
@@ -59,6 +59,14 @@ related_publications: false
   .custom-contact-box .contact-item span {
     color: #333; /* Color for span tags (e.g., 'Christian Hinge', email link, etc.) */
     font-size: 0.9em; /* Smaller font size for span tags */
+  }
+
+  .custom-contact-box .contact-item:last-of-type {
+    margin-bottom: 12px; /* Reduced margin below the last contact item */
+  }
+
+  .custom-contact-box .spacer {
+    margin-bottom: 12px; /* Margin below the spacer to create more space */
   }
 
   article {
@@ -134,7 +142,6 @@ related_publications: false
   }
 </style>
 
-
 <div class="custom-container">
   <div class="post">
     <header class="post-header">
@@ -180,6 +187,10 @@ related_publications: false
               <strong>Position:</strong>
               <span>PhD Student</span>
             </div>
+
+            <!-- Extra space between Position and Publications -->
+            <div class="contact-item spacer"></div>
+
             <h4 class="small-header">Publications</h4>
             <div class="contact-item">
               <p><a class="small-link" href="https://jnm.snmjournals.org/content/65/supplement_2/241648">A healthy synthetic FDG PET baseline for abnormality detection in a lymphoma patients using Total Body PET/CT</a></p>
