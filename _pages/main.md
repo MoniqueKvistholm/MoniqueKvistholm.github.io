@@ -301,7 +301,7 @@ body {
     </div>
     <div class="column column-right-2">
         <div class="column-content right-align">
-            <h3>Feel free to reach out!</h3>
+            <h3>Feel free to reach out.</h3>
             <p>Email: info@depict.ai</p>
             <p>Phone: +45 1234 5678 </p>
             <p>Address: Rigshospitalet, Blegdamsvej 9, 2100 Copenhagen Ø</p>
