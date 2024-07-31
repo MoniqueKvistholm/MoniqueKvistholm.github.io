@@ -17,8 +17,23 @@
       .container {
         width: 100%;
         max-width: 100%;
-        padding-left: 60px; /* Tilføj sidemargin her */
-        padding-right: 60px; /* Tilføj sidemargin her */
+        padding-left: 60px; /* Sidemargin for larger screens */
+        padding-right: 60px; /* Sidemargin for larger screens */
+      }
+      
+      /* Responsive design */
+      @media (max-width: 768px) {
+        .container {
+          padding-left: 10px; /* Less padding for medium screens */
+          padding-right: 10px; /* Less padding for medium screens */
+        }
+      }
+      
+      @media (max-width: 480px) {
+        .container {
+          padding-left: 5px; /* Even less padding for small screens */
+          padding-right: 5px; /* Even less padding for small screens */
+        }
       }
     </style>
   </head>
