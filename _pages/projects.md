@@ -31,8 +31,9 @@ horizontal: false
 
   @media (max-width: 576px) {
     .projects .col {
-      flex: 0 0 calc(100% - 20px); /* 1 kolonne på små skærme */
-      max-width: calc(100% - 20px);
+      flex: 0 0 calc(100% - 40px); /* 1 kolonne på små skærme med ekstra plads */
+      max-width: calc(100% - 40px);
+      margin: 20px;
     }
   }
 
