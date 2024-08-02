@@ -166,8 +166,8 @@ related_publications: false
 
           <strong>Project Background</strong>
           <p>PET/CT with 18F-FDG is integral to the oncologic evaluation of nodal involvement, identification of distant metastases, radiotherapy planning, response assessment, and patient follow-up. Overall, PET/CT plays a crucial role in the assessment of various cancer types, including HNC.<br>
-
-The project explores the application of Deep Learning for tumor delineation and automation of deriving biomarkers on HNC PET/CT images. These image biomarkers include a range of quantitative measurements or characteristics associated with tumor size, shape, and intensity. Through Deep Learning, these biomarkers can be generated with precision and efficiency.</p>
+          
+          The project explores the application of Deep Learning for tumor delineation and automation of deriving biomarkers on HNC PET/CT images. These image biomarkers include a range of quantitative measurements or characteristics associated with tumor size, shape, and intensity. Through Deep Learning, these biomarkers can be generated with precision and efficiency.</p>
 
           <strong>Project Potential</strong>
           <p>By implementing Deep Learning to standardize tumor delineation on HNC PET/CT images, this project has potential in the field of radiation therapy and automating biomarker analysis. In radiation therapy, the implementation of Deep Learning will reduce clinical variability and lead to more uniform assessments within radiation therapy. Automating biomarker analysis simplifies a resource-intensive task, particularly when assessing tumor size and intensity in clinical or research settings.</p>

@@ -209,7 +209,7 @@ related_publications: false
 
             <h4 class="small-header">Publications</h4>
             <div class="contact-item">
-              <p><a class="publication-link" href="https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2023.1177540/full">Scanner agnostic large-scale evaluation of MS lesion delineation tool for clinical MRI</a></p>
+              <p><a class="publication-link" href=""></a></p>
             </div>
           </div>
         </div>
