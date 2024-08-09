@@ -139,9 +139,9 @@ nav_order:
     <div class="row">
       <div class="col-md-6">
         <div class="leader-box">
-          <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Andersen">
+          <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Littrup Andersen">
           <div class="leader-info">
-            <h4>Flemming Andersen</h4>
+            <h4>Flemming Littrup Andersen</h4>
             <div class="contact-item">
               <strong>Email:</strong>
               <span><a href="mailto:flemming.andersen@regionh.dk">flemming.andersen@regionh.dk</a></span>
