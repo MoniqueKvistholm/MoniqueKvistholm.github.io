@@ -6,7 +6,7 @@ nav: true
 nav_order: 3
 ---
 
-<span style="font-size: 1.2em;">Publications from DEPICT can be found in the departments' research registration system, PURE.</span>
+<span style="font-size: 1.3em;">Publications from DEPICT can be found in the departments' research registration system, PURE.</span>
 
 <div class="links-container">
   <a href="https://research.regionh.dk/da/organisations/afdeling-for-r%c3%b8ntgen-og-skanning/publications/" class="styled-link">Research from the Department of Radiology and Imaging</a>
@@ -52,7 +52,5 @@ nav_order: 3
 
 </style>
 
-<div class="bottom-text">
-  <p></p>
-  <img src="/assets/img/Hvid.jpg" alt="Beskrivelse af billede" style="max-width: 100%; height: auto; margin-top: 20px;">
-</div>
+<!-- Placeholder for footer positioning -->
+<div style="height: 350px;"></div>

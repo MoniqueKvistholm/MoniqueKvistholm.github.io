@@ -1,12 +1,18 @@
 ---
 layout: page
 permalink: /teaching/
-title: Code
-description: Materials for courses you taught. Replace this text with your description.
+title: GitHub
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<span style="font-size: 1.3em;">Explore the DEPICT project's official GitHub repositories. Click the button below to access research materials, code, and other resources related to the projects.</span>
 
-Organize your courses by years, topics, or universities, however you like!
+<div style="text-align: center; margin-top: 20px;">
+    <a href="https://github.com/orgs/DEPICT-RH/repositories" style="display: inline-block; padding: 15px 25px; background-color: #007bff; color: white; text-decoration: none; font-size: 18px; border-radius: 5px;">
+        Visit DEPICT on GitHub
+    </a>
+</div>
+
+<!-- Placeholder for footer positioning -->
+<div style="height: 400px;"></div>

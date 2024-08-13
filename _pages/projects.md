@@ -57,8 +57,8 @@ horizontal: false
 </style>
 
 <div class="intro-container">
-  <strong style="font-size: 1.5em;">DEPICT</strong> 
-  <span style="font-size: 1.2em;">consists of several projects based on artificial intelligence and medical image analysis. The projects work with imaging and automatic analysis, ensuring better and faster examinations and descriptions. Below, you can see examples of current projects.</span>
+  <strong style="font-size: 1.8em;">DEPICT</strong> 
+  <span style="font-size: 1.4em;">consists of several projects based on artificial intelligence and medical image analysis. The projects work with imaging and automatic analysis, ensuring better and faster examinations and descriptions. Below, you can see examples of current projects.</span>
 </div>
 
 <!-- pages/projects.md -->

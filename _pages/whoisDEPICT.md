@@ -259,8 +259,8 @@ body {
     <div class="hero-content-box">
       <h1>About DEPICT</h1>
 
-      <p>DEPICT is a collaborative initiative between Clinical Physiology and Nuclear Medicine, and Radiology and Imaging at Rigshospitalet's Diagnostic Center, specializing in advanced medical imaging powered by artificial intelligence (AI). Our interdisciplinary team includes experts from physics, engineering, computer science, mathematics, radiography, bioanalysis, and medicine. Together, we lead multiple projects focusing on optimizing imaging techniques and enhancing diagnostic capabilities.</p>
-      <p>Using AI, DEPICT automates complex analyses such as lesion segmentation and biomarker extraction, accelerating diagnostic processes and ensuring accurate clinical assessments. We innovate in image acquisition to enhance clarity and detail, aiming for diagnostic accuracy while keeping patient comfort a priority.</p>
+      <p>DEPICT is a collaborative initiative between Clinical Physiology and Nuclear Medicine, and Radiology at Rigshospitalet's Diagnostic Center, specializing in advanced medical imaging powered by artificial intelligence (AI). Our interdisciplinary team includes experts from physics, engineering, computer science, mathematics, radiography, bioanalysis, and medicine. Together, we lead multiple projects focusing on optimizing imaging techniques and enhancing diagnostic capabilities.</p>
+      <p>Using AI, DEPICT automates complex analyses such as lesion segmentation and biomarker extraction, accelerating diagnostic processes and ensuring accurate clinical assessments. We innovate in image capture to enhance clarity, with a focus on achieving diagnostic accuracy while prioritizing patient comfort.</p>
       <p>DEPICT leads the way in AI-driven medical imaging, aiming to transform healthcare by blending advanced research with practical clinical applications. Through innovation and collaboration, we shape the future of medical imaging.</p>
     </div>
   </div>

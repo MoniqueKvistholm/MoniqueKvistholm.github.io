@@ -127,7 +127,6 @@ nav_order:
 <div class="organization-section">
   <div class="container">
     <h2>Organization</h2>
-    <strong style="font-size: 1.5em;">Organizationdiagram</strong>
     <img src="/assets/img/Organisationsdiagram.png" alt="Organizational Diagram">
   </div>
 </div>
