@@ -3,7 +3,7 @@ layout: default2
 title: Clinical significance of combined density and texture analysis for stratifying the risk breast cancer in screening
 description: PhD Project by Bolette Mikela Vilmun
 img: assets/img/P4.jpg
-importance: 1
+importance: 2
 category: 2024
 related_publications: false
 ---
@@ -166,7 +166,7 @@ related_publications: false
 
           <strong>Project Background</strong>
           <p>In Denmark, free mammography screening is offered to women aged 50-69 with the aim of detecting breast cancer early and improving treatment outcomes. However, mammography screening is far less effective for women with dense breast tissue, increasing the risk of being diagnosed with cancer between screenings and resulting in worse prognosis. There is a need for tailored screening programs that account for the varying risk.</p>
-<p>Therefore, it is crucial to have accurate risk stratification of women in screening. By combining information on tissue density, assessed with the Breast Imaging Reporting and Data System (BI-RADS) density score, with Deep Learning-based texture analysis, a more nuanced and precise risk assessment is achieved. This approach has the potential to identify woman at high-risk future breast cancer, who may benefit from more frequent and intensive screening examinations, while woman at lower risk may extend their screening intervals.</p>
+          <p>Therefore, it is crucial to have accurate risk stratification of women in screening. By combining information on tissue density, assessed with the Breast Imaging Reporting and Data System (BI-RADS) density score, with Deep Learning-based texture analysis, a more nuanced and precise risk assessment is achieved. This approach has the potential to identify woman at high-risk future breast cancer, who may benefit from more frequent and intensive screening examinations, while woman at lower risk may extend their screening intervals.</p>
 
           <strong>Project Potential</strong>
           <p>The project aims to enhance the understanding of how these two measurements can be utilized to identify women with different risk profiles for future breast cancer. The results have the potential to contribute to more effective screening strategies and better breast cancer prevention.</p>

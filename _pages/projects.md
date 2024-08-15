@@ -43,8 +43,9 @@ horizontal: false
     height: auto;
   }
 
-  /* Justering af overskriftens placering */
+  /* Juster størrelsen på projektoverskrifterne */
   .project-title {
+    font-size: 1.2em; /* Ændr denne værdi til den ønskede størrelse */
     margin-top: 0;
   }
 
@@ -55,6 +56,7 @@ horizontal: false
     }
   }
 </style>
+
 
 <div class="intro-container">
   <strong style="font-size: 1.8em;">DEPICT</strong> 

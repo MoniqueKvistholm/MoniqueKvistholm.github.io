@@ -11,3 +11,27 @@ nav {
 }
 
 
+/* Generelt layout for kolonner */
+.col {
+    flex: 0 0 calc(25% - 20px); /* 4 kolonner på større skærme */
+    max-width: calc(25% - 20px);
+    margin: 10px; /* Tilføj margin for afstand mellem kortene */
+  }
+  
+  /* På mellemstore skærme (tablets) */
+  @media (max-width: 992px) {
+    .col {
+      flex: 0 0 calc(33.333% - 20px); /* 3 kolonner */
+      max-width: calc(33.333% - 20px);
+    }
+  }
+  
+  /* På små skærme (telefoner) */
+  @media (max-width: 576px) {
+    .col {
+      flex: 0 0 calc(50% - 20px); /* 2 kolonner */
+      max-width: calc(50% - 20px);
+    }
+  }
+  
+  
