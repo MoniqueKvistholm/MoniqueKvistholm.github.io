@@ -1,9 +1,9 @@
 ---
 layout: page2
-permalink: /whoisDEPICT/
-title: Who is DEPICT
-nav: false
-nav_order: 
+permalink: /About/
+title: About
+nav: true
+nav_order: 2
 ---
 
 <style>

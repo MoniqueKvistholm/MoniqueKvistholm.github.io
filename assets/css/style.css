@@ -34,4 +34,12 @@ nav {
     }
   }
   
+
+  .team-member img {
+    width: 100%;
+    height: 200px; /* Juster højden efter behov */
+    object-fit: cover; /* Sørger for, at billedet fylder hele boksen og skærer overskydende del af billedet */
+    border-radius: 8px;
+}
+
   

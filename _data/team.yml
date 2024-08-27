@@ -1,0 +1,11 @@
+- id: member1
+  name: "Team Member 1"
+  position: "Position 1"
+  image: "/path/to/image1.jpg"
+  description: "Detailed description of Team Member 1..."
+
+- id: member2
+  name: "Team Member 2"
+  position: "Position 2"
+  image: "/path/to/image2.jpg"
+  description: "Detailed description of Team Member 2..."

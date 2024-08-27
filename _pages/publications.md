@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 <span style="font-size: 1.3em;">Publications from DEPICT can be found in the departments' research registration system, PURE.</span>

@@ -288,22 +288,25 @@ body {
         </div>
     </div>
 </div>
-
+<div style="height: 80px;"></div>
 <!-- Section 2 -->
 <div class="section section-2">
     <div class="column column-left-2">
         <div class="column-content left-align">
             <h3>Located</h3>
-            <p>Rigshospitalet</p>
             <p>Department of Clinical Physiology and Nuclear Medicine</p>
             <p>Department of Radiology and Scanning</p>
-        </div>
-    </div>
-    <div class="column column-right-2">
-        <div class="column-content right-align">
-            <h3>Feel free to reach out.</h3>
-            <p>Mail: <a href="mailto:info@depict.dk">info@depict.dk</a></p>
             <p>Address: Rigshospitalet, Blegdamsvej 9, 2100 Copenhagen Ø</p>
         </div>
     </div>
+    <div class="column column-right-2">
+      <div class="column-content" style="text-align: center;">
+          <h4 style="font-weight: bold; font-size: 22px; color: #062A40;">We are actively engaged in exciting projects with students at every academic level, from bachelor's to PhD.
+          <br> 
+          <div style="height: 15px;"></div>
+          If you're interested in writing your project with us, feel free to reach out:</h4>
+          <p style="font-weight: bold; font-size: 22px; color: #007bff;"><a href="mailto:info@depict.dk" style="color: #007bff;">info@depict.dk</a></p>
+      </div>
+      <div style="height: 80px;"></div>
+  </div>
 </div>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-nav: true
+nav: 
 nav_order: 1
 dropdown: true
 children:
@@ -11,3 +11,4 @@ children:
   - title: Organization 
     permalink: /organization/
 ---
+
