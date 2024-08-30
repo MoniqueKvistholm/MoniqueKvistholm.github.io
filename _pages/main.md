@@ -269,7 +269,7 @@ body {
     <img src="/assets/img/Utekst.jpg" alt="Forsidebillede" class="hero-image">
     <div class="hero-overlay">
         <h1 class="hero-title">DEPICT</h1>
-        <p class="hero-subtitle">Center for AI and Medical Imaging</p>
+        <p class="hero-subtitle">Center for AI and Medical Imaging -Hej</p>
         <h2 class="hero-description">We shape the future of diagnostic imaging to ensure the highest possible value for each individual patient</h2>
     </div>
 </div>
