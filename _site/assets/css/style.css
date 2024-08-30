@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    margin-left: auto;
+    margin-right: 0;
+}
+.container {
+    padding-left: 0;
+}
+
+
+/* Generelt layout for kolonner */
+.col {
+    flex: 0 0 calc(25% - 20px); /* 4 kolonner på større skærme */
+    max-width: calc(25% - 20px);
+    margin: 10px; /* Tilføj margin for afstand mellem kortene */
+  }
+  
+  /* På mellemstore skærme (tablets) */
+  @media (max-width: 992px) {
+    .col {
+      flex: 0 0 calc(33.333% - 20px); /* 3 kolonner */
+      max-width: calc(33.333% - 20px);
+    }
+  }
+  
+  /* På små skærme (telefoner) */
+  @media (max-width: 576px) {
+    .col {
+      flex: 0 0 calc(50% - 20px); /* 2 kolonner */
+      max-width: calc(50% - 20px);
+    }
+  }
+  
+
+  .team-member img {
+    width: 100%;
+    height: 200px; /* Juster højden efter behov */
+    object-fit: cover; /* Sørger for, at billedet fylder hele boksen og skærer overskydende del af billedet */
+    border-radius: 8px;
+}
+
+  

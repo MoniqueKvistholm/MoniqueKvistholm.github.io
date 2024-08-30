@@ -1,0 +1,48 @@
+.contact-box {
+    border: 1px solid #bbb; /* Tilføj kant med en tykkelse på 1px og en neutral grå farve */
+    border-radius: 5px; /* Tilføj afrundede hjørner */
+    padding: 20px;
+    width: 300px;
+}
+
+.contact-box h2 {
+    margin-top: 0;
+}
+
+.contact-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-box ul li {
+    margin-bottom: 10px;
+}
+
+
+.container {
+    width: 100%;
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+@media (max-width: 768px) {
+    .contact-box {
+      margin-top: 3rem;
+    }
+  
+    .contact-item {
+      margin-bottom: 1rem;
+    }
+  
+    .container {
+      padding: 0 1rem;
+    }
+  
+    .caption {
+      text-align: center;
+    }
+  }
+  
