@@ -686,7 +686,7 @@ nav_order: 3
     <div id="modal13" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal13')">&times;</span>
-            <img src="/assets/img/placeholder_person.pngg" alt="Claes Ladefoged">
+            <img src="/assets/img/placeholder_person.png" alt="Claes Ladefoged">
             <h3>Claes Ladefoged</h3>
             <p>Postdoc</p>
             <p class="additional-details">
@@ -726,7 +726,7 @@ nav_order: 3
                 <br>
                 Phone: <a href="tel:+4535453252">+45 35-45 32-52</a>
                 <br>
-                Location: Center Management
+                Location: 4412, Center Management
             </p>
         </div>
     </div>
@@ -736,8 +736,14 @@ nav_order: 3
             <span class="close" onclick="closeModal('modal16')">&times;</span>
             <img src="/assets/img/Martin_person.png" alt="Martin Lundsgaard">
             <h3>Martin Lundsgaard</h3>
-            <p>Position 2</p>
-            <p class="additional-details">Martin Lundsgaard bidrager med sin viden om projektledelse og sikrer effektiv eksekvering af strategiske initiativer.</p>
+            <p>Chief Physician</p>
+            <p class="additional-details">
+                Email: <a href="mailto:martin.lundsgaard.hansen@regionh.dk">martin.lundsgaard.hansen@regionh.dk</a>
+                <br>
+                Phone: <a href="tel:+4521600236">+45 21-60 02-36</a>
+                <br>
+                Location: 2023, Radiology
+            </p>
         </div>
     </div>
 
