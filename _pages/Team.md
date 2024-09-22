@@ -457,9 +457,9 @@ nav_order: 3
         <div id="board-of-directors" class="tab-content" style="display:none;">
             <div class="team-grid">
                 <div class="team-member" onclick="openModal('modal15')">
-                    <img src="/assets/img/placeholder_person.png" alt="Malene Fischer">
-                    <h3>Malene Fischer</h3>
-                    <p>Director of Research</p>
+                    <img src="/assets/img/placeholder_person.png" alt="Randi Brinckmann">
+                    <h3>Randi Brinckmann</h3>
+                    <p>Center Director</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal16')">
                     <img src="/assets/img/Martin_person.png" alt="Martin Lundsgaard">
@@ -718,15 +718,15 @@ nav_order: 3
     <div id="modal15" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal15')">&times;</span>
-            <img src="/assets/img/placeholder_person.png" alt="Malene Fischer">
-            <h3>Malene Fischer</h3>
-            <p>Director of Research</p>
+            <img src="/assets/img/placeholder_person.png" alt="Randi Brinckmann">
+            <h3>Randi Brinckmann</h3>
+            <p>Center Director</p>
             <p class="additional-details">
-                Email: <a href="mailto:barbara.malene.fischer@regionh.dk">barbara.malene.fischer@regionh.dk</a>
+                Email: <a href="mailto:randi.brinckmann@regionh.dk">randi.brinckmann@regionh.dk</a>
                 <br>
-                Phone: <a href="tel:+4522266045">+45 22-26 60-45</a>
+                Phone: <a href="tel:+4535453252">+45 35-45 32-52</a>
                 <br>
-                Location: Management Office
+                Location: Center Management
             </p>
         </div>
     </div>
