@@ -270,10 +270,17 @@ body {
 
 <!-- About Us Section -->
 <div class="section about-us">
-  <div class="content">
+  <div class="content" style="text-align: center;">
+    <p style="font-size: 28px; color: #yourColor; margin-bottom: 50px;"> 
+      <span style="font-weight: bold;">D</span>iagnostic <span style="font-weight: bold;">E</span>xcellence in <span style="font-weight: bold;">P</span>ersonalized <span style="font-weight: bold;">I</span>maging aided by <span style="font-weight: bold;">C</span>omputational <span style="font-weight: bold;">T</span>echniques
+    </p>
     <p class="purpose-vision">DEPICT envisions leading the way in the application of artificial intelligence and medical imaging by developing, validating, and implementing advanced and cutting-edge methods. This enables us to offer tailored solutions that meet the individual needs of each patient. Through collaboration in an interdisciplinary team, we extract image information efficiently and with minimal impact on patients, contributing to better outcomes.</p>
   </div>
 </div>
+
+
+
+
 
 <!-- Vision Section -->
 <div class="section vision">

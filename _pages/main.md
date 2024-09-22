@@ -269,7 +269,7 @@ body {
     <img src="/assets/img/Utekst.jpg" alt="Forsidebillede" class="hero-image">
     <div class="hero-overlay">
         <h1 class="hero-title">DEPICT</h1>
-        <p class="hero-subtitle">Center for AI and Medical Imaging</p>
+        <p class="hero-subtitle">AI and Medical Image Analysis</p>
         <h2 class="hero-description">We shape the future of diagnostic imaging to ensure the highest possible value for each individual patient</h2>
     </div>
 </div>
@@ -295,7 +295,7 @@ body {
         <div class="column-content left-align">
             <h3>Located</h3>
             <p>Department of Clinical Physiology and Nuclear Medicine</p>
-            <p>Department of Radiology and Scanning</p>
+            <p>Department of Radiology</p>
             <p>Address: Rigshospitalet, Blegdamsvej 9, 2100 Copenhagen Ø</p>
         </div>
     </div>

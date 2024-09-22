@@ -44,7 +44,7 @@ nav_order: 3
 
         .team-intro {
             margin: 0 150px; /* Juster marginen som ønsket */
-            font-size: 35px; /* Juster skriftstørrelsen */
+            font-size: 30px; /* Juster skriftstørrelsen */
             line-height: 1.9; /* Øg linjehøjden for bedre læsbarhed */
             text-align: center; /* Center tekst og billede */
             /*font-weight: bold; */
@@ -369,12 +369,12 @@ nav_order: 3
         <div id="center-managers" class="tab-content">
             <div class="team-grid">
                 <div class="team-member" onclick="openModal('modal1')">
-                    <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Littrup Andersen">
+                    <img src="/assets/img/Flemming_person.png" alt="Flemming Littrup Andersen">
                     <h3>Flemming Littrup Andersen</h3>
                     <p>Lead Data Scientist </p>
                 </div>
                 <div class="team-member" onclick="openModal('modal2')">
-                    <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen">
+                    <img src="/assets/img/Adam_person.png" alt="Adam Espe Hansen">
                     <h3>Adam Espe Hansen</h3>
                     <p>Professor</p>
                 </div>
@@ -385,52 +385,52 @@ nav_order: 3
         <div id="steering-committee" class="tab-content" style="display:none;">
             <div class="team-grid">
                 <div class="team-member" onclick="openModal('modal3')">
-                    <img src="/assets/img/paceholder_person.jpg" alt="Jann Mortensen">
+                    <img src="/assets/img/placeholder_person.png" alt="Jann Mortensen">
                     <h3>Jann Mortensen</h3>
                     <p>Professor, Chief Physician</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal4')">
-                    <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Littrup Andersen">
+                    <img src="/assets/img/Flemming_person.png" alt="Flemming Littrup Andersen">
                     <h3>Flemming Littrup Andersen</h3>
                     <p>Lead Data Scientist</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal5')">
-                    <img src="/assets/img/paceholder_person.jpg" alt="Claes Ladefoged">
+                    <img src="/assets/img/placeholder_person.png" alt="Claes Ladefoged">
                     <h3>Claes Ladefoged</h3>
                     <p>Postdoc</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal6')">
-                    <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen">
+                    <img src="/assets/img/Adam_person.png" alt="Adam Espe Hansen">
                     <h3>Adam Espe Hansen</h3>
                     <p>Professor</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal7')">
-                    <img src="/assets/img/paceholder_person.jpg" alt="Michael Bachmann">
+                    <img src="/assets/img/placeholder_person.png" alt="Michael Bachmann">
                     <h3>Michael Bachmann</h3>
                     <p>Professor, Chief Physician</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal8')">
-                    <img src="/assets/img/paceholder_person.jpg" alt="Jonathan Carlsen">
+                    <img src="/assets/img/placeholder_person.png" alt="Jonathan Carlsen">
                     <h3>Jonathan Carlsen</h3>
                     <p>Chief Physician</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal9')">
-                    <img src="/assets/img/paceholder_person.jpg" alt="Martin Lundsgaard">
+                    <img src="/assets/img/Martin_person.png" alt="Martin Lundsgaard">
                     <h3>Martin Lundsgaard</h3>
                     <p>Chief Physician</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal10')">
-                    <img src="/assets/img/paceholder_person.jpg" alt="Ian Law">
+                    <img src="/assets/img/placeholder_person.png" alt="Ian Law">
                     <h3>Ian Law</h3>
                     <p>Professor, Chief Physician</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal11')">
-                    <img src="/assets/img/paceholder_person.jpg" alt="Ida Robsøe">
+                    <img src="/assets/img/placeholder_person.png" alt="Ida Robsøe">
                     <h3>Ida Robsøe</h3>
                     <p>Chief Bioanalyst</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal12')">
-                    <img src="/assets/img/paceholder_person.jpg" alt="Johnny Madelung">
+                    <img src="/assets/img/Johnny_person.png" alt="Johnny Madelung">
                     <h3>Johnny Madelung</h3>
                     <p>Lead Radiographer</p>
                 </div>
@@ -441,12 +441,12 @@ nav_order: 3
         <div id="ai-research-directors" class="tab-content" style="display:none;">
             <div class="team-grid">
                 <div class="team-member" onclick="openModal('modal13')">
-                    <img src="/assets/img/paceholder_person.jpg" alt="Claes Ladefoged">
+                    <img src="/assets/img/placeholder_person.png" alt="Claes Ladefoged">
                     <h3>Claes Ladefoged</h3>
                     <p>Postdoc</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal14')">
-                    <img src="/assets/img/paceholder_person.jpg" alt="Michael Bachmann">
+                    <img src="/assets/img/placeholder_person.png" alt="Michael Bachmann">
                     <h3>Michael Bachmann</h3>
                     <p>Professor, Chief Physician</p>
                 </div>
@@ -457,12 +457,12 @@ nav_order: 3
         <div id="board-of-directors" class="tab-content" style="display:none;">
             <div class="team-grid">
                 <div class="team-member" onclick="openModal('modal15')">
-                    <img src="/assets/img/paceholder_person.jpg" alt="Malene Fischer">
+                    <img src="/assets/img/placeholder_person.png" alt="Malene Fischer">
                     <h3>Malene Fischer</h3>
                     <p>Director of Research</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal16')">
-                    <img src="/assets/img/paceholder_person.jpg" alt="Martin Lundsgaard">
+                    <img src="/assets/img/Martin_person.png" alt="Martin Lundsgaard">
                     <h3>Martin Lundsgaard</h3>
                     <p>Chief Physician</p>
                 </div>
@@ -486,7 +486,7 @@ nav_order: 3
     <div id="modal1" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal1')">&times;</span>
-            <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Littrup Andersen">
+            <img src="/assets/img/Flemming_person.png" alt="Flemming Littrup Andersen">
             <h3>Flemming Littrup Andersen</h3>
             <p>Datachef</p>
             <p class="additional-details">
@@ -504,7 +504,7 @@ nav_order: 3
     <div id="modal2" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal2')">&times;</span>
-            <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen">
+            <img src="/assets/img/Adam_person.png" alt="Adam Espe Hansen">
             <h3>Adam Espe Hansen</h3>
             <p>Professor</p>
             <p class="additional-details">
@@ -514,7 +514,7 @@ nav_order: 3
                 <br>
                 Phone: <a href="tel:+4535458460">+45 35-45 84-60</a>
                 <br>
-                Location: 3023, Radiology and Scanning
+                Location: 3023, Radiology
             </p>
         </div>
     </div>
@@ -523,7 +523,7 @@ nav_order: 3
     <div id="modal3" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal3')">&times;</span>
-            <img src="/assets/img/paceholder_person.jpg" alt="Jann Mortensen">
+            <img src="/assets/img/placeholder_person.png" alt="Jann Mortensen">
             <h3>Jann Mortensen</h3>
             <p>Professor, Chief Physician, Dr. Med</p>
             <p class="additional-details">
@@ -540,7 +540,7 @@ nav_order: 3
     <div id="modal4" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal4')">&times;</span>
-            <img src="/assets/img/Portræt_Flemming.jpg" alt="Flemming Littrup Andersen">
+            <img src="/assets/img/Flemming_person.png" alt="Flemming Littrup Andersen">
             <h3>Flemming Littrup Andersen</h3>
             <p>Datachef</p>
             <p class="additional-details">
@@ -558,7 +558,7 @@ nav_order: 3
     <div id="modal5" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal5')">&times;</span>
-            <img src="/assets/img/paceholder_person.jpg" alt="Claes Ladefoged">
+            <img src="/assets/img/placeholder_person.png" alt="Claes Ladefoged">
             <h3>Claes Ladefoged</h3>
             <p>Postdoc</p>
             <p class="additional-details">
@@ -574,7 +574,7 @@ nav_order: 3
     <div id="modal6" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal6')">&times;</span>
-            <img src="/assets/img/Portræt_Adam.jpg" alt="Adam Espe Hansen">
+            <img src="/assets/img/Adam_person.png" alt="Adam Espe Hansen">
             <h3>Adam Espe Hansen</h3>
             <p>Professor</p>
             <p class="additional-details">
@@ -584,7 +584,7 @@ nav_order: 3
                 <br>
                 Phone: <a href="tel:+4535458460">+45 35-45 84-60</a>
                 <br>
-                Location: 3023, Radiology and Scanning
+                Location: 3023, Radiology
             </p>
         </div>
     </div>
@@ -592,7 +592,7 @@ nav_order: 3
     <div id="modal7" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal7')">&times;</span>
-            <img src="/assets/img/paceholder_person.jpg" alt="Michael Bachmann">
+            <img src="/assets/img/placeholder_person.png" alt="Michael Bachmann">
             <h3>Michael Bachmann</h3>
             <p>Professor, Chief Physician</p>
             <p class="additional-details">
@@ -600,7 +600,7 @@ nav_order: 3
                 <br>
                 Phone: <a href="tel:+4535453419">+45 35-45 34-19</a>
                 <br>
-                Location: 3023, Radiology and Scanning
+                Location: 3023, Radiology
             </p>
         </div>
     </div>
@@ -608,13 +608,13 @@ nav_order: 3
     <div id="modal8" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal8')">&times;</span>
-            <img src="/assets/img/paceholder_person.jpg" alt="Jonathan Carlsen">
+            <img src="/assets/img/placeholder_person.png" alt="Jonathan Carlsen">
             <h3>Jonathan Carlsen</h3>
             <p>Chief Physician</p>
             <p class="additional-details">
                 Email: <a href="mailto:jonathan.frederik.carlsen@regionh.dk">jonathan.frederik.carlsen@regionh.dk</a>
                 <br>
-                Location: 2023, Radiology and Scanning
+                Location: 2023, Radiology
             </p>
         </div>
     </div>
@@ -622,7 +622,7 @@ nav_order: 3
     <div id="modal9" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal9')">&times;</span>
-            <img src="/assets/img/paceholder_person.jpg" alt="Martin Lundsgaard">
+            <img src="/assets/img/Martin_person.png" alt="Martin Lundsgaard">
             <h3>Martin Lundsgaard</h3>
             <p>Chief Physician</p>
             <p class="additional-details">
@@ -630,7 +630,7 @@ nav_order: 3
                 <br>
                 Phone: <a href="tel:+4521600236">+45 21-60 02-36</a>
                 <br>
-                Location: 2023, Radiology and Scanning
+                Location: 2023, Radiology
             </p>
         </div>
     </div>
@@ -638,7 +638,7 @@ nav_order: 3
     <div id="modal10" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal10')">&times;</span>
-            <img src="/assets/img/paceholder_person.jpg" alt="Ian Law">
+            <img src="/assets/img/placeholder_person.png" alt="Ian Law">
             <h3>Ian Law</h3>
             <p>Professor, Chief Physician </p>
             <p class="additional-details">
@@ -646,7 +646,7 @@ nav_order: 3
                 <br>
                 Phone: <a href="tel:+4530295122">+45 30-29 51-22 </a>
                 <br>
-                Location: 3982, Radiology and Scanning
+                Location: 3982, Radiology
             </p>
         </div>
     </div>
@@ -654,7 +654,7 @@ nav_order: 3
     <div id="modal11" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal11')">&times;</span>
-            <img src="/assets/img/paceholder_person.jpg" alt="Ida Robsøe">
+            <img src="/assets/img/placeholder_person.png" alt="Ida Robsøe">
             <h3>Ida Robsøe</h3>
             <p>Chief Bioanalyst</p>
             <p class="additional-details">
@@ -662,7 +662,7 @@ nav_order: 3
                 <br>
                 Phone: <a href="tel:+4535459503">+45 35-45 95-03 </a>
                 <br>
-                Location: 4011, Radiology and Scanning
+                Location: 4011, Radiology
             </p>
         </div>
     </div>
@@ -670,7 +670,7 @@ nav_order: 3
     <div id="modal12" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal12')">&times;</span>
-            <img src="/assets/img/paceholder_person.jpg" alt="Johnny Madelung">
+            <img src="/assets/img/Johnny_person.png" alt="Johnny Madelung">
             <h3>Johnny Madelung</h3>
             <p>Lead Radiographer</p>
             <p class="additional-details">
@@ -678,7 +678,7 @@ nav_order: 3
                 <br>
                 Phone: <a href="tel:+4535451666">+45 35-45 16-66 </a>
                 <br>
-                Location: 2023, Radiology and Scanning
+                Location: 2023, Radiology
             </p>
         </div>
     </div>
@@ -686,7 +686,7 @@ nav_order: 3
     <div id="modal13" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal13')">&times;</span>
-            <img src="/assets/img/paceholder_person.jpg" alt="Claes Ladefoged">
+            <img src="/assets/img/placeholder_person.pngg" alt="Claes Ladefoged">
             <h3>Claes Ladefoged</h3>
             <p>Postdoc</p>
             <p class="additional-details">
@@ -702,7 +702,7 @@ nav_order: 3
     <div id="modal14" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal14')">&times;</span>
-            <img src="/assets/img/paceholder_person.jpg" alt="Michael Bachmann">
+            <img src="/assets/img/placeholder_person.png" alt="Michael Bachmann">
             <h3>Michael Bachmann Nielsen</h3>
             <p>Professor, Chief Physician</p>
             <p class="additional-details">
@@ -710,7 +710,7 @@ nav_order: 3
                 <br>
                 Phone: <a href="tel:+4535453419">+45 35-45 34-19</a>
                 <br>
-                Location: 3023, Radiology and Scanning
+                Location: 3023, Radiology
             </p>
         </div>
     </div>
@@ -718,7 +718,7 @@ nav_order: 3
     <div id="modal15" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal15')">&times;</span>
-            <img src="/assets/img/paceholder_person.jpg" alt="Malene Fischer">
+            <img src="/assets/img/placeholder_person.png" alt="Malene Fischer">
             <h3>Malene Fischer</h3>
             <p>Director of Research</p>
             <p class="additional-details">
@@ -734,7 +734,7 @@ nav_order: 3
     <div id="modal16" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal16')">&times;</span>
-            <img src="/assets/img/paceholder_person.jpg" alt="Martin Lundsgaard">
+            <img src="/assets/img/Martin_person.png" alt="Martin Lundsgaard">
             <h3>Martin Lundsgaard</h3>
             <p>Position 2</p>
             <p class="additional-details">Martin Lundsgaard bidrager med sin viden om projektledelse og sikrer effektiv eksekvering af strategiske initiativer.</p>
