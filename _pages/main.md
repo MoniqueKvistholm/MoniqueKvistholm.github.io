@@ -269,7 +269,7 @@ body {
     <img src="/assets/img/Utekst.jpg" alt="Forsidebillede" class="hero-image">
     <div class="hero-overlay">
         <h1 class="hero-title">DEPICT</h1>
-        <p class="hero-subtitle">AI and Medical Image Analysis (hej)</p>
+        <p class="hero-subtitle">AI and Medical Image Analysis</p>
         <h2 class="hero-description">We shape the future of diagnostic imaging to ensure the highest possible value for each individual patient</h2>
     </div>
 </div>
