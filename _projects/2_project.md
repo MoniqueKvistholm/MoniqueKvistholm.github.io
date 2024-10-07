@@ -3,7 +3,7 @@ layout: default2
 title: Automatic Lesion Segmentation on MRI Scans of Patients with Multiple Sclerosis
 description: PhD Project by Amalie Hindsholm
 img: assets/img/P2.jpg
-importance: 4
+importance: 5
 category: 2024
 related_publications: false
 ---

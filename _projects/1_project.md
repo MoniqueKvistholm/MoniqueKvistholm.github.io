@@ -3,7 +3,7 @@ layout: default2
 title: Digital Twin for PET Scanning
 description: PhD Project by Christian Hinge
 img: assets/img/P1.jpg
-importance: 5
+importance: 6
 category: 2024
 related_publications: false
 ---
