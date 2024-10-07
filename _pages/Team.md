@@ -345,7 +345,7 @@ nav_order: 3
     <div style="height: 0px;"></div>
     <!-- Intro-sektion -->
     <div class="team-intro">
-        <p style="color: #f2e6d9;">Welcome to our interdisciplinary team! Here, you can meet the members of DEPICT. Our strength lies in the diverse expertise of our members, who drive our projects to optimize imaging techniques and enhance diagnostic capabilities.</p>
+        <p style="color: #f2e6d9;">Welcome to our interdisciplinary team! Here, you can meet the members of DEPICT. Our strength lies in the diverse expertise of our members, who drive our projects to optimize imaging techniques and enhance diagnostic capabilities..</p>
     </div>
     <div style="height: 0px;"></div>
 </div>
