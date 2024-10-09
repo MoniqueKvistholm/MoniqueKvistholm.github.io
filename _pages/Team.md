@@ -420,7 +420,7 @@ nav_order: 3
                     <p>Chief Physician</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal10')">
-                    <img src="/assets/img/placeholder_person.png" alt="Ian Law">
+                    <img src="/assets/img/Ian_person.png" alt="Ian Law">
                     <h3>Ian Law</h3>
                     <p>Professor, Chief Physician</p>
                 </div>
@@ -638,7 +638,7 @@ nav_order: 3
     <div id="modal10" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal10')">&times;</span>
-            <img src="/assets/img/placeholder_person.png" alt="Ian Law">
+            <img src="/assets/img/Ian_person.png" alt="Ian Law">
             <h3>Ian Law</h3>
             <p>Professor, Chief Physician </p>
             <p class="additional-details">
