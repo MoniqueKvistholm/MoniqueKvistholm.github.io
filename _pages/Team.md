@@ -405,12 +405,12 @@ nav_order: 3
                     <p>Professor</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal7')">
-                    <img src="/assets/img/placeholder_person.png" alt="Michael Bachmann">
+                    <img src="/assets/img/Michael_person.png" alt="Michael Bachmann">
                     <h3>Michael Bachmann</h3>
                     <p>Professor, Chief Physician</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal8')">
-                    <img src="/assets/img/placeholder_person.png" alt="Jonathan Carlsen">
+                    <img src="/assets/img/Jonathan_person.png" alt="Jonathan Carlsen">
                     <h3>Jonathan Carlsen</h3>
                     <p>Chief Physician</p>
                 </div>
@@ -446,7 +446,7 @@ nav_order: 3
                     <p>Postdoc</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal14')">
-                    <img src="/assets/img/placeholder_person.png" alt="Michael Bachmann">
+                    <img src="/assets/img/Michael_person.png" alt="Michael Bachmann">
                     <h3>Michael Bachmann</h3>
                     <p>Professor, Chief Physician</p>
                 </div>
@@ -592,7 +592,7 @@ nav_order: 3
     <div id="modal7" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal7')">&times;</span>
-            <img src="/assets/img/placeholder_person.png" alt="Michael Bachmann">
+            <img src="/assets/img/Michael_person.png" alt="Michael Bachmann">
             <h3>Michael Bachmann</h3>
             <p>Professor, Chief Physician</p>
             <p class="additional-details">
@@ -608,7 +608,7 @@ nav_order: 3
     <div id="modal8" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal8')">&times;</span>
-            <img src="/assets/img/placeholder_person.png" alt="Jonathan Carlsen">
+            <img src="/assets/img/Jonathan_person.png" alt="Jonathan Carlsen">
             <h3>Jonathan Carlsen</h3>
             <p>Chief Physician</p>
             <p class="additional-details">
@@ -702,7 +702,7 @@ nav_order: 3
     <div id="modal14" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal14')">&times;</span>
-            <img src="/assets/img/placeholder_person.png" alt="Michael Bachmann">
+            <img src="/assets/img/Michael_person.png" alt="Michael Bachmann">
             <h3>Michael Bachmann Nielsen</h3>
             <p>Professor, Chief Physician</p>
             <p class="additional-details">
