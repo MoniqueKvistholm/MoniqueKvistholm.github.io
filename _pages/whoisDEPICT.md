@@ -280,8 +280,6 @@ body {
 
 
 
-
-
 <!-- Vision Section -->
 <div class="section vision">
   <div class="content">
