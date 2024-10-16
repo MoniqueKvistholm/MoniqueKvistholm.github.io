@@ -15,4 +15,4 @@ nav_order: 5
 </div>
 
 <!-- Placeholder for footer positioning -->
-<div style="height: 400px;"></div>
+<div style="height: 420px;"></div>
