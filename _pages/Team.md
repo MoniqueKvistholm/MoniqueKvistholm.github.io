@@ -466,6 +466,11 @@ nav_order: 3
                     <h3>Martin Lundsgaard</h3>
                     <p>Chief Physician</p>
                 </div>
+                <div class="team-member" onclick="openModal('modal17')">
+                    <img src="/assets/img/placeholder_person.png" alt="Jann Mortensen">
+                    <h3>Jann Mortensen</h3>
+                    <p>Professor, Chief Physician</p>
+                </div>
             </div>
         </div>
 
@@ -743,6 +748,22 @@ nav_order: 3
                 Phone: <a href="tel:+4521600236">+45 21-60 02-36</a>
                 <br>
                 Location: 2023, Radiology
+            </p>
+        </div>
+    </div>
+
+    <div id="modal17" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal17')">&times;</span>
+            <img src="/assets/img/placeholder_person.png" alt="Jann Mortensen">
+            <h3>Jann Mortensen</h3>
+            <p>Professor, Chief Physician, Dr. Med</p>
+            <p class="additional-details">
+                Email: <a href="mailto:jann.mortensen@regionh.dk">jann.mortensen@regionh.dk</a>
+                <br>
+                Phone: <a href="tel:+4535451716">+45 35-45 17-16</a>
+                <br>
+                Location: 4011, Clinical Physiology and Nuclear Medicines
             </p>
         </div>
     </div>
