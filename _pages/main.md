@@ -51,8 +51,15 @@ body {
 .hero-subtitle {
   color: #EBF8FF; /* Hvid farve til tekst */
   font-size: 2em; /* Mindre tekststørrelse for undertitlen */
-  margin-bottom: 100px; /* Tilføjer afstand mellem undertitlen og beskrivelsen */
+  margin-bottom: 30px; /* Tilføjer afstand mellem undertitlen og beskrivelsen */
 }
+
+.hero-subsubtitle {
+  color: #EBF8FF; /* Hvid farve til tekst */
+  font-size: 1em; /* Mindre tekststørrelse for undertitlen */
+  margin-bottom: 80px; /* Tilføjer afstand mellem undertitlen og beskrivelsen */
+}
+
 
 .hero-description {
   color: #EBF8FF; /* Hvid farve til tekst */
@@ -270,6 +277,7 @@ body {
     <div class="hero-overlay">
         <h1 class="hero-title">DEPICT</h1>
         <p class="hero-subtitle">AI and Medical Image Analysis</p>
+        <p class="hero-subsubtitle">Centre of Diagnostic Investigation, Rigshospitalet</p>
         <h2 class="hero-description">We shape the future of diagnostic imaging to ensure the highest possible value for each individual patient</h2>
     </div>
 </div>
