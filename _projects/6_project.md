@@ -197,14 +197,15 @@ related_publications: false
       <div class="row">
         <div class="col-md-7">
           <strong>Introduction</strong>
-          <p>This project explores the enhancement of PET imaging for diagnosing neurodegenerative disorders such as Alzheimer's and Parkinson's by reducing the amount of radioactive material (activity) and scanning time while maintaining high image quality. By employing a Deep Learning model for denoising (noise reduction), PET images can be generated with standard activity from low-activity scans, aiming to minimize radiation exposure and optimize the patient experience.</p>
+          <p>This project explores the enhancement of PET imaging for diagnosing neurodegenerative disorders such as Alzheimer's and Parkinson's by reducing the amount of radioactive material (activity) or scanning time while maintaining diagnostic accuracy. By developing a Deep Learning model for denoising (noise reduction), PET images with standard-activity quality can be obtained from low-activity scans, aiming to minimize radiation exposure and optimize the patient experience.</p>
           <div style="height: 25px;"></div>
 
           <strong>Project Background</strong>
-          <p>Neurodegenerative disorders, including Alzheimer's disease (AD) and Parkinson's disease (PD), primarily affect patients over the age of 60. Alzheimer's disease is characterized by amyloid deposition in the brain and can be imaged using various PET radiotracers, including [11C]PiB, to confirm or rule out a clinical diagnosis. Similarly, specific PET tracers, such as [18F]FE-PE2I, can visualize the loss of dopaminergic neurons associated with Parkinson's disease, aiding in the diagnosis of patients with uncertain symptoms.</p>
+          <p>Neurodegenerative disorders, including Alzheimer's disease (AD) and Parkinson's disease (PD), primarily affect patients over the age of 60. Alzheimer's disease is characterized by amyloid deposition in the brain and can be imaged using various PET radiotracers, including [<sup>11</sup>C]PiB, to confirm or rule out a clinical diagnosis. Similarly, specific PET tracers, such as [<sup>18</sup>F]FE-PE2I, can visualize the loss of dopaminergic neurons associated with Parkinson's disease, aiding in the diagnosis of patients.</p>
+
           <p>However, current PET scanning techniques face obstacles such as high radiation exposure and long scanning times. Low-activity PET images often result in reduced image quality, creating a need for improvements in scanning technologies and methods. This project addresses these challenges by utilizing a Deep Learning model for noise reduction, aimed at improving the image quality of low-dose PET scans. This enables reliable diagnostics with reduced radiation exposure and shorter scanning times.</p>
 
-          <strong>Conclusion</strong>
+          <strong>Project Potential</strong>
           <p>The employed model has demonstrated its ability to effectively reduce noise in simulated low-activity PET images, resulting in images that closely match those obtained with full activity. This represents a significant improvement, enabling the potential to reduce tracer dose or scanning time in PET/CT without compromising image quality. This indicates the potential for implementing these methods in clinical practice, which may facilitate more effective strategies for diagnosing and treating neurodegenerative disorders.</p>
 
           <div style="height: 463px;"></div>

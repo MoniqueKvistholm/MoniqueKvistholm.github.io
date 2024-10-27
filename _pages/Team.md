@@ -385,7 +385,7 @@ nav_order: 3
         <div id="steering-committee" class="tab-content" style="display:none;">
             <div class="team-grid">
                 <div class="team-member" onclick="openModal('modal3')">
-                    <img src="/assets/img/placeholder_person.png" alt="Jann Mortensen">
+                    <img src="/assets/img/Jann_person.png" alt="Jann Mortensen">
                     <h3>Jann Mortensen</h3>
                     <p>Professor, Chief Physician</p>
                 </div>
@@ -395,9 +395,9 @@ nav_order: 3
                     <p>Lead Data Scientist</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal5')">
-                    <img src="/assets/img/placeholder_person.png" alt="Claes Ladefoged">
+                    <img src="/assets/img/Claes_person.png" alt="Claes Ladefoged">
                     <h3>Claes Ladefoged</h3>
-                    <p>Postdoc</p>
+                    <p>Associate Professor</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal6')">
                     <img src="/assets/img/Adam_person.png" alt="Adam Espe Hansen">
@@ -425,7 +425,7 @@ nav_order: 3
                     <p>Professor, Chief Physician</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal11')">
-                    <img src="/assets/img/placeholder_person.png" alt="Ida Robsøe">
+                    <img src="/assets/img/Ida_person.png" alt="Ida Robsøe">
                     <h3>Ida Robsøe</h3>
                     <p>Chief Bioanalyst</p>
                 </div>
@@ -441,9 +441,9 @@ nav_order: 3
         <div id="ai-research-directors" class="tab-content" style="display:none;">
             <div class="team-grid">
                 <div class="team-member" onclick="openModal('modal13')">
-                    <img src="/assets/img/placeholder_person.png" alt="Claes Ladefoged">
+                    <img src="/assets/img/Claes_person.png" alt="Claes Ladefoged">
                     <h3>Claes Ladefoged</h3>
-                    <p>Postdoc</p>
+                    <p>Associate Professor</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal14')">
                     <img src="/assets/img/Michael_person.png" alt="Michael Bachmann">
@@ -467,7 +467,7 @@ nav_order: 3
                     <p>Chief Physician</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal17')">
-                    <img src="/assets/img/placeholder_person.png" alt="Jann Mortensen">
+                    <img src="/assets/img/Jann_person.png" alt="Jann Mortensen">
                     <h3>Jann Mortensen</h3>
                     <p>Professor, Chief Physician</p>
                 </div>
@@ -475,15 +475,7 @@ nav_order: 3
         </div>
 
         <!-- Placeholder for footer positioning -->
-        <div style="height: 50px;"></div>
-    </div>
-    </div>
-
-    <!-- Organization sektion -->
-    <div class="organization-section">
-    <div class="container">
-        <h1 class="team-title">Organization</h1>
-        <img src="/assets/img/Organisationsdiagram.png" alt="Organizational Diagram">
+        <div style="height: 200px;"></div>
     </div>
     </div>
 
@@ -528,7 +520,7 @@ nav_order: 3
     <div id="modal3" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal3')">&times;</span>
-            <img src="/assets/img/placeholder_person.png" alt="Jann Mortensen">
+            <img src="/assets/img/Jann_person.png" alt="Jann Mortensen">
             <h3>Jann Mortensen</h3>
             <p>Professor, Chief Physician, Dr. Med</p>
             <p class="additional-details">
@@ -563,9 +555,9 @@ nav_order: 3
     <div id="modal5" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal5')">&times;</span>
-            <img src="/assets/img/placeholder_person.png" alt="Claes Ladefoged">
+            <img src="/assets/img/Claes_person.png" alt="Claes Ladefoged">
             <h3>Claes Ladefoged</h3>
-            <p>Postdoc</p>
+            <p>Associate Professor</p>
             <p class="additional-details">
                 Email: <a href="mailto:claes.noehr.ladefoged@regionh.dk">claes.noehr.ladefoged@regionh.dk</a>
                 <br>
@@ -659,7 +651,7 @@ nav_order: 3
     <div id="modal11" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal11')">&times;</span>
-            <img src="/assets/img/placeholder_person.png" alt="Ida Robsøe">
+            <img src="/assets/img/Ida_person.png" alt="Ida Robsøe">
             <h3>Ida Robsøe</h3>
             <p>Chief Bioanalyst</p>
             <p class="additional-details">
@@ -691,7 +683,7 @@ nav_order: 3
     <div id="modal13" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal13')">&times;</span>
-            <img src="/assets/img/placeholder_person.png" alt="Claes Ladefoged">
+            <img src="/assets/img/Claes_person.png" alt="Claes Ladefoged">
             <h3>Claes Ladefoged</h3>
             <p>Postdoc</p>
             <p class="additional-details">
@@ -755,7 +747,7 @@ nav_order: 3
     <div id="modal17" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal17')">&times;</span>
-            <img src="/assets/img/placeholder_person.png" alt="Jann Mortensen">
+            <img src="/assets/img/Jann_person.png" alt="Jann Mortensen">
             <h3>Jann Mortensen</h3>
             <p>Professor, Chief Physician, Dr. Med</p>
             <p class="additional-details">

@@ -162,10 +162,10 @@ related_publications: false
       <div class="row">
         <div class="col-md-7">
           <strong>Introduction</strong>
-          <p>The project employs artificial intelligence to standardize tumor delineation on [18F]FDG-PET/CT images in patients with head and neck cancer (HNC). The aim is to reduce variability in this process to achieve more dependable results, potentially enhancing diagnosis and treatment. </p>
+          <p>The project employs artificial intelligence to standardize tumor delineation on [<sup>18</sup>F]FDG-PET/CT images in patients with head and neck cancer (HNC). The aim is to reduce variability in this process to achieve more dependable results, potentially enhancing diagnosis and treatment. </p>
 
           <strong>Project Background</strong>
-          <p>PET/CT with 18F-FDG is integral to the oncologic evaluation of nodal involvement, identification of distant metastases, radiotherapy planning, response assessment, and patient follow-up. Overall, PET/CT plays a crucial role in the assessment of various cancer types, including HNC.<br>
+          <p>PET/CT with <sup>18</sup>F-FDG is integral to the oncologic evaluation of nodal involvement, identification of distant metastases, radiotherapy planning, response assessment, and patient follow-up. Overall, PET/CT plays a crucial role in the assessment of various cancer types, including HNC.<br>
           
           The project explores the application of Deep Learning for tumor delineation and automation of deriving biomarkers on HNC PET/CT images. These image biomarkers include a range of quantitative measurements or characteristics associated with tumor size, shape, and intensity. Through Deep Learning, these biomarkers can be generated with precision and efficiency.</p>
 
