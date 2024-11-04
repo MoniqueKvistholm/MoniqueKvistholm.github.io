@@ -3,7 +3,7 @@ layout: default2
 title: Deep Learning-Driven Improvements in Low-Activity PET Imaging for Neurodegenerative Diseases
 description: Project by Raphaël Sura Daveau
 img: assets/img/P6.jpg
-importance: 1
+importance: 2
 category: 2024
 related_publications: false
 ---
@@ -259,7 +259,7 @@ related_publications: false
             <figure>
               <img src="{{ site.baseurl }}/assets/img/Billede_projekt_6.2.jpg" class="img-fluid" alt="Figure 2: Results of Low-Activity Scanning" />
               <div style="height: 20px;"></div>
-              <figcaption class="figure-caption"><strong>Figur 2:</strong> PET images of the brain in the transverse plane using [11C]PiB (associated with AD) and [18F]FE-PE2I (associated with PD). The images show examples of normal, borderline, and abnormal scans. Each panel displays standard-activity images (left), low-activity images (center), and denoised images (right). White markings highlight areas of potential amyloid accumulation for [11C]PiB, relevant to Alzheimer's disease, and for [18F]FE-PE2I, where the putamen and caudate nucleus, associated with Parkinson’s disease, are highlighted. The model effectively cleanses the images of noise.</figcaption>
+              <figcaption class="figure-caption"><strong>Figur 2:</strong> PET images of the brain in the transverse plane using [<sup>11</sup>C]PiB (associated with AD) and [<sup>18</sup>F]FE-PE2I (associated with PD). The images show examples of normal, borderline, and abnormal scans. Each panel displays standard-activity images (left), low-activity images (center), and denoised images (right). White markings highlight areas of potential amyloid accumulation for [<sup>11</sup>C]PiB, relevant to Alzheimer's disease, and for [<sup>18</sup>F]FE-PE2I, where the putamen and caudate nucleus, associated with Parkinson’s disease, are highlighted. The model effectively cleanses the images of noise.</figcaption>
             </figure>
           </div>
         </div>
