@@ -204,6 +204,7 @@ related_publications: false
           <p>Head and neck cancer (HNC) includes various cancers in the head and neck regions, where precise tumor delineation is crucial due to the proximity of sensitive organs. Current RT planning for HNC relies on positron emission tomography (PET) for identification of lymph node involvement and computed tomography (CT) for calculating radiation doses. However, CT has limitations in accurately delineating soft tissues, which can lead to uncertainties in target definition and impact treatment outcomes. Replacing CT with MRI could therefore establish PET/MRI as the optimal imaging technique for RT planning.</p>
 
           <p>While MRI provides better soft tissue contrast, it lacks information about electron density, which is essential for accurate dose calculations. To address this limitation, a deep learning-based method has been developed to generate sCT images. The project aims to establish a PET/MRI scan protocol that enables PET/MRI as a comprehensive solution for RT planning by incorporating essential multiparametric MRI data and facilitating dose calculations through sCT.</p>
+          <div style="height: 25px;"></div>
 
           <strong>Project Potential</strong>
           <p>The deep learning method developed for sCT generation has demonstrated clinical suitability for both PET attenuation correction and RT dose calculations, representing a significant advancement toward integrating multiparametric PET/MRI as a one-stop shop for RT planning. While the method does have limitations, such as the need for larger datasets and adjustments for specific cases, the sCT images have proven clinical suitable, achieving dose calculations with only 1% difference from reference CT. This close alignment highlights sCT’s potential for enhancing RT planning.</p>
@@ -241,9 +242,9 @@ related_publications: false
 
         <div class="col-md-5 figure-column">
           <div class="image-box">
-            <h4>Comparison of the Two Dose Calculation Methods (CT and sCT)</h4>
+            <h5>Comparison of the Two Dose Calculation Methods (CT and sCT)</h5>
             <div style="height: 15px;"></div>
-            <figcaption class="figure-caption">The This figure illustrates the comparison between computed tomography (CT) and synthetic CT (sCT) in the context of radiation therapy. </figcaption>
+            <figcaption class="figure-caption">The figure illustrates the comparison between computed tomography (CT) and synthetic CT (sCT) in the context of radiation therapy. </figcaption>
             <div style="height: 30px;"></div>
             <figure>
               <img src="{{ site.baseurl }}/assets/img/Billede_projekt_7.1.jpg" class="img-fluid" alt="Figure 1: Example of PET Imaging" />
