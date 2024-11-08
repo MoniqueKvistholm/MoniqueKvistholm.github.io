@@ -209,7 +209,12 @@ related_publications: false
 
             <h4 class="small-header">Publications</h4>
             <div class="contact-item">
-              <p><a class="publication-link" href="https://jnm.snmjournals.org/content/early/2024/02/22/jnumed.123.266574">Clinical Evaluation of Deep Learning for Tumor Delineation on 18F-FDG PET/CT of Head and Neck Cancer</a></p>
+              <p>
+                <a class="publication-link" href="https://jnm.snmjournals.org/content/early/2024/02/22/jnumed.123.266574">Clinical Evaluation of Deep Learning for Tumor Delineation on 18F-FDG PET/CT of Head and Neck Cancer</a>
+              </p>
+              <p><strong>Data is shared as part of this project here: </strong>
+                <a class="publication-link" href="https://rigshospitalet-tumour-segmentation.regionh.dk/">Rigshospitalet Tumor Segmentation</a>
+              </p>
             </div>
           </div>
         </div>

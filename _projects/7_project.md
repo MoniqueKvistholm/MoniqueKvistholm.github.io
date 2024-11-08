@@ -1,7 +1,7 @@
 ---
 layout: default2
 title: Feasibility of Multiparametric PET/MRI as a One-Stop Shop for RT Planning for Patients with HNC
-description: Project by Jens Birk Andersen
+description: Project by Anders Olin
 img: assets/img/P7.jpg
 importance: 1
 category: 2024
@@ -207,36 +207,23 @@ related_publications: false
           <div style="height: 25px;"></div>
 
           <strong>Project Potential</strong>
-          <p>The deep learning method developed for sCT generation has demonstrated clinical suitability for both PET attenuation correction and RT dose calculations, representing a significant advancement toward integrating multiparametric PET/MRI as a one-stop shop for RT planning. While the method does have limitations, such as the need for larger datasets and adjustments for specific cases, the sCT images have proven clinical suitable, achieving dose calculations with only 1% difference from reference CT. This close alignment highlights sCT’s potential for enhancing RT planning.</p>
+          <p>The deep learning method developed for sCT generation has demonstrated clinical suitability for both PET attenuation correction and RT dose calculations, representing a significant advancement toward integrating multiparametric PET/MRI as a one-stop shop for RT planning. Notably, the model has undergone external validation using a dataset from Guy's and St. Thomas' Hospital in London, further confirming its robustness and generalizability across different sites. While the method does have limitations, such as the need for larger datasets and adjustments for specific cases, the sCT images have proven clinical suitable, achieving dose calculations with only 1% difference from reference CT. This close alignment highlights sCT’s potential for enhancing RT planning.</p>
 
-          <div style="height: 100px;"></div>
+          <div style="height: 70px;"></div>
           
-          <div class="custom-contact-box mt-6 border rounded shadow-sm">
-            <h4 class="small-header">Contact Information</h4>
-            <div class="contact-item">
-                <strong>Name:</strong>
-                <span> Jens Birk Andersen</span>
-            </div>
-            <div class="contact-item">
-                <strong>Email:</strong>
-                <span><a href="mailto:jens.birk.andersen.02@regionh.dk">jens.birk.andersen.02@regionh.dk</a></span>
-            </div>
-            <div class="contact-item">
-                <strong>Location:</strong>
-                <span>Department of Clinical Physiology and Nuclear Medicine</span>
-            </div>
-            <div class="contact-item">
-                <strong>Position:</strong>
-                <span>Student</span>
-            </div>
-
-            <!-- Extra space between Position and Publications -->
-            <div class="contact-item spacer"></div>
-
-            <h4 class="small-header">Publications</h4>
-            <div class="contact-item">
-                <p><a class="publication-link" href="https://www.redjournal.org/article/S0360-3016(20)31422-X/fulltext">Feasibility of Multiparametric Positron Emission Tomography/Magnetic Resonance Imaging as a One-Stop Shop for Radiation Therapy Planning for Patients with Head and Neck Cancer</a></p>
-            </div>
+          <div class="custom-figure-box mt-7" style="border: none; background: transparent;"> <!-- Removed border and made background transparent -->
+          <h4 class="small-header">Model Performance with Metallic Dental Implants</h4>
+          <div style="height: 25px;"></div>
+          <div class="d-flex">
+              <div class="figure-image" style="flex: 2; padding-right: 2px;"> <!-- Reduced flex size -->
+                  <img src="/assets/img/Billede_projekt_7.2.jpg" alt="Cases illustrating the model's ability to handle metallic dental implants" class="img-fluid" style="max-width: 90%; height: auto;"/> <!-- Added max-width to control image size -->
+              </div>
+              <div class="figure-caption" style="flex: 2; padding-top: 20px;"> <!-- Kept padding for spacing -->
+                  <p><strong>Figure 2.</strong> Cases illustrating the model's ability to handle metallic dental implants.</p>
+                  <p>(A) A case from the external cohort, where the dental implant caused severe streaking artifacts in the computed tomography (CT) and a signal void in the magnetic resonance imaging without translating significantly into the synthetic CT.</p>
+                  <p>(B-D) Cases from the local cohort, where dental implants only slightly affected the CT, but caused larger signal voids in the magnetic resonance images (MRI). For these cases the artifacts translated in varying degree into the synthetic CT images. Metal artifacts are marked on the MRI by red arrows.</p>
+              </div>
+          </div>
           </div>
         </div>
 
@@ -254,6 +241,37 @@ related_publications: false
             </figcaption>
             </figure>
             <div style="height: 20px;"></div>
+          </div>
+          <div style="height: 150px;"></div>
+          <div class="custom-contact-box mt-5 border rounded shadow-sm">
+            <h4 class="small-header">Contact Information</h4>
+            <div class="contact-item">
+                <strong>Name:</strong>
+                <span> Anders Olin</span>
+            </div>
+            <div class="contact-item">
+                <strong>Email:</strong>
+                <span><a href="mailto:?">mail</a></span>
+            </div>
+            <div class="contact-item">
+                <strong>Location:</strong>
+                <span>Department of Clinical Physiology and Nuclear Medicine</span>
+            </div>
+            <div class="contact-item">
+                <strong>Position:</strong>
+                <span>Student</span>
+            </div>
+
+            <!-- Extra space between Position and Publications -->
+            <div class="contact-item spacer"></div>
+
+            <h4 class="small-header">Publications</h4>
+            <div class="contact-item">
+                <p><a class="publication-link" href="https://www.redjournal.org/article/S0360-3016(20)31422-X/fulltext">Feasibility of Multiparametric Positron Emission Tomography/Magnetic Resonance Imaging as a One-Stop Shop for Radiation Therapy Planning for Patients with Head and Neck Cancer</a></p>
+            </div>
+            <div class="contact-item">
+                <p><a class="publication-link" href="https://www.sciencedirect.com/science/article/pii/S2452109421001202">Robustness and Generalizability of Deep Learning Synthetic Computed Tomography for Positron Emission Tomography/Magnetic Resonance Imaging–Based Radiation Therapy Planning of Patients With Head and Neck Cancer</a></p>
+            </div>
           </div>
         </div>
       </div>

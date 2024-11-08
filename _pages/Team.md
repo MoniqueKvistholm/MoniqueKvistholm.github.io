@@ -457,7 +457,7 @@ nav_order: 3
         <div id="board-of-directors" class="tab-content" style="display:none;">
             <div class="team-grid">
                 <div class="team-member" onclick="openModal('modal15')">
-                    <img src="/assets/img/placeholder_person.png" alt="Randi Brinckmann">
+                    <img src="/assets/img/Randi_person.png" alt="Randi Brinckmann">
                     <h3>Randi Brinckmann</h3>
                     <p>Center Director</p>
                 </div>
@@ -715,7 +715,7 @@ nav_order: 3
     <div id="modal15" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal15')">&times;</span>
-            <img src="/assets/img/placeholder_person.png" alt="Randi Brinckmann">
+            <img src="/assets/img/Randi_person.png" alt="Randi Brinckmann">
             <h3>Randi Brinckmann</h3>
             <p>Center Director</p>
             <p class="additional-details">
