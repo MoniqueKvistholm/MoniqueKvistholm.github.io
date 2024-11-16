@@ -3,7 +3,7 @@ layout: default2
 title: Deep Learning for Tumor Delineation on PET/CT of Head and Neck Cancer
 description: PhD Project by David Kovacs
 img: assets/img/P3.jpg
-importance: 5
+importance: 6
 category: 2024
 related_publications: false
 ---

@@ -1,9 +1,9 @@
 ---
 layout: default2
-title: Feasibility of Multiparametric PET/MRI as a One-Stop Shop for RT Planning for Patients with HNC
-description: Project by Anders Olin
-img: assets/img/P7.jpg
-importance: 2
+title: Automated Brown Adipose Tissue Segmentation in CT Images of Lymphoma Patients
+description: Project by Kasper Jørgensen
+img: assets/img/P8.jpg
+importance: 1
 category: 2024
 related_publications: false
 ---
@@ -184,6 +184,10 @@ related_publications: false
       padding: 0; /* Remove padding inside columns on extra small screens */
     }
   }
+
+  .small-text {
+  font-size: 0.8em; /* Juster efter behov for at gøre teksten mindre */
+  }
 </style>
 
 <div class="custom-container">
@@ -197,65 +201,82 @@ related_publications: false
       <div class="row">
         <div class="col-md-7">
           <strong>Introduction</strong>
-          <p>This project evaluates the feasibility of using combined positron emission tomography and magnetic resonance imaging (PET/MRI) for radiation therapy (RT) planning in head and neck cancer (HNC). By generating synthetic computed tomography (sCT) images from MRI data using deep learning, both tumor delineation and dose calculations can be achieved. This method improves precision, particularly in soft tissues like those in the head and neck, while also reducing radiation exposure.</p>
+          <p>Brown adipose tissue (BAT) plays a crucial role in energy expenditure and thermoregulation, making it a key focus in metabolic disease research. This project investigates the use of a nnU-Net model for automated BAT segmentation in CT images of lymphoma patients. By relying solely on anatomical CT data, the approach avoids potential biases linked to metabolic activity in PET-based analyses.</p>
           <div style="height: 25px;"></div>
 
           <strong>Project Background</strong>
-          <p>Head and neck cancer (HNC) includes various cancers in the head and neck regions, where precise tumor delineation is crucial due to the proximity of sensitive organs. Current RT planning for HNC relies on positron emission tomography (PET) for identification of lymph node involvement and computed tomography (CT) for calculating radiation doses. However, CT has limitations in accurately delineating soft tissues, which can lead to uncertainties in target definition and impact treatment outcomes. Replacing CT with MRI could therefore establish PET/MRI as the optimal imaging technique for RT planning.</p>
+          <p>BAT segmentation in research often combines imaging modalities such as PET/CT or PET/MRI. However, PET-based segmentation reflects metabolic activity, which may obscure the anatomical boundaries of BAT. To address this, the project focuses on segmenting BAT using only CT data, independent of metabolic signals.</p>
 
-          <p>While MRI provides better soft tissue contrast, it lacks information about electron density, which is essential for accurate dose calculations. To address this limitation, a deep learning-based method has been developed to generate sCT images. The project aims to establish a PET/MRI scan protocol that enables PET/MRI as a comprehensive solution for RT planning by incorporating essential multiparametric MRI data and facilitating dose calculations through sCT.</p>
+          <p>Segmenting based solely on CT images is inherently challenging due to the minimal contrast between BAT and other adipose tissues. However, CT images still provide sufficient anatomical detail for physicians to identify BAT.</p>
+
+          <p>Manual segmentation is time-consuming and prone to variability, generating the need for automated solutions. Deep learning methods like the nnU-Net model offer a powerful alternative by directly mapping image data to segmentation masks, eliminating the need for handcrafted features. In this project, we employ a 3D nnU-Net model trained exclusively on CT data to segment BAT. Integration into the TotalSegmentator software allows effective BAT segmentation without PET data. The model has been trained and tested on CT datasets from lymphoma patients.</p>
           <div style="height: 25px;"></div>
 
           <strong>Project Potential</strong>
-          <p>The deep learning method developed for sCT generation has demonstrated clinical suitability for both PET attenuation correction and RT dose calculations, representing a significant advancement toward integrating multiparametric PET/MRI as a one-stop shop for RT planning. Notably, the model has undergone external validation using a dataset from Guy's and St. Thomas' Hospital in London, further confirming its robustness and generalizability across different sites. While the method does have limitations, such as the need for larger datasets and adjustments for specific cases, the sCT images have proven clinical suitable, achieving dose calculations with only 1% difference from reference CT. This close alignment highlights sCT’s potential for enhancing RT planning.</p>
+          <p>This automated BAT segmentation model represents a significant step forward in BAT analysis, enabling reliable segmentation directly from CT scans without the need for PET data. While the current test set is limited, further validation with larger and more diverse datasets could improve its robustness and broaden its clinical applicability. By making BAT analysis more efficient, this approach can contribute to advancing metabolic research and optimizing clinical workflows.</p>
+        
+        <div style="height: 70px;"></div>
 
-          <div style="height: 70px;"></div>
-          
-          <div class="custom-figure-box mt-7" style="border: none; background: transparent;"> <!-- Removed border and made background transparent -->
-          <h4 class="small-header">Model Performance with Metallic Dental Implants</h4>
-          <div style="height: 25px;"></div>
-          <div class="d-flex">
-              <div class="figure-image" style="flex: 2; padding-right: 2px;"> <!-- Reduced flex size -->
-                  <img src="/assets/img/Billede_projekt_7.2.jpg" alt="Cases illustrating the model's ability to handle metallic dental implants" class="img-fluid" style="max-width: 90%; height: auto;"/> <!-- Added max-width to control image size -->
-              </div>
-              <div class="figure-caption" style="flex: 2; padding-top: 20px;"> <!-- Kept padding for spacing -->
-                  <p><strong>Figure 2.</strong> Cases illustrating the model's ability to handle metallic dental implants.</p>
-                  <p>(A) A case from the external cohort, where the dental implant caused severe streaking artifacts in the computed tomography (CT) and a signal void in the magnetic resonance imaging without translating significantly into the synthetic CT.</p>
-                  <p>(B-D) Cases from the local cohort, where dental implants only slightly affected the CT, but caused larger signal voids in the magnetic resonance images (MRI). For these cases the artifacts translated in varying degree into the synthetic CT images. Metal artifacts are marked on the MRI by red arrows.</p>
-              </div>
-          </div>
-          </div>
+        <h5><strong>Challenges Addressed by Automated CT-Based Segmentation</strong></h5>
+        <div style="height: 20px;"></div>
+        <figure>
+          <img src="{{ site.baseurl }}/assets/img/Billede_projekt_8.3.png" class="img-fluid" alt="Figure 1: BAT Segmentation" style="width: 95%;" />  
+        </figure>
         </div>
 
         <div class="col-md-5 figure-column">
           <div class="image-box">
-            <h5>Comparison of the Two Dose Calculation Methods (CT and sCT)</h5>
+            <h5><strong>Performance of the Automated BAT Segmentation Model</strong></h5>
             <div style="height: 15px;"></div>
-            <figcaption class="figure-caption">The figure illustrates the comparison between computed tomography (CT) and synthetic CT (sCT) in the context of radiation therapy. </figcaption>
-            <div style="height: 30px;"></div>
-            <figure>
-              <img src="{{ site.baseurl }}/assets/img/Billede_projekt_7.1.jpg" class="img-fluid" alt="Figure 1: Example of PET Imaging" />
-              <div style="height: 20px;"></div>
-              <figcaption class="figure-caption"><strong>Figur 1</strong> illustrates the results from a representative patient showing the CT based dose distribution (DoseCT), the synthetic CT (sCT) based dose distribution (DosesCT) and the voxel-wise relative dose difference between DosesCT and DoseCT (DDose). 
-              <div style="height: 15px;"></div>
+            <figcaption class="figure-caption">The BAT segmentations predicted by the model were compared against the ground truth annotations (the manually marked regions of BAT) in CT images.
+              <div style="height: 10px;"></div>
+              <p>To evaluate the model's accuracy, an agreement analysis was performed. This analysis helps visually identify where the model's predictions align with or diverge from the ground truth annotations.</p>
             </figcaption>
+
+            <div style="height: 10px;"></div>
+            <figure>
+              <img src="{{ site.baseurl }}/assets/img/Billede_projekt_8.1.png" class="img-fluid" alt="Figure 1: BAT Segmentation" />
+              <div style="height: 15px;"></div>
+              <figcaption class="figure-caption">
+                <strong>Figure 1</strong> shows the BAT segmentation for four different test patients, comparing the original CT images, the manual ground truth annotations of BAT, the BAT segmentations predicted by the model, and the results of an agreement analysis.
+                
+                <div style="height: 10px;"></div>
+                <p class="small-text"><strong>True Positive (Green):</strong> Correctly predicted BAT by the model.</p>
+                <div style="height: 3px;"></div>
+                <p class="small-text"><strong>False Negative (Red):</strong>BAT missed by the model that should have been identified.</p>
+                <div style="height: 3px;"></div>
+                <p class="small-text"><strong>False Positive (Blue):</strong> Areas incorrectly identified as BAT, where there is no BAT.</p>
+
+                <div style="height: 15px;"></div>
+                The model's performance is not perfect, and inconsistencies are observed in areas where the ground truth annotations are unclear or less precisely defined.
+                <div style="height: 15px;"></div>
+              </figcaption>
             </figure>
-            <div style="height: 20px;"></div>
+            <div style="height: 30px;"></div>
+
+            <h5><strong>Performance of the Model Against CT/PET</strong></h5>
+            <div style="height: 10px;"></div>
+            <figure>
+              <img src="{{ site.baseurl }}/assets/img/Billede_projekt_8.2.png" class="img-fluid" alt="Figure 2: Results of Low-Activity Scanning" />
+              <div style="height: 15px;"></div>
+              <figcaption class="figure-caption"><strong>Figur 2</strong> compares the predicted segmentations based solely on CT images with PET images for two patients with metabolically active BAT. The regions of increased PET activity align with the segmented BAT, suggesting that BAT can be accurately segmented using CT data alone, without the need for PET data.</figcaption>
+            </figure>
           </div>
-          <div style="height: 150px;"></div>
-          <div class="custom-contact-box mt-5 border rounded shadow-sm">
+          <div style="height: 70px;"></div>
+          
+          <div class="custom-contact-box mt-6 border rounded shadow-sm">
             <h4 class="small-header">Contact Information</h4>
             <div class="contact-item">
                 <strong>Name:</strong>
-                <span> Anders Olin</span>
+                <span>Kasper Jørgensen</span>
             </div>
             <div class="contact-item">
                 <strong>Email:</strong>
-                <span><a href="mailto:?">mail</a></span>
+                <span><a href="mailto:kasper.joergensen.02@regionh.dk">kasper.joergensen.02@regionh.dk</a></span>
             </div>
             <div class="contact-item">
                 <strong>Location:</strong>
-                <span>Department of Clinical Physiology and Nuclear Medicine</span>
+                <span>Department of Clinical Physiology and Nuclear Medicine, Rigshospitalet, Denmark</span>
             </div>
             <div class="contact-item">
                 <strong>Position:</strong>
@@ -267,15 +288,11 @@ related_publications: false
 
             <h4 class="small-header">Publications</h4>
             <div class="contact-item">
-                <p><a class="publication-link" href="https://www.redjournal.org/article/S0360-3016(20)31422-X/fulltext">Feasibility of Multiparametric Positron Emission Tomography/Magnetic Resonance Imaging as a One-Stop Shop for Radiation Therapy Planning for Patients with Head and Neck Cancer</a></p>
-            </div>
-            <div class="contact-item">
-                <p><a class="publication-link" href="https://www.sciencedirect.com/science/article/pii/S2452109421001202">Robustness and Generalizability of Deep Learning Synthetic Computed Tomography for Positron Emission Tomography/Magnetic Resonance Imaging–Based Radiation Therapy Planning of Patients With Head and Neck Cancer</a></p>
+                <h6>Comming soon</h6>
             </div>
           </div>
         </div>
       </div>
     </article>
-
   </div>
 </div>
