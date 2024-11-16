@@ -205,22 +205,22 @@ related_publications: false
           <div style="height: 25px;"></div>
 
           <strong>Project Background</strong>
-          <p>BAT segmentation in research often combines imaging modalities such as PET/CT or PET/MRI. However, PET-based segmentation reflects metabolic activity, which may obscure the anatomical boundaries of BAT. To address this, the project focuses on segmenting BAT using only CT data, independent of metabolic signals.</p>
+          <p>BAT segmentation often combines imaging modalities such as PET/CT or PET/MRI. However, PET-based segmentation reflects metabolic activity, which may obscure the anatomical boundaries of BAT. To address this, the project focuses on segmenting BAT using only CT data, independent of metabolic signals.</p>
 
           <p>Segmenting based solely on CT images is inherently challenging due to the minimal contrast between BAT and other adipose tissues. However, CT images still provide sufficient anatomical detail for physicians to identify BAT.</p>
 
-          <p>Manual segmentation is time-consuming and prone to variability, generating the need for automated solutions. Deep learning methods like the nnU-Net model offer a powerful alternative by directly mapping image data to segmentation masks, eliminating the need for handcrafted features. In this project, we employ a 3D nnU-Net model trained exclusively on CT data to segment BAT. Integration into the TotalSegmentator software allows effective BAT segmentation without PET data. The model has been trained and tested on CT datasets from lymphoma patients.</p>
+          <p>Manual segmentation is time-consuming and prone to variability, generating the need for automated solutions. Deep learning methods like the nnU-Net model offer a powerful alternative by directly mapping image data to segmentation masks, eliminating the need for handcrafted features. In this project, we employ a 3D nnU-Net model trained exclusively on CT data to segment BAT. Integration into the TotalSegmentator software allows effective BAT segmentation without PET data. The model has been trained and tested on 189 CT images from lymphoma patients.</p>
           <div style="height: 25px;"></div>
 
           <strong>Project Potential</strong>
-          <p>This automated BAT segmentation model represents a significant step forward in BAT analysis, enabling reliable segmentation directly from CT scans without the need for PET data. While the current test set is limited, further validation with larger and more diverse datasets could improve its robustness and broaden its clinical applicability. By making BAT analysis more efficient, this approach can contribute to advancing metabolic research and optimizing clinical workflows.</p>
+          <p>This automated BAT segmentation model represents a significant step forward in BAT analysis, enabling reliable automated segmentation directly from CT scans without the need for PET data. While the current test set is limited, further validation with larger and more diverse datasets could improve its robustness and broaden its clinical applicability. By making BAT analysis more efficient, this approach can contribute to advancing metabolic research and optimizing clinical workflows.</p>
         
         <div style="height: 70px;"></div>
 
         <h5><strong>Challenges Addressed by Automated CT-Based Segmentation</strong></h5>
         <div style="height: 20px;"></div>
         <figure>
-          <img src="{{ site.baseurl }}/assets/img/Billede_projekt_8.3.png" class="img-fluid" alt="Figure 1: BAT Segmentation" style="width: 95%;" />  
+          <img src="{{ site.baseurl }}/assets/img/Billede_projekt_8.3.png" class="img-fluid" alt="Figure 1: BAT Segmentation" style="width: 92%;" />  
         </figure>
         </div>
 
