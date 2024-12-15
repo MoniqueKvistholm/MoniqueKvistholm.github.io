@@ -513,7 +513,7 @@ nav_order: 3
                 <div class="team-member" onclick="openModal('modal22')">
                     <img src="/assets/img/placeholder_person.png" alt="Thomas Lund Andersen">
                     <h3>Thomas Lund Andersen</h3>
-                    <p>Specialization 1</p>
+                    <p>Physicist</p>
                 </div>
             </div>
         </div>
@@ -865,9 +865,9 @@ nav_order: 3
             <span class="close" onclick="closeModal('modal22')">&times;</span>
             <img src="/assets/img/placeholder_person.png" alt="Thomas Lund Andersen">
             <h3>Thomas Lund Andersen</h3>
-            <p>Specialization 1</p>
+            <p>Physicist</p>
             <p class="additional-details">
-                Email: <a href="mailto:researcher1@domain.com">researcher1@domain.com</a>
+                Email: <a href="mailto:thomas.lund.andersen@regionh.dk">thomas.lund.andersen@regionh.dk</a>
                 <br>
                 Phone: <a href="tel:+4535455373">+45 35 45 53 73</a>
             </p>
@@ -881,9 +881,9 @@ nav_order: 3
             <h3>Ulrik Lindberg</h3>
             <p>MR physicist</p>
             <p class="additional-details">
-                Email: <a href="mailto:researcher2@domain.com">researcher2@domain.com</a>
+                Email: <a href="mailto:ulrich.lindberg@regionh.dk">ulrich.lindberg@regionh.dk</a>
                 <br>
-                Phone: <a href="tel:+4527125472">+45 27 12 54 72</a>
+                Phone: <a href="tel:+4538632737">+45 38 63 27 37</a>
             </p>
         </div>
     </div>
