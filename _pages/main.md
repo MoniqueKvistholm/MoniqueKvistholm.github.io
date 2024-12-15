@@ -64,7 +64,7 @@ body {
 .hero-description {
   color: #EBF8FF; /* Hvid farve til tekst */
   font-weight: bold;
-  font-size: 2.5em; /* Større tekststørrelse for beskrivelsen */
+  font-size: 2.5sem; /* Større tekststørrelse for beskrivelsen */
   margin-bottom: 20px; /* Tilføjer afstand under beskrivelsen */
   max-width: 60%; /* Begrænser bredden for at tvinge linjeskift */
 }

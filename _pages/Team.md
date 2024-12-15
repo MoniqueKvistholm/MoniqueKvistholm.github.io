@@ -361,8 +361,8 @@ nav_order: 3
             <button class="tab-button" onclick="showTab('steering-committee')">Steering Committee</button>
             <button class="tab-button" onclick="showTab('ai-research-directors')">AI Research Directors</button>
             <button class="tab-button" onclick="showTab('board-of-directors')">Board of Directors</button>
-            <button class="tab-button" onclick="showTab('phd-students')">Ph.D Students</button>
             <button class="tab-button" onclick="showTab('associated-researchers')">Associated Researchers</button>
+            <button class="tab-button" onclick="showTab('phd-students')">PhD Students</button>
         </div>
 
         <div style="height: 10px;"></div>
