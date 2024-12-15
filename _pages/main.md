@@ -50,13 +50,13 @@ body {
 
 .hero-subtitle {
   color: #EBF8FF; /* Hvid farve til tekst */
-  font-size: 2em; /* Mindre tekststørrelse for undertitlen */
+  font-size: 2.5em; /* Mindre tekststørrelse for undertitlen */
   margin-bottom: 30px; /* Tilføjer afstand mellem undertitlen og beskrivelsen */
 }
 
 .hero-subsubtitle {
   color: #EBF8FF; /* Hvid farve til tekst */
-  font-size: 1em; /* Mindre tekststørrelse for undertitlen */
+  font-size: 1.5em; /* Mindre tekststørrelse for undertitlen */
   margin-bottom: 80px; /* Tilføjer afstand mellem undertitlen og beskrivelsen */
 }
 
@@ -64,7 +64,7 @@ body {
 .hero-description {
   color: #EBF8FF; /* Hvid farve til tekst */
   font-weight: bold;
-  font-size: 2.7em; /* Større tekststørrelse for beskrivelsen */
+  font-size: 2.5em; /* Større tekststørrelse for beskrivelsen */
   margin-bottom: 20px; /* Tilføjer afstand under beskrivelsen */
   max-width: 60%; /* Begrænser bredden for at tvinge linjeskift */
 }

@@ -3,7 +3,7 @@ layout: default2
 title: Automated Brown Adipose Tissue Segmentation in CT Images of Lymphoma Patients
 description: Project by Kasper Jørgensen
 img: assets/img/P8.jpg
-importance: 1
+importance: 2
 category: 2024
 related_publications: false
 ---
@@ -288,7 +288,7 @@ related_publications: false
 
             <h4 class="small-header">Publications</h4>
             <div class="contact-item">
-                <h6>Comming soon</h6>
+                <p><a class="publication-link" href="https://www.mdpi.com/2075-4418/14/24/2786?fbclid=IwZXh0bgNhZW0CMTEAAR2sJTkYg2SEIfVbJFsOLqAGFGJt-8ZKpULtHksdvBmlRAx2wp1X_BKgogU_aem_gjyPLlNv_24MRiWhGvYfHA">Automated Supraclavicular Brown Adipose Tissue Segmentation in Computed Tomography Using nnU-Net: Integration with TotalSegmentator</a></p>
             </div>
           </div>
         </div>

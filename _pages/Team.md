@@ -353,14 +353,16 @@ nav_order: 3
 
     <div class="team-section">
     <div class="team-container">
-    <div style="height: 50px;"></div>
-    <h1 class="team-title">Team</h1>
-    <div style="height: 65px;"></div>
+        <div style="height: 50px;"></div>
+        <h1 class="team-title">Team</h1>
+        <div style="height: 65px;"></div>
         <div class="tab-container">
             <button class="tab-button" onclick="showTab('center-managers')">Center Managers</button>
             <button class="tab-button" onclick="showTab('steering-committee')">Steering Committee</button>
             <button class="tab-button" onclick="showTab('ai-research-directors')">AI Research Directors</button>
             <button class="tab-button" onclick="showTab('board-of-directors')">Board of Directors</button>
+            <button class="tab-button" onclick="showTab('phd-students')">Ph.D Students</button>
+            <button class="tab-button" onclick="showTab('associated-researchers')">Associated Researchers</button>
         </div>
 
         <div style="height: 10px;"></div>
@@ -434,6 +436,11 @@ nav_order: 3
                     <h3>Johnny Madelung</h3>
                     <p>Lead Radiographer</p>
                 </div>
+                <div class="team-member" onclick="openModal('modal24')">
+                    <img src="/assets/img/placeholder_person.png" alt="Ulrik Lindberg">
+                    <h3>Ulrik Lindberg</h3>
+                    <p>MR physicist</p>
+                </div>
             </div>
         </div>
 
@@ -470,6 +477,43 @@ nav_order: 3
                     <img src="/assets/img/Jann_person.png" alt="Jann Mortensen">
                     <h3>Jann Mortensen</h3>
                     <p>Professor, Chief Physician</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ph.D Students -->
+        <div id="phd-students" class="tab-content" style="display:none;">
+            <div class="team-grid">
+                <div class="team-member" onclick="openModal('modal18')">
+                    <img src="/assets/img/Christian_person.png" alt="Christian Hinge">
+                    <h3>Christian Hinge</h3>
+                    <p>PhD Student</p>
+                </div>
+                <div class="team-member" onclick="openModal('modal19')">
+                    <img src="/assets/img/placeholder_person.png" alt="Amalie Monberg Hindsholm">
+                    <h3>Amalie Monberg Hindsholm</h3>
+                    <p>PhD Student</p>
+                </div>
+                <div class="team-member" onclick="openModal('modal20')">
+                    <img src="/assets/img/placeholder_person.png" alt="Nanna Overbeck Petersen">
+                    <h3>Nanna Overbeck Petersen</h3>
+                    <p>PhD Student</p>
+                </div>
+                <div class="team-member" onclick="openModal('modal21')">
+                    <img src="/assets/img/placeholder_person.png" alt="David Kovacs Petersen">
+                    <h3>David Kovacs Petersen</h3>
+                    <p>PhD Student</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Associated Researchers -->
+        <div id="associated-researchers" class="tab-content" style="display:none;">
+            <div class="team-grid">
+                <div class="team-member" onclick="openModal('modal22')">
+                    <img src="/assets/img/placeholder_person.png" alt="Thomas Lund Andersen">
+                    <h3>Thomas Lund Andersen</h3>
+                    <p>Specialization 1</p>
                 </div>
             </div>
         </div>
@@ -756,6 +800,90 @@ nav_order: 3
                 Phone: <a href="tel:+4535451716">+45 35-45 17-16</a>
                 <br>
                 Location: 4011, Clinical Physiology and Nuclear Medicines
+            </p>
+        </div>
+    </div>
+
+    <div id="modal18" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal18')">&times;</span>
+            <img src="/assets/img/Christian_person.png" alt="Christian Hinge">
+            <h3>Christian Hinge</h3>
+            <p>PhD Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:christian.hinge@regionh.dk">christian.hinge@regionh.dk</a>
+                <br>
+                Phone: <a href="tel:+4535457151">+45 35 45 71 51</a>
+            </p>
+        </div>
+    </div>
+
+    <div id="modal19" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal19')">&times;</span>
+            <img src="/assets/img/placeholder_person.png" alt="Amalie Monberg Hindsholm">
+            <h3>Amalie Monberg Hindsholm</h3>
+            <p>PhD Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:amalie.monberg.hindsholm@regionh.dk">amalie.monberg.hindsholm@regionh.dk</a>
+                <br>
+                Phone: <a href="tel:+4523416424">+45 23 41 64 24</a>
+            </p>
+        </div>
+    </div>
+
+    <div id="modal20" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal20')">&times;</span>
+            <img src="/assets/img/placeholder_person.png" alt="Nanna Overbeck Petersen">
+            <h3>Nanna</h3>
+            <p>PhD Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:nanna.overbeck.petersen.01@regionh.dk">nanna.overbeck.petersen.01@regionh.dk</a>
+                <br>
+                Phone: <a href="tel:+4535455126">+45 35 45 51 26</a>
+            </p>
+        </div>
+    </div>
+
+    <div id="modal21" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal21')">&times;</span>
+            <img src="/assets/img/placeholder_person.png" alt="David Kovacs Petersen">
+            <h3>David Kovacs Petersen</h3>
+            <p>PhD Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:david.gergely.kovacs.petersen@regionh.dk">david.gergely.kovacs.petersen@regionh.dk</a>
+                <br>
+                Phone: <a href="tel:+4530470433">+45 30 47 04 33</a>
+            </p>
+        </div>
+    </div>
+
+    <div id="modal22" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal22')">&times;</span>
+            <img src="/assets/img/placeholder_person.png" alt="Thomas Lund Andersen">
+            <h3>Thomas Lund Andersen</h3>
+            <p>Specialization 1</p>
+            <p class="additional-details">
+                Email: <a href="mailto:researcher1@domain.com">researcher1@domain.com</a>
+                <br>
+                Phone: <a href="tel:+4535455373">+45 35 45 53 73</a>
+            </p>
+        </div>
+    </div>
+
+    <div id="modal24" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal24')">&times;</span>
+            <img src="/assets/img/placeholder_person.png" alt="Ulrik Lindberg">
+            <h3>Ulrik Lindberg</h3>
+            <p>MR physicist</p>
+            <p class="additional-details">
+                Email: <a href="mailto:researcher2@domain.com">researcher2@domain.com</a>
+                <br>
+                Phone: <a href="tel:+4527125472">+45 27 12 54 72</a>
             </p>
         </div>
     </div>
