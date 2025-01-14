@@ -10,8 +10,9 @@ nav_order: 4
 <div class="hero-section">
   <div class="hero-overlay">
     <!-- Publications Title -->
-    <div style="height: 30px;"></div>
+    <div style="height: 50px;"></div>
     <h1 class="hero-title">Publications</h1>
+    <div style="height: 20px;"></div>
 
     <!-- Introduction text -->
     <span class="hero-text">Publications from DEPICT can be found in the departments' research registration system, PURE.</span>
@@ -59,10 +60,11 @@ nav_order: 4
     margin: 0 0 10px; /* Afstand under overskriften */
     color: white; /* Sørger for at overskriften er hvid */
     text-align: left; /* Venstrestil overskriften */
+    font-weight: bold; /* Gør overskriften fed */
   }
 
   .hero-text {
-    font-size: 1.3em;
+    font-size: 1.5em;
     color: white; /* Sørger for at introduktionsteksten er hvid */
     margin-bottom: 20px; /* Plads mellem introduktionstekst og links */
     text-align: left; /* Venstrestil introduktionsteksten */
@@ -79,6 +81,7 @@ nav_order: 4
   }
 
   .styled-link {
+    font-size: 1.2em;
     display: block;
     padding: 25px 200px; /* Øget padding for at gøre kasserne mere aflange */
     margin: 10px 0;
@@ -93,6 +96,8 @@ nav_order: 4
   }
 
   .styled-link:hover {
-    background-color: #648bbb;
+    background-color:rgb(42, 74, 114);
+    text-decoration: none; /* Bevar ingen streg under link */
+    color: white;
   }
 </style>

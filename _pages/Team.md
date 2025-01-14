@@ -177,6 +177,11 @@ nav_order: 3
             margin-bottom: 20px;
         }
 
+        .modal-content strong {
+            font-weight: bold;
+}
+
+
         .close {
             color: #aaa;
             font-size: 28px;
@@ -211,7 +216,7 @@ nav_order: 3
         
         /* Styling for links */
         a {
-            color: #007bff; /* Blå farve */
+            color:rgb(90, 163, 246); /* Blå farve */
             text-decoration: none; /* Fjern understregning */
         }
 
@@ -221,7 +226,7 @@ nav_order: 3
 
         /* Styling for links inde i modals */
         .modal a {
-            color: #007bff; /* Blå farve */
+            color: rgb(90, 163, 246); /* Blå farve */
         }
 
         .modal a:hover {
@@ -530,8 +535,11 @@ nav_order: 3
             <img src="/assets/img/Flemming_person.png" alt="Flemming Littrup Andersen">
             <h3>Flemming Littrup Andersen</h3>
             <p>Datachef</p>
+            <div style="height: 15px;"></div>
+            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/flemming-littrup-andersen/publications/" target="_blank">Click to view Flemming's publications</a> </div>
+
             <p class="additional-details">
-                <a href="https://research.regionh.dk/da/persons/flemming-littrup-andersen" target="_blank">Flemming Littrup Andersen</a> is a Lead Data Scientist at Rigshospitalet, specializing in PET imaging, artificial intelligence, dataflow, and image modeling. He holds a PhD and brings extensive expertise to his role in advancing these fields.
+                Flemming Littrup Andersen is a Lead Data Scientist at Rigshospitalet, specializing in PET imaging, artificial intelligence, dataflow, and image modeling. He holds a PhD and brings extensive expertise to his role in advancing these fields.
                 <br><br>
                 Email: <a href="mailto:flemming.andersen@regionh.dk">flemming.andersen@regionh.dk</a>
                 <br>
@@ -548,8 +556,10 @@ nav_order: 3
             <img src="/assets/img/Adam_person.png" alt="Adam Espe Hansen">
             <h3>Adam Espe Hansen</h3>
             <p>Professor</p>
+            <div style="height: 15px;"></div>
+            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/adam-espe-hansen/publications/" target="_blank">Click to view Adam's publications</a> </div>
             <p class="additional-details">
-                <a href="https://research.regionh.dk/da/persons/adam-espe-hansen" target="_blank">Adam Espe Hansen</a> is a Clinical Professor of Radiology with a special focus on Magnetic Resonance Imaging (MRI) Physics.
+                Adam Espe Hansen is a Clinical Professor of Radiology with a special focus on Magnetic Resonance Imaging (MRI) Physics.
                 <br><br>
                 Email: <a href="mailto:adam.espe.hansen@regionh.dk">adam.espe.hansen@regionh.dk</a>
                 <br>
@@ -567,6 +577,8 @@ nav_order: 3
             <img src="/assets/img/Jann_person.png" alt="Jann Mortensen">
             <h3>Jann Mortensen</h3>
             <p>Professor, Chief Physician, Dr. Med</p>
+            <div style="height: 15px;"></div>
+            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/jann-mortensen/publications/" target="_blank">Click to view Jann's publications</a> </div>
             <p class="additional-details">
                 Email: <a href="mailto:jann.mortensen@regionh.dk">jann.mortensen@regionh.dk</a>
                 <br>
@@ -584,8 +596,11 @@ nav_order: 3
             <img src="/assets/img/Flemming_person.png" alt="Flemming Littrup Andersen">
             <h3>Flemming Littrup Andersen</h3>
             <p>Datachef</p>
+            <div style="height: 15px;"></div>
+            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/flemming-littrup-andersen/publications/" target="_blank">Click to view Flemming's publications</a> </div>
+
             <p class="additional-details">
-                <a href="https://research.regionh.dk/da/persons/flemming-littrup-andersen" target="_blank">Flemming Littrup Andersen</a> is a Lead Data Scientist at Rigshospitalet, specializing in PET imaging, artificial intelligence, dataflow, and image modeling. He holds a PhD and brings extensive expertise to his role in advancing these fields.
+                Flemming Littrup Andersen is a Lead Data Scientist at Rigshospitalet, specializing in PET imaging, artificial intelligence, dataflow, and image modeling. He holds a PhD and brings extensive expertise to his role in advancing these fields.
                 <br><br>
                 Email: <a href="mailto:flemming.andersen@regionh.dk">flemming.andersen@regionh.dk</a>
                 <br>
@@ -602,6 +617,8 @@ nav_order: 3
             <img src="/assets/img/Claes_person.png" alt="Claes Ladefoged">
             <h3>Claes Ladefoged</h3>
             <p>Associate Professor</p>
+            <div style="height: 15px;"></div>
+            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/claes-n%C3%B8hr-ladefoged/publications/" target="_blank">Click to view Claes's publications</a> </div>
             <p class="additional-details">
                 Email: <a href="mailto:claes.noehr.ladefoged@regionh.dk">claes.noehr.ladefoged@regionh.dk</a>
                 <br>
@@ -618,8 +635,10 @@ nav_order: 3
             <img src="/assets/img/Adam_person.png" alt="Adam Espe Hansen">
             <h3>Adam Espe Hansen</h3>
             <p>Professor</p>
+            <div style="height: 15px;"></div>
+            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/adam-espe-hansen/publications/" target="_blank">Click to view Adam's publications</a> </div>
             <p class="additional-details">
-                <a href="https://research.regionh.dk/da/persons/adam-espe-hansen" target="_blank">Adam Espe Hansen</a> is a Clinical Professor of Radiology with a special focus on Magnetic Resonance Imaging (MRI) Physics.
+                Adam Espe Hansen is a Clinical Professor of Radiology with a special focus on Magnetic Resonance Imaging (MRI) Physics.
                 <br><br>
                 Email: <a href="mailto:adam.espe.hansen@regionh.dk">adam.espe.hansen@regionh.dk</a>
                 <br>
@@ -636,6 +655,8 @@ nav_order: 3
             <img src="/assets/img/Michael_person.png" alt="Michael Bachmann">
             <h3>Michael Bachmann</h3>
             <p>Professor, Chief Physician</p>
+            <div style="height: 15px;"></div>
+            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/michael-bachmann-nielsen/publications/" target="_blank">Click to view Michael's publications</a> </div>
             <p class="additional-details">
                 Email: <a href="mailto:mbn@dadlnet.dk">mbn@dadlnet.dk</a>
                 <br>
@@ -652,6 +673,8 @@ nav_order: 3
             <img src="/assets/img/Jonathan_person.png" alt="Jonathan Carlsen">
             <h3>Jonathan Carlsen</h3>
             <p>Chief Physician</p>
+            <div style="height: 15px;"></div>
+            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/jonathan-frederik-carlsen/publications/" target="_blank">Click to view Jonathan's publications</a> </div>
             <p class="additional-details">
                 Email: <a href="mailto:jonathan.frederik.carlsen@regionh.dk">jonathan.frederik.carlsen@regionh.dk</a>
                 <br>
@@ -682,6 +705,8 @@ nav_order: 3
             <img src="/assets/img/Ian_person.png" alt="Ian Law">
             <h3>Ian Law</h3>
             <p>Professor, Chief Physician </p>
+            <div style="height: 15px;"></div>
+            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/ian-law/publications/" target="_blank">Click to view Ian's publications</a> </div>
             <p class="additional-details">
                 Email: <a href="mailto:ian.law@regionh.dk">ian.law@regionh.dk</a>
                 <br>
@@ -730,6 +755,8 @@ nav_order: 3
             <img src="/assets/img/Claes_person.png" alt="Claes Ladefoged">
             <h3>Claes Ladefoged</h3>
             <p>Postdoc</p>
+            <div style="height: 15px;"></div>
+            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/claes-n%C3%B8hr-ladefoged/publications/" target="_blank">Click to view Claes's publications</a> </div>
             <p class="additional-details">
                 Email: <a href="mailto:claes.noehr.ladefoged@regionh.dk">claes.noehr.ladefoged@regionh.dk</a>
                 <br>
@@ -746,6 +773,8 @@ nav_order: 3
             <img src="/assets/img/Michael_person.png" alt="Michael Bachmann">
             <h3>Michael Bachmann Nielsen</h3>
             <p>Professor, Chief Physician</p>
+            <div style="height: 15px;"></div>
+            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/michael-bachmann-nielsen/publications/" target="_blank">Click to view Michael's publications</a> </div>
             <p class="additional-details">
                 Email: <a href="mailto:mbn@dadlnet.dk">mbn@dadlnet.dk</a>
                 <br>
@@ -810,6 +839,8 @@ nav_order: 3
             <img src="/assets/img/Christian_person.png" alt="Christian Hinge">
             <h3>Christian Hinge</h3>
             <p>PhD Student</p>
+            <div style="height: 15px;"></div>
+            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/christian-hinge/publications/" target="_blank">Click to view Christian's publications</a> </div>
             <p class="additional-details">
                 Email: <a href="mailto:christian.hinge@regionh.dk">christian.hinge@regionh.dk</a>
                 <br>
@@ -824,6 +855,8 @@ nav_order: 3
             <img src="/assets/img/placeholder_person.png" alt="Amalie Monberg Hindsholm">
             <h3>Amalie Monberg Hindsholm</h3>
             <p>PhD Student</p>
+            <div style="height: 15px;"></div>
+            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/amalie-monberg-hindsholm/publications/" target="_blank">Click to view Amalie's publications</a> </div>
             <p class="additional-details">
                 Email: <a href="mailto:amalie.monberg.hindsholm@regionh.dk">amalie.monberg.hindsholm@regionh.dk</a>
                 <br>
@@ -838,6 +871,8 @@ nav_order: 3
             <img src="/assets/img/placeholder_person.png" alt="Nanna Overbeck Petersen">
             <h3>Nanna</h3>
             <p>PhD Student</p>
+            <div style="height: 15px;"></div>
+            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/nanna-overbeck-petersen/publications/" target="_blank">Click to view Nanna's publications</a> </div>
             <p class="additional-details">
                 Email: <a href="mailto:nanna.overbeck.petersen.01@regionh.dk">nanna.overbeck.petersen.01@regionh.dk</a>
                 <br>
@@ -852,6 +887,8 @@ nav_order: 3
             <img src="/assets/img/placeholder_person.png" alt="David Kovacs Petersen">
             <h3>David Kovacs Petersen</h3>
             <p>PhD Student</p>
+            <div style="height: 15px;"></div>
+            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/david-gergely-petersen-kovacs/publications/" target="_blank">Click to view David's publications</a> </div>
             <p class="additional-details">
                 Email: <a href="mailto:david.gergely.kovacs.petersen@regionh.dk">david.gergely.kovacs.petersen@regionh.dk</a>
                 <br>
@@ -866,6 +903,8 @@ nav_order: 3
             <img src="/assets/img/placeholder_person.png" alt="Thomas Lund Andersen">
             <h3>Thomas Lund Andersen</h3>
             <p>Physicist</p>
+            <div style="height: 15px;"></div>
+            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/thomas-lund-andersen/publications/" target="_blank">Click to view Thomas's publications</a> </div>
             <p class="additional-details">
                 Email: <a href="mailto:thomas.lund.andersen@regionh.dk">thomas.lund.andersen@regionh.dk</a>
                 <br>
