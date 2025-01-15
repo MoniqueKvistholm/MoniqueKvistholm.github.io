@@ -95,7 +95,7 @@ nav_order: 5
     text-align: center; /* Sørger for centrering */
     width: 100%; /* Fylder bredden */
     max-width: 700px; /* Gør containeren lidt bredere */
-}
+  }
 
 
   .styled-link {
@@ -113,5 +113,35 @@ nav_order: 5
     background-color:rgb(19, 33, 49);
     text-decoration: none; /* Bevar ingen streg under link */
     color: white;
+  }
+
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 768px) {
+    .hero-overlay {
+      flex-direction: column; /* Ændrer layout til lodret */
+      text-align: center; /* Centrerer tekst og links */
+    }
+
+    .content-container {
+      max-width: 100%; /* Fylder hele bredden */
+      padding: 20px; /* Mindre padding for små skærme */
+    }
+
+    .hero-title {
+      font-size: 1.5em; /* Reducer fontstørrelsen for titlen */
+      text-align: center; /* Centrer titlen */
+    }
+
+    .hero-text {
+      font-size: 1.2em; /* Reducer fontstørrelsen for teksten */
+      text-align: center; /* Centrer teksten */
+    }
+
+    .styled-link {
+      font-size: 1em; /* Reducer fontstørrelsen */
+      padding: 10px 20px; /* Mindre padding for små skærme */
+      width: 90%; /* Lad knappen fylde næsten hele bredden */
+      max-width: 300px; /* Gør knappen mindre */
+    }
   }
 </style>

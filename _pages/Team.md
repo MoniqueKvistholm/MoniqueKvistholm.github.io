@@ -509,6 +509,16 @@ nav_order: 3
                     <h3>David Kovacs Petersen</h3>
                     <p>PhD Student</p>
                 </div>
+                <div class="team-member" onclick="openModal('modal23')">
+                    <img src="/assets/img/Peter_person.png" alt="Peter Jagd Sørensen">
+                    <h3>Peter Jagd Sørensen</h3>
+                    <p>PhD Student</p>
+                </div>
+                <div class="team-member" onclick="openModal('modal25')">
+                    <img src="/assets/img/placeholder_person.png" alt="Lea Marie Pehrson">
+                    <h3>Lea Marie Pehrson</h3>
+                    <p>PhD Student</p>
+                </div>
             </div>
         </div>
 
@@ -913,6 +923,22 @@ nav_order: 3
         </div>
     </div>
 
+    <div id="modal23" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal23')">&times;</span>
+            <img src="/assets/img/Peter_person.png" alt="Peter Jagd Sørensen">
+            <h3>Peter Jagd Sørensen</h3>
+            <p>PhD Student</p>
+            <div style="height: 15px;"></div>
+            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/peter-jagd-s%C3%B8rensen" target="_blank">Click to view Peter's publications</a> </div>
+            <p class="additional-details">
+                Email: <a href="mailto:peter.jagd.soerensen@regionh.dk">peter.jagd.soerensen@regionh.dk</a>
+                <br>
+                Phone: <a href="tel:+4535452299">+45 35 45 22 99</a>
+            </p>
+        </div>
+    </div>
+
     <div id="modal24" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal24')">&times;</span>
@@ -923,6 +949,19 @@ nav_order: 3
                 Email: <a href="mailto:ulrich.lindberg@regionh.dk">ulrich.lindberg@regionh.dk</a>
                 <br>
                 Phone: <a href="tel:+4538632737">+45 38 63 27 37</a>
+            </p>
+        </div>
+    </div>
+
+
+    <div id="modal25" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal25')">&times;</span>
+            <img src="/assets/img/placeholder_person.png" alt="Lea Marie Pehrson">
+            <h3>Lea Marie Pehrson</h3>
+            <p>PhD Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:lea.marie.pehrson@gmail.com">lea.marie.pehrson@gmail.com</a>
             </p>
         </div>
     </div>

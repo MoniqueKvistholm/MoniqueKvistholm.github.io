@@ -96,8 +96,25 @@ nav_order: 4
   }
 
   .styled-link:hover {
-    background-color:rgb(42, 74, 114);
+    background-color: rgb(42, 74, 114);
     text-decoration: none; /* Bevar ingen streg under link */
     color: white;
+  }
+
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 768px) {
+    .styled-link {
+      padding: 15px 20px; /* Reducer padding til mindre skærme */
+      font-size: 1em; /* Reducer fontstørrelsen */
+      max-width: 90%; /* Lad linkboksene fylde næsten hele bredden */
+    }
+
+    .hero-title {
+      font-size: 1.5em; /* Reducer fontstørrelsen for titlen */
+    }
+
+    .hero-text {
+      font-size: 1.2em; /* Reducer fontstørrelsen for teksten */
+    }
   }
 </style>

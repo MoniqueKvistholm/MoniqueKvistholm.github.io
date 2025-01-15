@@ -1,9 +1,9 @@
 ---
 layout: default2
-title: Feasibility of Multiparametric PET/MRI as a One-Stop Shop for RT Planning for Patients with HNC
-description: Project by Anders Olin
-img: assets/img/P7.jpg
-importance: 4
+title: Automatic Brain Tumor Segmentation
+description: Project by Peter Jagd Sørensen
+img: assets/img/P10.jpg
+importance: 1
 category: 2024
 related_publications: false
 ---
@@ -99,7 +99,7 @@ related_publications: false
     background-color: #F4F0EB; /* Background color for the image box */
     border: 1px solid #ddd; /* Border around the image box */
     border-radius: 5px; /* Rounded corners */
-    padding: 30px; /* Padding inside the box */
+    padding: 20px; /* Padding inside the box */
     margin-top: 20px; /* Space above the image box */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
   }
@@ -197,69 +197,42 @@ related_publications: false
       <div class="row">
         <div class="col-md-7">
           <strong>Introduction</strong>
-          <p>This project evaluates the feasibility of using combined positron emission tomography and magnetic resonance imaging (PET/MRI) for radiation therapy (RT) planning in head and neck cancer (HNC). By generating synthetic computed tomography (sCT) images from MRI data using deep learning, both tumor delineation and dose calculations can be achieved. This method improves precision, particularly in soft tissues like those in the head and neck, while also reducing radiation exposure.</p>
+          <p>This project explores two key advancements in brain tumor segmentation. First, it repurposes the BraTS dataset, originally designed for preoperative analysis, by introducing a two-label annotation protocol tailored for postoperative scans. This adaptation enables deep learning (DL) algorithms to segment tumors more accurately on postoperative MRI scans by excluding resection cavities from tumor regions. Second, the project evaluates the performance of the state-of-the-art HD-GLIO algorithm, focusing on its ability to segment contrast-enhancing (CE) and non-enhancing (NE) lesions in an independent set of postoperative MRI scans.</p>
           <div style="height: 25px;"></div>
 
           <strong>Project Background</strong>
-          <p>Head and neck cancer (HNC) includes various cancers in the head and neck regions, where precise tumor delineation is crucial due to the proximity of sensitive organs. Current RT planning for HNC relies on positron emission tomography (PET) for identification of lymph node involvement and computed tomography (CT) for calculating radiation doses. However, CT has limitations in accurately delineating soft tissues, which can lead to uncertainties in target definition and impact treatment outcomes. Replacing CT with MRI could therefore establish PET/MRI as the optimal imaging technique for RT planning.</p>
+          <p>Automating brain tumor segmentation using DL algorithms has gained significant interest in recent years. The BraTS Challenge has been instrumental in this progress but is limited to preoperative MRI data, leaving a gap for postoperative scans. Most brain tumor patients undergo surgery, creating a need for annotated postoperative datasets, which are currently limited.</p>
 
-          <p>While MRI provides better soft tissue contrast, it lacks information about electron density, which is essential for accurate dose calculations. To address this limitation, a deep learning-based method has been developed to generate sCT images. The project aims to establish a PET/MRI scan protocol that enables PET/MRI as a comprehensive solution for RT planning by incorporating essential multiparametric MRI data and facilitating dose calculations through sCT.</p>
-          <div style="height: 25px;"></div>
+          <p>From another perspective, the project aims to assess the performance of the HD-GLIO algorithm on an independent dataset of postoperative MRI scans. The study evaluates how well the algorithm segments two types of lesions: contrast-enhancing (CE) lesions and non-enhancing (NE) lesions, providing insight into its applicability for routine clinical workflows.</p>
+
+          <p>By adapting the BraTS dataset with a two-label protocol, instead of a three-label protocol, and evaluating HD-GLIO, the project meets the gap between pre- and postoperative tumor segmentation, enabling DL algorithms to address real-world clinical needs.</p>
+
 
           <strong>Project Potential</strong>
-          <p>The deep learning method developed for sCT generation has demonstrated clinical suitability for both PET attenuation correction and RT dose calculations, representing a significant advancement toward integrating multiparametric PET/MRI as a one-stop shop for RT planning. Notably, the model has undergone external validation using a dataset from Guy's and St. Thomas' Hospital in London, further confirming its robustness and generalizability across different sites. While the method does have limitations, such as the need for larger datasets and adjustments for specific cases, the sCT images have proven clinical suitable, achieving dose calculations with only 1% difference from reference CT. This close alignment highlights sCT’s potential for enhancing RT planning.</p>
+          <p>The project has the potential to advance postoperative brain tumor segmentation by addressing the lack of annotated datasets with a novel two-label annotation protocol. This innovation enhances deep learning accuracy, improves disease monitoring, and supports personalized treatment. </p>
 
-          <div style="height: 70px;"></div>
+          <p>Although HD-GLIO shows strong potential for clinical use, particularly in segmenting larger tumors and NE lesions, it sometimes incorrectly identifies regions (see Figure 3). Addressing these challenges is key to refining models and ensuring clinical integration. This approach ultimately aims to streamline radiological workflows and improve patient outcomes.</p>
           
-          <div class="custom-figure-box mt-7" style="border: none; background: transparent;"> <!-- Removed border and made background transparent -->
-          <h4 class="small-header">Model Performance with Metallic Dental Implants</h4>
-          <div style="height: 25px;"></div>
-          <div class="d-flex">
-              <div class="figure-image" style="flex: 2; padding-right: 2px;"> <!-- Reduced flex size -->
-                  <img src="/assets/img/Billede_projekt_7.2.jpg" alt="Cases illustrating the model's ability to handle metallic dental implants" class="img-fluid" style="max-width: 90%; height: auto;"/> <!-- Added max-width to control image size -->
-              </div>
-              <div class="figure-caption" style="flex: 2; padding-top: 20px;"> <!-- Kept padding for spacing -->
-                  <p><strong>Figure 2.</strong> Cases illustrating the model's ability to handle metallic dental implants.</p>
-                  <p>(A) A case from the external cohort, where the dental implant caused severe streaking artifacts in the computed tomography (CT) and a signal void in the magnetic resonance imaging without translating significantly into the synthetic CT.</p>
-                  <p>(B-D) Cases from the local cohort, where dental implants only slightly affected the CT, but caused larger signal voids in the magnetic resonance images (MRI). For these cases the artifacts translated in varying degree into the synthetic CT images. Metal artifacts are marked on the MRI by red arrows.</p>
-              </div>
-          </div>
-          </div>
-        </div>
 
-        <div class="col-md-5 figure-column">
-          <div class="image-box">
-            <h5>Comparison of the Two Dose Calculation Methods (CT and sCT)</h5>
-            <div style="height: 15px;"></div>
-            <figcaption class="figure-caption">The figure illustrates the comparison between computed tomography (CT) and synthetic CT (sCT) in the context of radiation therapy. </figcaption>
-            <div style="height: 30px;"></div>
-            <figure>
-              <img src="{{ site.baseurl }}/assets/img/Billede_projekt_7.1.jpg" class="img-fluid" alt="Figure 1: Example of PET Imaging" />
-              <div style="height: 20px;"></div>
-              <figcaption class="figure-caption"><strong>Figur 1</strong> illustrates the results from a representative patient showing the CT based dose distribution (DoseCT), the synthetic CT (sCT) based dose distribution (DosesCT) and the voxel-wise relative dose difference between DosesCT and DoseCT (DDose). 
-              <div style="height: 15px;"></div>
-            </figcaption>
-            </figure>
-            <div style="height: 20px;"></div>
-          </div>
-          <div style="height: 150px;"></div>
-          <div class="custom-contact-box mt-5 border rounded shadow-sm">
+          <div style="height: 200px;"></div>
+          
+          <div class="custom-contact-box mt-6 border rounded shadow-sm">
             <h4 class="small-header">Contact Information</h4>
             <div class="contact-item">
                 <strong>Name:</strong>
-                <span> Anders Olin</span>
+                <span>Peter Jagd Sørensen</span>
             </div>
             <div class="contact-item">
                 <strong>Email:</strong>
-                <span><a href="mailto:?">mail</a></span>
+                <span><a href="mailto:peter.jagd.soerensen@regionh.dk">cpeter.jagd.soerensen@regionh.dk</a></span>
             </div>
             <div class="contact-item">
                 <strong>Location:</strong>
-                <span>Department of Clinical Physiology and Nuclear Medicine</span>
+                <span>Department of Radiology and Scanning, Rigshospitalet</span>
             </div>
             <div class="contact-item">
                 <strong>Position:</strong>
-                <span>Student</span>
+                <span>PhD Student</span>
             </div>
 
             <!-- Extra space between Position and Publications -->
@@ -267,11 +240,43 @@ related_publications: false
 
             <h4 class="small-header">Publications</h4>
             <div class="contact-item">
-                <p><a class="publication-link" href="https://www.redjournal.org/article/S0360-3016(20)31422-X/fulltext">Feasibility of Multiparametric Positron Emission Tomography/Magnetic Resonance Imaging as a One-Stop Shop for Radiation Therapy Planning for Patients with Head and Neck Cancer</a></p>
+                <p><a class="publication-link" href="https://www.mdpi.com/2379-139X/10/9/105">Repurposing the Public BraTS Dataset for Postoperative Brain Tumour Treatment Response Monitoring</a></p>
             </div>
-            <div class="contact-item">
-                <p><a class="publication-link" href="https://www.sciencedirect.com/science/article/pii/S2452109421001202">Robustness and Generalizability of Deep Learning Synthetic Computed Tomography for Positron Emission Tomography/Magnetic Resonance Imaging–Based Radiation Therapy Planning of Patients With Head and Neck Cancer</a></p>
+             <div class="contact-item">
+                <p><a class="publication-link" href="https://www.mdpi.com/2075-4418/13/3/363">Evaluation of the HD-GLIO Deep Learning Algorithm for Brain Tumour Segmentation on Postoperative MRI</a></p>
             </div>
+          </div>
+        </div>
+
+        <div class="col-md-5 figure-column">
+          <div class="image-box">
+            <div style="height: 15px;"></div>
+            <figure>
+              <img src="{{ site.baseurl }}/assets/img/Billede_projekt_10.1.png" class="img-fluid" alt="Figure 1: Billede 1" />
+              <div style="height: 10px;"></div>
+              <figcaption class="figure-caption"><strong>Figur 1</strong> compares three brain tumor segmentation methods: the three-label model (original BraTS protocol), the two-label model (postoperative adaptation), and the radiologist's ground truth. The figure highlights the effectiveness of the two-label protocol in excluding resection cavities, enhancing segmentation accuracy.
+              <div style="height: 15px;"></div>
+              <div style="font-size: smaller; line-height: 1.5;">
+                    NCR+NET = necrosis, cysts and non-enhancing tumour core<br>
+                    AT = active contrast-enhancing tumour<br>
+                    ED = oedema and infiltrated tissue<br>
+                    CE = contrast-enhancing tumour<br>
+                    NE = non-enhancing hyperintense T2/FLAIR signal abnormalities.
+             </div>
+             <div style="height: 30px;"></div>
+            </figcaption>
+            </figure>
+            <figure>
+              <img src="{{ site.baseurl }}/assets/img/Billede_projekt_10.2.png" class="img-fluid" alt="Figure 2: Billede 2" />
+              <div style="height: 10px;"></div>
+              <figcaption class="figure-caption"><strong>Figur 2</strong> shows tumor segmentation accuracy using Dice similarity coefficients for three categories: contrast-enhancing tumors (CE), larger CE tumors (>1 cm³), and non-enhancing abnormalities (NE). The Two-label model shows higher accuracy for larger CE tumors, while both models vary in performance for smaller CE and NE regions.</figcaption>
+            </figure>
+            <div style="height: 30px;"></div>
+            <figure>
+              <img src="{{ site.baseurl }}/assets/img/Billede_projekt_10.3.jpg" class="img-fluid" alt="Figure 2: Billede 3" />
+              <div style="height: 10px;"></div>
+              <figcaption class="figure-caption"><strong>Figur 3</strong> illustrates an error in HD-GLIO's segmentation of CE tumor regions. The algorithm failed to capture part of the cavity wall identified as a CE tumor by the radiologist. Yellow highlights the radiologist's delineation, cyan shows HD-GLIO's segmentation, and green indicates overlap.</figcaption>
+            </figure>
           </div>
         </div>
       </div>
