@@ -10,7 +10,7 @@ nav_order: 4
 <div class="hero-section">
   <div class="hero-overlay">
     <!-- Publications Title -->
-    <div style="height: 30px;"></div>
+    <div style="height: 31px;"></div>
     <h1 class="hero-title">Publications</h1>
     <div style="height: 20px;"></div>
 
