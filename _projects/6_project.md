@@ -248,7 +248,7 @@ related_publications: false
             <figure>
               <img src="{{ site.baseurl }}/assets/img/Billede_projekt_6.1.jpg" class="img-fluid" alt="Figure 1: Example of PET Imaging" />
               <div style="height: 20px;"></div>
-              <figcaption class="figure-caption"><strong>Figur 1</strong> illustrates the U-Net architecture employed to remove noise from low-activity PET images. The model takes two inputs: the low-activity PET image and a noise map that highlights the noise present in the image.
+              <figcaption class="figure-caption"><strong>Figure 1</strong> illustrates the U-Net architecture employed to remove noise from low-activity PET images. The model takes two inputs: the low-activity PET image and a noise map that highlights the noise present in the image.
               <div style="height: 15px;"></div>
               The inputs are processed through several convolutional blocks, with average pooling applied after each block to manage image resolution (Avg pool) while leveraging multiple filters for feature extraction. Following processing at the lowest resolution (the bridge), the image undergoes upsampling (Trans Conv) through transposed convolution to restore clarity.
               <div style="height: 15px;"></div>
@@ -259,7 +259,7 @@ related_publications: false
             <figure>
               <img src="{{ site.baseurl }}/assets/img/Billede_projekt_6.2.jpg" class="img-fluid" alt="Figure 2: Results of Low-Activity Scanning" />
               <div style="height: 20px;"></div>
-              <figcaption class="figure-caption"><strong>Figur 2:</strong> PET images of the brain in the transverse plane using [<sup>11</sup>C]PiB (associated with AD) and [<sup>18</sup>F]FE-PE2I (associated with PD). The images show examples of normal, borderline, and abnormal scans. Each panel displays standard-activity images (left), low-activity images (center), and denoised images (right). White markings highlight areas of potential amyloid accumulation for [<sup>11</sup>C]PiB, relevant to Alzheimer's disease, and for [<sup>18</sup>F]FE-PE2I, where the putamen and caudate nucleus, associated with Parkinson’s disease, are highlighted. The model effectively cleanses the images of noise.</figcaption>
+              <figcaption class="figure-caption"><strong>Figure 2:</strong> PET images of the brain in the transverse plane using [<sup>11</sup>C]PiB (associated with AD) and [<sup>18</sup>F]FE-PE2I (associated with PD). The images show examples of normal, borderline, and abnormal scans. Each panel displays standard-activity images (left), low-activity images (center), and denoised images (right). White markings highlight areas of potential amyloid accumulation for [<sup>11</sup>C]PiB, relevant to Alzheimer's disease, and for [<sup>18</sup>F]FE-PE2I, where the putamen and caudate nucleus, associated with Parkinson’s disease, are highlighted. The model effectively cleanses the images of noise.</figcaption>
             </figure>
           </div>
         </div>

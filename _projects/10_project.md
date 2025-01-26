@@ -254,7 +254,7 @@ related_publications: false
             <figure>
               <img src="{{ site.baseurl }}/assets/img/Billede_projekt_10.1.png" class="img-fluid" alt="Figure 1: Billede 1" />
               <div style="height: 10px;"></div>
-              <figcaption class="figure-caption"><strong>Figur 1</strong> compares three brain tumor segmentation methods: the three-label model (original BraTS protocol), the two-label model (postoperative adaptation), and the radiologist's ground truth. The figure highlights the effectiveness of the two-label protocol in excluding resection cavities, enhancing segmentation accuracy.
+              <figcaption class="figure-caption"><strong>Figure 1</strong> compares three brain tumor segmentation methods: the three-label model (original BraTS protocol), the two-label model (postoperative adaptation), and the radiologist's ground truth. The figure highlights the effectiveness of the two-label protocol in excluding resection cavities, enhancing segmentation accuracy.
               <div style="height: 15px;"></div>
               <div style="font-size: smaller; line-height: 1.5;">
                     NCR+NET = necrosis, cysts and non-enhancing tumour core<br>
@@ -269,13 +269,13 @@ related_publications: false
             <figure>
               <img src="{{ site.baseurl }}/assets/img/Billede_projekt_10.2.png" class="img-fluid" alt="Figure 2: Billede 2" />
               <div style="height: 10px;"></div>
-              <figcaption class="figure-caption"><strong>Figur 2</strong> shows tumor segmentation accuracy using Dice similarity coefficients for three categories: contrast-enhancing tumors (CE), larger CE tumors (>1 cm³), and non-enhancing abnormalities (NE). The Two-label model shows higher accuracy for larger CE tumors, while both models vary in performance for smaller CE and NE regions.</figcaption>
+              <figcaption class="figure-caption"><strong>Figure 2</strong> shows tumor segmentation accuracy using Dice similarity coefficients for three categories: contrast-enhancing tumors (CE), larger CE tumors (>1 cm³), and non-enhancing abnormalities (NE). The Two-label model shows higher accuracy for larger CE tumors, while both models vary in performance for smaller CE and NE regions.</figcaption>
             </figure>
             <div style="height: 30px;"></div>
             <figure>
               <img src="{{ site.baseurl }}/assets/img/Billede_projekt_10.3.jpg" class="img-fluid" alt="Figure 2: Billede 3" />
               <div style="height: 10px;"></div>
-              <figcaption class="figure-caption"><strong>Figur 3</strong> illustrates an error in HD-GLIO's segmentation of CE tumor regions. The algorithm failed to capture part of the cavity wall identified as a CE tumor by the radiologist. Yellow highlights the radiologist's delineation, cyan shows HD-GLIO's segmentation, and green indicates overlap.</figcaption>
+              <figcaption class="figure-caption"><strong>Figure 3</strong> illustrates an error in HD-GLIO's segmentation of CE tumor regions. The algorithm failed to capture part of the cavity wall identified as a CE tumor by the radiologist. Yellow highlights the radiologist's delineation, cyan shows HD-GLIO's segmentation, and green indicates overlap.</figcaption>
             </figure>
           </div>
         </div>

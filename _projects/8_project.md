@@ -259,7 +259,7 @@ related_publications: false
             <figure>
               <img src="{{ site.baseurl }}/assets/img/Billede_projekt_8.2.png" class="img-fluid" alt="Figure 2: Results of Low-Activity Scanning" />
               <div style="height: 15px;"></div>
-              <figcaption class="figure-caption"><strong>Figur 2</strong> compares the predicted segmentations based solely on CT images with PET images for two patients with metabolically active BAT. The regions of increased PET activity align with the segmented BAT, suggesting that BAT can be accurately segmented using CT data alone, without the need for PET data.</figcaption>
+              <figcaption class="figure-caption"><strong>Figure 2</strong> compares the predicted segmentations based solely on CT images with PET images for two patients with metabolically active BAT. The regions of increased PET activity align with the segmented BAT, suggesting that BAT can be accurately segmented using CT data alone, without the need for PET data.</figcaption>
             </figure>
           </div>
           <div style="height: 70px;"></div>

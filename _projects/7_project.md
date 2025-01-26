@@ -236,7 +236,7 @@ related_publications: false
             <figure>
               <img src="{{ site.baseurl }}/assets/img/Billede_projekt_7.1.jpg" class="img-fluid" alt="Figure 1: Example of PET Imaging" />
               <div style="height: 20px;"></div>
-              <figcaption class="figure-caption"><strong>Figur 1</strong> illustrates the results from a representative patient showing the CT based dose distribution (DoseCT), the synthetic CT (sCT) based dose distribution (DosesCT) and the voxel-wise relative dose difference between DosesCT and DoseCT (DDose). 
+              <figcaption class="figure-caption"><strong>Figure 1</strong> illustrates the results from a representative patient showing the CT based dose distribution (DoseCT), the synthetic CT (sCT) based dose distribution (DosesCT) and the voxel-wise relative dose difference between DosesCT and DoseCT (DDose). 
               <div style="height: 15px;"></div>
             </figcaption>
             </figure>
