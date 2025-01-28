@@ -446,6 +446,11 @@ nav_order: 3
                     <h3>Ulrik Lindberg</h3>
                     <p>MR physicist</p>
                 </div>
+                <div class="team-member" onclick="openModal('modal26')">
+                    <img src="/assets/img/placeholder_person.png" alt="Thomas Hartvig">
+                    <h3>Thomas Hartvig</h3>
+                    <p>Senior Hospital Physician</p>
+                </div>
             </div>
         </div>
 
@@ -500,7 +505,7 @@ nav_order: 3
                     <p>PhD Student</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal20')">
-                    <img src="/assets/img/placeholder_person.png" alt="Nanna Overbeck Petersen">
+                    <img src="/assets/img/Nanna_person.png" alt="Nanna Overbeck Petersen">
                     <h3>Nanna Overbeck Petersen</h3>
                     <p>PhD Student</p>
                 </div>
@@ -878,7 +883,7 @@ nav_order: 3
     <div id="modal20" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal20')">&times;</span>
-            <img src="/assets/img/placeholder_person.png" alt="Nanna Overbeck Petersen">
+            <img src="/assets/img/Nanna_person.png" alt="Nanna Overbeck Petersen">
             <h3>Nanna</h3>
             <p>PhD Student</p>
             <div style="height: 15px;"></div>
@@ -962,6 +967,22 @@ nav_order: 3
             <p>PhD Student</p>
             <p class="additional-details">
                 Email: <a href="mailto:lea.marie.pehrson@gmail.com">lea.marie.pehrson@gmail.com</a>
+            </p>
+        </div>
+    </div>
+
+    <div id="modal26" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal26')">&times;</span>
+            <img src="/assets/img/placeholder_person.png" alt="Thomas Hartvig">
+            <h3>Thomas Hartvig</h3>
+            <p>Physicist</p>
+            <div style="height: 15px;"></div>
+            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/thomas-hartvig-lindk%C3%A6r-jensen" target="_blank">Click to view Thomas's publications</a> </div>
+            <p class="additional-details">
+                Email: <a href="mailto:thomas.hartvig.lindkaer.jensen@regionh.dk">thomas.hartvig.lindkaer.jensen@regionh.dk</a>
+                <br>
+                Phone: <a href="tel:+4535455399">+45 35 45 53 99</a>
             </p>
         </div>
     </div>
