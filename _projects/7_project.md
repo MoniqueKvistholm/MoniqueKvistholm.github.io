@@ -3,7 +3,7 @@ layout: default2
 title: Feasibility of Multiparametric PET/MRI as a One-Stop Shop for RT Planning for Patients with HNC
 description: Project by Anders Olin
 img: assets/img/P7.jpg
-importance: 4
+importance: 5
 category: 2024
 related_publications: false
 ---

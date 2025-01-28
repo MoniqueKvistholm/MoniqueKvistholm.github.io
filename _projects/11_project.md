@@ -1,9 +1,9 @@
 ---
 layout: default2
-title: Automated Brown Adipose Tissue Segmentation in CT Images of Lymphoma Patients
-description: Project by Kasper Jørgensen
-img: assets/img/P8.jpg
-importance: 4
+title: Automatic Annotation of Danish Chest X-ray Reports
+description: Project by Lea Marie Pehrson
+img: assets/img/P10.jpg
+importance: 1
 category: 2024
 related_publications: false
 ---
@@ -99,7 +99,7 @@ related_publications: false
     background-color: #F4F0EB; /* Background color for the image box */
     border: 1px solid #ddd; /* Border around the image box */
     border-radius: 5px; /* Rounded corners */
-    padding: 30px; /* Padding inside the box */
+    padding: 20px; /* Padding inside the box */
     margin-top: 20px; /* Space above the image box */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
   }
@@ -184,10 +184,6 @@ related_publications: false
       padding: 0; /* Remove padding inside columns on extra small screens */
     }
   }
-
-  .small-text {
-  font-size: 0.8em; /* Juster efter behov for at gøre teksten mindre */
-  }
 </style>
 
 <div class="custom-container">
@@ -201,101 +197,105 @@ related_publications: false
       <div class="row">
         <div class="col-md-7">
           <strong>Introduction</strong>
-          <p>Brown adipose tissue (BAT) plays a crucial role in energy expenditure and thermoregulation, making it a key focus in metabolic disease research. This project investigates the use of a nnU-Net model for automated BAT segmentation in CT images of lymphoma patients. By relying solely on anatomical CT data, the approach avoids potential biases linked to metabolic activity in PET-based analyses.</p>
-          <div style="height: 25px;"></div>
+          <p>This project explores the use of Natural Language Processing (NLP) to automate the annotation of Danish chest X-ray reports. By leveraging Artificial Intelligence (AI) -driven techniques, it aims to extract structured labels from free-text radiology reports, reducing the need for time-consuming manual annotations. This automated process is a crucial step toward developing an image classifier for thoracic X-rays, enhancing diagnostic workflows and improving accessibility to high-quality labeled datasets in non-English clinical settings.</p>
+          <div style="height: 30px;"></div>
 
           <strong>Project Background</strong>
-          <p>BAT segmentation often combines imaging modalities such as PET/CT or PET/MRI. However, PET-based segmentation reflects metabolic activity, which may obscure the anatomical boundaries of BAT. To address this, the project focuses on segmenting BAT using only CT data, independent of metabolic signals.</p>
+          <p>Developing AI models for medical imaging requires large, well-annotated datasets. However, manual annotation by radiologists is both expensive and time-consuming. This challenge is especially significant in smaller languages such as Danish, where there are few tools available for the automated extraction of structured medical data.</p>
 
-          <p>Segmenting based solely on CT images is inherently challenging due to the minimal contrast between BAT and other adipose tissues. However, CT images still provide sufficient anatomical detail for physicians to identify BAT.</p>
+          <p>To address this, the project employs NLP techniques to extract structured labels from free-text X-ray reports. The approach consists of three key steps:</p>
 
-          <p>Manual segmentation is time-consuming and prone to variability, generating the need for automated solutions. Deep learning methods like the nnU-Net model offer a powerful alternative by directly mapping image data to segmentation masks, eliminating the need for handcrafted features. In this project, we employ a 3D nnU-Net model trained exclusively on CT data to segment BAT. Integration into the TotalSegmentator software allows effective BAT segmentation without PET data. The model has been trained and tested on 189 CT images from lymphoma patients.</p>
+          <div style="height: 10px;"></div>
+
+          <span style="font-weight: bold; color: #4a4a4a;">Rule-Based Labeling (RegEx)</span>: A set of rules are used to identify key medical findings and their negations.
+
+          <div style="height: 10px;"></div>
+
+          <span style="font-weight: bold; color: #4a4a4a;">Machine Learning-Based Labeling (BERT)</span>: Several BERT-based models, including Danish medical BERT (MeDa-BERT) and XLM-RoBERTa, are fine-tuned to classify findings.
+
+          <div style="height: 10px;"></div>
+
+          <span style="font-weight: bold; color: #4a4a4a;">Comparison & Evaluation</span>: Rule-based and machine learning labeling approaches are compared to determine their effectiveness, accuracy, and resource requirements.
+
           <div style="height: 25px;"></div>
 
-          <strong>Project Potential</strong>
-          <p>This automated BAT segmentation model represents a significant step forward in BAT analysis, enabling reliable automated segmentation directly from CT scans without the need for PET data. While the current test set is limited, further validation with larger and more diverse datasets could improve its robustness and broaden its clinical applicability. By making BAT analysis more efficient, this approach can contribute to advancing metabolic research and optimizing clinical workflows.</p>
-        
-        <div style="height: 70px;"></div>
+          <p>Through this comparison, the project aims to establish the most effective strategy for automating medical report annotation in Danish, providing a foundation for further AI-driven advancements in medical annotation.</p>
+          <div style="height: 30px;"></div>
 
-        <h5><strong>Challenges Addressed by Automated CT-Based Segmentation</strong></h5>
-        <div style="height: 20px;"></div>
-        <figure>
-          <img src="{{ site.baseurl }}/assets/img/Billede_projekt_8.3.png" class="img-fluid" alt="Figure 1: BAT Segmentation" style="width: 92%;" />  
-        </figure>
+
+          <strong>Project Potential</strong>
+          <p>The findings from this project have important implications for clinical AI development, especially in non-English medical settings. The key contributions include:</p>
+
+          <ul>
+            <li><span style="font-weight: bold; color: #4a4a4a;">Performance of NLP in Medical Danish: </span>The project demonstrated that Danish BERT-based models perform better than rule-based methods, particularly for identifying negative findings.</li>
+
+            <div style="height: 10px;"></div>
+
+            <li><span style="font-weight: bold; color: #4a4a4a;">Application Beyond Danish Radiology Reports: </span>These methods could also be applied to other medical datasets in non-English languages, promoting wider adoption of AI in healthcare.</li>
+
+            <div style="height: 10px;"></div>
+
+            <li><span style="font-weight: bold; color: #4a4a4a;">Comparison & Evaluation: </span>Rule-based and machine learning labeling approaches are compared to determine their effectiveness, accuracy, and resource requirements.</li>
+          </ul>
+
+
+          <p>Despite these achievements, certain challenges remain, particularly in handling variation within Danish medical terminology and the limited availability of publicly accessible datasets. Addressing these will be crucial for further model improvements and clinical integration.</p>
         </div>
 
         <div class="col-md-5 figure-column">
           <div class="image-box">
-            <h5><strong>Performance of the Automated BAT Segmentation Model</strong></h5>
             <div style="height: 15px;"></div>
-            <figcaption class="figure-caption">The BAT segmentations predicted by the model were compared against the ground truth annotations (the manually marked regions of BAT) in CT images.
+            <figure>
+              <img src="{{ site.baseurl }}/assets/img/Billede_projekt_11.1.png" class="img-fluid" alt="Figure 1: Billede 1" />
               <div style="height: 10px;"></div>
-              <p>To evaluate the model's accuracy, an agreement analysis was performed. This analysis helps visually identify where the model's predictions align with or diverge from the ground truth annotations.</p>
+              <figcaption class="figure-caption"><strong>Figure 1:</strong> Overview of the annotation workflow for Danish chest X-ray reports. The figure illustrates how chest X-ray reports are annotated using both a rule-based method (RegEx) and a machine learning approach (BERT). BERT models trained on rule-based labels and fine-tuned on expert-annotated data improve classification performance, particularly for negative mentions.
+             </div>
+             <div style="height: 30px;"></div>
             </figcaption>
-
-            <div style="height: 10px;"></div>
-            <figure>
-              <img src="{{ site.baseurl }}/assets/img/Billede_projekt_8.1.png" class="img-fluid" alt="Figure 1: BAT Segmentation" />
-              <div style="height: 15px;"></div>
-              <figcaption class="figure-caption">
-                <strong>Figure 1</strong> shows the BAT segmentation for four different test patients, comparing the original CT images, the manual ground truth annotations of BAT, the BAT segmentations predicted by the model, and the results of an agreement analysis.
-                
-                <div style="height: 10px;"></div>
-                <p class="small-text"><strong>True Positive (Green):</strong> Correctly predicted BAT by the model.</p>
-                <div style="height: 3px;"></div>
-                <p class="small-text"><strong>False Negative (Red):</strong>BAT missed by the model that should have been identified.</p>
-                <div style="height: 3px;"></div>
-                <p class="small-text"><strong>False Positive (Blue):</strong> Areas incorrectly identified as BAT, where there is no BAT.</p>
-
-                <div style="height: 15px;"></div>
-                The model's performance is not perfect, and inconsistencies are observed in areas where the ground truth annotations are unclear or less precisely defined.
-                <div style="height: 15px;"></div>
-              </figcaption>
             </figure>
-            <div style="height: 30px;"></div>
-
-            <h5><strong>Performance of the Model Against CT/PET</strong></h5>
-            <div style="height: 10px;"></div>
             <figure>
-              <img src="{{ site.baseurl }}/assets/img/Billede_projekt_8.2.png" class="img-fluid" alt="Figure 2: Results of Low-Activity Scanning" />
-              <div style="height: 15px;"></div>
-              <figcaption class="figure-caption"><strong>Figure 2</strong> compares the predicted segmentations based solely on CT images with PET images for two patients with metabolically active BAT. The regions of increased PET activity align with the segmented BAT, suggesting that BAT can be accurately segmented using CT data alone, without the need for PET data.</figcaption>
+            <img src="{{ site.baseurl }}/assets/img/Billede_projekt_11.2.png" class="img-fluid" alt="Figure 2: Billede 2" />
+            <div style="height: 10px;"></div>
+            <figcaption class="figure-caption">
+              <strong>Figure 2:</strong> Macro F1 scores for different NLP models on the 
+              <span style="font-weight: bold; color: #4a4a4a;">HL</span> test set, comparing positive, negative, and weighted F1 performance. 
+              The table shows that <span style="font-weight: bold; color: #4a4a4a;">DanskBERT</span> achieves the highest overall weighted F1 score (0.778), while 
+              <span style="font-weight: bold; color: #4a4a4a;">XLM</span> performs best for positive mentions (0.756). 
+              Models trained specifically on Danish data generally outperform multilingual models, especially for negative findings, where 
+              <span style="font-weight: bold; color: #4a4a4a;">DanskBERT</span> has the highest score (0.717).
+            </figcaption>
             </figure>
           </div>
-          <div style="height: 70px;"></div>
-          
           <div class="custom-contact-box mt-6 border rounded shadow-sm">
             <h4 class="small-header">Contact Information</h4>
             <div class="contact-item">
                 <strong>Name:</strong>
-                <span>Kasper Jørgensen</span>
+                <span>Lea Marie Pehrson</span>
             </div>
             <div class="contact-item">
                 <strong>Email:</strong>
-                <span><a href="mailto:kasper.joergensen.02@regionh.dk">kasper.joergensen.02@regionh.dk</a></span>
+                <span><a href="mailto:lea.marie.pehrson@gmail.com">lea.marie.pehrson@gmail.com</a></span>
             </div>
             <div class="contact-item">
                 <strong>Location:</strong>
-                <span>Department of Clinical Physiology and Nuclear Medicine, Rigshospitalet, Denmark</span>
+                <span>Department of Radiology and Scanning, Rigshospitalet</span>
             </div>
             <div class="contact-item">
                 <strong>Position:</strong>
-                <span>Student</span>
+                <span>PhD Student</span>
             </div>
 
             <!-- Extra space between Position and Publications -->
             <div class="contact-item spacer"></div>
 
             <h4 class="small-header">Publications</h4>
-            <div class="contact-item">
-                <p><a class="publication-link" href="https://www.mdpi.com/2075-4418/14/24/2786?fbclid=IwZXh0bgNhZW0CMTEAAR2sJTkYg2SEIfVbJFsOLqAGFGJt-8ZKpULtHksdvBmlRAx2wp1X_BKgogU_aem_gjyPLlNv_24MRiWhGvYfHA">Automated Supraclavicular Brown Adipose Tissue Segmentation in Computed Tomography Using nnU-Net: Integration with TotalSegmentator</a></p>
-            </div>
-             <div class="contact-item">
-                <p><a class="publication-link" href="https://github.com/depict-rh/bat-seg">GitHub</a></p>
+           <div class="contact-item">
+              <p><span class="publication-link">Coming soon</span></p>
             </div>
           </div>
         </div>
       </div>
     </article>
+
   </div>
 </div>

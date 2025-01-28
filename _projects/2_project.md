@@ -3,7 +3,7 @@ layout: default2
 title: Automatic Lesion Segmentation on MRI Scans of Patients with Multiple Sclerosis
 description: PhD Project by Amalie Hindsholm
 img: assets/img/P2.jpg
-importance: 9
+importance: 10
 category: 2024
 related_publications: false
 ---
@@ -166,7 +166,7 @@ related_publications: false
 
           <strong>Project Background</strong>
           <p>MS is a chronic autoimmune disease of the central nervous system (CNS), causing long-term functional impairment. The disease is characterized by inflammatory axonal demyelination, resulting in focal lesions in the grey and white matter of the CNS, which serve as important biomarkers for disease diagnosis, activity, and treatment response. As part of their disease management, patients routinely undergo repeated MRI scans, contributing to a considerable workload for radiologists.<br>
-While there are existing models for automatic lesion segmentation, only a few are currently utilized in clinical practice. The existing models are struggling with generalization to clinical datasets. This is where this project steps in by incorporating large, heterogeneous training datasets directly from the MS clinics for training and validating an MS lesion segmentation model. The outcome is a model that achieves high precision and robustness against data from scanners that were not previously encountered.</p>
+          While there are existing models for automatic lesion segmentation, only a few are currently utilized in clinical practice. The existing models are struggling with generalization to clinical datasets. This is where this project steps in by incorporating large, heterogeneous training datasets directly from the MS clinics for training and validating an MS lesion segmentation model. The outcome is a model that achieves high precision and robustness against data from scanners that were not previously encountered.</p>
 
           <strong>Project Potential</strong>
           <p>The project enables the practical use of MS lesion segmentation in clinics, enabling the model to handle the variation found in clinical practice. This has the potential to reduce the time spent reviewing routine MS MRI scans for radiologists in the clinic and enable quantification of lesion volume as a biomarker.</p>
