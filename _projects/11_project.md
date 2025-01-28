@@ -2,7 +2,7 @@
 layout: default2
 title: Automatic Annotation of Danish Chest X-ray Reports
 description: Project by Lea Marie Pehrson
-img: assets/img/P10.jpg
+img: assets/img/P11.jpg
 importance: 1
 category: 2024
 related_publications: false
