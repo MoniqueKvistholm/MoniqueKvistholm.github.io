@@ -884,7 +884,7 @@ nav_order: 3
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal20')">&times;</span>
             <img src="/assets/img/Nanna_person.png" alt="Nanna Overbeck Petersen">
-            <h3>Nanna</h3>
+            <h3>Nanna Overbeck Petersen</h3>
             <p>PhD Student</p>
             <div style="height: 15px;"></div>
             <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/nanna-overbeck-petersen/publications/" target="_blank">Click to view Nanna's publications</a> </div>
