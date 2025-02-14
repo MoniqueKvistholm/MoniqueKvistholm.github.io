@@ -4,7 +4,7 @@ title: Device-Less Data-Driven Cardiac and Respiratory Gating in PET Imaging
 description: Project by Nanna Overbeck Petersen
 img: assets/img/P12.jpg
 importance: 1
-category: 2024
+category: 2025
 related_publications: false
 ---
 
@@ -253,17 +253,18 @@ related_publications: false
             
             <!-- Video 1: Cardiac Motion -->
             <div class="video-wrapper">
-              <video class="scaled-video" controls>
-                <source src="https://moniquekvistholm.github.io/assets/video/cardiac_motion.mp4" type="video/mp4">
+              <video width="328" height="502" controls autoplay loop muted>
+                <source src="/assets/video/cardiac_motion.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
               <figcaption class="figure-caption">Cardiac Motion</figcaption>
             </div>
 
+          
             <!-- Video 2: Respiratory Motion -->
             <div class="video-wrapper">
-              <video class="scaled-video" controls>
-                <source src="https://moniquekvistholm.github.io/assets/video/respiratory_motion.mp4" type="video/mp4">
+              <video width="328" height="502" controls autoplay loop muted>
+                <source src="/assets/video/respiratory_motion.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
               <figcaption class="figure-caption">Respiratory Motion</figcaption>
