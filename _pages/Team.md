@@ -447,7 +447,7 @@ nav_order: 3
                     <p>MR physicist</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal26')">
-                    <img src="/assets/img/placeholder_person.png" alt="Thomas Hartvig">
+                    <img src="/assets/img/ThomasH_person.png" alt="Thomas Hartvig">
                     <h3>Thomas Hartvig</h3>
                     <p>Senior Hospital Physician</p>
                 </div>
@@ -883,8 +883,8 @@ nav_order: 3
     <div id="modal20" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal20')">&times;</span>
-            <img src="/assets/img/Nanna_person.png" alt="Nanna Overbeck Petersen">
-            <h3>Nanna Overbeck Petersen</h3>
+            <img src="/assets/img/Nanna_person.png" alt="Nanna Overbeck">
+            <h3>Nanna Overbeck</h3>
             <p>PhD Student</p>
             <div style="height: 15px;"></div>
             <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/nanna-overbeck-petersen/publications/" target="_blank">Click to view Nanna's publications</a> </div>
@@ -974,7 +974,7 @@ nav_order: 3
     <div id="modal26" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal26')">&times;</span>
-            <img src="/assets/img/placeholder_person.png" alt="Thomas Hartvig">
+            <img src="/assets/img/ThomasH_person.png" alt="Thomas Hartvig">
             <h3>Thomas Hartvig</h3>
             <p>Physicist</p>
             <div style="height: 15px;"></div>
