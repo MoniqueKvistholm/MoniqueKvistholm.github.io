@@ -308,7 +308,7 @@ related_publications: false
             <h4 class="small-header">Contact Information</h4>
             <div class="contact-item">
                 <strong>Name:</strong>
-                <span>Nanna Overbeck Petersen</span>
+                <span>Nanna Overbeck</span>
             </div>
             <div class="contact-item">
                 <strong>Email:</strong>
