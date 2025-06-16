@@ -392,9 +392,9 @@ nav_order: 3
         <div id="steering-committee" class="tab-content" style="display:none;">
             <div class="team-grid">
                 <div class="team-member" onclick="openModal('modal3')">
-                    <img src="/assets/img/Jann_person.png" alt="Jann Mortensen">
-                    <h3>Jann Mortensen</h3>
-                    <p>Professor, Chief Physician</p>
+                    <img src="/assets/img/Peter_person.jpg" alt="Peter Hovind">
+                    <h3>Peter Hovind</h3>
+                    <p>Chief Physician</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal4')">
                     <img src="/assets/img/Flemming_person.png" alt="Flemming Littrup Andersen">
@@ -442,7 +442,7 @@ nav_order: 3
                     <p>Lead Radiographer</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal24')">
-                    <img src="/assets/img/placeholder_person.png" alt="Ulrik Lindberg">
+                    <img src="/assets/img/placeholder_person.png" alt="Ulrich Lindberg">
                     <h3>Ulrik Lindberg</h3>
                     <p>MR physicist</p>
                 </div>
@@ -450,6 +450,11 @@ nav_order: 3
                     <img src="/assets/img/ThomasH_person.png" alt="Thomas Hartvig">
                     <h3>Thomas Hartvig</h3>
                     <p>Senior Hospital Physician</p>
+                </div>
+                <div class="team-member" onclick="openModal('modal27')">
+                    <img src="/assets/img/placeholder_person.png" alt="Jane Hellelby">
+                    <h3>Jane Hellelby</h3>
+                    <p>Chief physician, Clinical Associate Professor</p>
                 </div>
             </div>
         </div>
@@ -484,9 +489,9 @@ nav_order: 3
                     <p>Chief Physician</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal17')">
-                    <img src="/assets/img/Jann_person.png" alt="Jann Mortensen">
-                    <h3>Jann Mortensen</h3>
-                    <p>Professor, Chief Physician</p>
+                    <img src="/assets/img/Peter_person.jpg" alt="Peter Hovind">
+                    <h3>Peter Hovind</h3>
+                    <p>Chief physician</p>
                 </div>
             </div>
         </div>
@@ -589,15 +594,15 @@ nav_order: 3
     <div id="modal3" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal3')">&times;</span>
-            <img src="/assets/img/Jann_person.png" alt="Jann Mortensen">
-            <h3>Jann Mortensen</h3>
-            <p>Professor, Chief Physician, Dr. Med</p>
+            <img src="/assets/img/Peter_person.jpg" alt="Peter Hovind">
+            <h3>Peter Hovind</h3>
+            <p>Chief physician</p>
             <div style="height: 15px;"></div>
-            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/jann-mortensen/publications/" target="_blank">Click to view Jann's publications</a> </div>
+            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/peter-hovind" target="_blank">Click to view Peter's publications</a> </div>
             <p class="additional-details">
-                Email: <a href="mailto:jann.mortensen@regionh.dk">jann.mortensen@regionh.dk</a>
+                Email: <a href="mailto:peter.hovind@regionh.dk">peter.hovind@regionh.dk</a>
                 <br>
-                Phone: <a href="tel:+4535451716">+45 35-45 17-16</a>
+                Phone: <a href="tel:+4535459824">+45 35-45 98-24</a>
                 <br>
                 Location: 4011, Clinical Physiology and Nuclear Medicines
             </p>
@@ -832,21 +837,27 @@ nav_order: 3
         </div>
     </div>
 
+    
+
     <div id="modal17" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal17')">&times;</span>
-            <img src="/assets/img/Jann_person.png" alt="Jann Mortensen">
-            <h3>Jann Mortensen</h3>
-            <p>Professor, Chief Physician, Dr. Med</p>
+            <img src="/assets/img/Peter_person.jpg" alt="Peter Hovind">
+            <h3>Peter Hovind</h3>
+            <p>Chief physician</p>
+            <div style="height: 15px;"></div>
+            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/peter-hovind" target="_blank">Click to view Peter's publications</a> </div>
             <p class="additional-details">
-                Email: <a href="mailto:jann.mortensen@regionh.dk">jann.mortensen@regionh.dk</a>
+                Email: <a href="mailto:peter.hovind@regionh.dk">peter.hovind@regionh.dk</a>
                 <br>
-                Phone: <a href="tel:+4535451716">+45 35-45 17-16</a>
+                Phone: <a href="tel:+4535459824">+45 35-45 98-24</a>
                 <br>
                 Location: 4011, Clinical Physiology and Nuclear Medicines
             </p>
         </div>
     </div>
+
+
 
     <div id="modal18" class="modal">
         <div class="modal-content">
@@ -947,8 +958,8 @@ nav_order: 3
     <div id="modal24" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal24')">&times;</span>
-            <img src="/assets/img/placeholder_person.png" alt="Ulrik Lindberg">
-            <h3>Ulrik Lindberg</h3>
+            <img src="/assets/img/placeholder_person.png" alt="Ulrich Lindberg">
+            <h3>Ulrich Lindberg</h3>
             <p>MR physicist</p>
             <p class="additional-details">
                 Email: <a href="mailto:ulrich.lindberg@regionh.dk">ulrich.lindberg@regionh.dk</a>
@@ -986,6 +997,24 @@ nav_order: 3
             </p>
         </div>
     </div>
+
+
+    <div id="modal27" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal27')">&times;</span>
+            <img src="/assets/img/placeholder_person.png" alt="Jane Hellelby">
+            <h3>Jane Hellelby</h3>
+            <p>Chief physician, Clinical Associate Professor</p>
+            <p class="additional-details">
+                Email: <a href="mailto:jane.preuss.hasselby@regionh.dk">jane.preuss.hasselby@regionh.dk</a>
+                <br>
+                Phone: <a href="tel:+4529313583">+45 29 31 35 83</a>
+            </p>
+        </div>
+    </div>
+
+
+    
 
 
     <script>
