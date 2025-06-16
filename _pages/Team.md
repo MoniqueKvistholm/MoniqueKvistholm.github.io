@@ -443,7 +443,7 @@ nav_order: 3
                 </div>
                 <div class="team-member" onclick="openModal('modal24')">
                     <img src="/assets/img/placeholder_person.png" alt="Ulrich Lindberg">
-                    <h3>Ulrik Lindberg</h3>
+                    <h3>Ulrich Lindberg</h3>
                     <p>MR physicist</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal26')">
