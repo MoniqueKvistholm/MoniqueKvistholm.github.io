@@ -378,7 +378,7 @@ nav_order: 3
                 <div class="team-member" onclick="openModal('modal1')">
                     <img src="/assets/img/Flemming_person.png" alt="Flemming Littrup Andersen">
                     <h3>Flemming Littrup Andersen</h3>
-                    <p>Lead Data Scientist </p>
+                    <p>Professor, Lead Data Scientist</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal2')">
                     <img src="/assets/img/Adam_person.png" alt="Adam Espe Hansen">
@@ -399,7 +399,7 @@ nav_order: 3
                 <div class="team-member" onclick="openModal('modal4')">
                     <img src="/assets/img/Flemming_person.png" alt="Flemming Littrup Andersen">
                     <h3>Flemming Littrup Andersen</h3>
-                    <p>Lead Data Scientist</p>
+                    <p>Professor, Lead Data Scientist</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal5')">
                     <img src="/assets/img/Claes_person.png" alt="Claes Ladefoged">
@@ -560,12 +560,12 @@ nav_order: 3
             <span class="close" onclick="closeModal('modal1')">&times;</span>
             <img src="/assets/img/Flemming_person.png" alt="Flemming Littrup Andersen">
             <h3>Flemming Littrup Andersen</h3>
-            <p>Datachef</p>
+            <p>Professor, Lead Data Scientist</p>
             <div style="height: 15px;"></div>
             <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/flemming-littrup-andersen/publications/" target="_blank">Click to view Flemming's publications</a> </div>
 
             <p class="additional-details">
-                Flemming Littrup Andersen is a Lead Data Scientist at Rigshospitalet, specializing in PET imaging, artificial intelligence, dataflow, and image modeling. He holds a PhD and brings extensive expertise to his role in advancing these fields.
+                Flemming Littrup Andersen is a Professor and Lead Data Scientist at Rigshospitalet, specializing in PET imaging, artificial intelligence, dataflow, and image modeling. He holds a PhD and brings extensive expertise to his role in advancing these fields.
                 <br><br>
                 Email: <a href="mailto:flemming.andersen@regionh.dk">flemming.andersen@regionh.dk</a>
                 <br>
@@ -621,12 +621,12 @@ nav_order: 3
             <span class="close" onclick="closeModal('modal4')">&times;</span>
             <img src="/assets/img/Flemming_person.png" alt="Flemming Littrup Andersen">
             <h3>Flemming Littrup Andersen</h3>
-            <p>Datachef</p>
+            <p>Professor, Lead Data Scientist</p>
             <div style="height: 15px;"></div>
             <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/flemming-littrup-andersen/publications/" target="_blank">Click to view Flemming's publications</a> </div>
 
             <p class="additional-details">
-                Flemming Littrup Andersen is a Lead Data Scientist at Rigshospitalet, specializing in PET imaging, artificial intelligence, dataflow, and image modeling. He holds a PhD and brings extensive expertise to his role in advancing these fields.
+                Flemming Littrup Andersen is a Professor and Lead Data Scientist at Rigshospitalet, specializing in PET imaging, artificial intelligence, dataflow, and image modeling. He holds a PhD and brings extensive expertise to his role in advancing these fields.
                 <br><br>
                 Email: <a href="mailto:flemming.andersen@regionh.dk">flemming.andersen@regionh.dk</a>
                 <br>
