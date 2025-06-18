@@ -540,9 +540,15 @@ nav_order: 3
                     <h3>Thomas Lund Andersen</h3>
                     <p>Physicist</p>
                 </div>
+                <div class="team-member" onclick="openModal('modal28')">
+                    <img src="/assets/img/placeholder_person.png" alt="Zuzanna Czelusniak">
+                    <h3>Zuzanna Czelusniak</h3>
+                    <p>PhD Student</p>
+                </div>
             </div>
         </div>
 
+     
         <!-- Placeholder for footer positioning -->
         <div style="height: 200px;"></div>
     </div>
@@ -1014,7 +1020,21 @@ nav_order: 3
     </div>
 
 
-    
+    <div id="modal28" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal28')">&times;</span>
+            <img src="/assets/img/placeholder_person.png" alt="Zuzanna Czelusniak">
+            <h3>Zuzanna Czelusniak</h3>
+            <p>PhD Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:zuzanna.czelusniak@regionh.dk">zuzanna.czelusniak@regionh.dk</a>
+                <br>
+                Phone: <a href="tel:+4535455209">+45 35 45 52 09</a>
+            </p>
+        </div>
+    </div>
+
+
 
 
     <script>
