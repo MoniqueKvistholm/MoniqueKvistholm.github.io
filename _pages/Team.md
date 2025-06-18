@@ -452,8 +452,8 @@ nav_order: 3
                     <p>Senior Hospital Physician</p>
                 </div>
                 <div class="team-member" onclick="openModal('modal27')">
-                    <img src="/assets/img/placeholder_person.png" alt="Jane Hellelby">
-                    <h3>Jane Hellelby</h3>
+                    <img src="/assets/img/Jane_person.png" alt="Jane Hasselby">
+                    <h3>Jane Hasselby</h3>
                     <p>Chief physician, Clinical Associate Professor</p>
                 </div>
             </div>
@@ -1002,8 +1002,8 @@ nav_order: 3
     <div id="modal27" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal27')">&times;</span>
-            <img src="/assets/img/placeholder_person.png" alt="Jane Hellelby">
-            <h3>Jane Hellelby</h3>
+            <img src="/assets/img/Jane_person.png" alt="Jane Hasselby">
+            <h3>Jane Hasselby</h3>
             <p>Chief physician, Clinical Associate Professor</p>
             <p class="additional-details">
                 Email: <a href="mailto:jane.preuss.hasselby@regionh.dk">jane.preuss.hasselby@regionh.dk</a>
