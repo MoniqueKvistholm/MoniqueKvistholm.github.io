@@ -3,7 +3,7 @@ layout: default2
 title: Deep Learning-Driven Improvements in Low-Activity PET Imaging for Neurodegenerative Diseases
 description: Project by Raphaël Sura Daveau
 img: assets/img/P6.jpg
-importance: 7
+importance: 8
 category: 2024
 related_publications: false
 ---

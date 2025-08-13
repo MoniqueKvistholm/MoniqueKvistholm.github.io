@@ -3,7 +3,7 @@ layout: default2
 title: Attenuation Correction in PET Scans Using Synthetic CT Images from the Emission Data
 description: PhD Project by Maria Elkjær Montgomery
 img: assets/img/P5.jpg
-importance: 8
+importance: 9
 category: 2024
 related_publications: false
 ---
