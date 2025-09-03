@@ -3,7 +3,7 @@ layout: default2
 title: AI-Based Support System for Chest X-ray Report Annotation - Exploring Annotator Performance Across Experience Levels 
 description: Project by Lea Marie Pehrson
 img: assets/img/P9.jpg
-importance: 5
+importance: 6
 category: 2024
 related_publications: false
 ---

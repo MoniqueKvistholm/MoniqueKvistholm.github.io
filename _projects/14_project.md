@@ -1,22 +1,22 @@
 ---
 layout: default2
-title: Digital Twin for PET Scanning
-description: PhD Project by Christian Hinge
-img: assets/img/P1.jpg
-importance: 14
-category: 2024
+title: Synthetic baseline for personalized PET analysis - Application in Alzheimer’s disease
+description: Project by Christian Hinge
+img: assets/img/P14.jpg
+importance: 1
+category: 2025
 related_publications: false
 ---
 
 <style>
   body {
-    background-color: #E6DED0; /* Background color for the entire page */
+    background-color: #EFF1F7; /* Background color for the entire page */
     margin: 0;
     padding: 0;
   }
 
   .custom-container {
-    background-color: #E6DED0; /* Background color for the content */
+    background-color: #EFF1F7; /* Background color for the content */
     padding: 20px; /* General padding */
     margin: 0; /* Remove margins */
     margin-bottom: 40px; /* Extra bottom margin for additional space */
@@ -24,7 +24,7 @@ related_publications: false
 
   .post-title {
     font-weight: bold;
-    color: #062A40; /* Color for the title */
+    color:rgb(20, 23, 19); /* Color for the title */
     text-align: left; /* Left-align the title */
     font-size: 2.5em; /* Increase font size of the title */
     margin-top: 10px; /* Reduce top margin for the title */
@@ -32,17 +32,20 @@ related_publications: false
   }
 
   .custom-contact-box {
-    background-color: #F4F0EB; /* Background color for the contact box */
+    background-color: #FFFFFF; /* Background color for the contact box */
     border: 1px solid #ddd; /* Border around the contact box */
     border-radius: 5px; /* Rounded corners */
     padding: 10px; /* Reduced padding inside the contact box */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow */
     margin-top: 20px; /* Add space above the contact box */
     margin-bottom: 10px; /* Reduced space below the contact box */
+    text-align: left; /* Ensure text inside the contact box is left-aligned */
+    width: 100%; /* Ensure it fills the width of the column */
+    max-width: 600px; /* Set a max-width to constrain the contact box */
   }
 
   .custom-contact-box h4.small-header {
-    color: #062A40; /* Color for the header in the contact box */
+    color: #000000; /* Color for the header in the contact box */
     font-weight: bold;
     font-size: 1em; /* Smaller font size for the header */
     margin-bottom: 15px; /* Increased bottom margin for the header to space from content */
@@ -85,11 +88,58 @@ related_publications: false
 
   .publication-link::before {
     content: '•'; /* Bullet point before the link */
-    color: #062A40; /* Color of the bullet point */
+    color: #000000; /* Color of the bullet point */
     font-size: 1.2em; /* Size of the bullet point */
     margin-right: 8px; /* Space between the bullet point and the text */
     vertical-align: middle; /* Align bullet point with text */
   }
+
+  /* New styles for the image box */
+  .image-box {
+    background-color: #FFFFFF; /* Background color for the image box */
+    border: 1px solid #ddd; /* Border around the image box */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    margin-top: 20px; /* Space above the image box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+
+  .image-box h3 {
+    color: #000000; /* Color for the header in the image box */
+    font-weight: bold; /* Make header bold */
+    font-size: 1.5em; /* Smaller font size for the header */
+  }
+
+  .figure-caption {
+    text-align: left; /* Left-align figure captions */
+    font-size: 0.9em; /* Smaller font size for figure captions */
+    margin-top: 5px; /* Space above figure captions */
+    color: #000; /* Set caption color to black */
+  }
+
+  .figure-caption strong {
+    font-weight: bold; /* Make 'Figur' text bold */
+  }
+
+  .img-fluid {
+    max-width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+
+  .col-md-7 {
+    text-align: justify;      
+    text-justify: inter-word; 
+    padding-right: 60px;
+  }
+
+  /* Figurtekster */
+  /* Figurtekster */
+  .figure-caption {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+   
 
   /* Responsive design */
   @media (max-width: 768px) {
@@ -158,27 +208,39 @@ related_publications: false
       <p class="post-description">{{ page.description }}</p>
     </header>
 
+    <div style="height: 35px;"></div>
+
     <article>
       <div class="row">
-        <div class="col-md-7">
+
+        <!-- Venstre kolonne -->
+        <div class="col-md-8">
           <strong>Introduction</strong>
-          <p>The aim of this project is to enhance the diagnostic potential of whole-body Positron Emission Tomography/Computed Tomography (PET/CT) imaging by creating personalized synthetic healthy PET baselines using advanced Deep Learning techniques.</p>
+          <p>Alzheimer's disease (AD) is often investigated using [<sup>18</sup>F]FDG-PET to assess cerebral glucose metabolism. However, current tools for uptake analysis rely on non-personalized templates, which poses a challenge since decreased glucose uptake could also reflect normal age-related changes, making it difficult to determine whether reduced glucose uptake is truly caused by AD or by other factors.</p>
+          <div style="height: 25px;"></div>
 
           <strong>Project Background</strong>
-          <p>Whole-body PET/CT imaging with FDG tracers is an invaluable diagnostic tool widely used in hospitals for detecting, diagnosing, and monitoring various diseases. However, standard analysis methods lack personalized healthy control images, reducing their precision and limiting the full diagnostic and prognostic potential of PET/CT imaging. This project addresses this limitation by introducing advanced Deep Learning techniques to synthesize personalized PET images based on the patient's own whole-body CT scans. This approach enables the development of images that reflect the individual patient's anatomical and physiological characteristics, increasing the accuracy of differentiating between normal and diseased states.</p>
+          <p>To overcome this, the project proposes a deep learning approach that synthesizes personalized baselines for each patient based on their MR images. This synthetic baseline PET (sbPET) represents how the patient’s brain metabolism would look if it were healthy and it can serve as a hypothetical “healthy twin” reference image. By comparing the patient’s own [<sup>18</sup>F]FDG-PET images with the sbPET, the method produces abnormality maps that are more robust to anatomical variation.</p>
+          <div style="height: 25px;"></div>
 
-          <strong>Project Potential</strong>
-          <p>The project has the potential to detect deviations and subtle changes in organ uptake patterns by comparing the patient's digital twin with the actual PET scan. For example, in diabetes, a personalized healthy PET image can assess the disease by comparing it to the actual observed uptake. This project represents an innovative approach to improving diagnostic analysis methods, enhancing the accuracy of diagnoses, and increasing the effectiveness of treatment for individual patients.</p>
-        </div>
+          <strong>Project Implementation</strong>
+          <p>The results showed that the model reliably generated healthy-appearing PET images for cognitive normal (CN) subjects, and when applied to AD patients, the synthetic baselines enabled accurate detection of disease-related hypometabolism.</p>
 
-        <div class="col-md-5 figure-column">
-          {% include figure.liquid loading="eager" path="assets/img/P1.jpg" title="Example image" class="img-fluid rounded z-depth-1" %}
 
-          <div class="caption mt-3">
-            <p><strong>Figure 1:</strong> Application of healthy PET for lymphoma detection. From left: CT, PET, sbPET: Synthetic healthy PET image, Abnormality: difference between PET and synthetic PET, Segmentation: identified cancerous areas.</p>
-          </div>
+          <div style="height: 40px;"></div>
+          <figure style="text-align: center;">
+            <img src="{{ site.baseurl }}/assets/img/Billede_projekt_14.1.jpg" class="img-fluid" id="image1" alt="Billede_projekt_14.1" style="width: 90%;" />
+            <div style="height: 20px;"></div>
+            <figcaption class="figure-caption">
+              <strong>Figure 1.</strong> Average abnormality maps of 9 CN subjects and 10 AD patients. On average, the personalized method shows little to no abnormality for the CN group, while the AD group exhibits significant hypometabolism in the gray matter.
+            </figcaption>
+          </figure>
+        </div><!-- /col-md-7 -->
 
-          <div class="custom-contact-box mt-4 border rounded shadow-sm">
+        <!-- Højre kolonne -->
+        <div class="col-md-4 figure-column">
+          
+          <div class="custom-contact-box mt-6 border rounded shadow-sm">
             <h4 class="small-header">Contact Information</h4>
             <div class="contact-item">
               <strong>Name:</strong>
@@ -190,7 +252,7 @@ related_publications: false
             </div>
             <div class="contact-item">
               <strong>Location:</strong>
-              <span>Department of Clinical Physiology and Nuclear Medicine, 3982</span>
+              <span>Department of Clinical Physiology and Nuclear Medicine, Rigshospitalet, Denmark</span>
             </div>
             <div class="contact-item">
               <strong>Position:</strong>
@@ -202,22 +264,13 @@ related_publications: false
 
             <h4 class="small-header">Publications</h4>
             <div class="contact-item">
-              <p><a class="publication-link" href="https://jnm.snmjournals.org/content/65/supplement_2/241648">A healthy synthetic FDG PET baseline for abnormality detection in lymphoma patients using Total Body PET/CT</a></p>
+              <p><a class="publication-link" href="https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.1053783/full">A zero-dose synthetic baseline for the personalized analysis of [<sup>18</sup>F]FDG-PET: Application in Alzheimer’s disease</a></p>
             </div>
-          </div>
-        </div>
-      </div>
+          </div><!-- /custom-contact-box -->
+        </div><!-- /col-md-5 -->
+
+      </div><!-- /row -->
     </article>
 
-    {% if page.related_publications %}
-      <h2>References</h2>
-      <div class="publications">
-        {% bibliography --cited_in_order %}
-      </div>
-    {% endif %}
-
-    {% if site.giscus and page.giscus_comments %}
-      {% include giscus.liquid %}
-    {% endif %}
-  </div>
-</div>
+  </div><!-- /post -->
+</div><!-- /custom-container -->
