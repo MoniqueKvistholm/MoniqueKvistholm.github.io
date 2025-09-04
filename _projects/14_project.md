@@ -215,7 +215,7 @@ related_publications: false
 
         <!-- Venstre kolonne -->
         <div class="col-md-8">
-          <strong>introduction</strong>
+          <strong>Introduction</strong>
           <p>Alzheimer's disease (AD) is often investigated using [<sup>18</sup>F]FDG-PET to assess cerebral glucose metabolism. However, current tools for uptake analysis rely on non-personalized templates, which poses a challenge since decreased glucose uptake could also reflect normal age-related changes, making it difficult to determine whether reduced glucose uptake is truly caused by AD or by other factors.</p>
           <div style="height: 25px;"></div>
 
