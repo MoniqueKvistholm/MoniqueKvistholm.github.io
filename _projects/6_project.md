@@ -184,6 +184,43 @@ related_publications: false
       padding: 0; /* Remove padding inside columns on extra small screens */
     }
   }
+
+  /* ---------- DARK MODE ---------- */
+  html[data-theme="dark"] body {
+    background-color: #E6DED0 !important;
+    color: var(--global-text-color) !important;
+  }
+
+  /* Behold DIN flotte beige custom-container, men gør teksten lys */
+  html[data-theme="dark"] .custom-container {
+    background-color: #E6DED0 !important;  /* behold beige */
+    color: #0f172a !important;             /* mørk tekst på beige */
+  }
+
+  /* Tekst inde i content skal også være mørk på beige */
+  html[data-theme="dark"] .custom-container h1,
+  html[data-theme="dark"] .custom-container h2,
+  html[data-theme="dark"] .custom-container h3,
+  html[data-theme="dark"] .custom-container h4,
+  html[data-theme="dark"] .custom-container p,
+  html[data-theme="dark"] .custom-container strong,
+  html[data-theme="dark"] .custom-container span,
+  html[data-theme="dark"] .custom-container li {
+    color: #0f172a !important;
+  }
+
+  /* Kontaktboksen: gør den stadig mørk eller lys? (jeg foreslår lys for at matche beige) */
+  html[data-theme="dark"] .custom-contact-box {
+    background-color: #F4F0EB !important; /* behold lys boks */
+    border-color: rgba(0,0,0,0.15) !important;
+    color: #0f172a !important;
+  }
+
+  /* Links på beige */
+  html[data-theme="dark"] .custom-container a {
+    color: #154360 !important; /* din theme blå */
+  }
+  /* ---------- END DARK MODE ---------- */ 
 </style>
 
 <div class="custom-container">
@@ -226,7 +263,7 @@ related_publications: false
             </div>
             <div class="contact-item">
                 <strong>Position:</strong>
-                <span>?</span>
+                <span>PhD Student</span>
             </div>
 
             <!-- Extra space between Position and Publications -->

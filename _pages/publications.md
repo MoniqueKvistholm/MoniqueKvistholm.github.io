@@ -118,4 +118,35 @@ nav_order: 4
     }
 }
 
+/* ---------- DARK MODE: keep Publications like LIGHT ---------- */
+html[data-theme="dark"] body {
+  background-color: #ffffff !important;
+}
+
+/* Sørg for at hero stadig bruger dit baggrundsbillede */
+html[data-theme="dark"] .hero-section {
+  background-image: url('/assets/img/Background_Publications7.png') !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+/* Tekstfarver som i light */
+html[data-theme="dark"] .hero-title,
+html[data-theme="dark"] .hero-text {
+  color: #112334 !important;
+}
+
+/* Link-bokse som i light */
+html[data-theme="dark"] .styled-link {
+  background-color: #648bbb !important;
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .styled-link:hover {
+  background-color: rgb(42, 74, 114) !important;
+  color: #ffffff !important;
+}
+/* ---------- END ---------- */
+
+
 </style>

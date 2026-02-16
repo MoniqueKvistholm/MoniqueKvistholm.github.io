@@ -65,7 +65,12 @@ let applyTheme = () => {
   // Set jupyter notebooks themes.
   let jupyterNotebooks = document.getElementsByClassName("jupyter-notebook-iframe-container");
   for (let i = 0; i < jupyterNotebooks.length; i++) {
-    let bodyElement = jupyterNotebooks[i].getElementsByTagName("iframe")[0].contentWindow.document.body;
+    let iframe = jupyterNotebooks[i].getElementsByTagName("iframe")[0];
+    if (!iframe || !iframe.contentWindow || !iframe.contentWindow.document) continue;
+
+    let bodyElement = iframe.contentWindow.document.body;
+    if (!bodyElement) continue;
+
     if (theme == "dark") {
       bodyElement.setAttribute("data-jp-theme-light", "false");
       bodyElement.setAttribute("data-jp-theme-name", "JupyterLab Dark");
@@ -84,12 +89,16 @@ let applyTheme = () => {
 };
 
 let setHighlight = (theme) => {
+  const lightEl = document.getElementById("highlight_theme_light");
+  const darkEl = document.getElementById("highlight_theme_dark");
+  if (!lightEl || !darkEl) return;
+
   if (theme == "dark") {
-    document.getElementById("highlight_theme_light").media = "none";
-    document.getElementById("highlight_theme_dark").media = "";
+    lightEl.media = "none";
+    darkEl.media = "";
   } else {
-    document.getElementById("highlight_theme_dark").media = "none";
-    document.getElementById("highlight_theme_light").media = "";
+    darkEl.media = "none";
+    lightEl.media = "";
   }
 };
 
@@ -232,21 +241,41 @@ let determineComputedTheme = () => {
 };
 
 let initTheme = () => {
-  let themeSetting = determineThemeSetting();
+  // If theme not stored yet -> default to system
+  if (!localStorage.getItem("theme")) {
+    localStorage.setItem("theme", "system");
+  }
 
-  setThemeSetting(themeSetting);
+  // Set the current theme setting attribute (system/light/dark)
+  const themeSetting = determineThemeSetting();
+  document.documentElement.setAttribute("data-theme-setting", themeSetting);
+
+  // Apply computed theme immediately to avoid weird "half" dark mode
+  const theme = determineComputedTheme();
+  document.documentElement.setAttribute("data-theme", theme);
+
+  // Run the rest of the theme application (highlight, giscus, etc.)
+  applyTheme();
 
   // Add event listener to the theme toggle button.
   document.addEventListener("DOMContentLoaded", function () {
     const mode_toggle = document.getElementById("light-toggle");
+    if (mode_toggle) {
+      mode_toggle.addEventListener("click", function () {
+        toggleThemeSetting();
+      });
+    }
+  });
 
-    mode_toggle.addEventListener("click", function () {
-      toggleThemeSetting();
+  // React only when user is in "system" mode
+  if (window.matchMedia) {
+    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
+      if (determineThemeSetting() === "system") {
+        applyTheme();
+      }
     });
-  });
-
-  // Add event listener to the system theme preference change.
-  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches }) => {
-    applyTheme();
-  });
+  }
 };
+
+// Run immediately (important if script is in <head>)
+initTheme();

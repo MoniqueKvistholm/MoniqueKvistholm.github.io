@@ -55,6 +55,43 @@ horizontal: false
       padding: 0 20px;
     }
   }
+
+  /* ---------- DARK MODE = SAME AS LIGHT (Projects page) ---------- */
+
+  html[data-theme="dark"] body {
+    background-color: #d9e6f2 !important; /* samme blå som light */
+    color: #000000 !important;
+  }
+
+  /* Intro tekst */
+  html[data-theme="dark"] .intro-container,
+  html[data-theme="dark"] .intro-container strong,
+  html[data-theme="dark"] .intro-container span {
+    color: #000000 !important;
+  }
+
+  /* Projekt bokse (Bootstrap cards) */
+  html[data-theme="dark"] .projects .card {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border: 1px solid rgba(0,0,0,0.1) !important;
+  }
+
+  /* Tekst inde i cards */
+  html[data-theme="dark"] .projects .card .card-title,
+  html[data-theme="dark"] .projects .card p,
+  html[data-theme="dark"] .projects .card a {
+    color: #000000 !important;
+  }
+
+  /* Årstal */
+  html[data-theme="dark"] .category {
+    color: #000000 !important;
+  }
+
+  /* ---------- END ---------- */
+
+
 </style>
 
 

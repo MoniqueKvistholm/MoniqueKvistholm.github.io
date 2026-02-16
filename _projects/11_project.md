@@ -118,7 +118,7 @@ related_publications: false
   }
 
   .figure-caption strong {
-    font-weight: bold; /* Make 'Figur' text bold */
+    font-weight: bold; /* Make 'Figure' text bold */
   }
 
   .img-fluid {
@@ -184,6 +184,65 @@ related_publications: false
       padding: 0; /* Remove padding inside columns on extra small screens */
     }
   }
+
+
+  /* Fix: tekst-noder direkte i kolonnen (ikke inde i <p>) */
+  html[data-theme="dark"] .custom-container article,
+  html[data-theme="dark"] .custom-container article .col-md-7 {
+    color: #0f172a !important;
+  }
+
+
+  /* ---------- DARK MODE ---------- */
+  html[data-theme="dark"] body {
+    background-color: #E6DED0 !important;
+    color: #0f172a !important;
+  }
+
+  html[data-theme="dark"] .custom-container {
+    background-color: #E6DED0 !important;
+    color: #0f172a !important;
+  }
+
+  /* Alt tekst inde i custom container skal være mørk (light look) */
+  html[data-theme="dark"] .custom-container h1,
+  html[data-theme="dark"] .custom-container h2,
+  html[data-theme="dark"] .custom-container h3,
+  html[data-theme="dark"] .custom-container h4,
+  html[data-theme="dark"] .custom-container h5,
+  html[data-theme="dark"] .custom-container p,
+  html[data-theme="dark"] .custom-container strong,
+  html[data-theme="dark"] .custom-container span,
+  html[data-theme="dark"] .custom-container li,
+  html[data-theme="dark"] .custom-container ul,
+  html[data-theme="dark"] .custom-container ol,
+  html[data-theme="dark"] .custom-container .post-description {
+    color: #0f172a !important;
+  }
+
+  /* VIGTIG: overstyr inline style="color: ..." der ellers kan blive for lys/faded i dark mode */
+  html[data-theme="dark"] .custom-container [style*="color:"],
+  html[data-theme="dark"] .custom-container [style*="color :"] {
+    color: #0f172a !important;
+  }
+
+  /* Kontaktboksen: behold lys boks */
+  html[data-theme="dark"] .custom-contact-box {
+    background-color: #F4F0EB !important;
+    border-color: rgba(0,0,0,0.15) !important;
+    color: #0f172a !important;
+  }
+
+  /* Links på beige */
+  html[data-theme="dark"] .custom-container a {
+    color: #154360 !important;
+  }
+
+  /* Figure captions */
+  html[data-theme="dark"] .custom-container .figure-caption {
+    color: #0f172a !important;
+  }
+  /* ---------- END DARK MODE ---------- */
 </style>
 
 <div class="custom-container">
@@ -197,11 +256,15 @@ related_publications: false
       <div class="row">
         <div class="col-md-7">
           <strong>Introduction</strong>
-          <p>This project explores the use of Natural Language Processing (NLP) to automate the annotation of Danish chest X-ray reports. By leveraging Artificial Intelligence (AI) -driven techniques, it aims to extract structured labels from free-text radiology reports, reducing the need for time-consuming manual annotations. This automated process is a crucial step toward developing an image classifier for thoracic X-rays, enhancing diagnostic workflows and improving accessibility to high-quality labeled datasets in non-English clinical settings.</p>
+          <p>
+            This project explores the use of Natural Language Processing (NLP) to automate the annotation of Danish chest X-ray reports. By leveraging Artificial Intelligence (AI) -driven techniques, it aims to extract structured labels from free-text radiology reports, reducing the need for time-consuming manual annotations. This automated process is a crucial step toward developing an image classifier for thoracic X-rays, enhancing diagnostic workflows and improving accessibility to high-quality labeled datasets in non-English clinical settings.
+          </p>
           <div style="height: 30px;"></div>
 
           <strong>Project Background</strong>
-          <p>Developing AI models for medical imaging requires large, well-annotated datasets. However, manual annotation by radiologists is both expensive and time-consuming. This challenge is especially significant in smaller languages such as Danish, where there are few tools available for the automated extraction of structured medical data.</p>
+          <p>
+            Developing AI models for medical imaging requires large, well-annotated datasets. However, manual annotation by radiologists is both expensive and time-consuming. This challenge is especially significant in smaller languages such as Danish, where there are few tools available for the automated extraction of structured medical data.
+          </p>
 
           <p>To address this, the project employs NLP techniques to extract structured labels from free-text X-ray reports. The approach consists of three key steps:</p>
 
@@ -215,88 +278,105 @@ related_publications: false
 
           <div style="height: 10px;"></div>
 
-          <span style="font-weight: bold; color: #4a4a4a;">Comparison & Evaluation</span>: Rule-based and machine learning labeling approaches are compared to determine their effectiveness, accuracy, and resource requirements.
+          <span style="font-weight: bold; color: #4a4a4a;">Comparison &amp; Evaluation</span>: Rule-based and machine learning labeling approaches are compared to determine their effectiveness, accuracy, and resource requirements.
 
           <div style="height: 25px;"></div>
 
-          <p>Through this comparison, the project aims to establish the most effective strategy for automating medical report annotation in Danish, providing a foundation for further AI-driven advancements in medical annotation.</p>
+          <p>
+            Through this comparison, the project aims to establish the most effective strategy for automating medical report annotation in Danish, providing a foundation for further AI-driven advancements in medical annotation.
+          </p>
           <div style="height: 30px;"></div>
 
           <strong>Project Potential</strong>
           <p>The findings from this project have important implications for clinical AI development, especially in non-English medical settings. The key contributions include:</p>
 
           <ul>
-            <li><span style="font-weight: bold; color: #4a4a4a;">Performance of NLP in Medical Danish: </span>The project demonstrated that Danish BERT-based models perform better than rule-based methods, particularly for identifying negative findings.</li>
+            <li>
+              <span style="font-weight: bold; color: #4a4a4a;">Performance of NLP in Medical Danish: </span>
+              The project demonstrated that Danish BERT-based models perform better than rule-based methods, particularly for identifying negative findings.
+            </li>
 
             <div style="height: 10px;"></div>
 
-            <li><span style="font-weight: bold; color: #4a4a4a;">Application Beyond Danish Radiology Reports: </span>These methods could also be applied to other medical datasets in non-English languages, promoting wider adoption of AI in healthcare.</li>
+            <li>
+              <span style="font-weight: bold; color: #4a4a4a;">Application Beyond Danish Radiology Reports: </span>
+              These methods could also be applied to other medical datasets in non-English languages, promoting wider adoption of AI in healthcare.
+            </li>
 
             <div style="height: 10px;"></div>
 
-            <li><span style="font-weight: bold; color: #4a4a4a;">Comparison & Evaluation: </span>Rule-based and machine learning labeling approaches are compared to determine their effectiveness, accuracy, and resource requirements.</li>
+            <li>
+              <span style="font-weight: bold; color: #4a4a4a;">Comparison &amp; Evaluation: </span>
+              Rule-based and machine learning labeling approaches are compared to determine their effectiveness, accuracy, and resource requirements.
+            </li>
           </ul>
 
-          <p>Despite these achievements, certain challenges remain, particularly in handling variation within Danish medical terminology and the limited availability of publicly accessible datasets. Addressing these will be crucial for further model improvements and clinical integration.</p>
+          <p>
+            Despite these achievements, certain challenges remain, particularly in handling variation within Danish medical terminology and the limited availability of publicly accessible datasets. Addressing these will be crucial for further model improvements and clinical integration.
+          </p>
         </div>
 
         <div class="col-md-5 figure-column">
           <div class="image-box">
             <div style="height: 15px;"></div>
+
+            <!-- Figure 1 (FIXET: ingen ekstra </div>, korrekt figcaption) -->
             <figure>
               <img src="{{ site.baseurl }}/assets/img/Billede_projekt_11.1.png" class="img-fluid" alt="Figure 1: Billede 1" />
               <div style="height: 10px;"></div>
-              <figcaption class="figure-caption"><strong>Figure 1:</strong> Overview of the annotation workflow for Danish chest X-ray reports. The figure illustrates how chest X-ray reports are annotated using both a rule-based method (RegEx) and a machine learning approach (BERT). BERT models trained on rule-based labels and fine-tuned on expert-annotated data improve classification performance, particularly for negative mentions.
-             </div>
-             <div style="height: 30px;"></div>
-            </figcaption>
+              <figcaption class="figure-caption">
+                <strong>Figure 1:</strong> Overview of the annotation workflow for Danish chest X-ray reports. The figure illustrates how chest X-ray reports are annotated using both a rule-based method (RegEx) and a machine learning approach (BERT). BERT models trained on rule-based labels and fine-tuned on expert-annotated data improve classification performance, particularly for negative mentions.
+              </figcaption>
+              <div style="height: 30px;"></div>
             </figure>
+
+            <!-- Figure 2 -->
             <figure>
-            <img src="{{ site.baseurl }}/assets/img/Billede_projekt_11.2.png" class="img-fluid" alt="Figure 2: Billede 2" />
-            <div style="height: 10px;"></div>
-            <figcaption class="figure-caption">
-              <strong>Figure 2:</strong> Macro F1 scores for different NLP models on the 
-              <span style="font-weight: bold; color: #4a4a4a;">HL</span> test set, comparing positive, negative, and weighted F1 performance. 
-              The table shows that <span style="font-weight: bold; color: #4a4a4a;">DanskBERT</span> achieves the highest overall weighted F1 score (0.778), while 
-              <span style="font-weight: bold; color: #4a4a4a;">XLM</span> performs best for positive mentions (0.756). 
-              Models trained specifically on Danish data generally outperform multilingual models, especially for negative findings, where 
-              <span style="font-weight: bold; color: #4a4a4a;">DanskBERT</span> has the highest score (0.717).
-            </figcaption>
+              <img src="{{ site.baseurl }}/assets/img/Billede_projekt_11.2.png" class="img-fluid" alt="Figure 2: Billede 2" />
+              <div style="height: 10px;"></div>
+              <figcaption class="figure-caption">
+                <strong>Figure 2:</strong> Macro F1 scores for different NLP models on the
+                <span style="font-weight: bold; color: #4a4a4a;">HL</span> test set, comparing positive, negative, and weighted F1 performance.
+                The table shows that <span style="font-weight: bold; color: #4a4a4a;">DanskBERT</span> achieves the highest overall weighted F1 score (0.778), while
+                <span style="font-weight: bold; color: #4a4a4a;">XLM</span> performs best for positive mentions (0.756).
+                Models trained specifically on Danish data generally outperform multilingual models, especially for negative findings, where
+                <span style="font-weight: bold; color: #4a4a4a;">DanskBERT</span> has the highest score (0.717).
+              </figcaption>
             </figure>
           </div>
+
           <div class="custom-contact-box mt-6 border rounded shadow-sm">
             <h4 class="small-header">Contact Information</h4>
             <div class="contact-item">
-                <strong>Name:</strong>
-                <span>Lea Marie Pehrson</span>
+              <strong>Name:</strong>
+              <span>Lea Marie Pehrson</span>
             </div>
             <div class="contact-item">
-                <strong>Email:</strong>
-                <span><a href="mailto:lea.marie.pehrson@gmail.com">lea.marie.pehrson@gmail.com</a></span>
+              <strong>Email:</strong>
+              <span><a href="mailto:lea.marie.pehrson@gmail.com">lea.marie.pehrson@gmail.com</a></span>
             </div>
             <div class="contact-item">
-                <strong>Location:</strong>
-                <span>Department of Radiology and Scanning, Rigshospitalet</span>
+              <strong>Location:</strong>
+              <span>Department of Radiology and Scanning, Rigshospitalet</span>
             </div>
             <div class="contact-item">
-                <strong>Position:</strong>
-                <span>PhD Student</span>
+              <strong>Position:</strong>
+              <span>PhD Student</span>
             </div>
 
-            <!-- Extra space between Position and Publications -->
             <div class="contact-item spacer"></div>
 
             <h4 class="small-header">Publications</h4>
-           <div class="contact-item">
-              <p><a class="publication-link" href="https://www.mdpi.com/2673-2688/6/2/37">Effective Machine Learning Techniques for Non-English Radiology Report Classification: A Danish Case Study</a></p>
+            <div class="contact-item">
+              <p>
+                <a class="publication-link" href="https://www.mdpi.com/2673-2688/6/2/37">
+                  Effective Machine Learning Techniques for Non-English Radiology Report Classification: A Danish Case Study
+                </a>
+              </p>
             </div>
           </div>
         </div>
       </div>
     </article>
-
   </div>
 </div>
-
-
-

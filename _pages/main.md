@@ -269,6 +269,49 @@ body {
   }
 }
 
+/* ---------- MAIN: make dark mode look like light mode ---------- */
+/* Ram alle dark-mode attributter (nogle themes bruger data-theme-setting) */
+html[data-theme="dark"] body,
+html[data-theme-setting="dark"] body,
+body[data-theme="dark"],
+body[data-theme-setting="dark"]{
+  background: #ffffff !important;
+}
+
+/* Layout-wrappere som ofte får mørk baggrund */
+html[data-theme="dark"] .post,
+html[data-theme-setting="dark"] .post,
+body[data-theme="dark"] .post,
+body[data-theme-setting="dark"] .post,
+html[data-theme="dark"] .container,
+html[data-theme-setting="dark"] .container,
+body[data-theme="dark"] .container,
+body[data-theme-setting="dark"] .container,
+html[data-theme="dark"] .container-fluid,
+html[data-theme-setting="dark"] .container-fluid,
+body[data-theme="dark"] .container-fluid,
+body[data-theme-setting="dark"] .container-fluid{
+  background: #ffffff !important;
+}
+
+/* Hvis noget ligger som et “mørkt bånd” pga. section margin/collapse,
+   så sørg for at selve dine sektioner også matcher light */
+html[data-theme="dark"] .section-1,
+html[data-theme-setting="dark"] .section-1,
+body[data-theme="dark"] .section-1,
+body[data-theme-setting="dark"] .section-1{
+  background-color: #EFEBE2 !important;
+}
+
+html[data-theme="dark"] .section-2,
+html[data-theme-setting="dark"] .section-2,
+body[data-theme="dark"] .section-2,
+body[data-theme-setting="dark"] .section-2{
+  background-color: #FFFFFF !important;
+}
+/* ---------- END ---------- */
+
+
 </style>
 
 <!-- Hero Section with Large Image -->

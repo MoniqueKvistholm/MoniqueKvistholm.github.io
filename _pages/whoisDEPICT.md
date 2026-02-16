@@ -248,6 +248,76 @@ body {
   }
 }
 
+/* =========================
+   ABOUT: force LIGHT look
+   (also when dark mode is on)
+   ========================= */
+
+/* Baggrund på siden */
+html[data-theme="dark"] body,
+body[data-theme="dark"],
+[data-theme="dark"] body {
+  background: #ffffff !important;
+  color: #000e16 !important;
+}
+
+/* Bevar dine section-baggrunde som light */
+html[data-theme="dark"] .hero-section {
+  background-color: #9DC0D1 !important;
+}
+
+html[data-theme="dark"] .about-us {
+  background-color: #FFFFFF !important;
+}
+
+html[data-theme="dark"] .vision {
+  background-color: #B1A294 !important;
+}
+
+html[data-theme="dark"] .additional,
+html[data-theme="dark"] .clearfix,
+html[data-theme="dark"] .column {
+  background-color: #FFFFFF !important;
+}
+
+/* Tekstfarver som light */
+html[data-theme="dark"] .content,
+html[data-theme="dark"] .section-title,
+html[data-theme="dark"] .purpose-vision,
+html[data-theme="dark"] .hero-content p,
+html[data-theme="dark"] .hero-content-box p,
+html[data-theme="dark"] .vision-item,
+html[data-theme="dark"] .column h2,
+html[data-theme="dark"] .column p,
+html[data-theme="dark"] h5 {
+  color: #000e16 !important;
+}
+
+/* Boxen i hero (behold light box) */
+html[data-theme="dark"] .hero-content-box {
+  background-color: #F0F0F0 !important;
+}
+
+/* Hero title farve som light */
+html[data-theme="dark"] .hero-content h1 {
+  color: #1F4A60 !important;
+}
+
+/* Buttons som light */
+html[data-theme="dark"] .btn {
+  background-color: #1F4A60 !important;
+  color: #ffffff !important;
+}
+html[data-theme="dark"] .btn:hover {
+  background-color: #113242 !important;
+}
+
+/* Links */
+html[data-theme="dark"] a {
+  color: #007bff !important;
+}
+
+
 </style>
 
 <!-- Hero Section with Large Image and Text Overlay -->

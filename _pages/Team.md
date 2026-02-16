@@ -343,6 +343,37 @@ nav_order: 3
             }
         }
 
+        /* ---------- DARK MODE: keep same BACKGROUNDS as LIGHT ---------- */
+
+    /* side-baggrund */
+    html[data-theme="dark"] body {
+    background-color: #ffffff !important;
+    }
+
+    /* intro top (brun) */
+    html[data-theme="dark"] .intro-section {
+    background-color: #6A5B4E !important;
+    }
+
+    /* team-sektionen (beige) */
+    html[data-theme="dark"] .team-section {
+    background-color: #E6DED0 !important;
+    }
+
+    /* hvis du bruger organization-section andre steder */
+    html[data-theme="dark"] .organization-container,
+    html[data-theme="dark"] .organization-section {
+    background-color: #EBF8FF !important;
+    }
+
+    /* modals skal stadig være hvide (som light) */
+    html[data-theme="dark"] .modal-content {
+    background-color: #ffffff !important;
+    }
+
+    /* ---------- END BG FIX ---------- */
+
+
     </style>
 </head>
 <body>

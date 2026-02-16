@@ -144,4 +144,42 @@ nav_order: 5
       max-width: 300px; /* Gør knappen mindre */
     }
   }
+
+  /* ---------- DARK MODE: keep GitHub like LIGHT ---------- */
+
+  html[data-theme="dark"] body {
+    background-color: #ffffff !important;
+  }
+
+  /* Behold baggrundsbilledet */
+  html[data-theme="dark"] .hero-section {
+    background-image: url('/assets/img/Background_GitHub5.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+
+  /* Behold samme tekstfarver som light */
+  html[data-theme="dark"] .hero-title,
+  html[data-theme="dark"] .hero-text {
+    color: rgb(42, 74, 114) !important;
+  }
+
+  /* Behold samme knapfarver */
+  html[data-theme="dark"] .styled-link {
+    background-color: rgb(42, 74, 114) !important;
+    color: rgb(210, 214, 220) !important;
+  }
+
+  html[data-theme="dark"] .styled-link:hover {
+    background-color: rgb(19, 33, 49) !important;
+    color: #ffffff !important;
+  }
+
+  /* Fjern evt. dark overlay fra theme */
+  html[data-theme="dark"] .hero-overlay {
+    background: transparent !important;
+  }
+
+  /* ---------- END ---------- */
+
 </style>

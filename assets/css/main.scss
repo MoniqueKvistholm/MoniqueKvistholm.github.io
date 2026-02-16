@@ -156,3 +156,70 @@ footer.footer-custom {
 .contact-box {
     margin-bottom: 50px; /* Tilføjer luft under kontaktboksen */
 }
+
+
+/* =========================================================
+   FORCE NAVBAR TO LOOK LIKE LIGHT MODE (even in dark mode)
+   ========================================================= */
+html[data-theme="dark"] #navbar,
+html[data-theme-setting="dark"] #navbar,
+body[data-theme="dark"] #navbar,
+body[data-theme-setting="dark"] #navbar {
+  background: #ffffff !important;
+  border-bottom: 1px solid rgba(0,0,0,0.10) !important;
+}
+
+/* Links */
+html[data-theme="dark"] #navbar .nav-link,
+html[data-theme-setting="dark"] #navbar .nav-link,
+body[data-theme="dark"] #navbar .nav-link,
+body[data-theme-setting="dark"] #navbar .nav-link {
+  color: #062A40 !important;
+}
+
+/* Active link */
+html[data-theme="dark"] #navbar .nav-item.active > .nav-link,
+html[data-theme-setting="dark"] #navbar .nav-item.active > .nav-link {
+  color: #007bff !important;
+}
+
+/* Brand (DEPICT) */
+html[data-theme="dark"] #navbar .navbar-brand,
+html[data-theme-setting="dark"] #navbar .navbar-brand,
+html[data-theme="dark"] #navbar .navbar-brand.title,
+html[data-theme-setting="dark"] #navbar .navbar-brand.title {
+  color: #062A40 !important;
+  opacity: 1 !important;
+  filter: none !important;
+  text-shadow: none !important;
+}
+
+/* Hvis der er spans/children inde i brand */
+html[data-theme="dark"] #navbar .navbar-brand *,
+html[data-theme-setting="dark"] #navbar .navbar-brand * {
+  color: #062A40 !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+
+/* Dropdown */
+html[data-theme="dark"] #navbar .dropdown-menu,
+html[data-theme-setting="dark"] #navbar .dropdown-menu {
+  background: #ffffff !important;
+  border: 1px solid rgba(0,0,0,0.12) !important;
+}
+html[data-theme="dark"] #navbar .dropdown-item,
+html[data-theme-setting="dark"] #navbar .dropdown-item {
+  color: #062A40 !important;
+}
+html[data-theme="dark"] #navbar .dropdown-item.active,
+html[data-theme-setting="dark"] #navbar .dropdown-item.active {
+  background: rgba(0,123,255,0.10) !important;
+  color: #007bff !important;
+}
+
+
+
+
+

@@ -1,6 +1,9 @@
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
 
+<!-- Tell browser we support light/dark -->
+<meta name="color-scheme" content="light dark">
+
 <!-- Favicon -->
 <link rel="icon" href="{{ '/assets/img/DEPICT_Logo2.png' | relative_url | bust_file_cache }}" type="image/png">
 
@@ -66,6 +69,7 @@
 
 <!-- Dark Mode -->
 <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
+
 {% if site.enable_darkmode %}
   <link
     defer
@@ -74,10 +78,12 @@
     media="none"
     id="highlight_theme_dark"
   >
-  <script>
-    initTheme();
-  </script>
 {% endif %}
+
+<script>
+  // Always initialize theme early to prevent weird forced-dark rendering
+  initTheme();
+</script>
 
 <!-- GeoJSON support via Leaflet -->
 {% if page.map %}
