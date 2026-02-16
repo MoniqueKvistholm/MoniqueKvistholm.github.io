@@ -1,10 +1,10 @@
 ---
 layout: default2
-title: Digital Twin for PET Scanning
+title: Normal Twin PET - Personalized Baseline for Whole-Body PET Analysis
 description: PhD Project by Christian Hinge
-img: assets/img/P1.jpg
-importance: 15
-category: 2024
+img: assets/img/P15.jpg
+importance: 1
+category: 2026
 related_publications: false
 ---
 
@@ -162,20 +162,20 @@ related_publications: false
       <div class="row">
         <div class="col-md-7">
           <strong>Introduction</strong>
-          <p>The aim of this project is to enhance the diagnostic potential of whole-body Positron Emission Tomography/Computed Tomography (PET/CT) imaging by creating personalized synthetic healthy PET baselines using advanced Deep Learning techniques.</p>
+          <p>Whole-body PET/CT imaging is widely used for disease diagnosis and treatment assessment, but quantitative analysis is challenged by large interpatient variability caused by physiological FDG uptake patterns. Factors such as age, body composition, scanner type, and uptake time can obscure disease-related signals and limit diagnostic precision.</p>
 
           <strong>Project Background</strong>
-          <p>Whole-body PET/CT imaging with FDG tracers is an invaluable diagnostic tool widely used in hospitals for detecting, diagnosing, and monitoring various diseases. However, standard analysis methods lack personalized healthy control images, reducing their precision and limiting the full diagnostic and prognostic potential of PET/CT imaging. This project addresses this limitation by introducing advanced Deep Learning techniques to synthesize personalized PET images based on the patient's own whole-body CT scans. This approach enables the development of images that reflect the individual patient's anatomical and physiological characteristics, increasing the accuracy of differentiating between normal and diseased states.</p>
+          <p>This study presents a novel deep learning approach for generating personalized normal twin PET images based on the patient's own CT scans. The synthetic normal twin represents how the patient’s PET image would appear under healthy conditions and serves as an individualized reference baseline. By comparing PET images with their normal twins, the method enables confounder correction and robust anomaly detection. The approach for generating the normal twin is illustrated in Figure 1.</p>
 
           <strong>Project Potential</strong>
-          <p>The project has the potential to detect deviations and subtle changes in organ uptake patterns by comparing the patient's digital twin with the actual PET scan. For example, in diabetes, a personalized healthy PET image can assess the disease by comparing it to the actual observed uptake. This project represents an innovative approach to improving diagnostic analysis methods, enhancing the accuracy of diagnoses, and increasing the effectiveness of treatment for individual patients.</p>
+          <p>The developed model generates patient-specific normal PET images and supports quantitative correction of physiological variability. Initial results demonstrate a significant reduction of SUV variance and improved detection of abnormal uptake patterns without requiring manually annotated training data.</p>
         </div>
 
         <div class="col-md-5 figure-column">
-          {% include figure.liquid loading="eager" path="assets/img/P1.jpg" title="Example image" class="img-fluid rounded z-depth-1" %}
+          {% include figure.liquid loading="eager" path="assets/img/Billede_projekt_15.1" title="Example image" class="img-fluid rounded z-depth-1" %}
 
           <div class="caption mt-3">
-            <p><strong>Figure 1:</strong> Application of healthy PET for lymphoma detection. From left: CT, PET, sbPET: Synthetic healthy PET image, Abnormality: difference between PET and synthetic PET, Segmentation: identified cancerous areas.</p>
+            <p><strong>Figure 1:</strong> Normal Twin PET pipeline. Personalized normal PET images are generated from CT and patient attributes and used for confounder correction and anomaly detection.</p>
           </div>
 
           <div class="custom-contact-box mt-4 border rounded shadow-sm">
@@ -202,7 +202,7 @@ related_publications: false
 
             <h4 class="small-header">Publications</h4>
             <div class="contact-item">
-              <p><a class="publication-link" href="https://jnm.snmjournals.org/content/65/supplement_2/241648">A healthy synthetic FDG PET baseline for abnormality detection in lymphoma patients using Total Body PET/CT</a></p>
+              <p><a class="publication-link" href="https://www.nature.com/articles/s41598-025-26827-y">Normal twin PET: personalized generative modeling for confounder correction and anomaly detection in whole-body PET/CT</a></p>
             </div>
           </div>
         </div>

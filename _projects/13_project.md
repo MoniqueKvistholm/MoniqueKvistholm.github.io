@@ -3,7 +3,7 @@ layout: default2
 title: Quantitative Image-Derived Input Function for the Estimation of Cerebral Blood Flow
 description: Project by Thomas Lund Anderesen
 img: assets/img/P13.jpg
-importance: 2
+importance: 3
 category: 2025
 related_publications: false
 ---

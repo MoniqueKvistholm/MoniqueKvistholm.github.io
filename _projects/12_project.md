@@ -3,7 +3,7 @@ layout: default2
 title: Device-Less Data-Driven Cardiac and Respiratory Gating in PET Imaging
 description: Project by Nanna Overbeck
 img: assets/img/P12.jpg
-importance: 3
+importance: 4
 category: 2025
 related_publications: false
 ---
