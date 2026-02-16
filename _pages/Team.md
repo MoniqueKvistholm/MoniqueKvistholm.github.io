@@ -371,6 +371,17 @@ nav_order: 3
         background-color: #ffffff !important;
         }
 
+        /* ---------- DARK MODE: fix TEAM text (names + roles + modal) ---------- */
+        html[data-theme="dark"] .team-section .team-member h3,
+        html[data-theme="dark"] .team-section .team-member p,
+        html[data-theme="dark"] .modal-content h3,
+        html[data-theme="dark"] .modal-content p,
+        html[data-theme="dark"] .modal-content strong {
+        color: #0f172a !important;   /* mørk tekst på beige/hvid */
+        opacity: 1 !important;
+        filter: none !important;
+        }
+
         /* ---------- END BG FIX ---------- */
 
     </style>

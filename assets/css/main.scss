@@ -193,6 +193,10 @@ html[data-theme-setting="dark"] #navbar .navbar-brand.title {
   filter: none !important;
   text-shadow: none !important;
 }
+html[data-theme="dark"] #navbar a.navbar-brand.title.font-weight-light {
+  opacity: 1 !important;
+}
+
 
 /* Hvis der er spans/children inde i brand */
 html[data-theme="dark"] #navbar .navbar-brand *,
@@ -226,4 +230,19 @@ html[data-theme="dark"] #navbar .navbar-brand .font-weight-bold {
   opacity: 1 !important;
 }
 
+
+
+/* =========================================
+   TEAM: force readable text in dark mode
+   ========================================= */
+
+html[data-theme="dark"] .card,
+html[data-theme="dark"] .card-body,
+html[data-theme="dark"] .card-title,
+html[data-theme="dark"] .card-text,
+html[data-theme="dark"] .modal-content,
+html[data-theme="dark"] .modal-body,
+html[data-theme="dark"] .modal-title {
+  color: #0f172a !important;
+}
 
