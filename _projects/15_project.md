@@ -209,7 +209,7 @@ related_publications: false
         </div>
 
         <div class="col-md-5 figure-column">
-          {% include figure.liquid loading="eager" path="assets/img/Billede_projekt_15.1" title="Example image" class="img-fluid rounded z-depth-1" %}
+          {% include figure.liquid loading="eager" path="assets/img/Billede_projekt_15.1.jpg" title="Example image" class="img-fluid rounded z-depth-1" %}
 
           <div class="caption mt-3">
             <p><strong>Figure 1:</strong> Normal Twin PET pipeline. Personalized normal PET images are generated from CT and patient attributes and used for confounder correction and anomaly detection.</p>

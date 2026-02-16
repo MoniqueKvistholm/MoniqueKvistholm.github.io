@@ -212,8 +212,6 @@ related_publications: false
   }
 
 
-  
-
   /* Kontaktboksen: gør den stadig mørk eller lys? (jeg foreslår lys for at matche beige) */
   html[data-theme="dark"] .custom-contact-box {
     background-color: #F4F0EB !important; /* behold lys boks */

@@ -56,7 +56,7 @@ horizontal: false
     }
   }
 
-  /* ---------- DARK MODE = SAME AS LIGHT (Projects page) ---------- */
+  /* ---------- DARK MODE ---------- */
 
   html[data-theme="dark"] body {
     background-color: #d9e6f2 !important; /* samme blå som light */

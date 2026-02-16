@@ -214,6 +214,7 @@ related_publications: false
   .small-text {
   font-size: 0.8em; /* Juster efter behov for at gøre teksten mindre */
   }
+  
   /* ---------- DARK MODE ---------- */
   html[data-theme="dark"] body {
     background-color: #E6DED0 !important;
