@@ -408,7 +408,7 @@ nav_order: 3
             <button class="tab-button" onclick="showTab('ai-research-directors')">AI Research Directors</button>
             <button class="tab-button" onclick="showTab('board-of-directors')">Board of Directors</button>
             <button class="tab-button" onclick="showTab('associated-researchers')">Associated Researchers</button>
-            <button class="tab-button" onclick="showTab('phd-students')">PhD Students</button>
+            <button class="tab-button" onclick="showTab('students')">Students</button>
         </div>
 
         <div style="height: 10px;"></div>
@@ -537,85 +537,218 @@ nav_order: 3
             </div>
         </div>
 
-        <!-- Ph.D Students -->
-        <div id="phd-students" class="tab-content" style="display:none;">
+
+        <!-- Students -->
+        <div id="students" class="tab-content" style="display:none;">
+
+            <h2 class="team-title" style="margin-bottom: 30px;">PhD Students</h2>
             <div class="team-grid">
                 <div class="team-member" onclick="openModal('modal18')">
                     <img src="/assets/img/Christian_person.png" alt="Christian Hinge">
                     <h3>Christian Hinge</h3>
                     <p>PhD Student</p>
                 </div>
-                <div class="team-member" onclick="openModal('modal19')">
-                    <img src="/assets/img/placeholder_person.png" alt="Amalie Monberg Hindsholm">
-                    <h3>Amalie Monberg Hindsholm</h3>
-                    <p>PhD Student</p>
-                </div>
+
                 <div class="team-member" onclick="openModal('modal20')">
                     <img src="/assets/img/Nanna_person.png" alt="Nanna Overbeck Petersen">
                     <h3>Nanna Overbeck Petersen</h3>
                     <p>PhD Student</p>
                 </div>
-                <div class="team-member" onclick="openModal('modal21')">
-                    <img src="/assets/img/placeholder_person.png" alt="David Kovacs Petersen">
-                    <h3>David Kovacs Petersen</h3>
-                    <p>PhD Student</p>
-                </div>
+
+
                 <div class="team-member" onclick="openModal('modal23')">
                     <img src="/assets/img/Peter_person.png" alt="Peter Jagd Sørensen">
                     <h3>Peter Jagd Sørensen</h3>
                     <p>PhD Student</p>
                 </div>
+
+                <div class="team-member" onclick="openModal('modal29')">
+                    <img src="/assets/img/JonathanFryd_person.png" alt="Jonathan Frydenlund Cohen">
+                    <h3>Jonathan Frydenlund Cohen</h3>
+                    <p>PhD Student</p>
+                </div>
+
+                <div class="team-member" onclick="openModal('modal30')">
+                    <img src="/assets/img/placeholder_person.png" alt="Marie Manon Krarup Stolberg">
+                    <h3>Marie Manon Krarup Stolberg</h3>
+                    <p>PhD Student</p>
+                </div>
+
+                <div class="team-member" onclick="openModal('modal31')">
+                    <img src="/assets/img/Mathilde_person.jpeg" alt="Mathilde Borring Brogaard">
+                    <h3>Mathilde Borring Brogaard</h3>
+                    <p>PhD Student</p>
+                </div>
+
+                <div class="team-member" onclick="openModal('modal32')">
+                    <img src="/assets/img/placeholder_person.png" alt="Sabrina Honoré d'Este">
+                    <h3>Sabrina Honoré d'Este</h3>
+                    <p>PhD Student</p>
+                </div>
+
+                <div class="team-member" onclick="openModal('modal46')">
+                    <img src="/assets/img/Theis_person.jpeg" alt="Theis Voss">
+                    <h3>Theis Voss</h3>
+                    <p>PhD Student</p>
+                </div>
+
+            </div>
+
+            <div style="height: 60px;"></div>
+
+            <h2 class="team-title" style="margin-bottom: 30px;">Student Researchers</h2>
+            <div class="team-grid">
+                
+                <div class="team-member" onclick="openModal('modal33')">
+                    <img src="/assets/img/Edvin_person.jpeg" alt="Edvin Smajlovic">
+                    <h3>Edvin Smajlovic</h3>
+                    <p>Master's Student</p>
+                </div>
+
+                <div class="team-member" onclick="openModal('modal34')">
+                    <img src="/assets/img/Frederikke_person.jpeg" alt="Frederikke Engel Høi-Hansen">
+                    <h3>Frederikke Engel Høi-Hansen</h3>
+                    <p>Master's Student</p>
+                </div>
+
+                <div class="team-member" onclick="openModal('modal35')">
+                    <img src="/assets/img/placeholder_person.png" alt="Freja Ehmsen Berthn">
+                    <h3>Freja Ehmsen Berth</h3>
+                    <p>Master's Student</p>
+                </div>
+
+                <div class="team-member" onclick="openModal('modal36')">
+                    <img src="/assets/img/Amelia_person.png" alt="Amelia Yan Kay Lau">
+                    <h3>Amelia Yan Kay Lau</h3>
+                    <p>Master's Student</p>
+                </div>
+
+                <div class="team-member" onclick="openModal('modal37')">
+                    <img src="/assets/img/placeholder_person.png" alt="Mattis Hrdy Hargreave">
+                    <h3>Mattis Hrdy Hargreave</h3>
+                    <p>Bachelor's Student</p>
+                </div>
+
+                <div class="team-member" onclick="openModal('modal38')">
+                    <img src="/assets/img/Asger_person.png" alt="Asger Gadeberg">
+                    <h3>Asger Gadeberg</h3>
+                    <p>Bachelor's Student</p>
+                </div>
+
+                <div class="team-member" onclick="openModal('modal39')">
+                    <img src="/assets/img/Vaibhav_person.jpeg" alt="Vaibhav Bahel">
+                    <h3>Vaibhav Bahel</h3>
+                    <p>Master's Student</p>
+                </div>
+
+                <div class="team-member" onclick="openModal('modal40')">
+                    <img src="/assets/img/placeholder_person.png" alt="Layla Monica Doumont">
+                    <h3>Layla Monica Doumont</h3>
+                    <p>Master's Student</p>
+                </div>
+
+                <div class="team-member" onclick="openModal('modal41')">
+                    <img src="/assets/img/Carl_person.jpeg" alt="Carl Villads Priisholm">
+                    <h3>Carl Villads Priisholm</h3>
+                    <p>Master's Student</p>
+                </div>
+
+                <div class="team-member" onclick="openModal('modal42')">
+                    <img src="/assets/img/placeholder_person.png" alt="Othilia Elise Wagner">
+                    <h3>Othilia Elise Wagner</h3>
+                    <p>Master's Student</p>
+                </div>
+
+                <div class="team-member" onclick="openModal('modal43')">
+                    <img src="/assets/img/placeholder_person.png" alt="Dorthea Nørregaard">
+                    <h3>Dorthea Nørregaard</h3>
+                    <p>Master's Student</p>
+                </div>
+
+                 <div class="team-member" onclick="openModal('modal44')">
+                    <img src="/assets/img/Monique_person.jpeg" alt="Monique Kvistholm">
+                    <h3>Monique Kvistholm</h3>
+                    <p>Master's Student</p>
+                </div>
+
+                <div class="team-member" onclick="openModal('modal45')">
+                    <img src="/assets/img/placeholder_person.png" alt="Clara Maria Bech-Thomsen">
+                    <h3>Clara Maria Bech-Thomsen</h3>
+                    <p>Master's Student</p>
+                </div>
+
+            </div>
+
+            <div style="height: 60px;"></div>
+
+            <h2 class="team-title" style="margin-bottom: 30px;">Former Students</h2>
+            <div class="team-grid">
+                
+                <div class="team-member" onclick="openModal('modal21')">
+                    <img src="/assets/img/David_person.png" alt="David Kovacs Petersen">
+                    <h3>David Kovacs Petersen</h3>
+                    <p>Former PhD Student</p>
+                </div>
+
                 <div class="team-member" onclick="openModal('modal25')">
                     <img src="/assets/img/placeholder_person.png" alt="Lea Marie Pehrson">
                     <h3>Lea Marie Pehrson</h3>
-                    <p>PhD Student</p>
+                    <p>Former PhD Student</p>
                 </div>
+
             </div>
         </div>
 
-        <!-- Associated Researchers -->
-        <div id="associated-researchers" class="tab-content" style="display:none;">
-            <div class="team-grid">
-                <div class="team-member" onclick="openModal('modal22')">
-                    <img src="/assets/img/placeholder_person.png" alt="Thomas Lund Andersen">
-                    <h3>Thomas Lund Andersen</h3>
-                    <p>Physicist</p>
+                <!-- Associated Researchers -->
+                <div id="associated-researchers" class="tab-content" style="display:none;">
+                    <div class="team-grid">
+                        <div class="team-member" onclick="openModal('modal22')">
+                            <img src="/assets/img/Thomas_person.jpg" alt="Thomas Lund Andersen">
+                            <h3>Thomas Lund Andersen</h3>
+                            <p>Physicist</p>
+                        </div>
+
+                        <div class="team-member" onclick="openModal('modal28')">
+                            <img src="/assets/img/Zuzanna_person.png" alt="Zuzanna Czelusniak">
+                            <h3>Zuzanna Czelusniak</h3>
+                            <p>PhD Student</p>
+                        </div>
+
+                        <div class="team-member" onclick="openModal('modal19')">
+                            <img src="/assets/img/placeholder_person.png" alt="Amalie Monberg Hindsholm">
+                            <h3>Amalie Monberg Hindsholm</h3>
+                            <p>Postdoc</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="team-member" onclick="openModal('modal28')">
-                    <img src="/assets/img/placeholder_person.png" alt="Zuzanna Czelusniak">
-                    <h3>Zuzanna Czelusniak</h3>
-                    <p>PhD Student</p>
+
+            
+                <!-- Placeholder for footer positioning -->
+                <div style="height: 200px;"></div>
+            </div>
+            </div>
+
+            <!-- Modals -->
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('modal1')">&times;</span>
+                    <img src="/assets/img/Flemming_person.png" alt="Flemming Littrup Andersen">
+                    <h3>Flemming Littrup Andersen</h3>
+                    <p>Professor, Lead Data Scientist</p>
+                    <div style="height: 15px;"></div>
+                    <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/flemming-littrup-andersen/publications/" target="_blank">Click to view Flemming's publications</a> </div>
+
+                    <p class="additional-details">
+                        Flemming Littrup Andersen is a Professor and Lead Data Scientist at Rigshospitalet, specializing in PET imaging, artificial intelligence, dataflow, and image modeling. He holds a PhD and brings extensive expertise to his role in advancing these fields.
+                        <br><br>
+                        Email: <a href="mailto:flemming.andersen@regionh.dk">flemming.andersen@regionh.dk</a>
+                        <br>
+                        Phone: <a href="tel:+4535458143">+45 35-45 81-43</a>
+                        <br>
+                        Location: 3982, Clinical Physiology and Nuclear Medicine
+                    </p>
                 </div>
             </div>
-        </div>
-
-     
-        <!-- Placeholder for footer positioning -->
-        <div style="height: 200px;"></div>
-    </div>
-    </div>
-
-    <!-- Modals -->
-    <div id="modal1" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('modal1')">&times;</span>
-            <img src="/assets/img/Flemming_person.png" alt="Flemming Littrup Andersen">
-            <h3>Flemming Littrup Andersen</h3>
-            <p>Professor, Lead Data Scientist</p>
-            <div style="height: 15px;"></div>
-            <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/flemming-littrup-andersen/publications/" target="_blank">Click to view Flemming's publications</a> </div>
-
-            <p class="additional-details">
-                Flemming Littrup Andersen is a Professor and Lead Data Scientist at Rigshospitalet, specializing in PET imaging, artificial intelligence, dataflow, and image modeling. He holds a PhD and brings extensive expertise to his role in advancing these fields.
-                <br><br>
-                Email: <a href="mailto:flemming.andersen@regionh.dk">flemming.andersen@regionh.dk</a>
-                <br>
-                Phone: <a href="tel:+4535458143">+45 35-45 81-43</a>
-                <br>
-                Location: 3982, Clinical Physiology and Nuclear Medicine
-            </p>
-        </div>
-    </div>
 
     <div id="modal2" class="modal">
         <div class="modal-content">
@@ -927,7 +1060,7 @@ nav_order: 3
             <span class="close" onclick="closeModal('modal19')">&times;</span>
             <img src="/assets/img/placeholder_person.png" alt="Amalie Monberg Hindsholm">
             <h3>Amalie Monberg Hindsholm</h3>
-            <p>PhD Student</p>
+            <p>Postdoc</p>
             <div style="height: 15px;"></div>
             <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/amalie-monberg-hindsholm/publications/" target="_blank">Click to view Amalie's publications</a> </div>
             <p class="additional-details">
@@ -957,9 +1090,9 @@ nav_order: 3
     <div id="modal21" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal21')">&times;</span>
-            <img src="/assets/img/placeholder_person.png" alt="David Kovacs Petersen">
+            <img src="/assets/img/David_person.png" alt="David Kovacs Petersen">
             <h3>David Kovacs Petersen</h3>
-            <p>PhD Student</p>
+            <p>Former PhD Student</p>
             <div style="height: 15px;"></div>
             <div style="white-space: nowrap;"> <strong>Publications:</strong> <a href="https://research.regionh.dk/en/persons/david-gergely-petersen-kovacs/publications/" target="_blank">Click to view David's publications</a> </div>
             <p class="additional-details">
@@ -973,7 +1106,7 @@ nav_order: 3
     <div id="modal22" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal22')">&times;</span>
-            <img src="/assets/img/placeholder_person.png" alt="Thomas Lund Andersen">
+            <img src="/assets/img/Thomas_person.jpg" alt="Thomas Lund Andersen">
             <h3>Thomas Lund Andersen</h3>
             <p>Physicist</p>
             <div style="height: 15px;"></div>
@@ -1022,7 +1155,7 @@ nav_order: 3
             <span class="close" onclick="closeModal('modal25')">&times;</span>
             <img src="/assets/img/placeholder_person.png" alt="Lea Marie Pehrson">
             <h3>Lea Marie Pehrson</h3>
-            <p>PhD Student</p>
+            <p>Former PhD Student</p>
             <p class="additional-details">
                 Email: <a href="mailto:lea.marie.pehrson@gmail.com">lea.marie.pehrson@gmail.com</a>
             </p>
@@ -1064,7 +1197,7 @@ nav_order: 3
     <div id="modal28" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal28')">&times;</span>
-            <img src="/assets/img/placeholder_person.png" alt="Zuzanna Czelusniak">
+            <img src="/assets/img/Zuzanna_person.png" alt="Zuzanna Czelusniak">
             <h3>Zuzanna Czelusniak</h3>
             <p>PhD Student</p>
             <p class="additional-details">
@@ -1075,36 +1208,306 @@ nav_order: 3
         </div>
     </div>
 
+    <div id="modal29" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal29')">&times;</span>
+            <img src="/assets/img/JonathanFryd_person.png" alt="Jonathan Frydenlund Cohen">
+            <h3>Jonathan Frydenlund Cohen</h3>
+            <p>PhD Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:jonathan.cohen@regionh.dk.dk">jonathan.cohen@regionh.dk</a>
+                <br>
+            </p>
+        </div>
+    </div>
+
+
+    <div id="modal30" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal30')">&times;</span>
+            <img src="/assets/img/placeholder_person.png" alt="Marie Manon Krarup Stolberg">
+            <h3>Marie Manon Krarup Stolberg</h3>
+            <p>PhD Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:marie.manon.krebs.krarup@regionh.dk.dk">marie.manon.krebs.krarup@regionh.dk</a>
+                <br>
+            </p>
+        </div>
+    </div>
+
+    <div id="modal31" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal31')">&times;</span>
+            <img src="/assets/img/Mathilde_person.jpeg" alt="Mathilde Borring Brogaard">
+            <h3>Mathilde Borring Brogaard</h3>
+            <p>PhD Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:mathilde.borring.brogaard@regionh.dk ">mathilde.borring.brogaard@regionh.dk </a>
+                <br>
+            </p>
+        </div>
+    </div>
+
+    <div id="modal32" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal32')">&times;</span>
+            <img src="/assets/img/placeholder_person.png" alt="Sabrina Honoré d'Este">
+            <h3>Sabrina Honoré d'Este</h3>
+            <p>PhD Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:sabrina.honore.deste.01@regionh.dk ">sabrina.honore.deste.01@regionh.dk</a>
+                Phone: <a href="tel:+4535453647">+45 35 45 36 47</a>
+                <br>
+            </p>
+        </div>
+    </div>
+
+    <div id="modal33" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal33')">&times;</span>
+            <img src="/assets/img/Edvin_person.jpeg" alt="Edvin Smajlovic">
+            <h3>Edvin Smajlovic</h3>
+            <p>Master's Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:edvin.smajlovic@regionh.dk">edvin.smajlovic@regionh.dk</a>
+                <br>
+            </p>
+        </div>
+    </div>
+
+
+    <div id="modal34" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal34')">&times;</span>
+            <img src="/assets/img/Frederikke_person.jpeg" alt="Frederikke Engel Høi-Hansen">
+            <h3>Frederikke Engel Høi-Hansen</h3>
+            <p>Master's Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:frederikke.engel.hoei-hansen@regionh.dk">frederikke.engel.hoei-hansen@regionh.dk</a>
+                <br>
+            </p>
+        </div>
+    </div>
+
+    
+    <div id="modal35" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal35')">&times;</span>
+            <img src="/assets/img/placeholder_person.png" alt="Freja Ehmsen Berth">
+            <h3>Freja Ehmsen Berth</h3>
+            <p>Master's Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:freja.ehmsen.berth@regionh.dk">freja.ehmsen.berth@regionh.dk</a>
+                <br>
+            </p>
+        </div>
+    </div>
+
+
+    <div id="modal36" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal36')">&times;</span>
+            <img src="/assets/img/Amelia_person.png" alt="Amelia Yan Kay Lau">
+            <h3>Amelia Yan Kay Lau</h3>
+            <p>Master's Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:amelia.lau@regionh.dk">amelia.lau@regionh.dk</a>
+                <br>
+            </p>
+        </div>
+    </div>
+
+
+    <div id="modal37" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal37')">&times;</span>
+            <img src="/assets/img/placeholder_person.png" alt="Mattis Hrdy Hargreave">
+            <h3>Mattis Hrdy Hargreave</h3>
+            <p>Bachelor's Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:mattis.hrdy.hargreave@regionh.dk">mattis.hrdy.hargreave@regionh.dk</a>
+                <br>
+            </p>
+        </div>
+    </div>
+
+
+    <div id="modal38" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal38')">&times;</span>
+            <img src="/assets/img/Asger_person.png" alt="Asger Gadeberg">
+            <h3>Asger Gadeberg</h3>
+            <p>Bachelor's Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:asger.gadeberg@regionh.dk">asger.gadeberg@regionh.dk</a>
+                <br>
+            </p>
+        </div>
+    </div>
+
+
+    <div id="modal39" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal39')">&times;</span>
+            <img src="/assets/img/Vaibhav_person.jpeg" alt="Vaibhav Bahel">
+            <h3>Vaibhav Bahel</h3>
+            <p>Master's Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:vaibhav.bahel@regionh.dk">vaibhav.bahel@regionh.dk</a>
+                <br>
+            </p>
+        </div>
+    </div>
+
+
+    <div id="modal40" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal40')">&times;</span>
+            <img src="/assets/img/placeholder_person.png" alt="Layla Monica Doumont">
+            <h3>Layla Monica Doumont</h3>
+            <p>Master's Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:layla.monica.doumont@regionh.dk">layla.monica.doumont@regionh.dk</a>
+                <br>
+            </p>
+        </div>
+    </div>
+
+
+    <div id="modal41" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal41')">&times;</span>
+            <img src="/assets/img/Carl_person.jpeg" alt="Carl Villads Priisholm">
+            <h3>Carl Villads Priisholm</h3>
+            <p>Master's Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:carl.villads.priisholm.01@regionh.dk">carl.villads.priisholm.01@regionh.dk</a>
+                <br>
+            </p>
+        </div>
+    </div>
+
+
+    <div id="modal42" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal42')">&times;</span>
+            <img src="/assets/img/placeholder_person.png" alt="Othilia Elise Wagner">
+            <h3>Othilia Elise Wagner</h3>
+            <p>Master's Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:othilia.elise.wagner@regionh.dk">othilia.elise.wagner@regionh.dk</a>
+                <br>
+            </p>
+        </div>
+    </div>
+
+
+    <div id="modal43" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal43')">&times;</span>
+            <img src="/assets/img/placeholder_person.png" alt="Dorthea Nørregaard">
+            <h3>Dorthea Nørregaard</h3>
+            <p>Master's Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:dorthea.noerregaard@regionh.dk">dorthea.noerregaard@regionh.dk</a>
+                <br>
+            </p>
+        </div>
+    </div>
+
+
+    <div id="modal44" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal44')">&times;</span>
+            <img src="/assets/img/Monique_person.jpeg" alt="Monique Kvistholm">
+            <h3>Monique Kvistholm</h3>
+            <p>Master's Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:monique.kvistholm@regionh.dk">monique.kvistholm@regionh.dk</a>
+                <br>
+            </p>
+        </div>
+    </div>
+
+    <div id="modal44" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal45')">&times;</span>
+            <img src="/assets/img/Monique_person.jpeg" alt="Clara Maria Bech-Thomsen">
+            <h3>Clara Maria Bech-Thomsen</h3>
+            <p>Master's Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:clara.maria.bech-thomsen@regionh.dk">clara.maria.bech-thomsen@regionh.dk</a>
+                <br>
+            </p>
+        </div>
+    </div>
+
+    <div id="modal44" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal46')">&times;</span>
+            <img src="/assets/img/Theis_person.jpeg" alt="Theis Voss">
+            <h3>Theis Voss</h3>
+            <p>PhD Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:theis.voss.01@regionh.dk">theis.voss.01@regionh.dk</a>
+                <br>
+            </p>
+        </div>
+    </div>
+
+
+
+
 
 
 
     <script>
-        function showTab(tabId) {
-            var tabs = document.getElementsByClassName('tab-content');
-            for (var i = 0; i < tabs.length; i++) {
-                tabs[i].style.display = 'none';
-            }
-
-            var buttons = document.getElementsByClassName('tab-button');
-            for (var i = 0; i < buttons.length; i++) {
-                buttons[i].classList.remove('active');
-            }
-
-            document.getElementById(tabId).style.display = 'block';
-            event.currentTarget.classList.add('active');
+    function showTab(tabId) {
+        var tabs = document.getElementsByClassName('tab-content');
+        for (var i = 0; i < tabs.length; i++) {
+            tabs[i].style.display = 'none';
         }
 
-        function openModal(modalId) {
-            document.getElementById(modalId).style.display = "block";
+        var buttons = document.getElementsByClassName('tab-button');
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].classList.remove('active');
         }
 
-        function closeModal(modalId) {
-            document.getElementById(modalId).style.display = "none";
-        }
+        document.getElementById(tabId).style.display = 'block';
+        event.currentTarget.classList.add('active');
+    }
+
+    function openModal(modalId) {
+        document.getElementById(modalId).style.display = "block";
+    }
+
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = "none";
+    }
+
+    // Sorterer alle team-grids alfabetisk efter navn
+    function sortTeamMembers() {
+        document.querySelectorAll('.team-grid').forEach(grid => {
+            const members = Array.from(grid.querySelectorAll('.team-member'));
+
+            members.sort((a, b) => {
+                const nameA = a.querySelector('h3').textContent.trim().toLowerCase();
+                const nameB = b.querySelector('h3').textContent.trim().toLowerCase();
+
+                return nameA.localeCompare(nameB);
+            });
+
+            members.forEach(member => grid.appendChild(member));
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        sortTeamMembers();
 
         // Viser den første tab som standard
         document.getElementsByClassName('tab-button')[0].click();
-    </script>
+    });
+</script>
 </body>
 </html>
 
