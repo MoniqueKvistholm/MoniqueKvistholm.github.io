@@ -654,7 +654,7 @@ nav_order: 3
                 </div>
 
                 <div class="team-member" onclick="openModal('modal42')">
-                    <img src="/assets/img/placeholder_person.png" alt="Othilia Elise Wagner">
+                    <img src="/assets/img/Othilia_person.jpeg" alt="Othilia Elise Wagner">
                     <h3>Othilia Elise Wagner</h3>
                     <p>Master's Student</p>
                 </div>
@@ -672,7 +672,7 @@ nav_order: 3
                 </div>
 
                 <div class="team-member" onclick="openModal('modal45')">
-                    <img src="/assets/img/placeholder_person.png" alt="Clara Maria Bech-Thomsen">
+                    <img src="/assets/img/Clara_person.jpeg" alt="Clara Maria Bech-Thomsen">
                     <h3>Clara Maria Bech-Thomsen</h3>
                     <p>Master's Student</p>
                 </div>
@@ -1391,7 +1391,7 @@ nav_order: 3
     <div id="modal42" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal42')">&times;</span>
-            <img src="/assets/img/placeholder_person.png" alt="Othilia Elise Wagner">
+            <img src="/assets/img/Othilia_person.jpeg" alt="Othilia Elise Wagner">
             <h3>Othilia Elise Wagner</h3>
             <p>Master's Student</p>
             <p class="additional-details">
@@ -1429,10 +1429,10 @@ nav_order: 3
         </div>
     </div>
 
-    <div id="modal44" class="modal">
+    <div id="modal45" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal45')">&times;</span>
-            <img src="/assets/img/Monique_person.jpeg" alt="Clara Maria Bech-Thomsen">
+            <img src="/assets/img/Clara_person.jpeg" alt="Clara Maria Bech-Thomsen">
             <h3>Clara Maria Bech-Thomsen</h3>
             <p>Master's Student</p>
             <p class="additional-details">
