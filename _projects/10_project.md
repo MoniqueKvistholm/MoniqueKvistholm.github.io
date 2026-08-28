@@ -3,7 +3,7 @@ layout: default2
 title: Automatic Brain Tumor Segmentation
 description: Project by Peter Jagd Sørensen
 img: assets/img/P10.jpg
-importance: 6
+importance: 7
 category: 2025
 related_publications: false
 ---

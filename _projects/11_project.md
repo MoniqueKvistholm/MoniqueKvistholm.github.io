@@ -3,7 +3,7 @@ layout: default2
 title: Automatic Annotation of Danish Chest X-ray Reports
 description: Project by Lea Marie Pehrson and Alice Schiavone
 img: assets/img/P11.jpg
-importance: 5
+importance: 6
 category: 2025
 related_publications: false
 ---

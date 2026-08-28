@@ -3,7 +3,7 @@ layout: default2
 title: Synthetic baseline for personalized PET analysis - Application in Alzheimer’s disease
 description: Project by Christian Hinge
 img: assets/img/P14.jpg
-importance: 2
+importance: 3
 category: 2025
 related_publications: false
 ---

@@ -3,7 +3,7 @@ layout: default2
 title: Normal Twin PET - Personalized Baseline for Whole-Body PET Analysis
 description: PhD Project by Christian Hinge
 img: assets/img/P15.jpg
-importance: 1
+importance: 2
 category: 2026
 related_publications: false
 ---

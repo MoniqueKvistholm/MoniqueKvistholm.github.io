@@ -659,11 +659,6 @@ nav_order: 3
                     <p>Master's Student</p>
                 </div>
 
-                <div class="team-member" onclick="openModal('modal43')">
-                    <img src="/assets/img/placeholder_person.png" alt="Dorthea Nørregaard">
-                    <h3>Dorthea Nørregaard</h3>
-                    <p>Master's Student</p>
-                </div>
 
                  <div class="team-member" onclick="openModal('modal44')">
                     <img src="/assets/img/Monique_person.jpeg" alt="Monique Kvistholm">
@@ -675,6 +670,12 @@ nav_order: 3
                     <img src="/assets/img/Clara_person.jpeg" alt="Clara Maria Bech-Thomsen">
                     <h3>Clara Maria Bech-Thomsen</h3>
                     <p>Master's Student</p>
+                </div>
+
+                <div class="team-member" onclick="openModal('modal47')">
+                    <img src="/assets/img/placeholder_person.png" alt="Lea Emily Adelswärd">
+                    <h3>Lea Emily Adelswärd</h3>
+                    <p>Bachelor's Student</p>
                 </div>
 
             </div>
@@ -694,6 +695,12 @@ nav_order: 3
                     <img src="/assets/img/placeholder_person.png" alt="Lea Marie Pehrson">
                     <h3>Lea Marie Pehrson</h3>
                     <p>Former PhD Student</p>
+                </div>
+
+                <div class="team-member" onclick="openModal('modal43')">
+                    <img src="/assets/img/placeholder_person.png" alt="Dorthea Nørregaard">
+                    <h3>Dorthea Nørregaard</h3>
+                    <p>Master's Student</p>
                 </div>
 
             </div>
@@ -1442,7 +1449,7 @@ nav_order: 3
         </div>
     </div>
 
-    <div id="modal44" class="modal">
+    <div id="modal46" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal46')">&times;</span>
             <img src="/assets/img/Theis_person.jpeg" alt="Theis Voss">
@@ -1450,6 +1457,20 @@ nav_order: 3
             <p>PhD Student</p>
             <p class="additional-details">
                 Email: <a href="mailto:theis.voss.01@regionh.dk">theis.voss.01@regionh.dk</a>
+                <br>
+            </p>
+        </div>
+    </div>
+
+
+    <div id="modal47" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal47')">&times;</span>
+            <img src="/assets/img/placeholder_person.png" alt="Lea Emily Adelswärd">
+            <h3>Lea Emily Adelswärd</h3>
+            <p>Bachelor's Student</p>
+            <p class="additional-details">
+                Email: <a href="mailto:lea.emily.adelswaerd@regionh.dk">lea.emily.adelswaerd@regionh.dk</a>
                 <br>
             </p>
         </div>
