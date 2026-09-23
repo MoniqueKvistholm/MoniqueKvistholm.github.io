@@ -673,7 +673,7 @@ nav_order: 3
                 </div>
 
                 <div class="team-member" onclick="openModal('modal47')">
-                    <img src="/assets/img/placeholder_person.png" alt="Lea Emily Adelswärd">
+                    <img src="/assets/img/Lea_Emily_person.png" alt="Lea Emily Adelswärd">
                     <h3>Lea Emily Adelswärd</h3>
                     <p>Bachelor's Student</p>
                 </div>
@@ -1466,7 +1466,7 @@ nav_order: 3
     <div id="modal47" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('modal47')">&times;</span>
-            <img src="/assets/img/placeholder_person.png" alt="Lea Emily Adelswärd">
+            <img src="/assets/img/Lea_Emily_person.png" alt="Lea Emily Adelswärd">
             <h3>Lea Emily Adelswärd</h3>
             <p>Bachelor's Student</p>
             <p class="additional-details">
